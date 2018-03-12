@@ -1,0 +1,110 @@
+
+
+/* Welcome */
+"WelcomeVC.spacebookLabel" = "Vesmírná kniha";
+"WelcomeVC.conquerTheStarsLabel" = "Podmanit si hvězdy\nze zadní části obrazovky.";
+"WelcomeVC.logIn" = "PŘIHLÁSIT SE";
+"WelcomeVC.signUp" = "PŘIHLÁSIT SE";
+"WelcomeVC.supernovaStuLabel" = "© 2050 Studio Supernova";
+
+
+/* Login */
+"LoginVC.navigationBarTitle" = "";
+"LoginVC.itemNavigationBarItem" = "";
+"LoginVC.logInLabel" = "Přihlásit se";
+"LoginVC.welcomeBackLabel" = "Vítej zpět.\nGalaxie vás čeká.";
+"LoginVC.yourNicknameTF" = "Tvá přezdívka";
+"LoginVC.yourPasswordTF" = "Vaše heslo";
+"LoginVC.loginTwo" = "PŘIHLÁSIT SE";
+"LoginVC.forgotYourPasswordButton" = "Zapomněli jste heslo?";
+
+
+/* Signup */
+"SignupVC.navigationBarTitle" = "";
+"SignupVC.itemNavigationBarItem" = "";
+"SignupVC.signUpLabel" = "Přihlásit se";
+"SignupVC.itSFreeLabel" = "Je to zdarma a vždy bude.\nProtože reklama.";
+"SignupVC.yourNicknameTF" = "Tvá přezdívka";
+"SignupVC.yourSpacemailTF" = "Vaše vesmírná pošta";
+"SignupVC.passwordTF" = "Heslo (40 znaků)";
+"SignupVC.signUp" = "PŘIHLÁSIT SE";
+"SignupVC.alreadyGaveUpYourLabel" = "Už jste se vzdal své duše?";
+"SignupVC.logInButton" = "Přihlásit se!";
+"SignupVC.iAgreeWithIntergaLabel" = "Souhlasím s intergalatickými podmínkami";
+
+
+/* Timeline */
+"TimelineVC.navigationBarTitle" = "Co se děje?";
+"TimelineVC.tabBarTitle" = "Zprávy";
+"TimelineVC.spacewoman185kLiLabel" = "Vesmírná žena";
+"TimelineVC.kCommentsLabel" = "Komentáře 21k";
+"TimelineVC.spacecrunchLabel" = "SpaceCrunch";
+"TimelineVC.today145PmLabel" = "Dnes, 13:45";
+"TimelineVC.melonHuskLaunchesLabel" = "Melon Husk uvádí první vůz, který dokáže\ncestovat galaxií na jediné nádrži plynu.";
+"TimelineVC.plutoPostedANewLLabel" = "Pluto vyslal novou životní událost";
+"TimelineVC.inAComplicatedRelLabel" = "V komplikovaném vztahu";
+"TimelineVC.johnJoeAndJackLabel" = "John, Joe a Jack";
+"TimelineVC.label" = "13.3.2050";
+"TimelineVC.guessWhoSBackLabel" = "Hádejte, kdo je zpátky?";
+"TimelineVC.laikaCreatedANewLabel" = "Laika vytvořila u vás novou událost";
+"TimelineVC.backFromTheSpaceLabel" = "Zpět z vesmírné cesty! Pojďte všichni.";
+"TimelineVC.hullTattoosANewLabel" = "Hull tetování? Nový trend, který by měl následovat v roce 2050";
+"TimelineVC.sponsoredContentLabel" = "Sponzorovaný obsah";
+"TimelineVC.sprayAndPrayLabel" = "Sprej a modlete se";
+
+
+/* Profile */
+"ProfileVC.navigationBarTitle" = "Jaký profil";
+"ProfileVC.tabBarTitle" = "Profil";
+"ProfileVC.itemNavigationBarItem" = "Nastavení";
+"ProfileVC.phoneBoothAndroLabel" = "1 Telefonní budka, Andromeda";
+"ProfileVC.drWhatLabel" = "Dr. Co";
+"ProfileVC.travelerDreamerLabel" = "Cestovatel, snílka, showman. Občas se dostane\ndo boje, ne vždy přežije.";
+"ProfileVC.stalkingLabel" = "Stalking";
+"ProfileVC.label" = "326";
+"ProfileVC.stalkersLabel" = "Stalkery";
+"ProfileVC.kLabel" = "58k";
+"ProfileVC.photosLabel" = "Fotky";
+"ProfileVC.labelTwo" = "365";
+"ProfileVC.latestPhotosLabel" = "NEJNOVĚJŠÍ FOTOGRAFIE";
+
+
+/* Profile Photos */
+"ProfilePhotosVC.navigationBarTitle" = "Dr. Při fotografování";
+"ProfilePhotosVC.itemNavigationBarItem" = "";
+"ProfilePhotosVC.todayLabel" = "DNES";
+
+
+/* Profile Settings */
+"ProfileSettingsVC.navigationBarTitle" = "Dr. Kde jsou nastavení";
+"ProfileSettingsVC.itemNavigationBarItem" = "";
+"ProfileSettingsVC.textLabel" = "Dr. Kde";
+"ProfileSettingsVC.label" = "název";
+"ProfileSettingsVC.textLabelTwo" = "Ano";
+"ProfileSettingsVC.labelTwo" = "Příležitostná reklama";
+"ProfileSettingsVC.textLabelThree" = "Odhlásit se";
+"ProfileSettingsVC.labelThree" = "Dr. Kde";
+"ProfileSettingsVC.labelFour" = "Přihlášeno jako";
+"ProfileSettingsVC.textLabelFour" = "tardis ~ spacemail.io";
+"ProfileSettingsVC.labelFive" = "Spacemail";
+"ProfileSettingsVC.detailsLabel" = "DETAILY";
+"ProfileSettingsVC.informationLabel" = "INFORMACE";
+"ProfileSettingsVC.labelSix" = "Randomizujte informace o časové ose";
+
+
+/* Messages */
+"MessagesVC.navigationBarTitle" = "Zprávy";
+"MessagesVC.tabBarTitle" = "Zprávy";
+"MessagesVC.mrsDoyaLabel" = "Paní Doya";
+"MessagesVC.theWaterSoTestyYLabel" = "Voda tak zkušební, že tvůj otec tě zabije za to";
+"MessagesVC.nameLabel" = "Lukewarm Skywater";
+
+
+/* Event detail */
+"EventDetailVC.navigationBarTitle" = "Hádejte, kdo je zpátky?";
+"EventDetailVC.itemNavigationBarItem" = "";
+"EventDetailVC.itemNavigationBarItemTwo" = "Události";
+"EventDetailVC.guessWhoSBackLabel" = "Hádejte, kdo je zpátky?";
+"EventDetailVC.happeningIn20hBaLabel" = "Stalo se v 20h, Bajkonur";
+"EventDetailVC.eventPostedByLaikLabel" = "Událost zveřejnila Laika";
+"EventDetailVC.comingLabel" = "Příchod";

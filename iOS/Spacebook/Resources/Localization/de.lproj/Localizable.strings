@@ -1,0 +1,110 @@
+
+
+/* Welcome */
+"WelcomeVC.spacebookLabel" = "Spacebook";
+"WelcomeVC.conquerTheStarsLabel" = "Erobere die Sterne\nhinter dem Bildschirm.";
+"WelcomeVC.logIn" = "EINLOGGEN";
+"WelcomeVC.signUp" = "ANMELDEN";
+"WelcomeVC.supernovaStuLabel" = "© 2050 Supernova Studio";
+
+
+/* Login */
+"LoginVC.navigationBarTitle" = "";
+"LoginVC.itemNavigationBarItem" = "";
+"LoginVC.logInLabel" = "Einloggen";
+"LoginVC.welcomeBackLabel" = "Willkommen zurück.\nDie Galaxie erwartet dich.";
+"LoginVC.yourNicknameTF" = "Dein Spitzname";
+"LoginVC.yourPasswordTF" = "Ihr Passwort";
+"LoginVC.loginTwo" = "EINLOGGEN";
+"LoginVC.forgotYourPasswordButton" = "Haben Sie Ihr Passwort vergessen?";
+
+
+/* Signup */
+"SignupVC.navigationBarTitle" = "";
+"SignupVC.itemNavigationBarItem" = "";
+"SignupVC.signUpLabel" = "Anmelden";
+"SignupVC.itSFreeLabel" = "Es ist kostenlos und wird es immer sein.\nWeil Werbung.";
+"SignupVC.yourNicknameTF" = "Dein Spitzname";
+"SignupVC.yourSpacemailTF" = "Deine Spacemail";
+"SignupVC.passwordTF" = "Passwort (40 Zeichen)";
+"SignupVC.signUp" = "ANMELDEN";
+"SignupVC.alreadyGaveUpYourLabel" = "Hast du schon deine Seele aufgegeben?";
+"SignupVC.logInButton" = "Einloggen!";
+"SignupVC.iAgreeWithIntergaLabel" = "Ich stimme den intergalaktischen Bedingungen zu";
+
+
+/* Timeline */
+"TimelineVC.navigationBarTitle" = "Was geht?";
+"TimelineVC.tabBarTitle" = "Nachrichten";
+"TimelineVC.spacewoman185kLiLabel" = "Spacefrau";
+"TimelineVC.kCommentsLabel" = "21k Kommentare";
+"TimelineVC.spacecrunchLabel" = "SpaceCrunch";
+"TimelineVC.today145PmLabel" = "Heute, 13:45 Uhr";
+"TimelineVC.melonHuskLaunchesLabel" = "Melon Husk startet das erste Auto, das kann\nReisen Sie eine Galaxie auf einem einzigen Tank mit Gas.";
+"TimelineVC.plutoPostedANewLLabel" = "Pluto hat ein neues Lebensereignis gepostet";
+"TimelineVC.inAComplicatedRelLabel" = "In einer komplizierten Beziehung";
+"TimelineVC.johnJoeAndJackLabel" = "John, Joe und Jack";
+"TimelineVC.label" = "3/13/2050";
+"TimelineVC.guessWhoSBackLabel" = "Rate mal, wer wieder da ist?";
+"TimelineVC.laikaCreatedANewLabel" = "Laika hat ein neues Event in deiner Nähe kreiert";
+"TimelineVC.backFromTheSpaceLabel" = "Zurück von der Weltraumfahrt! Komm alle zusammen.";
+"TimelineVC.hullTattoosANewLabel" = "Rumpf Tattoos? Ein neuer Trend, der 2050 folgen wird";
+"TimelineVC.sponsoredContentLabel" = "Gesponserte Inhalte";
+"TimelineVC.sprayAndPrayLabel" = "Sprühen und beten";
+
+
+/* Profile */
+"ProfileVC.navigationBarTitle" = "Dr. Welches Profil";
+"ProfileVC.tabBarTitle" = "Profil";
+"ProfileVC.itemNavigationBarItem" = "die Einstellungen";
+"ProfileVC.phoneBoothAndroLabel" = "1 Telefonzelle, Andromeda";
+"ProfileVC.drWhatLabel" = "Dr. Was?";
+"ProfileVC.travelerDreamerLabel" = "Traveller, Träumer, Showman. Gelegentlich\nin den Kampf, nicht immer überlebt.";
+"ProfileVC.stalkingLabel" = "Stalking";
+"ProfileVC.label" = "326";
+"ProfileVC.stalkersLabel" = "Stalker";
+"ProfileVC.kLabel" = "58k";
+"ProfileVC.photosLabel" = "Fotos";
+"ProfileVC.labelTwo" = "365";
+"ProfileVC.latestPhotosLabel" = "NEUSTEN FOTOS";
+
+
+/* Profile Photos */
+"ProfilePhotosVC.navigationBarTitle" = "Dr. Wenn Fotos";
+"ProfilePhotosVC.itemNavigationBarItem" = "";
+"ProfilePhotosVC.todayLabel" = "HEUTE";
+
+
+/* Profile Settings */
+"ProfileSettingsVC.navigationBarTitle" = "Dr. Wo Einstellungen";
+"ProfileSettingsVC.itemNavigationBarItem" = "";
+"ProfileSettingsVC.textLabel" = "Dr. Wo";
+"ProfileSettingsVC.label" = "Name";
+"ProfileSettingsVC.textLabelTwo" = "Ja";
+"ProfileSettingsVC.labelTwo" = "Gelegentliche Werbung";
+"ProfileSettingsVC.textLabelThree" = "Ausloggen";
+"ProfileSettingsVC.labelThree" = "Dr. Wo";
+"ProfileSettingsVC.labelFour" = "Angemeldet als";
+"ProfileSettingsVC.textLabelFour" = "tardis ~ spacemail.io";
+"ProfileSettingsVC.labelFive" = "Spacemail";
+"ProfileSettingsVC.detailsLabel" = "EINZELHEITEN";
+"ProfileSettingsVC.informationLabel" = "INFORMATION";
+"ProfileSettingsVC.labelSix" = "Randomize Zeitachse Informationen";
+
+
+/* Messages */
+"MessagesVC.navigationBarTitle" = "Mitteilungen";
+"MessagesVC.tabBarTitle" = "Mitteilungen";
+"MessagesVC.mrsDoyaLabel" = "Frau Doya";
+"MessagesVC.theWaterSoTestyYLabel" = "Das Wasser so tückisch dein eigener Vater wird dich dafür töten";
+"MessagesVC.nameLabel" = "Lauwarmes Skywater";
+
+
+/* Event detail */
+"EventDetailVC.navigationBarTitle" = "Rate mal, wer wieder da ist?";
+"EventDetailVC.itemNavigationBarItem" = "";
+"EventDetailVC.itemNavigationBarItemTwo" = "Veranstaltungen";
+"EventDetailVC.guessWhoSBackLabel" = "Rate mal, wer wieder da ist?";
+"EventDetailVC.happeningIn20hBaLabel" = "Geschehen in 20h, Bajkonur";
+"EventDetailVC.eventPostedByLaikLabel" = "Veranstaltung von Laika gepostet";
+"EventDetailVC.comingLabel" = "Kommen";
