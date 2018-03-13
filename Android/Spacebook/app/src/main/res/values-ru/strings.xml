@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+	<string
+		name="activity_welcomevc_spacebook_label_text">Spacebook</string>
+
+	<string
+		name="activity_welcomevc_conquer_the_stars_label_text">Покоряйте звезды
+из-за экрана.</string>
+
+	<string
+		name="activity_welcomevc_supernova_stu_label_text">© 2050 Студия «Сверхновая»</string>
+
+	<string
+		name="activity_loginvc_log_in_label_text">Авторизоваться</string>
+
+	<string
+		name="activity_loginvc_welcome_back_label_text">Добро пожаловать.
+Галактика ждет вас.</string>
+
+	<string
+		name="activity_signupvc_sign_up_label_text">зарегистрироваться</string>
+
+	<string
+		name="activity_signupvc_it_sfree_label_text">Это бесплатно и всегда будет.
+Потому что реклама.</string>
+
+	<string
+		name="activity_signupvc_already_gave_up_your_label_text">Уже отказались от своей души?</string>
+
+	<string
+		name="activity_signupvc_i_agree_with_interga_label_text">Я согласен с межгалактическими условиями</string>
+
+	<string
+		name="activity_timelinevc_spacewoman185k_li_label_text">женщина-космонавт</string>
+
+	<string
+		name="activity_timelinevc_k_comments_label_text">21k комментариев</string>
+
+	<string
+		name="activity_timelinevc_spacecrunch_label_text">SpaceCrunch</string>
+
+	<string
+		name="activity_timelinevc_today145_pm_label_text">Сегодня, 13:45</string>
+
+	<string
+		name="activity_timelinevc_melon_husk_launches_label_text">Melon Husk запускает первый автомобиль, который может
+путешествуют по галактике на одном баллоне с газом.</string>
+
+	<string
+		name="activity_timelinevc_pluto_posted_anew_llabel_text">Плутон опубликовал новое событие жизни</string>
+
+	<string
+		name="activity_timelinevc_in_acomplicated_rel_label_text">В сложные отношения</string>
+
+	<string
+		name="activity_timelinevc_john_joe_and_jack_label_text">Джон, Джо и Джек</string>
+
+	<string
+		name="activity_timelinevc_label_text">3/13/2050</string>
+
+	<string
+		name="activity_timelinevc_guess_who_sback_label_text">Угадай кто вернулся?</string>
+
+	<string
+		name="activity_timelinevc_laika_created_anew_label_text">Laika создала новое мероприятие рядом с вами</string>
+
+	<string
+		name="activity_timelinevc_back_from_the_space_label_text">Назад из космической поездки! Приходите все.</string>
+
+	<string
+		name="activity_timelinevc_hull_tattoos_anew_label_text">Татуировки корпуса? Новая тенденция в 2050 году</string>
+
+	<string
+		name="activity_timelinevc_sponsored_content_label_text">Спонсируемый контент</string>
+
+	<string
+		name="activity_timelinevc_spray_and_pray_label_text">Спрей и Молитесь</string>
+
+	<string
+		name="activity_profilevc_phone_booth_andro_label_text">1 Телефонная будка, Андромеда</string>
+
+	<string
+		name="activity_profilevc_dr_what_label_text">Доктор Что</string>
+
+	<string
+		name="activity_profilevc_traveler_dreamer_label_text">Путешественник, мечтатель, шоумен. Время от времени
+в борьбу, не всегда выживает.</string>
+
+	<string
+		name="activity_profilevc_stalking_label_text">облава</string>
+
+	<string
+		name="activity_profilevc_label_text">326</string>
+
+	<string
+		name="activity_profilevc_stalkers_label_text">Сталкеры</string>
+
+	<string
+		name="activity_profilevc_k_label_text">58K</string>
+
+	<string
+		name="activity_profilevc_photos_label_text">Фото</string>
+
+	<string
+		name="activity_profilevc_label_two_text">365</string>
+
+	<string
+		name="activity_profilevc_latest_photos_label_text">ПОСЛЕДНИЕ ФОТОГРАФИИ</string>
+
+	<string
+		name="activity_profilephotosvc_today_label_text">CЕГОДНЯ</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_text">Доктор, где</string>
+
+	<string
+		name="activity_profilesettingsvc_label_text">имя</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_two_text">да</string>
+
+	<string
+		name="activity_profilesettingsvc_label_two_text">Случайная реклама</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_three_text">Выйти</string>
+
+	<string
+		name="activity_profilesettingsvc_label_three_text">Доктор, где</string>
+
+	<string
+		name="activity_profilesettingsvc_label_four_text">Записан</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_four_text">TARDIS ~ spacemail.io</string>
+
+	<string
+		name="activity_profilesettingsvc_label_five_text">Spacemail</string>
+
+	<string
+		name="activity_profilesettingsvc_details_label_text">ДЕТАЛИ</string>
+
+	<string
+		name="activity_profilesettingsvc_information_label_text">ИНФОРМАЦИЯ</string>
+
+	<string
+		name="activity_profilesettingsvc_label_six_text">Рандомизировать информацию о сроках</string>
+
+	<string
+		name="activity_messagesvc_the_water_so_testy_ylabel_text">Вода, настолько подверженная испытанию, что ваш собственный папа убьет вас за это</string>
+
+	<string
+		name="activity_messagesvc_name_label_text">Лукойл Скайоуэр</string>
+
+	<string
+		name="activity_messagesvc_mrs_doya_label_text">Г-жа Дойя</string>
+
+	<string
+		name="activity_eventdetailvc_guess_who_sback_label_text">Угадай кто вернулся?</string>
+
+	<string
+		name="activity_eventdetailvc_happening_in20h_ba_label_text">Происходит в 20h, Bajkonur</string>
+
+	<string
+		name="activity_eventdetailvc_event_posted_by_laik_label_text">Событие, отправленное Laika</string>
+
+	<string
+		name="activity_eventdetailvc_coming_label_text">приход</string>
+
+</resources>

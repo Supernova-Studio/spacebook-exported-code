@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<item
+		android:id="@+id/menu_item_1"
+		android:title="@string/EventDetailVC_menu_item_1_title"
+		app:showAsAction="ifRoom"/>
+
+</menu>

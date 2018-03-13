@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+	<style
+		name="AppTheme"
+		parent="Theme.AppCompat.NoActionBar"/>
+
+	<style
+		name="ActivityLoginVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_login_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_login_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivitySignupVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_signup_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_signup_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityTimelineVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_timeline_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_timeline_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityProfileVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_profile_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_profile_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityProfilePhotosVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_profile_photos_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_profile_photos_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityProfileSettingsVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_profile_settings_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_profile_settings_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityMessagesVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_messages_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_messages_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="ActivityEventDetailVCTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorPrimary">@color/activity_event_detail_vc_primary_color</item>
+
+		<item
+			name="android:textColorPrimary">@color/activity_event_detail_vc_primary_text_color</item>
+
+	</style>
+
+	<style
+		name="SplashActivityTheme"
+		parent="AppTheme">
+
+		<item
+			name="android:windowBackground">@drawable/background_activity_splash</item>
+
+	</style>
+
+	<style
+		name="ActivitysignupvcSwitchTwoTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorControlActivated">#982B87</item>
+
+	</style>
+
+	<style
+		name="ActivityprofilesettingsvcSlideSwitchTheme"
+		parent="AppTheme">
+
+		<item
+			name="colorControlActivated">#92228A</item>
+
+	</style>
+
+</resources>

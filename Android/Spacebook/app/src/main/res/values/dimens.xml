@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+	<dimen
+		name="elevation_default">4dp</dimen>
+
+	<dimen
+		name="material_size_small">8dp</dimen>
+
+	<dimen
+		name="material_size_medium">16dp</dimen>
+
+	<dimen
+		name="material_size_large">24dp</dimen>
+
+	<dimen
+		name="material_size_xlarge">32dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_spacebook_label_size">35dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_spacebook_label_size1">42dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_conquer_the_stars_label_size">15dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_conquer_the_stars_label_size1">163dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_conquer_the_stars_label_size2">11dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_logo_iv_size">102dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_logo_iv_size1">102dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_logo_iv_size2">85dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_size">12dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_size1">126dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_size2">51dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_size3">69dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_size4">25dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_size">12dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_size1">126dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_size2">51dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_size3">69dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_size4">25dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_supernova_stu_label_size">12dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_supernova_stu_label_size1">16dp</dimen>
+
+	<dimen
+		name="activity_loginvc_log_in_label_size">35dp</dimen>
+
+	<dimen
+		name="activity_loginvc_log_in_label_size1">88dp</dimen>
+
+	<dimen
+		name="activity_loginvc_welcome_back_label_size">15dp</dimen>
+
+	<dimen
+		name="activity_loginvc_welcome_back_label_size1">11dp</dimen>
+
+	<dimen
+		name="activity_loginvc_separator_size">1dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_nickname_tf_size">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_nickname_tf_size1">10dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_nickname_tf_size2">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_nickname_tf_size3">11dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_password_tf_size">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_password_tf_size1">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_password_tf_size2">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_your_password_tf_size3">11dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_fields_size">55dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_fields_size1">17dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_fields_size2">17dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_size">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_size1">51dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_size2">5dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_size3">17dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_size4">17dp</dimen>
+
+	<dimen
+		name="activity_loginvc_forgot_your_password_button_size">12dp</dimen>
+
+	<dimen
+		name="activity_loginvc_forgot_your_password_button_size1">19dp</dimen>
+
+	<dimen
+		name="activity_loginvc_forgot_your_password_button_size2">15dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_label_size">35dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_label_size1">67dp</dimen>
+
+	<dimen
+		name="activity_signupvc_it_sfree_label_size">15dp</dimen>
+
+	<dimen
+		name="activity_signupvc_it_sfree_label_size1">11dp</dimen>
+
+	<dimen
+		name="activity_signupvc_separator_size">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_separator_two_size">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_nickname_tf_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_nickname_tf_size1">10dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_nickname_tf_size2">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_nickname_tf_size3">10dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_spacemail_tf_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_spacemail_tf_size1">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_your_spacemail_tf_size2">10dp</dimen>
+
+	<dimen
+		name="activity_signupvc_password_tf_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_password_tf_size1">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_password_tf_size2">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_password_tf_size3">10dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_fields_size">55dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_fields_size1">17dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_fields_size2">17dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_size1">51dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_size2">6dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_size3">17dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_size4">17dp</dimen>
+
+	<dimen
+		name="activity_signupvc_already_gave_up_your_label_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_already_gave_up_your_label_size1">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_already_gave_up_your_label_size2">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_button_size">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_button_size1">19dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_button_size2">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_size">205dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_size1">20dp</dimen>
+
+	<dimen
+		name="activity_signupvc_log_in_size2">13dp</dimen>
+
+	<dimen
+		name="activity_signupvc_i_agree_with_interga_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_signupvc_tos_size">27dp</dimen>
+
+	<dimen
+		name="activity_signupvc_tos_size1">12dp</dimen>
+
+	<dimen
+		name="activity_signupvc_tos_size2">21dp</dimen>
+
+	<dimen
+		name="activity_signupvc_tos_size3">21dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_table_view_size">54dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_white_size">25dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spacewoman185k_li_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spacewoman185k_li_label_size1">4dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_k_comments_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_k_comments_label_size1">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_like_iv_size">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_comment_iv_size">4dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_size">50dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_news_temp_iv_size">170dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_news_temp_iv_size1">68dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spacecrunch_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spacecrunch_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spacecrunch_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_today145_pm_label_size">8dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_today145_pm_label_size1">1dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_today145_pm_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_avatar_iv_size">68dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size">68dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size1">12dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size2">8dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size3">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_melon_husk_launches_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_melon_husk_launches_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_melon_husk_launches_label_size2">14dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_melon_husk_launches_label_size3">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_news_cell_size">357dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_size">24dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_size1">1dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_pluto_posted_anew_llabel_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_pluto_posted_anew_llabel_size1">5dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_in_acomplicated_rel_label_size">15dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_pluto_iv_size">85dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_pluto_iv_size1">85dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_icon_pluto_iv_size2">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_lifetime_event_cell_size">167dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_white_size1">26dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_john_joe_and_jack_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_john_joe_and_jack_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_size1">44dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_label_size1">20dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_label_size2">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_guess_who_sback_label_size">20dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_guess_who_sback_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_guess_who_sback_label_size2">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_header_size">170dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_header_size1">71dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_laika_created_anew_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_laika_created_anew_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_laika_created_anew_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_back_from_the_space_label_size">8dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_back_from_the_space_label_size1">1dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_back_from_the_space_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size4">68dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size5">13dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size6">8dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_view_two_size7">7dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_event_cell_size">286dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_size2">25dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_hull_tattoos_anew_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_hull_tattoos_anew_label_size1">1dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_hull_tattoos_anew_label_size2">12dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_sponsored_content_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_sponsored_content_label_size1">5dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_sponsored_content_label_size2">12dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spray_and_pray_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spray_and_pray_label_size1">35dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_spray_and_pray_label_size2">12dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_event_temp_iv_size">79dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_bg_event_temp_iv_size1">25dp</dimen>
+
+	<dimen
+		name="activity_timelinevc_advertisement_cell_size">104dp</dimen>
+
+	<dimen
+		name="activity_profilevc_avatar_temp_iv_size">119dp</dimen>
+
+	<dimen
+		name="activity_profilevc_avatar_temp_iv_size1">119dp</dimen>
+
+	<dimen
+		name="activity_profilevc_avatar_temp_iv_size2">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_phone_booth_andro_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_dr_what_label_size">22dp</dimen>
+
+	<dimen
+		name="activity_profilevc_dr_what_label_size1">3dp</dimen>
+
+	<dimen
+		name="activity_profilevc_traveler_dreamer_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_profilevc_traveler_dreamer_label_size1">23dp</dimen>
+
+	<dimen
+		name="activity_profilevc_header_size">54dp</dimen>
+
+	<dimen
+		name="activity_profilevc_stalking_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_label_size">20dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group7_size">49dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group7_size1">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group7_size2">34dp</dimen>
+
+	<dimen
+		name="activity_profilevc_stalkers_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_k_label_size">20dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group6_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group6_size1">51dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group6_size2">52dp</dimen>
+
+	<dimen
+		name="activity_profilevc_photos_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_photos_label_size1">2dp</dimen>
+
+	<dimen
+		name="activity_profilevc_label_two_size">20dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group5_size">49dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group5_size1">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_group5_size2">34dp</dimen>
+
+	<dimen
+		name="activity_profilevc_info_bar_size">71dp</dimen>
+
+	<dimen
+		name="activity_profilevc_latest_photos_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilevc_latest_photos_label_size1">3dp</dimen>
+
+	<dimen
+		name="activity_profilevc_latest_photos_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_profilevc_collection_view_size">104dp</dimen>
+
+	<dimen
+		name="activity_profilevc_gallery_size">1dp</dimen>
+
+	<dimen
+		name="activity_profilevc_gallery_size1">1dp</dimen>
+
+	<dimen
+		name="activity_profilevc_view_cell_size">104dp</dimen>
+
+	<dimen
+		name="activity_profilevc_view_cell_size1">104dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_collection_view_size">62dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_today_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_today_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_title_cell_size">31dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_title_cell_size1">320dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_view_cell_size">157dp</dimen>
+
+	<dimen
+		name="activity_profilephotosvc_view_cell_size1">157dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_path2_iv_size">5dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_path2_iv_size1">10dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_path2_iv_size2">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_size1">12dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_ui_settings_cell_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group6_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group6_size1">5dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_two_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_two_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_two_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_two_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group3_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group3_size1">5dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_three_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_three_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_three_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_three_size1">6dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_four_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_four_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_path2_ivtwo_size">5dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_path2_ivtwo_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_four_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_text_label_four_size1">12dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_five_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_five_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_ui_settings_cell_two_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group5_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_details_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_details_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_information_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_information_label_size1">25dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_information_label_size2">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_six_size">13dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_label_six_size1">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_slide_switch_size">17dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_group2_size">51dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_information_size">8dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_avatar_temp_iv_size">85dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_avatar_temp_iv_size1">85dp</dimen>
+
+	<dimen
+		name="activity_profilesettingsvc_avatar_temp_iv_size2">75dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_collection_view_size">64dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_collection_view_size1">63dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_collection_view_size2">12dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_collection_view_size3">17dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_table_view_size">10dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_avatar_iv_size">51dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_avatar_iv_size1">51dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_avatar_iv_size2">8dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_avatar_iv_size3">12dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_the_water_so_testy_ylabel_size">8dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_the_water_so_testy_ylabel_size1">1dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_the_water_so_testy_ylabel_size2">8dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_name_label_size">13dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_name_label_size1">16dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_name_label_size2">8dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_path2_iv_size">5dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_path2_iv_size1">10dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_path2_iv_size2">17dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_message_cell_size">68dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_mrs_doya_label_size">10dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_avatar_temp_iv_size">12dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_online_person_cell_size">64dp</dimen>
+
+	<dimen
+		name="activity_messagesvc_online_person_cell_size1">51dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_icon_event_area_iv_size">156dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_icon_event_area_iv_size1">156dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_bg_size">12dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_guess_who_sback_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_guess_who_sback_label_size1">17dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_guess_who_sback_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_happening_in20h_ba_label_size">8dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_happening_in20h_ba_label_size1">1dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_happening_in20h_ba_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_avatar_iv_size">68dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_avatar_iv_size1">68dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_avatar_iv_size2">8dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_event_posted_by_laik_label_size">8dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_event_posted_by_laik_label_size1">3dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_event_posted_by_laik_label_size2">7dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_coming_label_size">11dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_coming_label_size1">3dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_coming_label_size2">13dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_group_iv_size">23dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_group_iv_size1">25dp</dimen>
+
+	<dimen
+		name="activity_eventdetailvc_footer_size">81dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_log_in_radius">1dp</dimen>
+
+	<dimen
+		name="activity_welcomevc_sign_up_radius">1dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_fields_radius">1dp</dimen>
+
+	<dimen
+		name="activity_loginvc_login_two_radius">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_fields_radius">1dp</dimen>
+
+	<dimen
+		name="activity_signupvc_sign_up_radius">1dp</dimen>
+
+</resources>

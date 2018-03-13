@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ripple
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:color="#6868684D">
+
+	<item
+		android:id="@android:id/mask">
+
+		<shape
+			xmlns:android="http://schemas.android.com/apk/res/android">
+
+			<solid
+				android:color="#6868684D"/>
+
+			<corners
+				android:radius="@dimen/activity_welcomevc_log_in_radius"/>
+
+		</shape>
+
+	</item>
+
+	<item>
+
+		<shape
+			xmlns:android="http://schemas.android.com/apk/res/android">
+
+			<solid
+				android:color="#FFFFFF"/>
+
+			<corners
+				android:radius="@dimen/activity_welcomevc_log_in_radius"/>
+
+		</shape>
+
+	</item>
+
+</ripple>

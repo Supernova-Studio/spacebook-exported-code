@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/activity_timelinevc_lifetime_event_cell_size">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/activity_timelinevc_bg_size1"
+		android:layout_marginTop="@dimen/activity_timelinevc_bg_size"
+		android:background="#FFFFFF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="24dp"/>
+
+	<TextView
+		android:id="@+id/pluto_posted_anew_llabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/activity_timelinevc_pluto_posted_anew_llabel_size1"
+		android:alpha="0.400000005960464"
+		android:gravity="center"
+		android:text="@string/activity_timelinevc_pluto_posted_anew_llabel_text"
+		android:textColor="@color/activity_timelinevc_pluto_posted_anew_llabel_background_color"
+		android:textSize="@dimen/activity_timelinevc_pluto_posted_anew_llabel_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/icon_pluto_iv"
+		tools:layout_editor_absoluteX="84dp"
+		tools:layout_editor_absoluteY="102dp"/>
+
+	<TextView
+		android:id="@+id/in_acomplicated_rel_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/activity_timelinevc_in_acomplicated_rel_label_text"
+		android:textColor="@color/activity_timelinevc_in_acomplicated_rel_label_background_color"
+		android:textSize="@dimen/activity_timelinevc_in_acomplicated_rel_label_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/pluto_posted_anew_llabel"
+		tools:layout_editor_absoluteX="56dp"
+		tools:layout_editor_absoluteY="120dp"/>
+
+	<ImageView
+		android:id="@+id/icon_pluto_iv"
+		android:layout_width="@dimen/activity_timelinevc_icon_pluto_iv_size"
+		android:layout_height="@dimen/activity_timelinevc_icon_pluto_iv_size1"
+		android:layout_marginTop="@dimen/activity_timelinevc_icon_pluto_iv_size2"
+		android:scaleType="fitXY"
+		android:src="@drawable/icon_pluto"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="117dp"
+		tools:layout_editor_absoluteY="11dp"/>
+
+</android.support.constraint.ConstraintLayout>

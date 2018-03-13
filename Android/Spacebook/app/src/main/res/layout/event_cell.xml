@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/activity_timelinevc_event_cell_size">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg_white"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/activity_timelinevc_bg_white_size1"
+		android:background="#FFFFFF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="26dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_timelinevc_view_size1"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/header"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="242dp">
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/bg_gray"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:alpha="0.0199999995529652"
+			android:background="#000000"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/john_joe_and_jack_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_timelinevc_john_joe_and_jack_label_size1"
+			android:alpha="0.400000005960464"
+			android:gravity="left"
+			android:text="@string/activity_timelinevc_john_joe_and_jack_label_text"
+			android:textColor="@color/activity_timelinevc_john_joe_and_jack_label_background_color"
+			android:textSize="@dimen/activity_timelinevc_john_joe_and_jack_label_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="17dp"
+			tools:layout_editor_absoluteY="14dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/header"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_timelinevc_header_size"
+		android:layout_marginTop="@dimen/activity_timelinevc_header_size1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="71dp">
+
+		<ImageView
+			android:id="@+id/bg_event_temp_iv"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/bg_event_temp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_timelinevc_label_size1"
+			android:layout_marginLeft="@dimen/activity_timelinevc_label_size2"
+			android:gravity="left"
+			android:text="@string/activity_timelinevc_label_text"
+			android:textColor="@color/activity_timelinevc_label_background_color"
+			android:textSize="@dimen/activity_timelinevc_label_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			tools:layout_editor_absoluteX="17dp"
+			tools:layout_editor_absoluteY="132dp"/>
+
+		<TextView
+			android:id="@+id/guess_who_sback_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_timelinevc_guess_who_sback_label_size1"
+			android:layout_marginRight="@dimen/activity_timelinevc_guess_who_sback_label_size2"
+			android:gravity="right"
+			android:text="@string/activity_timelinevc_guess_who_sback_label_text"
+			android:textColor="@color/activity_timelinevc_guess_who_sback_label_background_color"
+			android:textSize="@dimen/activity_timelinevc_guess_who_sback_label_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="125dp"
+			tools:layout_editor_absoluteY="122dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_two"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_timelinevc_view_two_size4"
+		android:layout_marginLeft="@dimen/activity_timelinevc_view_two_size6"
+		android:layout_marginRight="@dimen/activity_timelinevc_view_two_size7"
+		android:layout_marginTop="@dimen/activity_timelinevc_view_two_size5"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="8dp"
+		tools:layout_editor_absoluteY="13dp">
+
+		<TextView
+			android:id="@+id/laika_created_anew_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_timelinevc_laika_created_anew_label_size2"
+			android:layout_marginTop="@dimen/activity_timelinevc_laika_created_anew_label_size1"
+			android:gravity="left"
+			android:text="@string/activity_timelinevc_laika_created_anew_label_text"
+			android:textColor="@color/activity_timelinevc_laika_created_anew_label_background_color"
+			android:textSize="@dimen/activity_timelinevc_laika_created_anew_label_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_iv"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="75dp"
+			tools:layout_editor_absoluteY="17dp"/>
+
+		<TextView
+			android:id="@+id/back_from_the_space_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_timelinevc_back_from_the_space_label_size2"
+			android:layout_marginTop="@dimen/activity_timelinevc_back_from_the_space_label_size1"
+			android:alpha="0.400000005960464"
+			android:gravity="left"
+			android:text="@string/activity_timelinevc_back_from_the_space_label_text"
+			android:textColor="@color/activity_timelinevc_back_from_the_space_label_background_color"
+			android:textSize="@dimen/activity_timelinevc_back_from_the_space_label_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_iv"
+			app:layout_constraintTop_toBottomOf="@+id/laika_created_anew_label"
+			tools:layout_editor_absoluteX="75dp"
+			tools:layout_editor_absoluteY="35dp"/>
+
+		<ImageView
+			android:id="@+id/avatar_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/avatar"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

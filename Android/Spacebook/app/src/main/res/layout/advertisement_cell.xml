@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/activity_timelinevc_advertisement_cell_size">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/activity_timelinevc_bg_size2"
+		android:background="#FFFFFF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="25dp"/>
+
+	<TextView
+		android:id="@+id/hull_tattoos_anew_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/activity_timelinevc_hull_tattoos_anew_label_size2"
+		android:layout_marginTop="@dimen/activity_timelinevc_hull_tattoos_anew_label_size1"
+		android:gravity="left"
+		android:text="@string/activity_timelinevc_hull_tattoos_anew_label_text"
+		android:textColor="@color/activity_timelinevc_hull_tattoos_anew_label_background_color"
+		android:textSize="@dimen/activity_timelinevc_hull_tattoos_anew_label_size"
+		app:layout_constraintLeft_toRightOf="@+id/bg_event_temp_iv"
+		app:layout_constraintTop_toBottomOf="@+id/spray_and_pray_label"
+		tools:layout_editor_absoluteX="92dp"
+		tools:layout_editor_absoluteY="54dp"/>
+
+	<TextView
+		android:id="@+id/sponsored_content_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/activity_timelinevc_sponsored_content_label_size2"
+		android:layout_marginTop="@dimen/activity_timelinevc_sponsored_content_label_size1"
+		android:alpha="0.400000005960464"
+		android:gravity="left"
+		android:text="@string/activity_timelinevc_sponsored_content_label_text"
+		android:textColor="@color/activity_timelinevc_sponsored_content_label_background_color"
+		android:textSize="@dimen/activity_timelinevc_sponsored_content_label_size"
+		app:layout_constraintLeft_toRightOf="@+id/bg_event_temp_iv"
+		app:layout_constraintTop_toBottomOf="@+id/hull_tattoos_anew_label"
+		tools:layout_editor_absoluteX="92dp"
+		tools:layout_editor_absoluteY="75dp"/>
+
+	<TextView
+		android:id="@+id/spray_and_pray_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/activity_timelinevc_spray_and_pray_label_size2"
+		android:layout_marginTop="@dimen/activity_timelinevc_spray_and_pray_label_size1"
+		android:gravity="left"
+		android:text="@string/activity_timelinevc_spray_and_pray_label_text"
+		android:textColor="@color/activity_timelinevc_spray_and_pray_label_background_color"
+		android:textSize="@dimen/activity_timelinevc_spray_and_pray_label_size"
+		app:layout_constraintLeft_toRightOf="@+id/bg_event_temp_iv"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="92dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<ImageView
+		android:id="@+id/bg_event_temp_iv"
+		android:layout_width="@dimen/activity_timelinevc_bg_event_temp_iv_size"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/activity_timelinevc_bg_event_temp_iv_size1"
+		android:scaleType="fitXY"
+		android:src="@drawable/bg_event_temp_1"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="25dp"/>
+
+</android.support.constraint.ConstraintLayout>

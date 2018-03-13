@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="@dimen/activity_messagesvc_online_person_cell_size1"
+	android:layout_height="@dimen/activity_messagesvc_online_person_cell_size">
+
+	<TextView
+		android:id="@+id/mrs_doya_label"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/activity_messagesvc_mrs_doya_label_text"
+		android:textColor="@color/activity_messagesvc_mrs_doya_label_background_color"
+		android:textSize="@dimen/activity_messagesvc_mrs_doya_label_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="51dp"/>
+
+	<ImageView
+		android:id="@+id/avatar_temp_iv"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/activity_messagesvc_avatar_temp_iv_size"
+		android:scaleType="fitXY"
+		android:src="@drawable/avatar_temp_2"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+</android.support.constraint.ConstraintLayout>

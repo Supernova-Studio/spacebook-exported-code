@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/event_detail"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F4F2F4">
+
+	<com.google.android.gms.maps.MapView
+		android:id="@+id/map_view"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<ImageView
+		android:id="@+id/icon_event_area_iv"
+		android:layout_width="@dimen/activity_eventdetailvc_icon_event_area_iv_size"
+		android:layout_height="@dimen/activity_eventdetailvc_icon_event_area_iv_size1"
+		android:scaleType="fitXY"
+		android:src="@drawable/icon_event_area"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="81dp"
+		tools:layout_editor_absoluteY="206dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/footer"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_eventdetailvc_footer_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="488dp">
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/bg"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_bg_size"
+			android:background="#FFFFFF"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="12dp"/>
+
+		<TextView
+			android:id="@+id/guess_who_sback_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_eventdetailvc_guess_who_sback_label_size2"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_guess_who_sback_label_size1"
+			android:gravity="left"
+			android:text="@string/activity_eventdetailvc_guess_who_sback_label_text"
+			android:textColor="@color/activity_eventdetailvc_guess_who_sback_label_background_color"
+			android:textSize="@dimen/activity_eventdetailvc_guess_who_sback_label_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_iv"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="84dp"
+			tools:layout_editor_absoluteY="17dp"/>
+
+		<TextView
+			android:id="@+id/happening_in20h_ba_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_eventdetailvc_happening_in20h_ba_label_size2"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_happening_in20h_ba_label_size1"
+			android:gravity="left"
+			android:text="@string/activity_eventdetailvc_happening_in20h_ba_label_text"
+			android:textColor="@color/activity_eventdetailvc_happening_in20h_ba_label_background_color"
+			android:textSize="@dimen/activity_eventdetailvc_happening_in20h_ba_label_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_iv"
+			app:layout_constraintTop_toBottomOf="@+id/guess_who_sback_label"
+			tools:layout_editor_absoluteX="84dp"
+			tools:layout_editor_absoluteY="35dp"/>
+
+		<ImageView
+			android:id="@+id/avatar_iv"
+			android:layout_width="@dimen/activity_eventdetailvc_avatar_iv_size"
+			android:layout_height="@dimen/activity_eventdetailvc_avatar_iv_size1"
+			android:layout_marginLeft="@dimen/activity_eventdetailvc_avatar_iv_size2"
+			android:scaleType="fitXY"
+			android:src="@drawable/avatar"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="8dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/event_posted_by_laik_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_eventdetailvc_event_posted_by_laik_label_size2"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_event_posted_by_laik_label_size1"
+			android:alpha="0.400000005960464"
+			android:gravity="left"
+			android:text="@string/activity_eventdetailvc_event_posted_by_laik_label_text"
+			android:textColor="@color/activity_eventdetailvc_event_posted_by_laik_label_background_color"
+			android:textSize="@dimen/activity_eventdetailvc_event_posted_by_laik_label_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_iv"
+			app:layout_constraintTop_toBottomOf="@+id/happening_in20h_ba_label"
+			tools:layout_editor_absoluteX="84dp"
+			tools:layout_editor_absoluteY="52dp"/>
+
+		<TextView
+			android:id="@+id/coming_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="@dimen/activity_eventdetailvc_coming_label_size2"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_coming_label_size1"
+			android:gravity="left"
+			android:text="@string/activity_eventdetailvc_coming_label_text"
+			android:textColor="@color/activity_eventdetailvc_coming_label_background_color"
+			android:textSize="@dimen/activity_eventdetailvc_coming_label_size"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/group_iv"
+			tools:layout_editor_absoluteX="260dp"
+			tools:layout_editor_absoluteY="50dp"/>
+
+		<ImageView
+			android:id="@+id/group_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="@dimen/activity_eventdetailvc_group_iv_size1"
+			android:layout_marginTop="@dimen/activity_eventdetailvc_group_iv_size"
+			android:scaleType="fitXY"
+			android:src="@drawable/group_1"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="270dp"
+			tools:layout_editor_absoluteY="23dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/activity_event_detail_vc_toolbar"
+		android:layout_width="0dp"
+		android:layout_height="?attr/actionBarSize"
+		android:background="@drawable/background"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

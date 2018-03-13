@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/signup"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/activity_signupvc_signup_background">
+
+	<TextView
+		android:id="@+id/sign_up_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/activity_signupvc_sign_up_label_size1"
+		android:gravity="center"
+		android:text="@string/activity_signupvc_sign_up_label_text"
+		android:textColor="@color/activity_signupvc_sign_up_label_background_color"
+		android:textSize="@dimen/activity_signupvc_sign_up_label_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="102dp"
+		tools:layout_editor_absoluteY="67dp"/>
+
+	<TextView
+		android:id="@+id/it_sfree_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/activity_signupvc_it_sfree_label_size1"
+		android:gravity="center"
+		android:text="@string/activity_signupvc_it_sfree_label_text"
+		android:textColor="@color/activity_signupvc_it_sfree_label_background_color"
+		android:textSize="@dimen/activity_signupvc_it_sfree_label_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/sign_up_label"
+		tools:layout_editor_absoluteX="69dp"
+		tools:layout_editor_absoluteY="131dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/sign_up_fields"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/activity_signupvc_sign_up_fields_size1"
+		android:layout_marginRight="@dimen/activity_signupvc_sign_up_fields_size2"
+		android:layout_marginTop="@dimen/activity_signupvc_sign_up_fields_size"
+		android:background="@drawable/activity_signupvc_sign_up_fields_background"
+		android:elevation="@dimen/elevation_default"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/it_sfree_label"
+		tools:layout_editor_absoluteX="17dp"
+		tools:layout_editor_absoluteY="232dp">
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/separator"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/activity_signupvc_separator_size"
+			android:alpha="0.100000001490116"
+			android:background="#000000"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="42dp"/>
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/separator_two"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/activity_signupvc_separator_two_size"
+			android:alpha="0.100000001490116"
+			android:background="#000000"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="86dp"/>
+
+		<EditText
+			android:id="@+id/your_nickname_tf"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_signupvc_your_nickname_tf_size2"
+			android:layout_marginRight="@dimen/activity_signupvc_your_nickname_tf_size3"
+			android:layout_marginTop="@dimen/activity_signupvc_your_nickname_tf_size1"
+			android:alpha="0.400000005960464"
+			android:gravity="left|center_vertical"
+			android:hint="@string/activity_signupvc_your_nickname_tf_text"
+			android:padding="0dp"
+			android:textColor="@color/activity_signupvc_your_nickname_tf_background_color"
+			android:textSize="@dimen/activity_signupvc_your_nickname_tf_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="12dp"
+			tools:layout_editor_absoluteY="10dp"/>
+
+		<EditText
+			android:id="@+id/your_spacemail_tf"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_signupvc_your_spacemail_tf_size1"
+			android:layout_marginRight="@dimen/activity_signupvc_your_spacemail_tf_size2"
+			android:alpha="0.400000005960464"
+			android:gravity="left|center_vertical"
+			android:hint="@string/activity_signupvc_your_spacemail_tf_text"
+			android:padding="0dp"
+			android:textColor="@color/activity_signupvc_your_spacemail_tf_background_color"
+			android:textSize="@dimen/activity_signupvc_your_spacemail_tf_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="12dp"
+			tools:layout_editor_absoluteY="53dp"/>
+
+		<EditText
+			android:id="@+id/password_tf"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_signupvc_password_tf_size1"
+			android:layout_marginLeft="@dimen/activity_signupvc_password_tf_size2"
+			android:layout_marginRight="@dimen/activity_signupvc_password_tf_size3"
+			android:alpha="0.400000005960464"
+			android:gravity="left|center_vertical"
+			android:hint="@string/activity_signupvc_password_tf_text"
+			android:inputType="textPassword"
+			android:padding="0dp"
+			android:textColor="@color/activity_signupvc_password_tf_background_color"
+			android:textSize="@dimen/activity_signupvc_password_tf_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="12dp"
+			tools:layout_editor_absoluteY="97dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<LinearLayout
+		android:id="@+id/sign_up"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_signupvc_sign_up_size1"
+		android:layout_marginBottom="@dimen/activity_signupvc_sign_up_size2"
+		android:layout_marginLeft="@dimen/activity_signupvc_sign_up_size3"
+		android:layout_marginRight="@dimen/activity_signupvc_sign_up_size4"
+		android:background="@drawable/activity_signupvc_sign_up_selector"
+		android:elevation="@dimen/elevation_default"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:paddingBottom="@dimen/material_size_small"
+		android:paddingTop="@dimen/material_size_small"
+		app:layout_constraintBottom_toTopOf="@+id/log_in"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="17dp"
+		tools:layout_editor_absoluteY="477dp">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/material_size_small"
+			android:layout_marginRight="@dimen/material_size_small"
+			app:srcCompat="@drawable/icon_sign_up"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="@string/activity_signupvc_sign_up_text"
+			android:textColor="@color/activity_signupvc_sign_up_background_color"
+			android:textSize="@dimen/activity_signupvc_sign_up_size"/>
+
+	</LinearLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/log_in"
+		android:layout_width="@dimen/activity_signupvc_log_in_size"
+		android:layout_height="@dimen/activity_signupvc_log_in_size1"
+		android:layout_marginBottom="@dimen/activity_signupvc_log_in_size2"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="57dp"
+		tools:layout_editor_absoluteY="535dp">
+
+		<TextView
+			android:id="@+id/already_gave_up_your_label"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_marginLeft="@dimen/activity_signupvc_already_gave_up_your_label_size2"
+			android:layout_marginTop="@dimen/activity_signupvc_already_gave_up_your_label_size1"
+			android:gravity="center"
+			android:text="@string/activity_signupvc_already_gave_up_your_label_text"
+			android:textColor="@color/activity_signupvc_already_gave_up_your_label_background_color"
+			android:textSize="@dimen/activity_signupvc_already_gave_up_your_label_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="263dp"
+			tools:layout_editor_absoluteY="1dp"/>
+
+		<Button
+			android:id="@+id/log_in_button"
+			android:layout_width="wrap_content"
+			android:layout_height="@dimen/activity_signupvc_log_in_button_size1"
+			android:layout_marginBottom="@dimen/activity_signupvc_log_in_button_size2"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="center"
+			android:text="@string/activity_signupvc_log_in_button_text"
+			android:textColor="@color/activity_signupvc_log_in_button_background_color"
+			android:textSize="@dimen/activity_signupvc_log_in_button_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toRightOf="@+id/already_gave_up_your_label"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="420dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/tos"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_signupvc_tos_size"
+		android:layout_marginLeft="@dimen/activity_signupvc_tos_size2"
+		android:layout_marginRight="@dimen/activity_signupvc_tos_size3"
+		android:layout_marginTop="@dimen/activity_signupvc_tos_size1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/sign_up_fields"
+		tools:layout_editor_absoluteX="21dp"
+		tools:layout_editor_absoluteY="375dp">
+
+		<TextView
+			android:id="@+id/i_agree_with_interga_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="@string/activity_signupvc_i_agree_with_interga_label_text"
+			android:textColor="@color/activity_signupvc_i_agree_with_interga_label_background_color"
+			android:textSize="@dimen/activity_signupvc_i_agree_with_interga_label_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="5dp"/>
+
+		<Switch
+			android:id="@+id/switch_two"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:theme="@style/ActivitysignupvcSwitchTwoTheme"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="233dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/activity_signup_vc_toolbar"
+		android:layout_width="0dp"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

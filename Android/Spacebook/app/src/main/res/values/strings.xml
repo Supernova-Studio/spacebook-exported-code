@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+	<string
+		name="app_name">Spacebook</string>
+
+	<string
+		name="activity_welcomevc_spacebook_label_text">Spacebook</string>
+
+	<string
+		name="activity_welcomevc_conquer_the_stars_label_text">Conquer the stars
+from behind the screen.</string>
+
+	<string
+		name="activity_welcomevc_log_in_text">LOG IN</string>
+
+	<string
+		name="activity_welcomevc_sign_up_text">SIGN UP</string>
+
+	<string
+		name="activity_welcomevc_supernova_stu_label_text">© 2050 Supernova Studio</string>
+
+	<string
+		name="activity_loginvc_log_in_label_text">Log in</string>
+
+	<string
+		name="activity_loginvc_welcome_back_label_text">Welcome back.
+The galaxy awaits you.</string>
+
+	<string
+		name="activity_loginvc_your_nickname_tf_text">Your nickname</string>
+
+	<string
+		name="activity_loginvc_your_password_tf_text">Your password</string>
+
+	<string
+		name="activity_loginvc_login_two_text">LOG IN</string>
+
+	<string
+		name="activity_loginvc_forgot_your_password_button_text">Forgot your password?</string>
+
+	<string
+		name="activity_signupvc_sign_up_label_text">Sign up</string>
+
+	<string
+		name="activity_signupvc_it_sfree_label_text">It’s free and always will be.
+Because advertisement.</string>
+
+	<string
+		name="activity_signupvc_your_nickname_tf_text">Your nickname</string>
+
+	<string
+		name="activity_signupvc_your_spacemail_tf_text">Your spacemail</string>
+
+	<string
+		name="activity_signupvc_password_tf_text">Password (40+ characters)</string>
+
+	<string
+		name="activity_signupvc_sign_up_text">SIGN UP</string>
+
+	<string
+		name="activity_signupvc_already_gave_up_your_label_text">Already gave up your soul? </string>
+
+	<string
+		name="activity_signupvc_log_in_button_text">Log In!</string>
+
+	<string
+		name="activity_signupvc_i_agree_with_interga_label_text">I agree with intergalatic terms and conditions</string>
+
+	<string
+		name="activity_timelinevc_spacewoman185k_li_label_text">Spacewoman &amp;amp; 185k like this</string>
+
+	<string
+		name="activity_timelinevc_k_comments_label_text">21k comments</string>
+
+	<string
+		name="activity_timelinevc_spacecrunch_label_text">SpaceCrunch</string>
+
+	<string
+		name="activity_timelinevc_today145_pm_label_text">Today, 1:45 PM</string>
+
+	<string
+		name="activity_timelinevc_melon_husk_launches_label_text">Melon Husk launches the first car that can
+travel a galaxy on a single tank of gas.</string>
+
+	<string
+		name="activity_timelinevc_pluto_posted_anew_llabel_text">Pluto posted a new life event</string>
+
+	<string
+		name="activity_timelinevc_in_acomplicated_rel_label_text">In a complicated relationship</string>
+
+	<string
+		name="activity_timelinevc_john_joe_and_jack_label_text">John, Joe and Jack &amp;amp; 18k are coming</string>
+
+	<string
+		name="activity_timelinevc_label_text">3/13/2050</string>
+
+	<string
+		name="activity_timelinevc_guess_who_sback_label_text">Guess who’s back?</string>
+
+	<string
+		name="activity_timelinevc_laika_created_anew_label_text">Laika created a new event near you</string>
+
+	<string
+		name="activity_timelinevc_back_from_the_space_label_text">Back from the space trip! Come everyone.</string>
+
+	<string
+		name="activity_timelinevc_hull_tattoos_anew_label_text">Hull tattoos? A new trend to follow in 2050</string>
+
+	<string
+		name="activity_timelinevc_sponsored_content_label_text">Sponsored content</string>
+
+	<string
+		name="activity_timelinevc_spray_and_pray_label_text">Spray and Pray</string>
+
+	<string
+		name="activity_profilevc_phone_booth_andro_label_text">1 Phone Booth, Andromeda</string>
+
+	<string
+		name="activity_profilevc_dr_what_label_text">Dr. What</string>
+
+	<string
+		name="activity_profilevc_traveler_dreamer_label_text">Traveler, dreamer, showman. Occasionally gets
+into fight, not always survives.</string>
+
+	<string
+		name="activity_profilevc_stalking_label_text">Stalking</string>
+
+	<string
+		name="activity_profilevc_label_text">326</string>
+
+	<string
+		name="activity_profilevc_stalkers_label_text">Stalkers</string>
+
+	<string
+		name="activity_profilevc_k_label_text">58k</string>
+
+	<string
+		name="activity_profilevc_photos_label_text">Photos</string>
+
+	<string
+		name="activity_profilevc_label_two_text">365</string>
+
+	<string
+		name="activity_profilevc_latest_photos_label_text">LATEST PHOTOS</string>
+
+	<string
+		name="ProfileVC_menu_item_1_title">Settings</string>
+
+	<string
+		name="activity_profilephotosvc_today_label_text">TODAY</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_text">Dr. Where</string>
+
+	<string
+		name="activity_profilesettingsvc_label_text">Name</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_two_text">Yes</string>
+
+	<string
+		name="activity_profilesettingsvc_label_two_text">Occasional advertisement</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_three_text">Log out</string>
+
+	<string
+		name="activity_profilesettingsvc_label_three_text">Dr. Where</string>
+
+	<string
+		name="activity_profilesettingsvc_label_four_text">Logged as</string>
+
+	<string
+		name="activity_profilesettingsvc_text_label_four_text">tardis~spacemail.io</string>
+
+	<string
+		name="activity_profilesettingsvc_label_five_text">Spacemail</string>
+
+	<string
+		name="activity_profilesettingsvc_details_label_text">DETAILS</string>
+
+	<string
+		name="activity_profilesettingsvc_information_label_text">INFORMATION</string>
+
+	<string
+		name="activity_profilesettingsvc_label_six_text">Randomize timeline information</string>
+
+	<string
+		name="activity_messagesvc_the_water_so_testy_ylabel_text">The water so testy your own dad will kill you for it</string>
+
+	<string
+		name="activity_messagesvc_name_label_text">Lukewarm Skywater</string>
+
+	<string
+		name="activity_messagesvc_mrs_doya_label_text">Mrs. Doya</string>
+
+	<string
+		name="activity_eventdetailvc_guess_who_sback_label_text">Guess who’s back?</string>
+
+	<string
+		name="activity_eventdetailvc_happening_in20h_ba_label_text">Happening in 20h, Bajkonur</string>
+
+	<string
+		name="activity_eventdetailvc_event_posted_by_laik_label_text">Event posted by Laika</string>
+
+	<string
+		name="activity_eventdetailvc_coming_label_text">Coming</string>
+
+	<string
+		name="EventDetailVC_menu_item_1_title">Events</string>
+
+</resources>
