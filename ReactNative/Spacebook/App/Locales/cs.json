@@ -1,0 +1,85 @@
+{
+  "WelcomeVC": {
+    "spacebookLabelText": "Vesmírná kniha",
+    "conquerTheStarsLabelText": "Podmanit si hvězdy\nze zadní části obrazovky.",
+    "logInText": "PŘIHLÁSIT SE",
+    "signUpText": "PŘIHLÁSIT SE",
+    "supernovaStuLabelText": "© 2050 Studio Supernova"
+  },
+  "LoginVC": {
+    "logInLabelText": "Přihlásit se",
+    "welcomeBackLabelText": "Vítej zpět.\nGalaxie vás čeká.",
+    "yourNicknameTFText": "Tvá přezdívka",
+    "yourPasswordTFText": "Vaše heslo",
+    "loginTwoText": "PŘIHLÁSIT SE",
+    "forgotYourPasswordButtonText": "Zapomněli jste heslo?"
+  },
+  "SignupVC": {
+    "signUpLabelText": "Přihlásit se",
+    "itSFreeLabelText": "Je to zdarma a vždy bude.\nProtože reklama.",
+    "yourNicknameTFText": "Tvá přezdívka",
+    "yourSpacemailTFText": "Vaše vesmírná pošta",
+    "passwordTFText": "Heslo (40 znaků)",
+    "signUpText": "PŘIHLÁSIT SE",
+    "alreadyGaveUpYourLabelText": "Už jste se vzdal své duše?",
+    "logInButtonText": "Přihlásit se!",
+    "iAgreeWithIntergaLabelText": "Souhlasím s intergalatickými podmínkami"
+  },
+  "TimelineVC": {
+    "spacewoman185kLiLabelText": "Vesmírná žena",
+    "kCommentsLabelText": "Komentáře 21k",
+    "spacecrunchLabelText": "SpaceCrunch",
+    "today145PmLabelText": "Dnes, 13:45",
+    "melonHuskLaunchesLabelText": "Melon Husk uvádí první vůz, který dokáže\ncestovat galaxií na jediné nádrži plynu.",
+    "plutoPostedANewLLabelText": "Pluto vyslal novou životní událost",
+    "inAComplicatedRelLabelText": "V komplikovaném vztahu",
+    "johnJoeAndJackLabelText": "John, Joe a Jack",
+    "labelText": "13.3.2050",
+    "guessWhoSBackLabelText": "Hádejte, kdo je zpátky?",
+    "laikaCreatedANewLabelText": "Laika vytvořila u vás novou událost",
+    "backFromTheSpaceLabelText": "Zpět z vesmírné cesty! Pojďte všichni.",
+    "hullTattoosANewLabelText": "Hull tetování? Nový trend, který by měl následovat v roce 2050",
+    "sponsoredContentLabelText": "Sponzorovaný obsah",
+    "sprayAndPrayLabelText": "Sprej a modlete se"
+  },
+  "ProfileVC": {
+    "phoneBoothAndroLabelText": "1 Telefonní budka, Andromeda",
+    "drWhatLabelText": "Dr. Co",
+    "travelerDreamerLabelText": "Cestovatel, snílka, showman. Občas se dostane\ndo boje, ne vždy přežije.",
+    "stalkingLabelText": "Stalking",
+    "labelText": "326",
+    "stalkersLabelText": "Stalkery",
+    "kLabelText": "58k",
+    "photosLabelText": "Fotky",
+    "labelTwoText": "365",
+    "latestPhotosLabelText": "NEJNOVĚJŠÍ FOTOGRAFIE"
+  },
+  "ProfilePhotosVC": {
+    "todayLabelText": "DNES"
+  },
+  "ProfileSettingsVC": {
+    "textLabelText": "Dr. Kde",
+    "labelText": "název",
+    "textLabelTwoText": "Ano",
+    "labelTwoText": "Příležitostná reklama",
+    "textLabelThreeText": "Odhlásit se",
+    "labelThreeText": "Dr. Kde",
+    "labelFourText": "Přihlášeno jako",
+    "textLabelFourText": "tardis ~ spacemail.io",
+    "labelFiveText": "Spacemail",
+    "detailsLabelText": "DETAILY",
+    "informationLabelText": "INFORMACE",
+    "labelSixText": "Randomizujte informace o časové ose"
+  },
+  "MessagesVC": {
+    "mrsDoyaLabelText": "Paní Doya",
+    "theWaterSoTestyYLabelText": "Voda tak zkušební, že tvůj otec tě zabije za to",
+    "nameLabelText": "Lukewarm Skywater"
+  },
+  "EventDetailVC": {
+    "guessWhoSBackLabelText": "Hádejte, kdo je zpátky?",
+    "happeningIn20hBaLabelText": "Stalo se v 20h, Bajkonur",
+    "eventPostedByLaikLabelText": "Událost zveřejnila Laika",
+    "comingLabelText": "Příchod"
+  }
+}

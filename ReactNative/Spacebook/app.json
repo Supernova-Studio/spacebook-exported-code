@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Spacebook",
+    "sdkVersion": "25.0.0",
+    "ios": {
+      "bundleIdentifier": "studio.supernova.spacebook"
+    },
+    "android": {
+      "package": "studio.supernova.spacebook"
+    }
+  }
+}

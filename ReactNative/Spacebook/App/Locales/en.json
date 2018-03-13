@@ -1,0 +1,85 @@
+{
+  "WelcomeVC": {
+    "spacebookLabelText": "Spacebook",
+    "conquerTheStarsLabelText": "Conquer the stars\nfrom behind the screen.",
+    "logInText": "LOG IN",
+    "signUpText": "SIGN UP",
+    "supernovaStuLabelText": "© 2050 Supernova Studio"
+  },
+  "LoginVC": {
+    "logInLabelText": "Log in",
+    "welcomeBackLabelText": "Welcome back.\nThe galaxy awaits you.",
+    "yourNicknameTFText": "Your nickname",
+    "yourPasswordTFText": "Your password",
+    "loginTwoText": "LOG IN",
+    "forgotYourPasswordButtonText": "Forgot your password?"
+  },
+  "SignupVC": {
+    "signUpLabelText": "Sign up",
+    "itSFreeLabelText": "It’s free and always will be.\nBecause advertisement.",
+    "yourNicknameTFText": "Your nickname",
+    "yourSpacemailTFText": "Your spacemail",
+    "passwordTFText": "Password (40+ characters)",
+    "signUpText": "SIGN UP",
+    "alreadyGaveUpYourLabelText": "Already gave up your soul? ",
+    "logInButtonText": "Log In!",
+    "iAgreeWithIntergaLabelText": "I agree with intergalatic terms and conditions"
+  },
+  "TimelineVC": {
+    "spacewoman185kLiLabelText": "Spacewoman & 185k like this",
+    "kCommentsLabelText": "21k comments",
+    "spacecrunchLabelText": "SpaceCrunch",
+    "today145PmLabelText": "Today, 1:45 PM",
+    "melonHuskLaunchesLabelText": "Melon Husk launches the first car that can\ntravel a galaxy on a single tank of gas.",
+    "plutoPostedANewLLabelText": "Pluto posted a new life event",
+    "inAComplicatedRelLabelText": "In a complicated relationship",
+    "johnJoeAndJackLabelText": "John, Joe and Jack & 18k are coming",
+    "labelText": "3/13/2050",
+    "guessWhoSBackLabelText": "Guess who’s back?",
+    "laikaCreatedANewLabelText": "Laika created a new event near you",
+    "backFromTheSpaceLabelText": "Back from the space trip! Come everyone.",
+    "hullTattoosANewLabelText": "Hull tattoos? A new trend to follow in 2050",
+    "sponsoredContentLabelText": "Sponsored content",
+    "sprayAndPrayLabelText": "Spray and Pray"
+  },
+  "ProfileVC": {
+    "phoneBoothAndroLabelText": "1 Phone Booth, Andromeda",
+    "drWhatLabelText": "Dr. What",
+    "travelerDreamerLabelText": "Traveler, dreamer, showman. Occasionally gets\ninto fight, not always survives.",
+    "stalkingLabelText": "Stalking",
+    "labelText": "326",
+    "stalkersLabelText": "Stalkers",
+    "kLabelText": "58k",
+    "photosLabelText": "Photos",
+    "labelTwoText": "365",
+    "latestPhotosLabelText": "LATEST PHOTOS"
+  },
+  "ProfilePhotosVC": {
+    "todayLabelText": "TODAY"
+  },
+  "ProfileSettingsVC": {
+    "textLabelText": "Dr. Where",
+    "labelText": "Name",
+    "textLabelTwoText": "Yes",
+    "labelTwoText": "Occasional advertisement",
+    "textLabelThreeText": "Log out",
+    "labelThreeText": "Dr. Where",
+    "labelFourText": "Logged as",
+    "textLabelFourText": "tardis~spacemail.io",
+    "labelFiveText": "Spacemail",
+    "detailsLabelText": "DETAILS",
+    "informationLabelText": "INFORMATION",
+    "labelSixText": "Randomize timeline information"
+  },
+  "MessagesVC": {
+    "mrsDoyaLabelText": "Mrs. Doya",
+    "theWaterSoTestyYLabelText": "The water so testy your own dad will kill you for it",
+    "nameLabelText": "Lukewarm Skywater"
+  },
+  "EventDetailVC": {
+    "guessWhoSBackLabelText": "Guess who’s back?",
+    "happeningIn20hBaLabelText": "Happening in 20h, Bajkonur",
+    "eventPostedByLaikLabelText": "Event posted by Laika",
+    "comingLabelText": "Coming"
+  }
+}

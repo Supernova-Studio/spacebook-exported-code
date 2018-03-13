@@ -1,0 +1,85 @@
+{
+  "WelcomeVC": {
+    "spacebookLabelText": "Spacebook",
+    "conquerTheStarsLabelText": "Покоряйте звезды\nиз-за экрана.",
+    "logInText": "АВТОРИЗОВАТЬСЯ",
+    "signUpText": "ЗАРЕГИСТРИРОВАТЬСЯ",
+    "supernovaStuLabelText": "© 2050 Студия «Сверхновая»"
+  },
+  "LoginVC": {
+    "logInLabelText": "Авторизоваться",
+    "welcomeBackLabelText": "Добро пожаловать.\nГалактика ждет вас.",
+    "yourNicknameTFText": "Твой псевдоним",
+    "yourPasswordTFText": "Ваш пароль",
+    "loginTwoText": "АВТОРИЗОВАТЬСЯ",
+    "forgotYourPasswordButtonText": "Забыли пароль?"
+  },
+  "SignupVC": {
+    "signUpLabelText": "зарегистрироваться",
+    "itSFreeLabelText": "Это бесплатно и всегда будет.\nПотому что реклама.",
+    "yourNicknameTFText": "Твой псевдоним",
+    "yourSpacemailTFText": "Ваша космическая почта",
+    "passwordTFText": "Пароль (40 символов)",
+    "signUpText": "ЗАРЕГИСТРИРОВАТЬСЯ",
+    "alreadyGaveUpYourLabelText": "Уже отказались от своей души?",
+    "logInButtonText": "Авторизоваться!",
+    "iAgreeWithIntergaLabelText": "Я согласен с межгалактическими условиями"
+  },
+  "TimelineVC": {
+    "spacewoman185kLiLabelText": "женщина-космонавт",
+    "kCommentsLabelText": "21k комментариев",
+    "spacecrunchLabelText": "SpaceCrunch",
+    "today145PmLabelText": "Сегодня, 13:45",
+    "melonHuskLaunchesLabelText": "Melon Husk запускает первый автомобиль, который может\nпутешествуют по галактике на одном баллоне с газом.",
+    "plutoPostedANewLLabelText": "Плутон опубликовал новое событие жизни",
+    "inAComplicatedRelLabelText": "В сложные отношения",
+    "johnJoeAndJackLabelText": "Джон, Джо и Джек",
+    "labelText": "3/13/2050",
+    "guessWhoSBackLabelText": "Угадай кто вернулся?",
+    "laikaCreatedANewLabelText": "Laika создала новое мероприятие рядом с вами",
+    "backFromTheSpaceLabelText": "Назад из космической поездки! Приходите все.",
+    "hullTattoosANewLabelText": "Татуировки корпуса? Новая тенденция в 2050 году",
+    "sponsoredContentLabelText": "Спонсируемый контент",
+    "sprayAndPrayLabelText": "Спрей и Молитесь"
+  },
+  "ProfileVC": {
+    "phoneBoothAndroLabelText": "1 Телефонная будка, Андромеда",
+    "drWhatLabelText": "Доктор Что",
+    "travelerDreamerLabelText": "Путешественник, мечтатель, шоумен. Время от времени\nв борьбу, не всегда выживает.",
+    "stalkingLabelText": "облава",
+    "labelText": "326",
+    "stalkersLabelText": "Сталкеры",
+    "kLabelText": "58K",
+    "photosLabelText": "Фото",
+    "labelTwoText": "365",
+    "latestPhotosLabelText": "ПОСЛЕДНИЕ ФОТОГРАФИИ"
+  },
+  "ProfilePhotosVC": {
+    "todayLabelText": "CЕГОДНЯ"
+  },
+  "ProfileSettingsVC": {
+    "textLabelText": "Доктор, где",
+    "labelText": "имя",
+    "textLabelTwoText": "да",
+    "labelTwoText": "Случайная реклама",
+    "textLabelThreeText": "Выйти",
+    "labelThreeText": "Доктор, где",
+    "labelFourText": "Записан",
+    "textLabelFourText": "TARDIS ~ spacemail.io",
+    "labelFiveText": "Spacemail",
+    "detailsLabelText": "ДЕТАЛИ",
+    "informationLabelText": "ИНФОРМАЦИЯ",
+    "labelSixText": "Рандомизировать информацию о сроках"
+  },
+  "MessagesVC": {
+    "mrsDoyaLabelText": "Г-жа Дойя",
+    "theWaterSoTestyYLabelText": "Вода, настолько подверженная испытанию, что ваш собственный папа убьет вас за это",
+    "nameLabelText": "Лукойл Скайоуэр"
+  },
+  "EventDetailVC": {
+    "guessWhoSBackLabelText": "Угадай кто вернулся?",
+    "happeningIn20hBaLabelText": "Происходит в 20h, Bajkonur",
+    "eventPostedByLaikLabelText": "Событие, отправленное Laika",
+    "comingLabelText": "приход"
+  }
+}
