@@ -48,6 +48,8 @@ public class ProfileVCCollectionViewAdapter extends RecyclerView.Adapter<Recycle
 		public void startProfilePhotosVC() {
 			itemView.getContext().startActivity(ProfilePhotosVC.newIntent(itemView.getContext()));
 		}
+
+
 	}
 
 }
