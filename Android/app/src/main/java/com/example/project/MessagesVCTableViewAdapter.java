@@ -34,7 +34,7 @@ public class MessagesVCTableViewAdapter extends RecyclerView.Adapter<RecyclerVie
 		public MessageCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {

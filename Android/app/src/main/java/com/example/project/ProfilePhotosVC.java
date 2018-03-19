@@ -12,7 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.view.Menu;
 import android.support.v7.widget.Toolbar;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class ProfilePhotosVC extends AppCompatActivity {
 
@@ -35,16 +35,16 @@ public class ProfilePhotosVC extends AppCompatActivity {
 	}
 
 	public void setupToolbar() {
-		Toolbar toolbar = (Toolbar) findViewById(R.id.activity_profile_photos_vc_toolbar);
+		Toolbar toolbar = findViewById(R.id.activity_profile_photos_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
 	public void init() {
 		collectionView = this.findViewById(R.id.collection_view);
-		collectionView.setLayoutManager(new GridLayoutManager(this, 3, LinearLayoutManager.VERTICAL, false));
+		collectionView.setLayoutManager(new GridLayoutManager(this, 1, LinearLayoutManager.VERTICAL, false));
 		collectionView.setAdapter(new ProfilePhotosVCCollectionViewAdapter());
-		this.setupToolbar();
+		setupToolbar();
 	}
 
 

@@ -33,7 +33,7 @@ public class MessagesVCCollectionViewAdapter extends RecyclerView.Adapter<Recycl
 		public OnlinePersonCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {

@@ -19,7 +19,7 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.support.v4.view.animation.PathInterpolatorCompat;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class WelcomeVC extends AppCompatActivity {
 

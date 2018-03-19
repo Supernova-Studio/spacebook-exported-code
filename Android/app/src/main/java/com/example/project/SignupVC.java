@@ -13,7 +13,7 @@ import android.widget.Switch;
 import android.view.Menu;
 import android.support.v7.widget.Toolbar;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class SignupVC extends AppCompatActivity {
 
@@ -46,7 +46,7 @@ public class SignupVC extends AppCompatActivity {
 	}
 
 	public void setupToolbar() {
-		Toolbar toolbar = (Toolbar) findViewById(R.id.activity_signup_vc_toolbar);
+		Toolbar toolbar = findViewById(R.id.activity_signup_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
@@ -72,7 +72,7 @@ public class SignupVC extends AppCompatActivity {
 		this.findViewById(R.id.switch_two).setOnClickListener(view -> {
 			onSwitchValueChanged();
 		});
-		this.setupToolbar();
+		setupToolbar();
 	}
 
 	public void onLogInPressed() {

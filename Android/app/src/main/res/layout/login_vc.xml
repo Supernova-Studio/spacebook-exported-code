@@ -6,113 +6,121 @@
 	android:id="@+id/login"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@drawable/activity_loginvc_login_background">
+	android:background="@drawable/activity_login_vc_login_background">
 
 	<TextView
 		android:id="@+id/log_in_label"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginTop="@dimen/activity_loginvc_log_in_label_size1"
+		android:layout_marginTop="@dimen/activity_login_vc_log_in_label_margin_top"
+		android:fontFamily="@font/font_lato_bold"
 		android:gravity="center"
-		android:text="@string/activity_loginvc_log_in_label_text"
-		android:textColor="@color/activity_loginvc_log_in_label_background_color"
-		android:textSize="@dimen/activity_loginvc_log_in_label_size"
+		android:text="@string/activity_login_vc_log_in_label_text"
+		android:textColor="@color/activity_login_vc_log_in_label_text_color"
+		android:textSize="@dimen/activity_login_vc_log_in_label_text_size"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="113dp"
-		tools:layout_editor_absoluteY="88dp"/>
+		tools:layout_editor_absoluteX="133dp"
+		tools:layout_editor_absoluteY="104dp"/>
 
 	<TextView
 		android:id="@+id/welcome_back_label"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginTop="@dimen/activity_loginvc_welcome_back_label_size1"
+		android:layout_marginTop="@dimen/activity_login_vc_welcome_back_label_margin_top"
+		android:fontFamily="@font/font_lato_regular"
 		android:gravity="center"
-		android:text="@string/activity_loginvc_welcome_back_label_text"
-		android:textColor="@color/activity_loginvc_welcome_back_label_background_color"
-		android:textSize="@dimen/activity_loginvc_welcome_back_label_size"
+		android:text="@string/activity_login_vc_welcome_back_label_text"
+		android:textColor="@color/activity_login_vc_welcome_back_label_text_color"
+		android:textSize="@dimen/activity_login_vc_welcome_back_label_text_size"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/log_in_label"
-		tools:layout_editor_absoluteX="82dp"
-		tools:layout_editor_absoluteY="152dp"/>
+		tools:layout_editor_absoluteX="97dp"
+		tools:layout_editor_absoluteY="179dp"/>
 
 	<android.support.constraint.ConstraintLayout
 		android:id="@+id/login_fields"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
-		android:layout_marginLeft="@dimen/activity_loginvc_login_fields_size1"
-		android:layout_marginRight="@dimen/activity_loginvc_login_fields_size2"
-		android:layout_marginTop="@dimen/activity_loginvc_login_fields_size"
-		android:background="@drawable/activity_loginvc_login_fields_background"
+		android:layout_marginLeft="@dimen/activity_login_vc_login_fields_margin_start"
+		android:layout_marginRight="@dimen/activity_login_vc_login_fields_margin_end"
+		android:layout_marginTop="@dimen/activity_login_vc_login_fields_margin_top"
+		android:background="@drawable/activity_login_vc_login_fields_background"
 		android:elevation="@dimen/elevation_default"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/welcome_back_label"
-		tools:layout_editor_absoluteX="17dp"
-		tools:layout_editor_absoluteY="254dp">
+		tools:layout_editor_absoluteX="20dp"
+		tools:layout_editor_absoluteY="298dp">
 
 		<android.support.constraint.ConstraintLayout
 			android:id="@+id/separator"
 			android:layout_width="0dp"
-			android:layout_height="@dimen/activity_loginvc_separator_size"
+			android:layout_height="@dimen/activity_login_vc_separator_height"
+			android:layout_marginBottom="@dimen/activity_login_vc_separator_margin_bottom"
+			android:layout_marginTop="@dimen/activity_login_vc_separator_margin_top"
 			android:alpha="0.100000001490116"
 			android:background="#000000"
+			app:layout_constraintBottom_toTopOf="@+id/your_password_tf"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/your_nickname_tf"
 			tools:layout_editor_absoluteX="0dp"
-			tools:layout_editor_absoluteY="42dp"/>
+			tools:layout_editor_absoluteY="50dp"/>
 
 		<EditText
 			android:id="@+id/your_nickname_tf"
 			android:layout_width="0dp"
-			android:layout_height="wrap_content"
-			android:layout_marginLeft="@dimen/activity_loginvc_your_nickname_tf_size2"
-			android:layout_marginRight="@dimen/activity_loginvc_your_nickname_tf_size3"
-			android:layout_marginTop="@dimen/activity_loginvc_your_nickname_tf_size1"
+			android:layout_height="@dimen/activity_login_vc_your_nickname_tf_height"
+			android:layout_marginLeft="@dimen/activity_login_vc_your_nickname_tf_margin_start"
+			android:layout_marginRight="@dimen/activity_login_vc_your_nickname_tf_margin_end"
+			android:layout_marginTop="@dimen/activity_login_vc_your_nickname_tf_margin_top"
 			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
 			android:gravity="left|center_vertical"
-			android:hint="@string/activity_loginvc_your_nickname_tf_text"
+			android:hint="@string/activity_login_vc_your_nickname_tf_text"
 			android:padding="0dp"
-			android:textColor="@color/activity_loginvc_your_nickname_tf_background_color"
-			android:textSize="@dimen/activity_loginvc_your_nickname_tf_size"
+			android:textColor="@color/activity_login_vc_your_nickname_tf_text_color"
+			android:textSize="@dimen/activity_login_vc_your_nickname_tf_text_size"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toTopOf="parent"
-			tools:layout_editor_absoluteX="12dp"
-			tools:layout_editor_absoluteY="10dp"/>
+			tools:layout_editor_absoluteX="15dp"
+			tools:layout_editor_absoluteY="12dp"/>
 
 		<EditText
 			android:id="@+id/your_password_tf"
 			android:layout_width="0dp"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="@dimen/activity_loginvc_your_password_tf_size1"
-			android:layout_marginLeft="@dimen/activity_loginvc_your_password_tf_size2"
-			android:layout_marginRight="@dimen/activity_loginvc_your_password_tf_size3"
+			android:layout_height="@dimen/activity_login_vc_your_password_tf_height"
+			android:layout_marginBottom="@dimen/activity_login_vc_your_password_tf_margin_bottom"
+			android:layout_marginLeft="@dimen/activity_login_vc_your_password_tf_margin_start"
+			android:layout_marginRight="@dimen/activity_login_vc_your_password_tf_margin_end"
 			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
 			android:gravity="left|center_vertical"
-			android:hint="@string/activity_loginvc_your_password_tf_text"
+			android:hint="@string/activity_login_vc_your_password_tf_text"
 			android:inputType="textPassword"
 			android:padding="0dp"
-			android:textColor="@color/activity_loginvc_your_password_tf_background_color"
-			android:textSize="@dimen/activity_loginvc_your_password_tf_size"
+			android:textColor="@color/activity_login_vc_your_password_tf_text_color"
+			android:textSize="@dimen/activity_login_vc_your_password_tf_text_size"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
-			tools:layout_editor_absoluteX="12dp"
-			tools:layout_editor_absoluteY="53dp"/>
+			tools:layout_editor_absoluteX="15dp"
+			tools:layout_editor_absoluteY="63dp"/>
 
 	</android.support.constraint.ConstraintLayout>
 
 	<LinearLayout
 		android:id="@+id/login_two"
 		android:layout_width="0dp"
-		android:layout_height="@dimen/activity_loginvc_login_two_size1"
-		android:layout_marginBottom="@dimen/activity_loginvc_login_two_size2"
-		android:layout_marginLeft="@dimen/activity_loginvc_login_two_size3"
-		android:layout_marginRight="@dimen/activity_loginvc_login_two_size4"
-		android:background="@drawable/activity_loginvc_login_two_selector"
+		android:layout_height="@dimen/activity_login_vc_login_two_height"
+		android:layout_marginBottom="@dimen/activity_login_vc_login_two_margin_bottom"
+		android:layout_marginLeft="@dimen/activity_login_vc_login_two_margin_start"
+		android:layout_marginRight="@dimen/activity_login_vc_login_two_margin_end"
+		android:background="@drawable/activity_login_vc_login_two_selector"
 		android:elevation="@dimen/elevation_default"
 		android:gravity="center"
 		android:orientation="horizontal"
@@ -121,8 +129,8 @@
 		app:layout_constraintBottom_toTopOf="@+id/forgot_your_password_button"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
-		tools:layout_editor_absoluteX="17dp"
-		tools:layout_editor_absoluteY="477dp">
+		tools:layout_editor_absoluteX="20dp"
+		tools:layout_editor_absoluteY="559dp">
 
 		<ImageView
 			android:layout_width="wrap_content"
@@ -134,34 +142,36 @@
 		<TextView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:fontFamily="@font/font_lato_bold"
 			android:gravity="center"
-			android:text="@string/activity_loginvc_login_two_text"
-			android:textColor="@color/activity_loginvc_login_two_background_color"
-			android:textSize="@dimen/activity_loginvc_login_two_size"/>
+			android:text="@string/activity_login_vc_login_two_text"
+			android:textColor="@color/activity_login_vc_login_two_text_color"
+			android:textSize="@dimen/activity_login_vc_login_two_text_size"/>
 
 	</LinearLayout>
 
 	<Button
 		android:id="@+id/forgot_your_password_button"
 		android:layout_width="wrap_content"
-		android:layout_height="@dimen/activity_loginvc_forgot_your_password_button_size1"
-		android:layout_marginBottom="@dimen/activity_loginvc_forgot_your_password_button_size2"
+		android:layout_height="@dimen/activity_login_vc_forgot_your_password_button_height"
+		android:layout_marginBottom="@dimen/activity_login_vc_forgot_your_password_button_margin_bottom"
 		android:background="?attr/selectableItemBackground"
+		android:fontFamily="@font/font_lato_regular"
 		android:gravity="center"
-		android:text="@string/activity_loginvc_forgot_your_password_button_text"
-		android:textColor="@color/activity_loginvc_forgot_your_password_button_background_color"
-		android:textSize="@dimen/activity_loginvc_forgot_your_password_button_size"
+		android:text="@string/activity_login_vc_forgot_your_password_button_text"
+		android:textColor="@color/activity_login_vc_forgot_your_password_button_text_color"
+		android:textSize="@dimen/activity_login_vc_forgot_your_password_button_text_size"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
-		tools:layout_editor_absoluteX="93dp"
-		tools:layout_editor_absoluteY="534dp"/>
+		tools:layout_editor_absoluteX="110dp"
+		tools:layout_editor_absoluteY="626dp"/>
 
 	<android.support.v7.widget.Toolbar
 		android:id="@+id/activity_login_vc_toolbar"
 		android:layout_width="0dp"
 		android:layout_height="?attr/actionBarSize"
-		android:background="?attr/colorPrimary"
+		android:background="@color/activity_login_vc_view_background_color"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toTopOf="parent"/>

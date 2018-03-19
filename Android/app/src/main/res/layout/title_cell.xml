@@ -3,24 +3,25 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="@dimen/activity_profilephotosvc_title_cell_size1"
-	android:layout_height="@dimen/activity_profilephotosvc_title_cell_size">
+	android:layout_width="@dimen/activity_title_cell_title_cell_width"
+	android:layout_height="@dimen/activity_title_cell_title_cell_height">
 
 	<TextView
 		android:id="@+id/today_label"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginLeft="@dimen/activity_profilephotosvc_today_label_size1"
+		android:layout_marginLeft="@dimen/activity_title_cell_today_label_margin_start"
 		android:alpha="0.400000005960464"
+		android:fontFamily="@font/font_lato_regular"
 		android:gravity="left"
-		android:text="@string/activity_profilephotosvc_today_label_text"
-		android:textColor="@color/activity_profilephotosvc_today_label_background_color"
-		android:textSize="@dimen/activity_profilephotosvc_today_label_size"
+		android:text="@string/activity_title_cell_today_label_text"
+		android:textColor="@color/activity_title_cell_today_label_text_color"
+		android:textSize="@dimen/activity_title_cell_today_label_text_size"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="17dp"
-		tools:layout_editor_absoluteY="7dp"/>
+		tools:layout_editor_absoluteX="20dp"
+		tools:layout_editor_absoluteY="9dp"/>
 
 	<android.support.constraint.ConstraintLayout
 		android:id="@+id/cell_bounds"

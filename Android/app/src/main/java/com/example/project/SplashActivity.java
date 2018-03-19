@@ -8,6 +8,7 @@ import com.example.project.R;
 public class SplashActivity extends AppCompatActivity {
 
 
+	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.startActivity(WelcomeVC.newIntent(this));

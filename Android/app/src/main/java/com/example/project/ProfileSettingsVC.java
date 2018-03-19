@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.view.Menu;
 import android.support.v7.widget.Toolbar;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class ProfileSettingsVC extends AppCompatActivity {
 
@@ -44,7 +44,7 @@ public class ProfileSettingsVC extends AppCompatActivity {
 	}
 
 	public void setupToolbar() {
-		Toolbar toolbar = (Toolbar) findViewById(R.id.activity_profile_settings_vc_toolbar);
+		Toolbar toolbar = findViewById(R.id.activity_profile_settings_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
@@ -65,7 +65,7 @@ public class ProfileSettingsVC extends AppCompatActivity {
 		this.findViewById(R.id.slide_switch).setOnClickListener(view -> {
 			onSlideValueChanged();
 		});
-		this.setupToolbar();
+		setupToolbar();
 	}
 
 	public void onSlideValueChanged() {

@@ -1,6 +1,6 @@
 package com.example.project;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -59,7 +59,7 @@ public class ProfileVC extends Fragment {
 		labelTwo = getView().findViewById(R.id.label_two);
 		latestPhotosLabel = getView().findViewById(R.id.latest_photos_label);
 		collectionView = getView().findViewById(R.id.collection_view);
-		collectionView.setLayoutManager(new GridLayoutManager(getContext(), 3, LinearLayoutManager.VERTICAL, false));
+		collectionView.setLayoutManager(new GridLayoutManager(getContext(), 1, LinearLayoutManager.HORIZONTAL, false));
 		collectionView.setAdapter(new ProfileVCCollectionViewAdapter());
 	}
 

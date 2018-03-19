@@ -12,7 +12,7 @@ import android.support.constraint.ConstraintLayout;
 import android.view.Menu;
 import android.support.v7.widget.Toolbar;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class LoginVC extends AppCompatActivity {
 
@@ -42,7 +42,7 @@ public class LoginVC extends AppCompatActivity {
 	}
 
 	public void setupToolbar() {
-		Toolbar toolbar = (Toolbar) findViewById(R.id.activity_login_vc_toolbar);
+		Toolbar toolbar = findViewById(R.id.activity_login_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
@@ -62,7 +62,7 @@ public class LoginVC extends AppCompatActivity {
 		forgotYourPasswordButton.setOnClickListener(view -> {
 			onForgotYourPasswordPressed();
 		});
-		this.setupToolbar();
+		setupToolbar();
 	}
 
 	public void onForgotYourPasswordPressed() {

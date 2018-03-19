@@ -1,6 +1,6 @@
 package com.example.project;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

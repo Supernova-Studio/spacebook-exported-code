@@ -37,7 +37,7 @@ public class TimelineVCTableViewAdapter extends RecyclerView.Adapter<RecyclerVie
 		public NewsCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {
@@ -58,7 +58,7 @@ public class TimelineVCTableViewAdapter extends RecyclerView.Adapter<RecyclerVie
 		public LifetimeEventCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {
@@ -79,7 +79,7 @@ public class TimelineVCTableViewAdapter extends RecyclerView.Adapter<RecyclerVie
 		public EventCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {
@@ -112,7 +112,7 @@ public class TimelineVCTableViewAdapter extends RecyclerView.Adapter<RecyclerVie
 		public AdvertisementCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {

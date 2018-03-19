@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.support.design.widget.BottomNavigationView;
 import android.support.annotation.NonNull;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class TabBarHolderActivityOne extends AppCompatActivity {
 
@@ -48,7 +48,7 @@ public class TabBarHolderActivityOne extends AppCompatActivity {
 	}
 
 	public void onTabSelected(int menuItemId) {
-		ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+		ViewPager viewPager = findViewById(R.id.view_pager);
 		switch(menuItemId) {
 			case R.id.tab_bar_item_1:
 				viewPager.setCurrentItem(0, true);

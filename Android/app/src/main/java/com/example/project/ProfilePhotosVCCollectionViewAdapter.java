@@ -33,7 +33,7 @@ public class ProfilePhotosVCCollectionViewAdapter extends RecyclerView.Adapter<R
 		public TitleCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {
@@ -49,7 +49,7 @@ public class ProfilePhotosVCCollectionViewAdapter extends RecyclerView.Adapter<R
 		public ViewFourCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {

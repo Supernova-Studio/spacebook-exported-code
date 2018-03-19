@@ -12,13 +12,13 @@
 		android:id="@+id/collection_view"
 		android:layout_width="0dp"
 		android:layout_height="0dp"
-		android:layout_marginTop="@dimen/activity_profilephotosvc_collection_view_size"
+		android:layout_marginTop="@dimen/activity_profile_photos_vc_collection_view_margin_top"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
 		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="62dp"
+		tools:layout_editor_absoluteY="73dp"
 		tools:listitem="@layout/title_cell"/>
 
 	<android.support.v7.widget.Toolbar

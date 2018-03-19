@@ -1,6 +1,6 @@
 package com.example.project;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,7 +39,7 @@ public class MessagesVC extends Fragment {
 	public void init() {
 		collectionView = getView().findViewById(R.id.collection_view);
 		tableView = getView().findViewById(R.id.table_view);
-		collectionView.setLayoutManager(new GridLayoutManager(getContext(), 3, LinearLayoutManager.VERTICAL, false));
+		collectionView.setLayoutManager(new GridLayoutManager(getContext(), 1, LinearLayoutManager.HORIZONTAL, false));
 		collectionView.setAdapter(new MessagesVCCollectionViewAdapter());
 		tableView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
 		tableView.setAdapter(new MessagesVCTableViewAdapter());

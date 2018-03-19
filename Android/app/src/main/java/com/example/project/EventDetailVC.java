@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.view.Menu;
 import android.support.v7.widget.Toolbar;
 /**
- *  Created by Artem.
+ *  Created by [Author].
  */
 public class EventDetailVC extends AppCompatActivity {
 
@@ -37,7 +37,7 @@ public class EventDetailVC extends AppCompatActivity {
 	}
 
 	public void setupToolbar() {
-		Toolbar toolbar = (Toolbar) findViewById(R.id.activity_event_detail_vc_toolbar);
+		Toolbar toolbar = findViewById(R.id.activity_event_detail_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
@@ -48,7 +48,7 @@ public class EventDetailVC extends AppCompatActivity {
 		happeningIn20hBaLabel = this.findViewById(R.id.happening_in20h_ba_label);
 		eventPostedByLaikLabel = this.findViewById(R.id.event_posted_by_laik_label);
 		comingLabel = this.findViewById(R.id.coming_label);
-		this.setupToolbar();
+		setupToolbar();
 	}
 
 

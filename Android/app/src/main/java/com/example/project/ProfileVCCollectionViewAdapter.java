@@ -32,7 +32,7 @@ public class ProfileVCCollectionViewAdapter extends RecyclerView.Adapter<Recycle
 		public ViewCellViewHolder(View itemView) {
 			super(itemView);
 
-			this.init();
+			init();
 		}
 
 		public void init() {
