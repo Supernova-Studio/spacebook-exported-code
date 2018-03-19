@@ -2,7 +2,7 @@
 //  MessagesVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -46,7 +46,7 @@ export default class MessagesVC extends React.Component {
   height: 24,
   tintColor: iconTintColor,
   resizeMode: "cover"
-}} source={require('../../Assets/images/active-icon-10.png')} />
+}} source={require('../../Assets/images/active-icon-3.png')} />
         );
       },
       headerLeft: null,
@@ -100,7 +100,7 @@ export default class MessagesVC extends React.Component {
   render() {
     return (
       <View style={styles.messages}>
-        <FlatList renderItem={this.renderOnlinePersonCell} data={this.mockData} numColumns={3} style={styles.collectionView} />
+        <FlatList horizontal={true} data={this.mockData} numColumns={1} renderItem={this.renderOnlinePersonCell} style={styles.collectionView} />
         <FlatList renderItem={this.renderMessageCell} data={this.mockData} style={styles.tableView} />
       </View>
     );
@@ -123,7 +123,6 @@ const styles = StyleSheet.create({
   tableView: {
     backgroundColor: 'rgba(0, 0, 0, 0)',
     alignSelf: "stretch",
-    height: 480.00,
     marginTop: 12.00
   },
   navigationBar2NavigationBar: {

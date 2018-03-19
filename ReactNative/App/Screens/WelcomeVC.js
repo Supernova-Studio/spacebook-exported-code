@@ -2,7 +2,7 @@
 //  WelcomeVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -82,7 +82,7 @@ export default class WelcomeVC extends React.Component {
             }, styles.logoIVAnimatableContainer]}>
             <Image source={require('../../Assets/images/logo.png')} style={styles.logoIV} />
           </Animated.View>
-          <Text style={styles.spacebookLabel}>{strings("WelcomeVC.spacebookLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.spacebookLabel}>{strings("WelcomeVC.spacebookLabelText")}</Text>
           <Text style={styles.conquerTheStarsLabel}>{strings("WelcomeVC.conquerTheStarsLabelText")}</Text>
           <View pointerEvents="box-none" style={{
             justifyContent: "flex-end",
@@ -105,7 +105,7 @@ export default class WelcomeVC extends React.Component {
                     }]
                 }, styles.signUpAnimatableContainer]}>
                 <TouchableOpacity onPress={this.onSignUpPressed} style={styles.signUpTouchable}>
-                  <Text style={styles.signUp}>{strings("WelcomeVC.signUpText")}</Text>
+                  <Text numberOfLines={1} style={styles.signUp}>{strings("WelcomeVC.signUpText")}</Text>
                 </TouchableOpacity>
               </Animated.View>
               <View pointerEvents="box-none" style={{
@@ -126,35 +126,16 @@ export default class WelcomeVC extends React.Component {
                       }]
                   }, styles.logInAnimatableContainer]}>
                   <TouchableOpacity onPress={this.onLogInPressed} style={styles.logInTouchable}>
-                    <Text style={styles.logIn}>{strings("WelcomeVC.logInText")}</Text>
+                    <Text numberOfLines={1} style={styles.logIn}>{strings("WelcomeVC.logInText")}</Text>
                   </TouchableOpacity>
                 </Animated.View>
               </View>
             </View>
-            <Text style={styles.supernovaStuLabel}>{strings("WelcomeVC.supernovaStuLabelText")}</Text>
+            <Text numberOfLines={1} style={styles.supernovaStuLabel}>{strings("WelcomeVC.supernovaStuLabelText")}</Text>
           </View>
         </View>
       </LinearGradient>
     );
-  }
-
-  startAnimationThree() {
-    this.state.logInScale.setValue(0);
-
-    this.state.logInOpacity.setValue(0);
-
-    Animated.parallel([Animated.parallel([Animated.timing(this.state.logInScale, {
-      duration: 1000,
-      delay: 0,
-      easing: Easing.bezier(0.21, 0.61, 0.35, 1.00),
-      toValue: 1
-    }), 
-    Animated.timing(this.state.logInOpacity, {
-      duration: 1000,
-      delay: 0,
-      easing: Easing.bezier(0.21, 0.61, 0.35, 1.00),
-      toValue: 1
-    })])]).start();
   }
 
   startAnimationTwo() {
@@ -169,6 +150,25 @@ export default class WelcomeVC extends React.Component {
       toValue: 1
     }), 
     Animated.timing(this.state.signUpOpacity, {
+      duration: 1000,
+      delay: 0,
+      easing: Easing.bezier(0.21, 0.61, 0.35, 1.00),
+      toValue: 1
+    })])]).start();
+  }
+
+  startAnimationThree() {
+    this.state.logInScale.setValue(0);
+
+    this.state.logInOpacity.setValue(0);
+
+    Animated.parallel([Animated.parallel([Animated.timing(this.state.logInScale, {
+      duration: 1000,
+      delay: 0,
+      easing: Easing.bezier(0.21, 0.61, 0.35, 1.00),
+      toValue: 1
+    }), 
+    Animated.timing(this.state.logInOpacity, {
       duration: 1000,
       delay: 0,
       easing: Easing.bezier(0.21, 0.61, 0.35, 1.00),

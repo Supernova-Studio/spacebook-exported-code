@@ -2,7 +2,7 @@
 //  TitleCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -36,7 +36,7 @@ export default class TitleCell extends React.Component {
             flexDirection: "row",
             alignItems: "center"
           }}>
-            <Text style={styles.todayLabel}>{strings("ProfilePhotosVC.todayLabelText")}</Text>
+            <Text numberOfLines={1} style={styles.todayLabel}>{strings("ProfilePhotosVC.todayLabelText")}</Text>
           </View>
         </View>
         <View pointerEvents="box-none" style={{

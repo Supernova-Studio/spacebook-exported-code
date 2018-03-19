@@ -2,7 +2,7 @@
 //  LifetimeEventCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -32,8 +32,8 @@ export default class LifetimeEventCell extends React.Component {
           height: "100%"
         }}>
           <Image source={require('../../Assets/images/icon-pluto.png')} style={styles.iconPlutoIV} />
-          <Text style={styles.plutoPostedANewLLabel}>{strings("TimelineVC.plutoPostedANewLLabelText")}</Text>
-          <Text style={styles.inAComplicatedRelLabel}>{strings("TimelineVC.inAComplicatedRelLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.plutoPostedANewLLabel}>{strings("TimelineVC.plutoPostedANewLLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.inAComplicatedRelLabel}>{strings("TimelineVC.inAComplicatedRelLabelText")}</Text>
         </View>
       </View>
     );

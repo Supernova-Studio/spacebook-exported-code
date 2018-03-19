@@ -2,7 +2,7 @@
 //  EventCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -48,13 +48,13 @@ export default class EventCell extends React.Component {
                 flexDirection: "row",
                 alignSelf: "stretch"
               }}>
-                <Text style={styles.label}>{strings("TimelineVC.labelText")}</Text>
+                <Text numberOfLines={1} style={styles.label}>{strings("TimelineVC.labelText")}</Text>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
                   justifyContent: "flex-end",
                   flex: 1
                 }}>
-                  <Text style={styles.guessWhoSBackLabel}>{strings("TimelineVC.guessWhoSBackLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.guessWhoSBackLabel}>{strings("TimelineVC.guessWhoSBackLabelText")}</Text>
                 </View>
               </View>
             </View>
@@ -77,7 +77,7 @@ export default class EventCell extends React.Component {
                   flexDirection: "row",
                   alignItems: "center"
                 }}>
-                  <Text style={styles.johnJoeAndJackLabel}>{strings("TimelineVC.johnJoeAndJackLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.johnJoeAndJackLabel}>{strings("TimelineVC.johnJoeAndJackLabelText")}</Text>
                 </View>
               </View>
             </View>
@@ -93,10 +93,10 @@ export default class EventCell extends React.Component {
               flexDirection: "row",
               alignSelf: "stretch"
             }}>
-              <Image source={require('../../Assets/images/avatar.png')} style={styles.avatarIV} />
+              <Image source={require('../../Assets/images/avatar-5.png')} style={styles.avatarIV} />
               <View pointerEvents="box-none">
-                <Text style={styles.laikaCreatedANewLabel}>{strings("TimelineVC.laikaCreatedANewLabelText")}</Text>
-                <Text style={styles.backFromTheSpaceLabel}>{strings("TimelineVC.backFromTheSpaceLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.laikaCreatedANewLabel}>{strings("TimelineVC.laikaCreatedANewLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.backFromTheSpaceLabel}>{strings("TimelineVC.backFromTheSpaceLabelText")}</Text>
               </View>
             </View>
           </View>

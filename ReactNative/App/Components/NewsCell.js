@@ -2,7 +2,7 @@
 //  NewsCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -31,7 +31,7 @@ export default class NewsCell extends React.Component {
           width: "100%",
           height: "100%"
         }}>
-          <Image source={require('../../Assets/images/bg-news-temp.png')} style={styles.bgNewsTempIV} />
+          <Image source={require('../../Assets/images/bg-news-temp-2.png')} style={styles.bgNewsTempIV} />
           <Text style={styles.melonHuskLaunchesLabel}>{strings("TimelineVC.melonHuskLaunchesLabelText")}</Text>
           <View style={styles.view}>
             <View style={styles.bgGray} />
@@ -56,7 +56,7 @@ export default class NewsCell extends React.Component {
                     alignItems: "center"
                   }}>
                     <Image source={require('../../Assets/images/icon-like.png')} style={styles.iconLikeIV} />
-                    <Text style={styles.spacewoman185kLiLabel}>{strings("TimelineVC.spacewoman185kLiLabelText")}</Text>
+                    <Text numberOfLines={1} style={styles.spacewoman185kLiLabel}>{strings("TimelineVC.spacewoman185kLiLabelText")}</Text>
                   </View>
                   <View pointerEvents="box-none" style={{
                     flexDirection: "row",
@@ -64,7 +64,7 @@ export default class NewsCell extends React.Component {
                     justifyContent: "flex-end",
                     flex: 1
                   }}>
-                    <Text style={styles.kCommentsLabel}>{strings("TimelineVC.kCommentsLabelText")}</Text>
+                    <Text numberOfLines={1} style={styles.kCommentsLabel}>{strings("TimelineVC.kCommentsLabelText")}</Text>
                     <Image source={require('../../Assets/images/icon-comment.png')} style={styles.iconCommentIV} />
                   </View>
                 </View>
@@ -84,8 +84,8 @@ export default class NewsCell extends React.Component {
             }}>
               <Image source={require('../../Assets/images/icon-avatar.png')} style={styles.iconAvatarIV} />
               <View pointerEvents="box-none">
-                <Text style={styles.spacecrunchLabel}>{strings("TimelineVC.spacecrunchLabelText")}</Text>
-                <Text style={styles.today145PmLabel}>{strings("TimelineVC.today145PmLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.spacecrunchLabel}>{strings("TimelineVC.spacecrunchLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.today145PmLabel}>{strings("TimelineVC.today145PmLabelText")}</Text>
               </View>
             </View>
           </View>

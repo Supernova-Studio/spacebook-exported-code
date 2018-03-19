@@ -106,7 +106,7 @@ export default class App extends React.Component {
 
 
   async initProjectFonts() {
-    await Font.loadAsync({ 'Lato-Black': require('./Assets/fonts/Lato-Black.ttf'), 'Lato-Bold': require('./Assets/fonts/Lato-Bold.ttf'), 'Lato-Regular': require('./Assets/fonts/Lato-Regular.ttf'), 'Lato-Light': require('./Assets/fonts/Lato-Light.ttf'), '.SFNSDisplay': require('./Assets/fonts/SFNSDisplay.ttf') });
+    await Font.loadAsync({ 'Lato-Bold': require('./Assets/fonts/Lato-Bold.ttf'), 'Lato-Black': require('./Assets/fonts/Lato-Black.ttf'), 'Lato-Regular': require('./Assets/fonts/Lato-Regular.ttf'), 'Lato-Light': require('./Assets/fonts/Lato-Light.ttf'), '.SFNSDisplay': require('./Assets/fonts/SFNSDisplay.ttf') });
 
     this.setState({
       fontsReady: true

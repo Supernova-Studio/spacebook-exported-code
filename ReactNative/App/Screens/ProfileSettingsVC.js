@@ -2,7 +2,7 @@
 //  ProfileSettingsVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -42,7 +42,7 @@ export default class ProfileSettingsVC extends React.Component {
           marginLeft: 8
         }}>
           <TouchableOpacity onPress={params.onItemPressed ? params.onItemPressed : () => null}>
-            <Image source={require('../../Assets/images/group.png')} />
+            <Image source={require('../../Assets/images/group-2.png')} />
           </TouchableOpacity>
         </View>
       ),
@@ -72,9 +72,9 @@ export default class ProfileSettingsVC extends React.Component {
   render() {
     return (
       <View style={styles.profileSettings}>
-        <Image source={require('../../Assets/images/avatar-temp-1.png')} style={styles.avatarTempIV} />
+        <Image source={require('../../Assets/images/avatar-temp.png')} style={styles.avatarTempIV} />
         <View style={styles.information}>
-          <Text style={styles.detailsLabel}>{strings("ProfileSettingsVC.detailsLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.detailsLabel}>{strings("ProfileSettingsVC.detailsLabelText")}</Text>
           <View style={styles.group6}>
             <View style={styles.uiSettingsCell}>
               <View pointerEvents="box-none" style={{
@@ -92,7 +92,7 @@ export default class ProfileSettingsVC extends React.Component {
                     flexDirection: "row",
                     alignItems: "center"
                   }}>
-                    <Text style={styles.label}>{strings("ProfileSettingsVC.labelText")}</Text>
+                    <Text numberOfLines={1} style={styles.label}>{strings("ProfileSettingsVC.labelText")}</Text>
                   </View>
                   <View pointerEvents="box-none" style={{
                     flexDirection: "row",
@@ -101,7 +101,7 @@ export default class ProfileSettingsVC extends React.Component {
                     flex: 1
                   }}>
                     <Image source={require('../../Assets/images/path-2.png')} style={styles.path2IV} />
-                    <Text style={styles.textLabel}>{strings("ProfileSettingsVC.textLabelText")}</Text>
+                    <Text numberOfLines={1} style={styles.textLabel}>{strings("ProfileSettingsVC.textLabelText")}</Text>
                   </View>
                 </View>
               </View>
@@ -124,7 +124,7 @@ export default class ProfileSettingsVC extends React.Component {
                     flexDirection: "row",
                     alignItems: "center"
                   }}>
-                    <Text style={styles.labelFive}>{strings("ProfileSettingsVC.labelFiveText")}</Text>
+                    <Text numberOfLines={1} style={styles.labelFive}>{strings("ProfileSettingsVC.labelFiveText")}</Text>
                   </View>
                   <View pointerEvents="box-none" style={{
                     flexDirection: "row",
@@ -133,13 +133,13 @@ export default class ProfileSettingsVC extends React.Component {
                     flex: 1
                   }}>
                     <Image source={require('../../Assets/images/path-2.png')} style={styles.path2IVTwo} />
-                    <Text style={styles.textLabelFour}>{strings("ProfileSettingsVC.textLabelFourText")}</Text>
+                    <Text numberOfLines={1} style={styles.textLabelFour}>{strings("ProfileSettingsVC.textLabelFourText")}</Text>
                   </View>
                 </View>
               </View>
             </View>
           </View>
-          <Text style={styles.informationLabel}>{strings("ProfileSettingsVC.informationLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.informationLabel}>{strings("ProfileSettingsVC.informationLabelText")}</Text>
           <View style={styles.group3}>
             <View pointerEvents="box-none" style={{
               justifyContent: "center",
@@ -156,7 +156,7 @@ export default class ProfileSettingsVC extends React.Component {
                   flexDirection: "row",
                   alignItems: "center"
                 }}>
-                  <Text style={styles.labelTwo}>{strings("ProfileSettingsVC.labelTwoText")}</Text>
+                  <Text numberOfLines={1} style={styles.labelTwo}>{strings("ProfileSettingsVC.labelTwoText")}</Text>
                 </View>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
@@ -164,7 +164,7 @@ export default class ProfileSettingsVC extends React.Component {
                   justifyContent: "flex-end",
                   flex: 1
                 }}>
-                  <Text style={styles.textLabelTwo}>{strings("ProfileSettingsVC.textLabelTwoText")}</Text>
+                  <Text numberOfLines={1} style={styles.textLabelTwo}>{strings("ProfileSettingsVC.textLabelTwoText")}</Text>
                 </View>
               </View>
             </View>
@@ -185,7 +185,7 @@ export default class ProfileSettingsVC extends React.Component {
                   flexDirection: "row",
                   alignItems: "center"
                 }}>
-                  <Text style={styles.labelSix}>{strings("ProfileSettingsVC.labelSixText")}</Text>
+                  <Text numberOfLines={1} style={styles.labelSix}>{strings("ProfileSettingsVC.labelSixText")}</Text>
                 </View>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
@@ -214,8 +214,8 @@ export default class ProfileSettingsVC extends React.Component {
                   flexDirection: "row",
                   alignItems: "center"
                 }}>
-                  <Text style={styles.labelFour}>{strings("ProfileSettingsVC.labelFourText")}</Text>
-                  <Text style={styles.labelThree}>{strings("ProfileSettingsVC.labelThreeText")}</Text>
+                  <Text numberOfLines={1} style={styles.labelFour}>{strings("ProfileSettingsVC.labelFourText")}</Text>
+                  <Text numberOfLines={1} style={styles.labelThree}>{strings("ProfileSettingsVC.labelThreeText")}</Text>
                 </View>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
@@ -223,7 +223,7 @@ export default class ProfileSettingsVC extends React.Component {
                   justifyContent: "flex-end",
                   flex: 1
                 }}>
-                  <Text style={styles.textLabelThree}>{strings("ProfileSettingsVC.textLabelThreeText")}</Text>
+                  <Text numberOfLines={1} style={styles.textLabelThree}>{strings("ProfileSettingsVC.textLabelThreeText")}</Text>
                 </View>
               </View>
             </View>

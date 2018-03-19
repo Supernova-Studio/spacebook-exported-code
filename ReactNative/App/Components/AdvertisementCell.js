@@ -2,7 +2,7 @@
 //  AdvertisementCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -35,11 +35,11 @@ export default class AdvertisementCell extends React.Component {
             flexDirection: "row",
             alignSelf: "stretch"
           }}>
-            <Image source={require('../../Assets/images/bg-event-temp-1.png')} style={styles.bgEventTempIV} />
+            <Image source={require('../../Assets/images/bg-event-temp-2.png')} style={styles.bgEventTempIV} />
             <View pointerEvents="box-none">
-              <Text style={styles.sprayAndPrayLabel}>{strings("TimelineVC.sprayAndPrayLabelText")}</Text>
-              <Text style={styles.hullTattoosANewLabel}>{strings("TimelineVC.hullTattoosANewLabelText")}</Text>
-              <Text style={styles.sponsoredContentLabel}>{strings("TimelineVC.sponsoredContentLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.sprayAndPrayLabel}>{strings("TimelineVC.sprayAndPrayLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.hullTattoosANewLabel}>{strings("TimelineVC.hullTattoosANewLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.sponsoredContentLabel}>{strings("TimelineVC.sponsoredContentLabelText")}</Text>
             </View>
           </View>
         </View>

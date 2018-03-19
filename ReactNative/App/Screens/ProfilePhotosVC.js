@@ -2,7 +2,7 @@
 //  ProfilePhotosVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -44,7 +44,7 @@ export default class ProfilePhotosVC extends React.Component {
           marginLeft: 8
         }}>
           <TouchableOpacity onPress={params.onItemPressed ? params.onItemPressed : () => null}>
-            <Image source={require('../../Assets/images/group.png')} />
+            <Image source={require('../../Assets/images/group-2.png')} />
           </TouchableOpacity>
         </View>
       ),
@@ -104,7 +104,7 @@ export default class ProfilePhotosVC extends React.Component {
   render() {
     return (
       <View style={styles.profilePhotos}>
-        <FlatList renderItem={this.renderTitleCell} data={this.mockData} numColumns={3} style={styles.collectionView} />
+        <FlatList renderItem={this.renderTitleCell} data={this.mockData} numColumns={1} style={styles.collectionView} />
       </View>
     );
   }

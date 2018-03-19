@@ -3,10 +3,10 @@
     "name": "Spacebook",
     "sdkVersion": "25.0.0",
     "ios": {
-      "bundleIdentifier": "studio.supernova.spacebook"
+      "bundleIdentifier": "com.supenova.spacebook"
     },
     "android": {
-      "package": "studio.supernova.spacebook"
+      "package": "com.supenova.spacebook"
     }
   }
 }

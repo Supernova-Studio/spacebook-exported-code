@@ -2,7 +2,7 @@
 //  SignupVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -34,7 +34,7 @@ export default class SignupVC extends React.Component {
           marginLeft: 8
         }}>
           <TouchableOpacity onPress={params.onItemPressed ? params.onItemPressed : () => null}>
-            <Image source={require('../../Assets/images/group.png')} />
+            <Image source={require('../../Assets/images/group-2.png')} />
           </TouchableOpacity>
         </View>
       ),
@@ -83,7 +83,7 @@ export default class SignupVC extends React.Component {
         y: 1.10
       }} colors={['rgba(247, 132, 97, 1)', 'rgba(139, 27, 139, 1)']} locations={[0.00, 1.00]} style={styles.signupLinearGradient}>
         <View style={styles.signup}>
-          <Text style={styles.signUpLabel}>{strings("SignupVC.signUpLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.signUpLabel}>{strings("SignupVC.signUpLabelText")}</Text>
           <Text style={styles.itSFreeLabel}>{strings("SignupVC.itSFreeLabelText")}</Text>
           <View style={styles.signUpFields}>
             <TextInput placeholder={strings("SignupVC.yourNicknameTFText")} style={styles.yourNicknameTF} />
@@ -108,7 +108,7 @@ export default class SignupVC extends React.Component {
                   flexDirection: "row",
                   alignItems: "center"
                 }}>
-                  <Text style={styles.iAgreeWithIntergaLabel}>{strings("SignupVC.iAgreeWithIntergaLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.iAgreeWithIntergaLabel}>{strings("SignupVC.iAgreeWithIntergaLabelText")}</Text>
                 </View>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
@@ -126,16 +126,16 @@ export default class SignupVC extends React.Component {
             flex: 1
           }}>
             <TouchableOpacity onPress={this.onSignUpPressed} style={styles.signUpTouchable}>
-              <Text style={styles.signUp}>{strings("SignupVC.signUpText")}</Text>
+              <Text numberOfLines={1} style={styles.signUp}>{strings("SignupVC.signUpText")}</Text>
             </TouchableOpacity>
             <View style={styles.logIn}>
               <View pointerEvents="box-none" style={{
                 flexDirection: "row",
                 alignSelf: "stretch"
               }}>
-                <Text style={styles.alreadyGaveUpYourLabel}>{strings("SignupVC.alreadyGaveUpYourLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.alreadyGaveUpYourLabel}>{strings("SignupVC.alreadyGaveUpYourLabelText")}</Text>
                 <TouchableOpacity onPress={this.onLogInPressed} style={styles.logInButtonTouchable}>
-                  <Text style={styles.logInButton}>{strings("SignupVC.logInButtonText")}</Text>
+                  <Text numberOfLines={1} style={styles.logInButton}>{strings("SignupVC.logInButtonText")}</Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -211,6 +211,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
     alignSelf: "stretch",
+    height: 23.00,
     marginLeft: 15.00,
     marginTop: 12.00,
     marginRight: 12.00
@@ -225,6 +226,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
     alignSelf: "stretch",
+    height: 23.00,
     marginLeft: 15.00,
     marginTop: 12.00,
     marginRight: 12.00
@@ -239,6 +241,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
     alignSelf: "stretch",
+    height: 23.00,
     marginLeft: 15.00,
     marginTop: 12.00,
     marginRight: 12.00,

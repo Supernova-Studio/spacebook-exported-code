@@ -2,7 +2,7 @@
 //  ProfileVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -45,7 +45,7 @@ export default class ProfileVC extends React.Component {
   height: 24,
   tintColor: iconTintColor,
   resizeMode: "cover"
-}} source={require('../../Assets/images/active-icon.png')} />
+}} source={require('../../Assets/images/active-icon-2.png')} />
         );
       },
       headerLeft: null,
@@ -111,9 +111,9 @@ export default class ProfileVC extends React.Component {
     return (
       <View style={styles.profile}>
         <View style={styles.header}>
-          <Image source={require('../../Assets/images/avatar-temp.png')} style={styles.avatarTempIV} />
-          <Text style={styles.drWhatLabel}>{strings("ProfileVC.drWhatLabelText")}</Text>
-          <Text style={styles.phoneBoothAndroLabel}>{strings("ProfileVC.phoneBoothAndroLabelText")}</Text>
+          <Image source={require('../../Assets/images/avatar-temp-2.png')} style={styles.avatarTempIV} />
+          <Text numberOfLines={1} style={styles.drWhatLabel}>{strings("ProfileVC.drWhatLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.phoneBoothAndroLabel}>{strings("ProfileVC.phoneBoothAndroLabelText")}</Text>
           <Text style={styles.travelerDreamerLabel}>{strings("ProfileVC.travelerDreamerLabelText")}</Text>
         </View>
         <View style={styles.infoBar}>
@@ -122,15 +122,15 @@ export default class ProfileVC extends React.Component {
             alignSelf: "stretch"
           }}>
             <View style={styles.group5}>
-              <Text style={styles.labelTwo}>{strings("ProfileVC.labelTwoText")}</Text>
-              <Text style={styles.photosLabel}>{strings("ProfileVC.photosLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.labelTwo}>{strings("ProfileVC.labelTwoText")}</Text>
+              <Text numberOfLines={1} style={styles.photosLabel}>{strings("ProfileVC.photosLabelText")}</Text>
             </View>
             <View style={styles.group6}>
-              <Text style={styles.kLabel}>{strings("ProfileVC.kLabelText")}</Text>
-              <Text style={styles.stalkersLabel}>{strings("ProfileVC.stalkersLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.kLabel}>{strings("ProfileVC.kLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.stalkersLabel}>{strings("ProfileVC.stalkersLabelText")}</Text>
             </View>
             <View style={styles.group7}>
-              <Text style={styles.label}>{strings("ProfileVC.labelText")}</Text>
+              <Text numberOfLines={1} style={styles.label}>{strings("ProfileVC.labelText")}</Text>
               <View pointerEvents="box-none" style={{
                 flexDirection: "row",
                 alignSelf: "stretch"
@@ -140,14 +140,14 @@ export default class ProfileVC extends React.Component {
                 width: "100%",
                 height: "100%"
               }}>
-                <Text style={styles.stalkingLabel}>{strings("ProfileVC.stalkingLabelText")}</Text>
+                <Text numberOfLines={1} style={styles.stalkingLabel}>{strings("ProfileVC.stalkingLabelText")}</Text>
               </View>
             </View>
           </View>
         </View>
         <View style={styles.gallery}>
-          <Text style={styles.latestPhotosLabel}>{strings("ProfileVC.latestPhotosLabelText")}</Text>
-          <FlatList renderItem={this.renderViewCell} data={this.mockData} numColumns={3} style={styles.collectionView} />
+          <Text numberOfLines={1} style={styles.latestPhotosLabel}>{strings("ProfileVC.latestPhotosLabelText")}</Text>
+          <FlatList horizontal={true} data={this.mockData} numColumns={1} renderItem={this.renderViewCell} style={styles.collectionView} />
         </View>
       </View>
     );
@@ -181,7 +181,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
-    alignSelf: "center"
+    alignSelf: "center",
+    height: 19.00
   },
   drWhatLabel: {
     color: 'rgba(4, 11, 22, 1)',
@@ -192,6 +193,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     backgroundColor: 'rgba(0, 0, 0, 0)',
     alignSelf: "center",
+    height: 40.00,
     marginTop: 4.00
   },
   travelerDreamerLabel: {
@@ -202,8 +204,10 @@ const styles = StyleSheet.create({
     fontWeight: "normal",
     textAlign: "center",
     backgroundColor: 'rgba(0, 0, 0, 0)',
-    alignSelf: "center",
+    alignSelf: "stretch",
+    marginLeft: 41.00,
     marginTop: 12.00,
+    marginRight: 40.00,
     marginBottom: 27.00
   },
   infoBar: {
@@ -300,8 +304,10 @@ const styles = StyleSheet.create({
   gallery: {
     backgroundColor: 'rgba(0, 0, 0, 0)',
     alignSelf: "stretch",
+    height: 155.00,
     marginLeft: 2.00,
-    marginRight: 2.00
+    marginRight: 2.00,
+    marginBottom: 67.00
   },
   latestPhotosLabel: {
     color: 'rgba(0, 0, 0, 1)',

@@ -2,7 +2,7 @@
 //  EventDetailVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -43,7 +43,7 @@ export default class EventDetailVC extends React.Component {
           marginLeft: 8
         }}>
           <TouchableOpacity onPress={params.onItemPressed ? params.onItemPressed : () => null}>
-            <Image source={require('../../Assets/images/group.png')} />
+            <Image source={require('../../Assets/images/group-2.png')} />
           </TouchableOpacity>
         </View>
       ),
@@ -121,21 +121,21 @@ export default class EventDetailVC extends React.Component {
                 flexDirection: "row",
                 alignSelf: "stretch"
               }}>
-                <Image source={require('../../Assets/images/avatar.png')} style={styles.avatarIV} />
+                <Image source={require('../../Assets/images/avatar-5.png')} style={styles.avatarIV} />
                 <View pointerEvents="box-none">
-                  <Text style={styles.guessWhoSBackLabel}>{strings("EventDetailVC.guessWhoSBackLabelText")}</Text>
-                  <Text style={styles.happeningIn20hBaLabel}>{strings("EventDetailVC.happeningIn20hBaLabelText")}</Text>
-                  <Text style={styles.eventPostedByLaikLabel}>{strings("EventDetailVC.eventPostedByLaikLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.guessWhoSBackLabel}>{strings("EventDetailVC.guessWhoSBackLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.happeningIn20hBaLabel}>{strings("EventDetailVC.happeningIn20hBaLabelText")}</Text>
+                  <Text numberOfLines={1} style={styles.eventPostedByLaikLabel}>{strings("EventDetailVC.eventPostedByLaikLabelText")}</Text>
                 </View>
                 <View pointerEvents="box-none" style={{
                   flexDirection: "row",
                   justifyContent: "flex-end",
                   flex: 1
                 }}>
-                  <Image source={require('../../Assets/images/group-1.png')} style={styles.groupIV} />
+                  <Image source={require('../../Assets/images/group.png')} style={styles.groupIV} />
                 </View>
               </View>
-              <Text style={styles.comingLabel}>{strings("EventDetailVC.comingLabelText")}</Text>
+              <Text numberOfLines={1} style={styles.comingLabel}>{strings("EventDetailVC.comingLabelText")}</Text>
             </View>
           </View>
         </View>

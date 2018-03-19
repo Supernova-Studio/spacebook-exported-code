@@ -2,7 +2,7 @@
 //  LoginVC
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -34,7 +34,7 @@ export default class LoginVC extends React.Component {
           marginLeft: 8
         }}>
           <TouchableOpacity onPress={params.onItemPressed ? params.onItemPressed : () => null}>
-            <Image source={require('../../Assets/images/group.png')} />
+            <Image source={require('../../Assets/images/group-2.png')} />
           </TouchableOpacity>
         </View>
       ),
@@ -77,7 +77,7 @@ export default class LoginVC extends React.Component {
         y: 1.10
       }} colors={['rgba(247, 132, 97, 1)', 'rgba(139, 27, 139, 1)']} locations={[0.00, 1.00]} style={styles.loginLinearGradient}>
         <View style={styles.login}>
-          <Text style={styles.logInLabel}>{strings("LoginVC.logInLabelText")}</Text>
+          <Text numberOfLines={1} style={styles.logInLabel}>{strings("LoginVC.logInLabelText")}</Text>
           <Text style={styles.welcomeBackLabel}>{strings("LoginVC.welcomeBackLabelText")}</Text>
           <View style={styles.loginFields}>
             <TextInput placeholder={strings("LoginVC.yourNicknameTFText")} style={styles.yourNicknameTF} />
@@ -89,10 +89,10 @@ export default class LoginVC extends React.Component {
             flex: 1
           }}>
             <TouchableOpacity onPress={this.onLoginPressed} style={styles.loginTwoTouchable}>
-              <Text style={styles.loginTwo}>{strings("LoginVC.loginTwoText")}</Text>
+              <Text numberOfLines={1} style={styles.loginTwo}>{strings("LoginVC.loginTwoText")}</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={this.onForgotYourPasswordPressed} style={styles.forgotYourPasswordButtonTouchable}>
-              <Text style={styles.forgotYourPasswordButton}>{strings("LoginVC.forgotYourPasswordButtonText")}</Text>
+              <Text numberOfLines={1} style={styles.forgotYourPasswordButton}>{strings("LoginVC.forgotYourPasswordButtonText")}</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
     alignSelf: "stretch",
+    height: 23.00,
     marginLeft: 15.00,
     marginTop: 12.00,
     marginRight: 14.00
@@ -173,6 +174,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0)',
     opacity: 0.40,
     alignSelf: "stretch",
+    height: 23.00,
     marginLeft: 15.00,
     marginTop: 12.00,
     marginRight: 14.00,

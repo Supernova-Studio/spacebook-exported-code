@@ -2,7 +2,7 @@
 //  ViewFourCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -25,7 +25,7 @@ export default class ViewFourCell extends React.Component {
   render() {
     return (
       <View style={styles.viewCell}>
-        <Image source={require('../../Assets/images/bg-photo.png')} style={styles.bgPhotoIV} />
+        <Image source={require('../../Assets/images/bg-photo-7.png')} style={styles.bgPhotoIV} />
       </View>
     );
   }

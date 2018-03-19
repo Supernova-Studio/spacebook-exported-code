@@ -2,7 +2,7 @@
 //  MessageCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -31,8 +31,8 @@ export default class MessageCell extends React.Component {
         }}>
           <Image source={require('../../Assets/images/avatar-4.png')} style={styles.avatarIV} />
           <View pointerEvents="box-none">
-            <Text style={styles.nameLabel}>{strings("MessagesVC.nameLabelText")}</Text>
-            <Text style={styles.theWaterSoTestyYLabel}>{strings("MessagesVC.theWaterSoTestyYLabelText")}</Text>
+            <Text numberOfLines={1} style={styles.nameLabel}>{strings("MessagesVC.nameLabelText")}</Text>
+            <Text numberOfLines={1} style={styles.theWaterSoTestyYLabel}>{strings("MessagesVC.theWaterSoTestyYLabelText")}</Text>
           </View>
         </View>
         <View pointerEvents="box-none" style={{
@@ -48,7 +48,7 @@ export default class MessageCell extends React.Component {
             justifyContent: "flex-end",
             alignSelf: "flex-end"
           }}>
-            <Image source={require('../../Assets/images/path-2-1.png')} style={styles.path2IV} />
+            <Image source={require('../../Assets/images/path-2-2.png')} style={styles.path2IV} />
           </View>
         </View>
       </View>

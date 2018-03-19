@@ -2,7 +2,7 @@
 //  OnlinePersonCell.js
 //  Spacebook
 //
-//  Created by Supernova.
+//  Created by [Author].
 //  Copyright © 2017 Supernova. All rights reserved.
 //
 
@@ -25,8 +25,8 @@ export default class OnlinePersonCell extends React.Component {
   render() {
     return (
       <View style={styles.onlinePersonCell}>
-        <Image source={require('../../Assets/images/avatar-temp-2.png')} style={styles.avatarTempIV} />
-        <Text style={styles.mrsDoyaLabel}>{strings("MessagesVC.mrsDoyaLabelText")}</Text>
+        <Image source={require('../../Assets/images/avatar-temp-4.png')} style={styles.avatarTempIV} />
+        <Text numberOfLines={1} style={styles.mrsDoyaLabel}>{strings("MessagesVC.mrsDoyaLabelText")}</Text>
       </View>
     );
   }
