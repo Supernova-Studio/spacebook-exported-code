@@ -1,22 +1,26 @@
 package com.example.project;
+
 import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import com.example.project.R;
+import java.util.*;
 import android.support.v4.view.ViewPager;
-import java.util.List;
-import java.util.ArrayList;
 import android.support.v4.app.Fragment;
 import android.view.MenuItem;
 import android.support.design.widget.BottomNavigationView;
 import android.support.annotation.NonNull;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.support.v7.widget.Toolbar;
+
 /**
  *  Created by [Author].
  */
 public class TabBarHolderActivityOne extends AppCompatActivity {
-
 
 	public static Intent newIntent(Context context) {
 		return new Intent(context, TabBarHolderActivityOne.class);
@@ -29,25 +33,25 @@ public class TabBarHolderActivityOne extends AppCompatActivity {
 		this.init();
 	}
 
-	public void init() {
-		List<Fragment> fragments = (List<Fragment>) new ArrayList<Fragment>();
-		fragments.add(TimelineVC.newInstance());
-		fragments.add(ProfileVC.newInstance());
-		fragments.add(MessagesVC.newInstance());
+	private void init() {
+		List<Fragment> fragments = Arrays.asList(TimelineVC.newInstance(), ProfileVC.newInstance(), MessagesVC.newInstance());
 		TabBarHolderActivityOnePagerAdapter adapter = new TabBarHolderActivityOnePagerAdapter(getSupportFragmentManager(), fragments);
 		ViewPager viewPager = findViewById(R.id.view_pager);
 		viewPager.setAdapter(adapter);
 		BottomNavigationView tabBar = findViewById(R.id.tab_bar);
-		tabBar.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() { 
-			@Override
-			public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-				onTabSelected(item.getItemId());
-				return true;
-			}
+		tabBar.setOnNavigationItemSelectedListener(item -> {
+			onTabSelected(item.getItemId());
+			return true;
 		});
+		setupToolbar();
 	}
 
-	public void onTabSelected(int menuItemId) {
+	private void setupToolbar() {
+		Toolbar toolbar = findViewById(R.id.activity_tab_bar_holder_activity_one_toolbar);
+		setSupportActionBar(toolbar);
+	}
+
+	private void onTabSelected(int menuItemId) {
 		ViewPager viewPager = findViewById(R.id.view_pager);
 		switch(menuItemId) {
 			case R.id.tab_bar_item_1:
@@ -64,6 +68,4 @@ public class TabBarHolderActivityOne extends AppCompatActivity {
 
 		}
 	}
-
-
 }

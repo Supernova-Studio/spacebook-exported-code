@@ -1,14 +1,19 @@
 package com.example.project;
+
 import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import com.example.project.R;
+import java.util.*;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
+
 /**
  *  Created by [Author].
  */
@@ -26,6 +31,7 @@ public class ProfileSettingsVC extends AppCompatActivity {
 	private TextView detailsLabel;
 	private TextView informationLabel;
 	private TextView labelSix;
+
 	public static Intent newIntent(Context context) {
 		return new Intent(context, ProfileSettingsVC.class);
 	}
@@ -43,13 +49,23 @@ public class ProfileSettingsVC extends AppCompatActivity {
 		return true;
 	}
 
-	public void setupToolbar() {
+	@Override
+	public boolean onOptionsItemSelected(MenuItem menuItem) {
+		switch(menuItem.getItemId()) {
+			case android.R.id.home:
+				finish();
+				return true;
+		}
+		return super.onOptionsItemSelected(menuItem);
+	}
+
+	private void setupToolbar() {
 		Toolbar toolbar = findViewById(R.id.activity_profile_settings_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
-	public void init() {
+	private void init() {
 		textLabel = this.findViewById(R.id.text_label);
 		label = this.findViewById(R.id.label);
 		textLabelTwo = this.findViewById(R.id.text_label_two);
@@ -68,9 +84,7 @@ public class ProfileSettingsVC extends AppCompatActivity {
 		setupToolbar();
 	}
 
-	public void onSlideValueChanged() {
+	private void onSlideValueChanged() {
 
 	}
-
-
 }

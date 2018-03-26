@@ -1,12 +1,16 @@
 package com.example.project;
+
 import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import com.example.project.R;
-public class SplashActivity extends AppCompatActivity {
 
+/**
+ *  Created by [Author].
+ */
+public class SplashActivity extends AppCompatActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -14,6 +18,4 @@ public class SplashActivity extends AppCompatActivity {
 		this.startActivity(WelcomeVC.newIntent(this));
 		finish();
 	}
-
-
 }

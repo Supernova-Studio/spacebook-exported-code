@@ -3,6 +3,11 @@
 
 
 
+	<!-- Application level -->
+
+	<color name="click_overlay">#6868684D</color>
+
+
 	<!-- WelcomeVC -->
 
 	<color name="activity_welcome_vc_welcome_from_color">#F78462</color>
@@ -24,6 +29,8 @@
 
 	<color name="activity_login_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_login_vc_view_text_color">#000000</color>
+	<color name="activity_login_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_login_vc_item_navigation_bar_item_text_color">#000000</color>
 	<color name="activity_login_vc_login_from_color">#F78462</color>
 	<color name="activity_login_vc_login_to_color">#8B1B8C</color>
 	<color name="activity_login_vc_log_in_label_background_color">@android:color/transparent</color>
@@ -46,6 +53,8 @@
 
 	<color name="activity_signup_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_signup_vc_view_text_color">#000000</color>
+	<color name="activity_signup_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vc_item_navigation_bar_item_text_color">#000000</color>
 	<color name="activity_signup_vc_signup_from_color">#F78462</color>
 	<color name="activity_signup_vc_signup_to_color">#8B1B8C</color>
 	<color name="activity_signup_vc_sign_up_label_background_color">@android:color/transparent</color>
@@ -142,6 +151,8 @@
 
 	<color name="activity_profile_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_profile_vc_view_text_color">#FFFFFF</color>
+	<color name="activity_profile_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vc_item_navigation_bar_item_text_color">#000000</color>
 	<color name="activity_profile_vc_tab_bar_background_color">#F8F8F8</color>
 	<color name="activity_profile_vc_tab_bar_tint">#92238A</color>
 	<color name="activity_profile_vc_profile_background_color">#F4F2F4</color>
@@ -181,6 +192,8 @@
 
 	<color name="activity_profile_photos_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_profile_photos_vc_view_text_color">#FFFFFF</color>
+	<color name="activity_profile_photos_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_photos_vc_item_navigation_bar_item_text_color">#000000</color>
 	<color name="activity_profile_photos_vc_profile_photos_background_color">#F4F2F4</color>
 	<color name="activity_profile_photos_vc_collection_view_background_color">@android:color/transparent</color>
 	<color name="activity_title_cell_title_cell_background_color">@android:color/transparent</color>
@@ -195,6 +208,8 @@
 
 	<color name="activity_profile_settings_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_profile_settings_vc_view_text_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vc_item_navigation_bar_item_text_color">#000000</color>
 	<color name="activity_profile_settings_vc_profile_settings_background_color">#F4F2F4</color>
 	<color name="activity_profile_settings_vc_information_background_color">@android:color/transparent</color>
 	<color name="activity_profile_settings_vc_avatar_temp_iv_background_color">@android:color/transparent</color>
@@ -261,6 +276,10 @@
 
 	<color name="activity_event_detail_vc_view_background_color">@android:color/transparent</color>
 	<color name="activity_event_detail_vc_view_text_color">#FFFFFF</color>
+	<color name="activity_event_detail_vc_item_navigation_bar_item_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vc_item_navigation_bar_item_text_color">#000000</color>
+	<color name="activity_event_detail_vc_item_navigation_bar_item_two_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vc_item_navigation_bar_item_two_text_color">#000000</color>
 	<color name="activity_event_detail_vc_event_detail_background_color">#F4F2F4</color>
 	<color name="activity_event_detail_vc_map_view_background_color">@android:color/transparent</color>
 	<color name="activity_event_detail_vc_icon_event_area_iv_background_color">@android:color/transparent</color>

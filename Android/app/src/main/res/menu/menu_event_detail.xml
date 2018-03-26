@@ -5,7 +5,8 @@
 	xmlns:tools="http://schemas.android.com/tools">
 
 	<item
-		android:id="@+id/menu_item_1"
+		android:id="@+id/item_navigation_bar_item_two"
+		android:title="@string/activity_event_detail_vc_item_navigation_bar_item_two_text"
 		app:showAsAction="ifRoom"/>
 
 </menu>

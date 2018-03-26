@@ -61,6 +61,7 @@
 
 	<!-- ProfileVC -->
 
+	<string name="activity_profile_vc_item_navigation_bar_item_text">Settings</string>
 	<string name="activity_profile_vc_phone_booth_andro_label_text">1 Phone Booth, Andromeda</string>
 	<string name="activity_profile_vc_dr_what_label_text">Dr. What</string>
 	<string name="activity_profile_vc_traveler_dreamer_label_text">Traveler, dreamer, showman. Occasionally gets\ninto fight, not always survives.</string>
@@ -103,6 +104,7 @@
 
 	<!-- EventDetailVC -->
 
+	<string name="activity_event_detail_vc_item_navigation_bar_item_two_text">Events</string>
 	<string name="activity_event_detail_vc_guess_who_sback_label_text">Guess who’s back?</string>
 	<string name="activity_event_detail_vc_happening_in20h_ba_label_text">Happening in 20h, Bajkonur</string>
 	<string name="activity_event_detail_vc_event_posted_by_laik_label_text">Event posted by Laika</string>

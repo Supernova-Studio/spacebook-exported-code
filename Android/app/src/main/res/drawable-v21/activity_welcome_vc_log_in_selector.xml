@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <ripple
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:color="#6868684D">
+	android:color="@color/click_overlay">
 
 	<item android:id="@android:id/mask">
 
 		<shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-			<solid android:color="#6868684D"/>
+			<solid android:color="@color/click_overlay"/>
 
 			<corners android:radius="@dimen/activity_welcome_vc_log_in_radius"/>
 
@@ -19,7 +19,7 @@
 
 		<shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-			<solid android:color="#FFFFFF"/>
+			<solid android:color="@color/activity_welcome_vc_log_in_background_color"/>
 
 			<corners android:radius="@dimen/activity_welcome_vc_log_in_radius"/>
 

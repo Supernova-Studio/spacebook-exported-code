@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<solid android:color="#FFFFFF"/>
+	<solid android:color="@color/activity_signup_vc_sign_up_fields_background_color"/>
 
 	<corners android:radius="@dimen/activity_signup_vc_sign_up_fields_radius"/>
 

@@ -1,16 +1,21 @@
 package com.example.project;
+
 import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import com.example.project.R;
+import java.util.*;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.support.constraint.ConstraintLayout;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
+
 /**
  *  Created by [Author].
  */
@@ -24,6 +29,7 @@ public class LoginVC extends AppCompatActivity {
 	private EditText yourPasswordTF;
 	private View loginTwo;
 	private View forgotYourPasswordButton;
+
 	public static Intent newIntent(Context context) {
 		return new Intent(context, LoginVC.class);
 	}
@@ -41,13 +47,23 @@ public class LoginVC extends AppCompatActivity {
 		return true;
 	}
 
-	public void setupToolbar() {
+	@Override
+	public boolean onOptionsItemSelected(MenuItem menuItem) {
+		switch(menuItem.getItemId()) {
+			case android.R.id.home:
+				finish();
+				return true;
+		}
+		return super.onOptionsItemSelected(menuItem);
+	}
+
+	private void setupToolbar() {
 		Toolbar toolbar = findViewById(R.id.activity_login_vc_toolbar);
 		setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
-	public void init() {
+	private void init() {
 		login = this.findViewById(R.id.login);
 		logInLabel = this.findViewById(R.id.log_in_label);
 		welcomeBackLabel = this.findViewById(R.id.welcome_back_label);
@@ -65,17 +81,15 @@ public class LoginVC extends AppCompatActivity {
 		setupToolbar();
 	}
 
-	public void onForgotYourPasswordPressed() {
+	private void onForgotYourPasswordPressed() {
 
 	}
 
-	public void onLoginPressed() {
+	private void onLoginPressed() {
 		this.startTabBarHolderActivityOne();
 	}
 
-	public void startTabBarHolderActivityOne() {
+	private void startTabBarHolderActivityOne() {
 		this.startActivity(TabBarHolderActivityOne.newIntent(this));
 	}
-
-
 }

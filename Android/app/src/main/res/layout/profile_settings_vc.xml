@@ -6,7 +6,7 @@
 	android:id="@+id/profile_settings"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="#F4F2F4">
+	android:background="@color/activity_profile_settings_vc_profile_settings_background_color">
 
 	<android.support.constraint.ConstraintLayout
 		android:id="@+id/information"
@@ -34,7 +34,7 @@
 				android:id="@+id/ui_settings_cell"
 				android:layout_width="0dp"
 				android:layout_height="@dimen/activity_profile_settings_vc_ui_settings_cell_height"
-				android:background="#FFFFFF"
+				android:background="@color/activity_profile_settings_vc_ui_settings_cell_background_color"
 				app:layout_constraintBottom_toBottomOf="parent"
 				app:layout_constraintLeft_toLeftOf="parent"
 				app:layout_constraintRight_toRightOf="parent"
@@ -96,7 +96,7 @@
 			android:layout_width="0dp"
 			android:layout_height="@dimen/activity_profile_settings_vc_group3_height"
 			android:layout_marginTop="@dimen/activity_profile_settings_vc_group3_margin_top"
-			android:background="#FFFFFF"
+			android:background="@color/activity_profile_settings_vc_group3_background_color"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/information_label"
@@ -141,7 +141,7 @@
 			android:id="@+id/group"
 			android:layout_width="0dp"
 			android:layout_height="@dimen/activity_profile_settings_vc_group_height"
-			android:background="#FFFFFF"
+			android:background="@color/activity_profile_settings_vc_group_background_color"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/group2"
@@ -213,7 +213,7 @@
 				android:id="@+id/ui_settings_cell_two"
 				android:layout_width="0dp"
 				android:layout_height="@dimen/activity_profile_settings_vc_ui_settings_cell_two_height"
-				android:background="#FFFFFF"
+				android:background="@color/activity_profile_settings_vc_ui_settings_cell_two_background_color"
 				app:layout_constraintBottom_toBottomOf="parent"
 				app:layout_constraintLeft_toLeftOf="parent"
 				app:layout_constraintRight_toRightOf="parent"
@@ -307,7 +307,7 @@
 			android:id="@+id/group2"
 			android:layout_width="0dp"
 			android:layout_height="@dimen/activity_profile_settings_vc_group2_height"
-			android:background="#FFFFFF"
+			android:background="@color/activity_profile_settings_vc_group2_background_color"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/group3"

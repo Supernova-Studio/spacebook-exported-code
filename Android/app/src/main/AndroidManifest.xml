@@ -31,31 +31,26 @@
 
 		<activity
 			android:label=""
-			android:name=".LoginVC"
-			android:theme="@style/ActivityLoginVCTheme"/>
+			android:name=".LoginVC"/>
 
 		<activity
 			android:label=""
-			android:name=".SignupVC"
-			android:theme="@style/ActivitySignupVCTheme"/>
+			android:name=".SignupVC"/>
 
 		<activity
 			android:label="Dr. When photos"
-			android:name=".ProfilePhotosVC"
-			android:theme="@style/ActivityProfilePhotosVCTheme"/>
+			android:name=".ProfilePhotosVC"/>
 
 		<activity
 			android:label="Dr. Where settings"
-			android:name=".ProfileSettingsVC"
-			android:theme="@style/ActivityProfileSettingsVCTheme"/>
+			android:name=".ProfileSettingsVC"/>
 
 		<activity
 			android:label="Guess who&apos;s back?"
-			android:name=".EventDetailVC"
-			android:theme="@style/ActivityEventDetailVCTheme"/>
+			android:name=".EventDetailVC"/>
 
 		<activity
-			android:label=""
+			android:label="What&apos;s up?"
 			android:name=".TabBarHolderActivityOne"/>
 
 	</application>

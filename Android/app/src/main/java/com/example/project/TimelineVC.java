@@ -1,24 +1,24 @@
 package com.example.project;
-/**
- *  Created by [Author].
- */
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import java.util.*;
 import com.example.project.R;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 import android.support.v7.widget.LinearLayoutManager;
 
-
-// ----- Implementation ------
-
+/**
+ *  Created by [Author].
+ */
 public class TimelineVC extends Fragment {
 
 	private RecyclerView tableView;
+
 	public static TimelineVC newInstance() {
 		return new TimelineVC();
 	}
@@ -34,11 +34,9 @@ public class TimelineVC extends Fragment {
 		init();
 	}
 
-	public void init() {
+	private void init() {
 		tableView = getView().findViewById(R.id.table_view);
 		tableView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
 		tableView.setAdapter(new TimelineVCTableViewAdapter());
 	}
-
-
 }

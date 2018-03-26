@@ -1,10 +1,12 @@
 package com.example.project;
+
 import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import com.example.project.R;
+import java.util.*;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -12,12 +14,11 @@ import android.support.constraint.ConstraintLayout;
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
-import java.util.ArrayList;
-import java.util.List;
 import android.animation.Keyframe;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.support.v4.view.animation.PathInterpolatorCompat;
+
 /**
  *  Created by [Author].
  */
@@ -30,6 +31,7 @@ public class WelcomeVC extends AppCompatActivity {
 	private View logIn;
 	private View signUp;
 	private TextView supernovaStuLabel;
+
 	public static Intent newIntent(Context context) {
 		return new Intent(context, WelcomeVC.class);
 	}
@@ -41,7 +43,7 @@ public class WelcomeVC extends AppCompatActivity {
 		this.init();
 	}
 
-	public void init() {
+	private void init() {
 		welcome = this.findViewById(R.id.welcome);
 		spacebookLabel = this.findViewById(R.id.spacebook_label);
 		conquerTheStarsLabel = this.findViewById(R.id.conquer_the_stars_label);
@@ -58,29 +60,29 @@ public class WelcomeVC extends AppCompatActivity {
 		startAnimationGroupOne();
 	}
 
-	public void onLogInPressed() {
+	private void onLogInPressed() {
 		this.startAnimationGroupThree();
 		this.startLoginVC();
 	}
 
-	public void onSignUpPressed() {
+	private void onSignUpPressed() {
 		this.startAnimationGroupTwo();
 		this.startSignupVC();
 	}
 
-	public void startLoginVC() {
+	private void startLoginVC() {
 		this.startActivity(LoginVC.newIntent(this));
 	}
 
-	public void startSignupVC() {
+	private void startSignupVC() {
 		this.startActivity(SignupVC.newIntent(this));
 	}
 
-	public void startAnimationGroupOne() {
+	private void startAnimationGroupOne() {
 		startGroup1Animation1();
 	}
 
-	public void startGroup1Animation1() {
+	private void startGroup1Animation1() {
 		Keyframe kf1 = Keyframe.ofFloat(0.0f, -45f);
 		Keyframe kf2 = Keyframe.ofFloat(0.8f, -45f);
 		Keyframe kf3 = Keyframe.ofFloat(1.0f, 0f);
@@ -98,11 +100,11 @@ public class WelcomeVC extends AppCompatActivity {
 		animatorSet.start();
 	}
 
-	public void startAnimationGroupTwo() {
+	private void startAnimationGroupTwo() {
 		startGroup2Animation1();
 	}
 
-	public void startGroup2Animation1() {
+	private void startGroup2Animation1() {
 		Keyframe kf1 = Keyframe.ofFloat(0.0f, 0.3f);
 		Keyframe kf2 = Keyframe.ofFloat(0.2f, 1.1f);
 		Keyframe kf3 = Keyframe.ofFloat(0.4f, 0.9f);
@@ -133,11 +135,11 @@ public class WelcomeVC extends AppCompatActivity {
 		animatorSet.start();
 	}
 
-	public void startAnimationGroupThree() {
+	private void startAnimationGroupThree() {
 		startGroup3Animation1();
 	}
 
-	public void startGroup3Animation1() {
+	private void startGroup3Animation1() {
 		Keyframe kf1 = Keyframe.ofFloat(0.0f, 0.3f);
 		Keyframe kf2 = Keyframe.ofFloat(0.2f, 1.1f);
 		Keyframe kf3 = Keyframe.ofFloat(0.4f, 0.9f);
@@ -167,6 +169,4 @@ public class WelcomeVC extends AppCompatActivity {
 		animatorSet.setTarget(findViewById(R.id.log_in));
 		animatorSet.start();
 	}
-
-
 }

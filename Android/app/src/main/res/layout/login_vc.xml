@@ -62,7 +62,7 @@
 			android:layout_marginBottom="@dimen/activity_login_vc_separator_margin_bottom"
 			android:layout_marginTop="@dimen/activity_login_vc_separator_margin_top"
 			android:alpha="0.100000001490116"
-			android:background="#000000"
+			android:background="@color/activity_login_vc_separator_background_color"
 			app:layout_constraintBottom_toTopOf="@+id/your_password_tf"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"

@@ -27,4 +27,13 @@
 		app:layout_constraintRight_toRightOf="parent"
 		app:menu="@menu/menu_tab_group__1_tabbar"/>
 
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/activity_tab_bar_holder_activity_one_toolbar"
+		android:layout_width="0dp"
+		android:layout_height="?attr/actionBarSize"
+		android:background="@drawable/background"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
 </android.support.constraint.ConstraintLayout>

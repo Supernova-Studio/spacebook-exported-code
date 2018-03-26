@@ -1,24 +1,25 @@
 package com.example.project;
-/**
- *  Created by [Author].
- */
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import java.util.*;
 import com.example.project.R;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
 
-
-// ----- Implementation ------
-
+/**
+ *  Created by [Author].
+ */
 public class ProfileVC extends Fragment {
 
 	private TextView phoneBoothAndroLabel;
@@ -32,6 +33,11 @@ public class ProfileVC extends Fragment {
 	private TextView labelTwo;
 	private TextView latestPhotosLabel;
 	private RecyclerView collectionView;
+
+	public ProfileVC() {
+		setHasOptionsMenu(true);
+	}
+
 	public static ProfileVC newInstance() {
 		return new ProfileVC();
 	}
@@ -47,7 +53,23 @@ public class ProfileVC extends Fragment {
 		init();
 	}
 
-	public void init() {
+	@Override
+	public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater) {
+		super.onCreateOptionsMenu(menu, menuInflater);
+		menuInflater.inflate(R.menu.menu_profile, menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem menuItem) {
+		switch(menuItem.getItemId()) {
+			case R.id.item_navigation_bar_item:
+				onItemPressed();
+				return true;
+		}
+		return super.onOptionsItemSelected(menuItem);
+	}
+
+	private void init() {
 		phoneBoothAndroLabel = getView().findViewById(R.id.phone_booth_andro_label);
 		drWhatLabel = getView().findViewById(R.id.dr_what_label);
 		travelerDreamerLabel = getView().findViewById(R.id.traveler_dreamer_label);
@@ -63,5 +85,11 @@ public class ProfileVC extends Fragment {
 		collectionView.setAdapter(new ProfileVCCollectionViewAdapter());
 	}
 
+	protected void onItemPressed() {
+		this.startProfileSettingsVC();
+	}
 
+	private void startProfileSettingsVC() {
+		getContext().startActivity(ProfileSettingsVC.newIntent(getContext()));
+	}
 }

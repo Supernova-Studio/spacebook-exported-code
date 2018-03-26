@@ -6,14 +6,14 @@
 	android:id="@+id/profile"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="#F4F2F4">
+	android:background="@color/activity_profile_vc_profile_background_color">
 
 	<android.support.constraint.ConstraintLayout
 		android:id="@+id/header"
 		android:layout_width="0dp"
 		android:layout_height="0dp"
 		android:layout_marginTop="@dimen/activity_profile_vc_header_margin_top"
-		android:background="#FFFFFF"
+		android:background="@color/activity_profile_vc_header_background_color"
 		app:layout_constraintBottom_toTopOf="@+id/info_bar"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
@@ -92,7 +92,7 @@
 		android:id="@+id/info_bar"
 		android:layout_width="0dp"
 		android:layout_height="@dimen/activity_profile_vc_info_bar_height"
-		android:background="#FAFAFA"
+		android:background="@color/activity_profile_vc_info_bar_background_color"
 		app:layout_constraintBottom_toTopOf="@+id/gallery"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
@@ -278,14 +278,5 @@
 			tools:listitem="@layout/view_cell"/>
 
 	</android.support.constraint.ConstraintLayout>
-
-	<android.support.v7.widget.Toolbar
-		android:id="@+id/activity_profile_vc_toolbar"
-		android:layout_width="0dp"
-		android:layout_height="?attr/actionBarSize"
-		android:background="@drawable/background"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -62,7 +62,7 @@
 
 	<style name="ActivitySignupVCSwitchTwoTheme">
 
-		<item name="colorControlActivated">#982B87</item>
+		<item name="colorControlActivated">@color/activity_signup_vc_switch_two_active_color</item>
 	</style>
 
 
@@ -71,7 +71,7 @@
 
 	<style name="ActivityProfileSettingsVCSlideSwitchTheme">
 
-		<item name="colorControlActivated">#92228A</item>
+		<item name="colorControlActivated">@color/activity_profile_settings_vc_slide_switch_active_color</item>
 	</style>
 
 </resources>

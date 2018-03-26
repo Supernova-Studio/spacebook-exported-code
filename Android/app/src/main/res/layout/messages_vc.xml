@@ -6,7 +6,7 @@
 	android:id="@+id/messages"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="#F4F2F4">
+	android:background="@color/activity_messages_vc_messages_background_color">
 
 	<android.support.v7.widget.RecyclerView
 		android:id="@+id/collection_view"
@@ -34,14 +34,5 @@
 		tools:layout_editor_absoluteX="0dp"
 		tools:layout_editor_absoluteY="161dp"
 		tools:listitem="@layout/message_cell"/>
-
-	<android.support.v7.widget.Toolbar
-		android:id="@+id/activity_messages_vc_toolbar"
-		android:layout_width="0dp"
-		android:layout_height="?attr/actionBarSize"
-		android:background="@drawable/background"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>

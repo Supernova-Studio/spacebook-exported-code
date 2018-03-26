@@ -1,11 +1,17 @@
 package com.example.project;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import java.util.List;
+import java.util.*;
+
+/**
+ *  Created by [Author].
+ */
 public class TabBarHolderActivityOnePagerAdapter extends FragmentPagerAdapter {
 
 	private List<Fragment> fragments;
+
 	public TabBarHolderActivityOnePagerAdapter(FragmentManager fragmentManager, List<Fragment> fragments) {
 		super(fragmentManager);
 
@@ -21,6 +27,4 @@ public class TabBarHolderActivityOnePagerAdapter extends FragmentPagerAdapter {
 	public int getCount() {
 		return fragments.size();
 	}
-
-
 }
