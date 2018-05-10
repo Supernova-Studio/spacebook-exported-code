@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="@dimen/activity_kvtnuq_fs_fw_cell_view_width"
+	android:layout_height="@dimen/activity_kvtnuq_fs_fw_cell_view_height">
+
+	<ImageView
+		android:id="@+id/photo3_image_view"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:scaleType="fitXY"
+		android:src="@drawable/photo_3"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+</android.support.constraint.ConstraintLayout>

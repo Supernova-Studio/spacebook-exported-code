@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+
+
+	<!-- Activity Themes -->
+
+	<style
+		name="AppTheme"
+		parent="Theme.AppCompat.NoActionBar"/>
+
+	<style
+		name="SplashActivityTheme"
+		parent="AppTheme">
+
+		<item name="android:windowBackground">@drawable/background_activity_splash</item>
+	</style>
+
+	<style
+		name="ActivityWelcomeVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityLoginVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivitySignupVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityTimelineVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityProfileVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityProfilePhotosVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityProfileSettingsVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityMessagesVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityEventDetailVCActivityTheme"
+		parent="AppTheme"/>
+
+	<style
+		name="ActivityTabBarHolderActivityOneTheme"
+		parent="AppTheme"/>
+
+
+
+	<!-- SignupVCActivity -->
+
+	<style name="ActivitySignupVCActivitySwitchSwitchTheme">
+
+		<item name="colorControlActivated">@color/activity_signup_vcactivity_switch_switch_active_color</item>
+	</style>
+
+
+
+	<!-- ProfileSettingsVCActivity -->
+
+	<style name="ActivityProfileSettingsVCActivitySlideSwitchTheme">
+
+		<item name="colorControlActivated">@color/activity_profile_settings_vcactivity_slide_switch_active_color</item>
+	</style>
+
+</resources>
