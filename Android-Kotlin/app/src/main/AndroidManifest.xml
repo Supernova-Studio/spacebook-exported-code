@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.project">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+
+		<activity
+			android:name=".activity.SplashActivity"
+			android:theme="@style/SplashActivityTheme">
+
+			<intent-filter>
+
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label=""
+			android:name=".activity.WelcomeVCActivity"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.LoginVCActivity"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.SignupVCActivity"/>
+
+		<activity
+			android:label="Dr. When photos"
+			android:name=".activity.ProfilePhotosVCActivity"/>
+
+		<activity
+			android:label="Dr. Where settings"
+			android:name=".activity.ProfileSettingsVCActivity"/>
+
+		<activity
+			android:label="Guess who&apos;s back?"
+			android:name=".activity.EventDetailVCActivity"/>
+
+		<activity
+			android:label="What&apos;s up?"
+			android:name=".activity.TabBarHolderActivityOne"/>
+
+	</application>
+
+</manifest>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+
+
+	<!-- WelcomeVCActivity -->
+
+	<dimen name="activity_welcome_vcactivity_spacebook_text_view_text_size">89sp</dimen>
+	<dimen name="activity_welcome_vcactivity_spacebook_text_view_margin_top">106dp</dimen>
+	<dimen name="activity_welcome_vcactivity_conquer_the_stars_text_view_width">409dp</dimen>
+	<dimen name="activity_welcome_vcactivity_conquer_the_stars_text_view_text_size">38sp</dimen>
+	<dimen name="activity_welcome_vcactivity_conquer_the_stars_text_view_margin_top">29dp</dimen>
+	<dimen name="activity_welcome_vcactivity_logo_image_view_width">256dp</dimen>
+	<dimen name="activity_welcome_vcactivity_logo_image_view_height">256dp</dimen>
+	<dimen name="activity_welcome_vcactivity_logo_image_view_margin_top">213dp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_width">315dp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_height">128dp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_radius">2dp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_text_size">32sp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_margin_bottom">172dp</dimen>
+	<dimen name="activity_welcome_vcactivity_log_in_button_margin_end">64dp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_width">315dp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_height">128dp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_radius">2dp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_text_size">32sp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_margin_bottom">172dp</dimen>
+	<dimen name="activity_welcome_vcactivity_sign_up_button_margin_start">64dp</dimen>
+	<dimen name="activity_welcome_vcactivity_supernova_stu_text_view_text_size">32sp</dimen>
+	<dimen name="activity_welcome_vcactivity_supernova_stu_text_view_margin_bottom">40dp</dimen>
+
+
+	<!-- LoginVCActivity -->
+
+	<dimen name="activity_login_vcactivity_log_in_text_view_text_size">89sp</dimen>
+	<dimen name="activity_login_vcactivity_log_in_text_view_margin_top">221dp</dimen>
+	<dimen name="activity_login_vcactivity_welcome_back_text_view_text_size">38sp</dimen>
+	<dimen name="activity_login_vcactivity_welcome_back_text_view_margin_top">29dp</dimen>
+	<dimen name="activity_login_vcactivity_login_fields_constraint_layout_radius">2dp</dimen>
+	<dimen name="activity_login_vcactivity_login_fields_constraint_layout_margin_top">138dp</dimen>
+	<dimen name="activity_login_vcactivity_login_fields_constraint_layout_margin_start">42dp</dimen>
+	<dimen name="activity_login_vcactivity_login_fields_constraint_layout_margin_end">42dp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_height">128dp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_radius">2dp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_text_size">32sp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_margin_bottom">14dp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_margin_start">42dp</dimen>
+	<dimen name="activity_login_vcactivity_login_button_margin_end">42dp</dimen>
+	<dimen name="activity_login_vcactivity_forgot_your_password_button_height">49dp</dimen>
+	<dimen name="activity_login_vcactivity_forgot_your_password_button_text_size">32sp</dimen>
+	<dimen name="activity_login_vcactivity_forgot_your_password_button_margin_bottom">38dp</dimen>
+	<dimen name="activity_login_vcactivity_separator_constraint_layout_height">1dp</dimen>
+	<dimen name="activity_login_vcactivity_separator_constraint_layout_margin_top">32dp</dimen>
+	<dimen name="activity_login_vcactivity_separator_constraint_layout_margin_bottom">25dp</dimen>
+	<dimen name="activity_login_vcactivity_your_nickname_edit_text_height">49dp</dimen>
+	<dimen name="activity_login_vcactivity_your_nickname_edit_text_text_size">32sp</dimen>
+	<dimen name="activity_login_vcactivity_your_nickname_edit_text_margin_top">25dp</dimen>
+	<dimen name="activity_login_vcactivity_your_nickname_edit_text_margin_start">32dp</dimen>
+	<dimen name="activity_login_vcactivity_your_nickname_edit_text_margin_end">29dp</dimen>
+	<dimen name="activity_login_vcactivity_your_password_edit_text_height">49dp</dimen>
+	<dimen name="activity_login_vcactivity_your_password_edit_text_text_size">32sp</dimen>
+	<dimen name="activity_login_vcactivity_your_password_edit_text_margin_bottom">32dp</dimen>
+	<dimen name="activity_login_vcactivity_your_password_edit_text_margin_start">32dp</dimen>
+	<dimen name="activity_login_vcactivity_your_password_edit_text_margin_end">29dp</dimen>
+
+
+	<!-- SignupVCActivity -->
+
+	<dimen name="activity_signup_vcactivity_sign_up_text_view_text_size">89sp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_text_view_margin_top">168dp</dimen>
+	<dimen name="activity_signup_vcactivity_it_sfree_text_view_text_size">38sp</dimen>
+	<dimen name="activity_signup_vcactivity_it_sfree_text_view_margin_top">29dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_fields_constraint_layout_radius">2dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_fields_constraint_layout_margin_top">138dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_fields_constraint_layout_margin_start">42dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_fields_constraint_layout_margin_end">42dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_height">128dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_radius">2dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_margin_bottom">17dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_margin_start">42dp</dimen>
+	<dimen name="activity_signup_vcactivity_sign_up_button_margin_end">42dp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_constraint_layout_width">514dp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_constraint_layout_height">51dp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_constraint_layout_margin_bottom">34dp</dimen>
+	<dimen name="activity_signup_vcactivity_tos_constraint_layout_height">68dp</dimen>
+	<dimen name="activity_signup_vcactivity_tos_constraint_layout_margin_top">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_tos_constraint_layout_margin_start">53dp</dimen>
+	<dimen name="activity_signup_vcactivity_tos_constraint_layout_margin_end">53dp</dimen>
+	<dimen name="activity_signup_vcactivity_separator_constraint_layout_height">1dp</dimen>
+	<dimen name="activity_signup_vcactivity_separator_constraint_layout_margin_top">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_separator_two_constraint_layout_height">1dp</dimen>
+	<dimen name="activity_signup_vcactivity_separator_two_constraint_layout_margin_bottom">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_nickname_edit_text_height">49dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_nickname_edit_text_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_your_nickname_edit_text_margin_top">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_nickname_edit_text_margin_start">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_nickname_edit_text_margin_end">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_height">49dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_margin_bottom">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_margin_top">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_margin_start">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_your_spacemail_edit_text_margin_end">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_password_edit_text_height">49dp</dimen>
+	<dimen name="activity_signup_vcactivity_password_edit_text_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_password_edit_text_margin_bottom">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_password_edit_text_margin_start">32dp</dimen>
+	<dimen name="activity_signup_vcactivity_password_edit_text_margin_end">25dp</dimen>
+	<dimen name="activity_signup_vcactivity_already_gave_up_your_text_view_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_already_gave_up_your_text_view_margin_top">1dp</dimen>
+	<dimen name="activity_signup_vcactivity_already_gave_up_your_text_view_margin_start">1dp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_button_height">49dp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_button_text_size">32sp</dimen>
+	<dimen name="activity_signup_vcactivity_log_in_button_margin_bottom">1dp</dimen>
+	<dimen name="activity_signup_vcactivity_i_agree_with_interga_text_view_text_size">27sp</dimen>
+
+
+	<!-- TimelineVCActivity -->
+
+	<dimen name="activity_timeline_vcactivity_timeline_recycler_view_margin_top">136dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_news_height">893dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_lifetime_event_height">418dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_event_height">716dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_advertisement_height">262dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_bg_white_constraint_layout_margin_top">64dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_view_constraint_layout_height">125dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_bg_news_temp_image_view_height">426dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_bg_news_temp_image_view_margin_top">170dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_view_two_constraint_layout_height">170dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_view_two_constraint_layout_margin_top">32dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_view_two_constraint_layout_margin_start">21dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_view_two_constraint_layout_margin_end">29dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_text_size">29sp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_margin_top">36dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_margin_bottom">44dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_spacewoman185k_li_text_view_text_size">25sp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_spacewoman185k_li_text_view_margin_start">10dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_k_comments_text_view_text_size">25sp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_k_comments_text_view_margin_end">29dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_icon_like_image_view_margin_start">42dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_icon_comment_image_view_margin_end">10dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_spacecrunch_text_view_text_size">29sp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_spacecrunch_text_view_margin_top">42dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_spacecrunch_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_today145_pm_text_view_text_size">21sp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_today145_pm_text_view_margin_top">1dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_today145_pm_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_q_nerp_mxrfo_cell_icon_avatar_image_view_width">170dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_bg_constraint_layout_margin_top">61dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_bg_constraint_layout_margin_bottom">1dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_pluto_posted_anew_ltext_view_text_size">29sp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_pluto_posted_anew_ltext_view_margin_top">12dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_in_acomplicated_rel_text_view_text_size">38sp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_icon_pluto_image_view_width">213dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_icon_pluto_image_view_height">213dp</dimen>
+	<dimen name="activity_pk_xt_lwsf_rq_cell_icon_pluto_image_view_margin_top">29dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_bg_white_constraint_layout_margin_top">66dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_view_constraint_layout_height">110dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_header_constraint_layout_height">426dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_header_constraint_layout_margin_top">179dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_view_two_constraint_layout_height">170dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_top">34dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_start">21dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_end">19dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_text_size">25sp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_text_view_text_view_text_size">29sp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_text_view_text_view_margin_bottom">51dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_text_view_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_guess_who_sback_text_view_text_size">51sp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_guess_who_sback_text_view_margin_bottom">44dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_guess_who_sback_text_view_margin_end">42dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_laika_created_anew_text_view_text_size">29sp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_laika_created_anew_text_view_margin_top">42dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_laika_created_anew_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_back_from_the_space_text_view_text_size">21sp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_back_from_the_space_text_view_margin_top">1dp</dimen>
+	<dimen name="activity_zu_su_vba_mll_cell_back_from_the_space_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_bg_constraint_layout_margin_top">64dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_hull_tattoos_anew_text_view_text_size">25sp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_hull_tattoos_anew_text_view_margin_top">1dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_hull_tattoos_anew_text_view_margin_start">32dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_sponsored_content_text_view_text_size">25sp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_sponsored_content_text_view_margin_top">12dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_sponsored_content_text_view_margin_start">32dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_spray_and_pray_text_view_text_size">29sp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_spray_and_pray_text_view_margin_top">89dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_spray_and_pray_text_view_margin_start">32dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_bg_event_temp_image_view_width">198dp</dimen>
+	<dimen name="activity_zp_igtd_wl_ok_cell_bg_event_temp_image_view_margin_top">64dp</dimen>
+
+
+	<!-- ProfileVCActivity -->
+
+	<dimen name="activity_profile_vcactivity_header_constraint_layout_margin_top">136dp</dimen>
+	<dimen name="activity_profile_vcactivity_info_bar_constraint_layout_height">179dp</dimen>
+	<dimen name="activity_profile_vcactivity_gallery_constraint_layout_height">330dp</dimen>
+	<dimen name="activity_profile_vcactivity_gallery_constraint_layout_margin_bottom">142dp</dimen>
+	<dimen name="activity_profile_vcactivity_gallery_constraint_layout_margin_start">2dp</dimen>
+	<dimen name="activity_profile_vcactivity_gallery_constraint_layout_margin_end">2dp</dimen>
+	<dimen name="activity_profile_vcactivity_avatar_temp_image_view_width">298dp</dimen>
+	<dimen name="activity_profile_vcactivity_avatar_temp_image_view_height">298dp</dimen>
+	<dimen name="activity_profile_vcactivity_avatar_temp_image_view_margin_top">25dp</dimen>
+	<dimen name="activity_profile_vcactivity_phone_booth_andro_text_view_height">40dp</dimen>
+	<dimen name="activity_profile_vcactivity_phone_booth_andro_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_vcactivity_dr_what_text_view_height">85dp</dimen>
+	<dimen name="activity_profile_vcactivity_dr_what_text_view_text_size">55sp</dimen>
+	<dimen name="activity_profile_vcactivity_dr_what_text_view_margin_top">8dp</dimen>
+	<dimen name="activity_profile_vcactivity_traveler_dreamer_text_view_text_size">29sp</dimen>
+	<dimen name="activity_profile_vcactivity_traveler_dreamer_text_view_margin_bottom">57dp</dimen>
+	<dimen name="activity_profile_vcactivity_traveler_dreamer_text_view_margin_top">25dp</dimen>
+	<dimen name="activity_profile_vcactivity_traveler_dreamer_text_view_margin_start">87dp</dimen>
+	<dimen name="activity_profile_vcactivity_traveler_dreamer_text_view_margin_end">85dp</dimen>
+	<dimen name="activity_profile_vcactivity_group7_constraint_layout_width">123dp</dimen>
+	<dimen name="activity_profile_vcactivity_group7_constraint_layout_margin_top">25dp</dimen>
+	<dimen name="activity_profile_vcactivity_group7_constraint_layout_margin_end">85dp</dimen>
+	<dimen name="activity_profile_vcactivity_group6_constraint_layout_margin_top">25dp</dimen>
+	<dimen name="activity_profile_vcactivity_group6_constraint_layout_margin_end">128dp</dimen>
+	<dimen name="activity_profile_vcactivity_group6_constraint_layout_margin_start">130dp</dimen>
+	<dimen name="activity_profile_vcactivity_group5_constraint_layout_width">123dp</dimen>
+	<dimen name="activity_profile_vcactivity_group5_constraint_layout_margin_top">25dp</dimen>
+	<dimen name="activity_profile_vcactivity_group5_constraint_layout_margin_start">85dp</dimen>
+	<dimen name="activity_profile_vcactivity_stalking_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_vcactivity_text_view_text_view_text_size">51sp</dimen>
+	<dimen name="activity_profile_vcactivity_stalkers_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_vcactivity_k_text_view_text_size">51sp</dimen>
+	<dimen name="activity_profile_vcactivity_photos_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_vcactivity_photos_text_view_margin_top">3dp</dimen>
+	<dimen name="activity_profile_vcactivity_text_view_two_text_view_text_size">51sp</dimen>
+	<dimen name="activity_profile_vcactivity_latest_photos_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_vcactivity_latest_photos_text_view_margin_top">8dp</dimen>
+	<dimen name="activity_profile_vcactivity_latest_photos_text_view_margin_bottom">19dp</dimen>
+	<dimen name="activity_profile_vcactivity_photos_recycler_view_height">262dp</dimen>
+	<dimen name="activity_kvtnuq_fs_fw_cell_view_width">262dp</dimen>
+	<dimen name="activity_kvtnuq_fs_fw_cell_view_height">260dp</dimen>
+
+
+	<!-- ProfilePhotosVCActivity -->
+
+	<dimen name="activity_profile_photos_vcactivity_gallery_recycler_view_margin_top">155dp</dimen>
+	<dimen name="activity_zmxitwg_gpc_cell_title_width">800dp</dimen>
+	<dimen name="activity_zmxitwg_gpc_cell_title_height">78dp</dimen>
+	<dimen name="activity_mt_kw_rnpzr_c_cell_view_width">394dp</dimen>
+	<dimen name="activity_mt_kw_rnpzr_c_cell_view_height">392dp</dimen>
+	<dimen name="activity_zmxitwg_gpc_cell_today_text_view_text_size">27sp</dimen>
+	<dimen name="activity_zmxitwg_gpc_cell_today_text_view_margin_start">42dp</dimen>
+
+
+	<!-- ProfileSettingsVCActivity -->
+
+	<dimen name="activity_profile_settings_vcactivity_information_constraint_layout_margin_top">21dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_avatar_temp_image_view_width">213dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_avatar_temp_image_view_height">213dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_avatar_temp_image_view_margin_top">189dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group6_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group6_constraint_layout_margin_top">12dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group3_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group3_constraint_layout_margin_top">12dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group5_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_details_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_details_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_information_text_view_text_size">25sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_information_text_view_margin_top">64dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_information_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_group2_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_ui_settings_cell_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_path2_image_view_width">12dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_path2_image_view_height">25dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_path2_image_view_margin_end">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_text_view_margin_end">32dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_two_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_two_text_view_margin_end">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_two_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_two_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_three_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_three_text_view_margin_end">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_three_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_three_text_view_margin_start">17dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_four_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_four_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_ui_settings_cell_two_constraint_layout_height">128dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_path2_two_image_view_width">12dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_path2_two_image_view_margin_end">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_four_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_text_four_text_view_margin_end">32dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_five_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_five_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_six_text_view_text_size">34sp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_label_six_text_view_margin_start">42dp</dimen>
+	<dimen name="activity_profile_settings_vcactivity_slide_switch_margin_end">42dp</dimen>
+
+
+	<!-- MessagesVCActivity -->
+
+	<dimen name="activity_messages_vcactivity_online_recycler_view_height">160dp</dimen>
+	<dimen name="activity_messages_vcactivity_online_recycler_view_margin_top">157dp</dimen>
+	<dimen name="activity_messages_vcactivity_online_recycler_view_margin_start">32dp</dimen>
+	<dimen name="activity_messages_vcactivity_online_recycler_view_margin_end">42dp</dimen>
+	<dimen name="activity_messages_vcactivity_messages_recycler_view_margin_top">25dp</dimen>
+	<dimen name="activity_wwyreqau_dz_cell_online_person_width">117dp</dimen>
+	<dimen name="activity_wwyreqau_dz_cell_online_person_height">160dp</dimen>
+	<dimen name="activity_wwyreqau_dz_cell_mrs_doya_text_view_text_size">25sp</dimen>
+	<dimen name="activity_wwyreqau_dz_cell_avatar_temp_image_view_margin_bottom">32dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_message_height">170dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_avatar_image_view_width">128dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_avatar_image_view_height">128dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_avatar_image_view_margin_top">21dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_avatar_image_view_margin_start">32dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_the_water_so_testy_ytext_view_text_size">21sp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_the_water_so_testy_ytext_view_margin_top">1dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_the_water_so_testy_ytext_view_margin_start">21dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_name_text_view_text_size">34sp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_name_text_view_margin_top">40dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_name_text_view_margin_start">21dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_path2_image_view_width">12dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_path2_image_view_height">25dp</dimen>
+	<dimen name="activity_i_nlc_qwax_wq_cell_path2_image_view_margin_end">42dp</dimen>
+
+
+	<!-- EventDetailVCActivity -->
+
+	<dimen name="activity_event_detail_vcactivity_icon_event_area_image_view_width">390dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_icon_event_area_image_view_height">390dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_footer_constraint_layout_height">202dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_bg_constraint_layout_margin_top">32dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_guess_who_sback_text_view_text_size">29sp</dimen>
+	<dimen name="activity_event_detail_vcactivity_guess_who_sback_text_view_margin_top">42dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_guess_who_sback_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_happening_in20h_ba_text_view_text_size">21sp</dimen>
+	<dimen name="activity_event_detail_vcactivity_happening_in20h_ba_text_view_margin_top">1dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_happening_in20h_ba_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_avatar_image_view_width">170dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_avatar_image_view_height">170dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_avatar_image_view_margin_start">21dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_event_posted_by_laik_text_view_text_size">21sp</dimen>
+	<dimen name="activity_event_detail_vcactivity_event_posted_by_laik_text_view_margin_top">8dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_event_posted_by_laik_text_view_margin_start">19dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_coming_text_view_text_size">29sp</dimen>
+	<dimen name="activity_event_detail_vcactivity_coming_text_view_margin_top">8dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_coming_text_view_margin_end">34dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_group_image_view_margin_top">57dp</dimen>
+	<dimen name="activity_event_detail_vcactivity_group_image_view_margin_end">64dp</dimen>
+</resources>

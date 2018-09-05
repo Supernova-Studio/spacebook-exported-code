@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+
+
+	<!-- Application level -->
+
+	<color name="click_overlay">#6868684D</color>
+
+
+	<!-- WelcomeVCActivity -->
+
+	<color name="activity_welcome_vcactivity_welcome_constraint_layout_from_color">#F78462</color>
+	<color name="activity_welcome_vcactivity_welcome_constraint_layout_to_color">#8B1B8C</color>
+	<color name="activity_welcome_vcactivity_spacebook_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_welcome_vcactivity_spacebook_text_view_text_color">#FFFFFF</color>
+	<color name="activity_welcome_vcactivity_conquer_the_stars_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_welcome_vcactivity_conquer_the_stars_text_view_text_color">#FFFFFF</color>
+	<color name="activity_welcome_vcactivity_logo_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_welcome_vcactivity_log_in_button_background_color">#FFFFFF</color>
+	<color name="activity_welcome_vcactivity_log_in_button_text_color">#DA686D</color>
+	<color name="activity_welcome_vcactivity_sign_up_button_background_color">#FFFFFF</color>
+	<color name="activity_welcome_vcactivity_sign_up_button_text_color">#D9676E</color>
+	<color name="activity_welcome_vcactivity_supernova_stu_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_welcome_vcactivity_supernova_stu_text_view_text_color">#FFFFFF</color>
+
+
+	<!-- LoginVCActivity -->
+
+	<color name="activity_login_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_toolbar_text_color">#000000</color>
+	<color name="activity_login_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_login_vcactivity_login_constraint_layout_from_color">#F78462</color>
+	<color name="activity_login_vcactivity_login_constraint_layout_to_color">#8B1B8C</color>
+	<color name="activity_login_vcactivity_log_in_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_log_in_text_view_text_color">#FFFFFF</color>
+	<color name="activity_login_vcactivity_welcome_back_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_welcome_back_text_view_text_color">#FFFFFF</color>
+	<color name="activity_login_vcactivity_login_fields_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_login_vcactivity_login_button_background_color">#FFFFFF</color>
+	<color name="activity_login_vcactivity_login_button_text_color">#D9676E</color>
+	<color name="activity_login_vcactivity_forgot_your_password_button_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_forgot_your_password_button_text_color">#FFFFFF</color>
+	<color name="activity_login_vcactivity_separator_constraint_layout_background_color">#000000</color>
+	<color name="activity_login_vcactivity_your_nickname_edit_text_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_your_nickname_edit_text_text_color">#000000</color>
+	<color name="activity_login_vcactivity_your_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="activity_login_vcactivity_your_password_edit_text_text_color">#000000</color>
+
+
+	<!-- SignupVCActivity -->
+
+	<color name="activity_signup_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_toolbar_text_color">#000000</color>
+	<color name="activity_signup_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_signup_vcactivity_signup_constraint_layout_from_color">#F78462</color>
+	<color name="activity_signup_vcactivity_signup_constraint_layout_to_color">#8B1B8C</color>
+	<color name="activity_signup_vcactivity_sign_up_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_sign_up_text_view_text_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_it_sfree_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_it_sfree_text_view_text_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_sign_up_fields_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_sign_up_button_background_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_sign_up_button_text_color">#D9676E</color>
+	<color name="activity_signup_vcactivity_log_in_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_tos_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_separator_constraint_layout_background_color">#000000</color>
+	<color name="activity_signup_vcactivity_separator_two_constraint_layout_background_color">#000000</color>
+	<color name="activity_signup_vcactivity_your_nickname_edit_text_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_your_nickname_edit_text_text_color">#000000</color>
+	<color name="activity_signup_vcactivity_your_spacemail_edit_text_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_your_spacemail_edit_text_text_color">#000000</color>
+	<color name="activity_signup_vcactivity_password_edit_text_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_password_edit_text_text_color">#000000</color>
+	<color name="activity_signup_vcactivity_already_gave_up_your_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_already_gave_up_your_text_view_text_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_log_in_button_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_log_in_button_text_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_i_agree_with_interga_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_i_agree_with_interga_text_view_text_color">#FFFFFF</color>
+	<color name="activity_signup_vcactivity_switch_switch_background_color">@android:color/transparent</color>
+	<color name="activity_signup_vcactivity_switch_switch_active_color">#982B87</color>
+
+
+	<!-- TimelineVCActivity -->
+
+	<color name="activity_timeline_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_timeline_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_timeline_vcactivity_bottom_navigation_bar_background_color">#F8F8F8</color>
+	<color name="activity_timeline_vcactivity_bottom_navigation_bar_tint">#92238A</color>
+	<color name="activity_timeline_vcactivity_timeline_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_timeline_vcactivity_timeline_recycler_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_news_background_color">@android:color/transparent</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_lifetime_event_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_event_background_color">@android:color/transparent</color>
+	<color name="activity_zp_igtd_wl_ok_cell_advertisement_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_bg_white_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_q_nerp_mxrfo_cell_view_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_bg_news_temp_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_view_two_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_melon_husk_launches_text_view_text_color">#070707</color>
+	<color name="activity_q_nerp_mxrfo_cell_bg_gray_constraint_layout_background_color">#FAFAFA</color>
+	<color name="activity_q_nerp_mxrfo_cell_spacewoman185k_li_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_spacewoman185k_li_text_view_text_color">#000000</color>
+	<color name="activity_q_nerp_mxrfo_cell_k_comments_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_k_comments_text_view_text_color">#000000</color>
+	<color name="activity_q_nerp_mxrfo_cell_icon_like_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_icon_comment_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_spacecrunch_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_spacecrunch_text_view_text_color">#0F0F0F</color>
+	<color name="activity_q_nerp_mxrfo_cell_today145_pm_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_q_nerp_mxrfo_cell_today145_pm_text_view_text_color">#000000</color>
+	<color name="activity_q_nerp_mxrfo_cell_icon_avatar_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_bg_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_pluto_posted_anew_ltext_view_background_color">@android:color/transparent</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_pluto_posted_anew_ltext_view_text_color">#000000</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_in_acomplicated_rel_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_in_acomplicated_rel_text_view_text_color">#2F2F2F</color>
+	<color name="activity_pk_xt_lwsf_rq_cell_icon_pluto_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_bg_white_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_zu_su_vba_mll_cell_view_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_header_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_view_two_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_bg_gray_constraint_layout_background_color">#000000</color>
+	<color name="activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_text_color">#000000</color>
+	<color name="activity_zu_su_vba_mll_cell_bg_event_temp_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_text_view_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_text_view_text_view_text_color">#FFFFFF</color>
+	<color name="activity_zu_su_vba_mll_cell_guess_who_sback_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_guess_who_sback_text_view_text_color">#FFFFFF</color>
+	<color name="activity_zu_su_vba_mll_cell_laika_created_anew_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_laika_created_anew_text_view_text_color">#0F0F0F</color>
+	<color name="activity_zu_su_vba_mll_cell_back_from_the_space_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zu_su_vba_mll_cell_back_from_the_space_text_view_text_color">#000000</color>
+	<color name="activity_zu_su_vba_mll_cell_avatar_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_zp_igtd_wl_ok_cell_bg_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_zp_igtd_wl_ok_cell_hull_tattoos_anew_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zp_igtd_wl_ok_cell_hull_tattoos_anew_text_view_text_color">#000000</color>
+	<color name="activity_zp_igtd_wl_ok_cell_sponsored_content_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zp_igtd_wl_ok_cell_sponsored_content_text_view_text_color">#000000</color>
+	<color name="activity_zp_igtd_wl_ok_cell_spray_and_pray_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zp_igtd_wl_ok_cell_spray_and_pray_text_view_text_color">#D9676E</color>
+	<color name="activity_zp_igtd_wl_ok_cell_bg_event_temp_image_view_background_color">@android:color/transparent</color>
+
+
+	<!-- ProfileVCActivity -->
+
+	<color name="activity_profile_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_profile_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_bottom_navigation_bar_background_color">#F8F8F8</color>
+	<color name="activity_profile_vcactivity_bottom_navigation_bar_tint">#92238A</color>
+	<color name="activity_profile_vcactivity_profile_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_profile_vcactivity_header_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_vcactivity_info_bar_constraint_layout_background_color">#FAFAFA</color>
+	<color name="activity_profile_vcactivity_gallery_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_avatar_temp_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_phone_booth_andro_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_phone_booth_andro_text_view_text_color">#040C16</color>
+	<color name="activity_profile_vcactivity_dr_what_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_dr_what_text_view_text_color">#040C16</color>
+	<color name="activity_profile_vcactivity_traveler_dreamer_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_traveler_dreamer_text_view_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_group7_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_group6_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_group5_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_stalking_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_stalking_text_view_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_text_view_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_text_view_text_view_text_color">#8B1B8C</color>
+	<color name="activity_profile_vcactivity_stalkers_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_stalkers_text_view_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_k_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_k_text_view_text_color">#D9676E</color>
+	<color name="activity_profile_vcactivity_photos_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_photos_text_view_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_text_view_two_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_text_view_two_text_view_text_color">#F78462</color>
+	<color name="activity_profile_vcactivity_latest_photos_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_vcactivity_latest_photos_text_view_text_color">#000000</color>
+	<color name="activity_profile_vcactivity_photos_recycler_view_background_color">@android:color/transparent</color>
+	<color name="activity_kvtnuq_fs_fw_cell_view_background_color">@android:color/transparent</color>
+	<color name="activity_kvtnuq_fs_fw_cell_photo3_image_view_background_color">@android:color/transparent</color>
+
+
+	<!-- ProfilePhotosVCActivity -->
+
+	<color name="activity_profile_photos_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_profile_photos_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_profile_photos_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_photos_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_profile_photos_vcactivity_profile_photos_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_profile_photos_vcactivity_gallery_recycler_view_background_color">@android:color/transparent</color>
+	<color name="activity_zmxitwg_gpc_cell_title_background_color">@android:color/transparent</color>
+	<color name="activity_mt_kw_rnpzr_c_cell_view_background_color">@android:color/transparent</color>
+	<color name="activity_zmxitwg_gpc_cell_today_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_zmxitwg_gpc_cell_today_text_view_text_color">#000000</color>
+	<color name="activity_zmxitwg_gpc_cell_cell_bounds_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_mt_kw_rnpzr_c_cell_bg_photo_image_view_background_color">@android:color/transparent</color>
+
+
+	<!-- ProfileSettingsVCActivity -->
+
+	<color name="activity_profile_settings_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_profile_settings_vcactivity_profile_settings_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_profile_settings_vcactivity_information_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_avatar_temp_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_group6_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_group3_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_group_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_group5_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_details_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_details_text_view_text_color">#000000</color>
+	<color name="activity_profile_settings_vcactivity_information_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_information_text_view_text_color">#000000</color>
+	<color name="activity_profile_settings_vcactivity_group2_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_ui_settings_cell_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_path2_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_text_view_text_color">#D9676E</color>
+	<color name="activity_profile_settings_vcactivity_label_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_text_two_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_two_text_view_text_color">#D9676E</color>
+	<color name="activity_profile_settings_vcactivity_label_two_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_two_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_text_three_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_three_text_view_text_color">#D9676E</color>
+	<color name="activity_profile_settings_vcactivity_label_three_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_three_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_label_four_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_four_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_ui_settings_cell_two_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_profile_settings_vcactivity_path2_two_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_four_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_text_four_text_view_text_color">#D9676E</color>
+	<color name="activity_profile_settings_vcactivity_label_five_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_five_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_label_six_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_label_six_text_view_text_color">#040C16</color>
+	<color name="activity_profile_settings_vcactivity_slide_switch_background_color">@android:color/transparent</color>
+	<color name="activity_profile_settings_vcactivity_slide_switch_active_color">#92228A</color>
+
+
+	<!-- MessagesVCActivity -->
+
+	<color name="activity_messages_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_messages_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_messages_vcactivity_bottom_navigation_bar_background_color">#F8F8F8</color>
+	<color name="activity_messages_vcactivity_bottom_navigation_bar_tint">#92238A</color>
+	<color name="activity_messages_vcactivity_messages_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_messages_vcactivity_online_recycler_view_background_color">@android:color/transparent</color>
+	<color name="activity_messages_vcactivity_messages_recycler_view_background_color">@android:color/transparent</color>
+	<color name="activity_wwyreqau_dz_cell_online_person_background_color">@android:color/transparent</color>
+	<color name="activity_wwyreqau_dz_cell_mrs_doya_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_wwyreqau_dz_cell_mrs_doya_text_view_text_color">#000000</color>
+	<color name="activity_wwyreqau_dz_cell_avatar_temp_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_i_nlc_qwax_wq_cell_message_background_color">#FFFFFF</color>
+	<color name="activity_i_nlc_qwax_wq_cell_avatar_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_i_nlc_qwax_wq_cell_the_water_so_testy_ytext_view_background_color">@android:color/transparent</color>
+	<color name="activity_i_nlc_qwax_wq_cell_the_water_so_testy_ytext_view_text_color">#949494</color>
+	<color name="activity_i_nlc_qwax_wq_cell_name_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_i_nlc_qwax_wq_cell_name_text_view_text_color">#D9676E</color>
+	<color name="activity_i_nlc_qwax_wq_cell_path2_image_view_background_color">@android:color/transparent</color>
+
+
+	<!-- EventDetailVCActivity -->
+
+	<color name="activity_event_detail_vcactivity_toolbar_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_toolbar_text_color">#FFFFFF</color>
+	<color name="activity_event_detail_vcactivity_item_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_item_menu_item_text_color">#000000</color>
+	<color name="activity_event_detail_vcactivity_item_two_menu_item_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_item_two_menu_item_text_color">#000000</color>
+	<color name="activity_event_detail_vcactivity_event_detail_constraint_layout_background_color">#F4F2F4</color>
+	<color name="activity_event_detail_vcactivity_bg_map_temp_map_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_icon_event_area_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_footer_constraint_layout_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_bg_constraint_layout_background_color">#FFFFFF</color>
+	<color name="activity_event_detail_vcactivity_guess_who_sback_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_guess_who_sback_text_view_text_color">#0F0F0F</color>
+	<color name="activity_event_detail_vcactivity_happening_in20h_ba_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_happening_in20h_ba_text_view_text_color">#000000</color>
+	<color name="activity_event_detail_vcactivity_avatar_image_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_event_posted_by_laik_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_event_posted_by_laik_text_view_text_color">#000000</color>
+	<color name="activity_event_detail_vcactivity_coming_text_view_background_color">@android:color/transparent</color>
+	<color name="activity_event_detail_vcactivity_coming_text_view_text_color">#8B1B8C</color>
+	<color name="activity_event_detail_vcactivity_group_image_view_background_color">@android:color/transparent</color>
+
+
+	<!-- TabBarHolderActivityOne -->
+
+	<color name="activity_tab_bar_holder_activity_one_bottom_navigation_bar_background_color">#F8F8F8</color>
+	<color name="activity_tab_bar_holder_activity_one_bottom_navigation_bar_tint">#92238A</color>
+</resources>

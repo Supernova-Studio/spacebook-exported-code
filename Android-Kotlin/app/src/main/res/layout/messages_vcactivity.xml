@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/activity_messages_vcactivity_messages_constraint_layout_background_color">
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/online_recycler_view"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_messages_vcactivity_online_recycler_view_height"
+		android:layout_marginLeft="@dimen/activity_messages_vcactivity_online_recycler_view_margin_start"
+		android:layout_marginRight="@dimen/activity_messages_vcactivity_online_recycler_view_margin_end"
+		android:layout_marginTop="@dimen/activity_messages_vcactivity_online_recycler_view_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="15dp"
+		tools:layout_editor_absoluteY="74dp"
+		tools:listitem="@layout/wwyreqau_dz_cell"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/messages_recycler_view"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/activity_messages_vcactivity_messages_recycler_view_margin_top"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/online_recycler_view"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="161dp"
+		tools:listitem="@layout/i_nlc_qwax_wq_cell"/>
+
+</android.support.constraint.ConstraintLayout>

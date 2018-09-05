@@ -11,4 +11,4 @@ Finally, the most convenient way how to download all the data at once (which we 
 
 ## About Supernova Studio
 
-Supernova Studio is the first tool which truly bridges the gap between designers and developers. It does this by converting your design files to native components and the code. If you want to know more, visit the [Supernova Studio pages](https://supernova.studio/).
+Supernova Studio is the first tool which truly bridges the gap between designers and developers. It does this by converting your design files to native components and the code. If you want to know more, visit the [Supernova pages](https://supernova.io/).

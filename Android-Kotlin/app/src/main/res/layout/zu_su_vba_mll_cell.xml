@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/activity_zu_su_vba_mll_cell_event_height">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg_white_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/activity_zu_su_vba_mll_cell_bg_white_constraint_layout_margin_top"
+		android:background="@color/activity_zu_su_vba_mll_cell_bg_white_constraint_layout_background_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="31dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_zu_su_vba_mll_cell_view_constraint_layout_height"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="284dp">
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/bg_gray_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:alpha="0.0199999995529652"
+			android:background="@color/activity_zu_su_vba_mll_cell_bg_gray_constraint_layout_background_color"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/john_joe_and_jack_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_margin_start"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:text="@string/activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_text"
+			android:textColor="@color/activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_text_color"
+			android:textSize="@dimen/activity_zu_su_vba_mll_cell_john_joe_and_jack_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="17dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/header_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_zu_su_vba_mll_cell_header_constraint_layout_height"
+		android:layout_marginTop="@dimen/activity_zu_su_vba_mll_cell_header_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="84dp">
+
+		<ImageView
+			android:id="@+id/bg_event_temp_image_view"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/bg_event_temp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/text_view_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_zu_su_vba_mll_cell_text_view_text_view_margin_bottom"
+			android:layout_marginLeft="@dimen/activity_zu_su_vba_mll_cell_text_view_text_view_margin_start"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:text="@string/activity_zu_su_vba_mll_cell_text_view_text_view_text"
+			android:textColor="@color/activity_zu_su_vba_mll_cell_text_view_text_view_text_color"
+			android:textSize="@dimen/activity_zu_su_vba_mll_cell_text_view_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="155dp"/>
+
+		<TextView
+			android:id="@+id/guess_who_sback_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_zu_su_vba_mll_cell_guess_who_sback_text_view_margin_bottom"
+			android:layout_marginRight="@dimen/activity_zu_su_vba_mll_cell_guess_who_sback_text_view_margin_end"
+			android:fontFamily="@font/font_sfnsdisplay"
+			android:gravity="right"
+			android:text="@string/activity_zu_su_vba_mll_cell_guess_who_sback_text_view_text"
+			android:textColor="@color/activity_zu_su_vba_mll_cell_guess_who_sback_text_view_text_color"
+			android:textSize="@dimen/activity_zu_su_vba_mll_cell_guess_who_sback_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="153dp"
+			tools:layout_editor_absoluteY="144dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_two_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/activity_zu_su_vba_mll_cell_view_two_constraint_layout_height"
+		android:layout_marginLeft="@dimen/activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_start"
+		android:layout_marginRight="@dimen/activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/activity_zu_su_vba_mll_cell_view_two_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="10dp"
+		tools:layout_editor_absoluteY="16dp">
+
+		<TextView
+			android:id="@+id/laika_created_anew_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_zu_su_vba_mll_cell_laika_created_anew_text_view_margin_start"
+			android:layout_marginTop="@dimen/activity_zu_su_vba_mll_cell_laika_created_anew_text_view_margin_top"
+			android:fontFamily="@font/font_lato_bold"
+			android:gravity="left"
+			android:text="@string/activity_zu_su_vba_mll_cell_laika_created_anew_text_view_text"
+			android:textColor="@color/activity_zu_su_vba_mll_cell_laika_created_anew_text_view_text_color"
+			android:textSize="@dimen/activity_zu_su_vba_mll_cell_laika_created_anew_text_view_text_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="89dp"
+			tools:layout_editor_absoluteY="20dp"/>
+
+		<TextView
+			android:id="@+id/back_from_the_space_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_zu_su_vba_mll_cell_back_from_the_space_text_view_margin_start"
+			android:layout_marginTop="@dimen/activity_zu_su_vba_mll_cell_back_from_the_space_text_view_margin_top"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:text="@string/activity_zu_su_vba_mll_cell_back_from_the_space_text_view_text"
+			android:textColor="@color/activity_zu_su_vba_mll_cell_back_from_the_space_text_view_text_color"
+			android:textSize="@dimen/activity_zu_su_vba_mll_cell_back_from_the_space_text_view_text_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+			app:layout_constraintTop_toBottomOf="@+id/laika_created_anew_text_view"
+			tools:layout_editor_absoluteX="89dp"
+			tools:layout_editor_absoluteY="42dp"/>
+
+		<ImageView
+			android:id="@+id/avatar_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/avatar_5"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
