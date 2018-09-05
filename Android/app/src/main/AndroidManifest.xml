@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.example.project">
+	package="io.supernova.spacebook">
 
 	<application
 		android:allowBackup="true"
@@ -12,8 +12,8 @@
 		android:theme="@style/AppTheme">
 
 		<activity
-			android:name=".SplashActivity"
-			android:theme="@style/SplashActivityTheme">
+			android:label=""
+			android:name=".activity.WelcomeActivity">
 
 			<intent-filter>
 
@@ -27,31 +27,27 @@
 
 		<activity
 			android:label=""
-			android:name=".WelcomeVC"/>
+			android:name=".activity.LoginActivity"/>
 
 		<activity
 			android:label=""
-			android:name=".LoginVC"/>
-
-		<activity
-			android:label=""
-			android:name=".SignupVC"/>
+			android:name=".activity.SignupActivity"/>
 
 		<activity
 			android:label="Dr. When photos"
-			android:name=".ProfilePhotosVC"/>
+			android:name=".activity.ProfilePhotosActivity"/>
 
 		<activity
 			android:label="Dr. Where settings"
-			android:name=".ProfileSettingsVC"/>
+			android:name=".activity.ProfileSettingsActivity"/>
 
 		<activity
 			android:label="Guess who&apos;s back?"
-			android:name=".EventDetailVC"/>
+			android:name=".activity.EventDetailActivity"/>
 
 		<activity
 			android:label="What&apos;s up?"
-			android:name=".TabBarHolderActivityOne"/>
+			android:name=".activity.TabBarHolderActivityOne"/>
 
 	</application>
 

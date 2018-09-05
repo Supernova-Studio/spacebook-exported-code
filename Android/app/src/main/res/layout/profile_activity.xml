@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/profile_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/profile_activity_profile_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/header_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/profile_activity_header_constraint_layout_height"
+		android:layout_marginTop="@dimen/profile_activity_header_constraint_layout_margin_top"
+		android:background="@color/profile_activity_header_constraint_layout_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="64dp">
+
+		<ImageView
+			android:id="@+id/avatar_temp_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/profile_activity_avatar_temp_image_view_margin_top"
+			android:scaleType="fitXY"
+			android:src="@drawable/avatar_temp"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="126dp"
+			tools:layout_editor_absoluteY="25dp"/>
+
+		<TextView
+			android:id="@+id/phone_booth_andro_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/profile_activity_phone_booth_andro_text_view_margin_top"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="center"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/profile_activity_phone_booth_andro_text_view_text"
+			android:textColor="@color/profile_activity_phone_booth_andro_text_view_text_color"
+			android:textSize="@dimen/profile_activity_phone_booth_andro_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/dr_what_text_view"
+			tools:layout_editor_absoluteX="116dp"
+			tools:layout_editor_absoluteY="197dp"/>
+
+		<TextView
+			android:id="@+id/dr_what_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/profile_activity_dr_what_text_view_margin_top"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="center"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/profile_activity_dr_what_text_view_text"
+			android:textColor="@color/profile_activity_dr_what_text_view_text_color"
+			android:textSize="@dimen/profile_activity_dr_what_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/avatar_temp_image_view"
+			tools:layout_editor_absoluteX="137dp"
+			tools:layout_editor_absoluteY="160dp"/>
+
+		<TextView
+			android:id="@+id/traveler_dreamer_text_view"
+			android:layout_width="@dimen/profile_activity_traveler_dreamer_text_view_width"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/profile_activity_traveler_dreamer_text_view_margin_bottom"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="center"
+			android:lineSpacingMultiplier="1.18"
+			android:text="@string/profile_activity_traveler_dreamer_text_view_text"
+			android:textColor="@color/profile_activity_traveler_dreamer_text_view_text_color"
+			android:textSize="@dimen/profile_activity_traveler_dreamer_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="38dp"
+			tools:layout_editor_absoluteY="230dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/info_bar_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/profile_activity_info_bar_constraint_layout_height"
+		android:background="@color/profile_activity_info_bar_constraint_layout_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/header_constraint_layout"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="361dp">
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/group7_constraint_layout"
+			android:layout_width="@dimen/profile_activity_group7_constraint_layout_width"
+			android:layout_height="@dimen/profile_activity_group7_constraint_layout_height"
+			android:layout_marginRight="@dimen/profile_activity_group7_constraint_layout_margin_end"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="291dp"
+			tools:layout_editor_absoluteY="20dp">
+
+			<TextView
+				android:id="@+id/stalking_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:alpha="0.400000005960464"
+				android:fontFamily="@font/font_lato_regular"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_stalking_text_view_text"
+				android:textColor="@color/profile_activity_stalking_text_view_text_color"
+				android:textSize="@dimen/profile_activity_stalking_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="29dp"/>
+
+			<TextView
+				android:id="@+id/text_view_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/profile_activity_text_view_text_view_margin_start"
+				android:fontFamily="@font/font_lato_bold"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_text_view_text_view_text"
+				android:textColor="@color/profile_activity_text_view_text_view_text_color"
+				android:textSize="@dimen/profile_activity_text_view_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="1dp"
+				tools:layout_editor_absoluteY="0dp"/>
+
+		</android.support.constraint.ConstraintLayout>
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/group6_constraint_layout"
+			android:layout_width="@dimen/profile_activity_group6_constraint_layout_width"
+			android:layout_height="@dimen/profile_activity_group6_constraint_layout_height"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="166dp"
+			tools:layout_editor_absoluteY="20dp">
+
+			<TextView
+				android:id="@+id/stalkers_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:alpha="0.400000005960464"
+				android:fontFamily="@font/font_lato_regular"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_stalkers_text_view_text"
+				android:textColor="@color/profile_activity_stalkers_text_view_text_color"
+				android:textSize="@dimen/profile_activity_stalkers_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="29dp"/>
+
+			<TextView
+				android:id="@+id/k_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/profile_activity_k_text_view_margin_start"
+				android:fontFamily="@font/font_lato_bold"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_k_text_view_text"
+				android:textColor="@color/profile_activity_k_text_view_text_color"
+				android:textSize="@dimen/profile_activity_k_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="1dp"
+				tools:layout_editor_absoluteY="0dp"/>
+
+		</android.support.constraint.ConstraintLayout>
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/group5_constraint_layout"
+			android:layout_width="@dimen/profile_activity_group5_constraint_layout_width"
+			android:layout_height="@dimen/profile_activity_group5_constraint_layout_height"
+			android:layout_marginLeft="@dimen/profile_activity_group5_constraint_layout_margin_start"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="42dp"
+			tools:layout_editor_absoluteY="20dp">
+
+			<TextView
+				android:id="@+id/photos_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/profile_activity_photos_text_view_margin_start"
+				android:layout_marginRight="@dimen/profile_activity_photos_text_view_margin_end"
+				android:alpha="0.400000005960464"
+				android:fontFamily="@font/font_lato_regular"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_photos_text_view_text"
+				android:textColor="@color/profile_activity_photos_text_view_text_color"
+				android:textSize="@dimen/profile_activity_photos_text_view_text_size"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				tools:layout_editor_absoluteX="2dp"
+				tools:layout_editor_absoluteY="29dp"/>
+
+			<TextView
+				android:id="@+id/text_view_two_text_view"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/font_lato_bold"
+				android:gravity="center"
+				android:lineSpacingMultiplier="1"
+				android:text="@string/profile_activity_text_view_two_text_view_text"
+				android:textColor="@color/profile_activity_text_view_two_text_view_text_color"
+				android:textSize="@dimen/profile_activity_text_view_two_text_view_text_size"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				tools:layout_editor_absoluteX="0dp"
+				tools:layout_editor_absoluteY="0dp"/>
+
+		</android.support.constraint.ConstraintLayout>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/gallery_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/profile_activity_gallery_constraint_layout_margin_bottom"
+		android:layout_marginLeft="@dimen/profile_activity_gallery_constraint_layout_margin_start"
+		android:layout_marginRight="@dimen/profile_activity_gallery_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/profile_activity_gallery_constraint_layout_margin_top"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/info_bar_constraint_layout"
+		tools:layout_editor_absoluteX="2dp"
+		tools:layout_editor_absoluteY="465dp">
+
+		<TextView
+			android:id="@+id/latest_photos_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:letterSpacing="-0"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/profile_activity_latest_photos_text_view_text"
+			android:textColor="@color/profile_activity_latest_photos_text_view_text_color"
+			android:textSize="@dimen/profile_activity_latest_photos_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="140dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/photos_recycler_view"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/profile_activity_photos_recycler_view_height"
+			android:layout_marginTop="@dimen/profile_activity_photos_recycler_view_margin_top"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/latest_photos_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="28dp"
+			tools:listitem="@layout/view_view_holder"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -4,14 +4,15 @@
 	android:duration="1000">
 
 	<objectAnimator
-		android:duration="1000"
+		android:duration="850"
 		android:propertyName="translationY"
-		android:valueFrom="500"
+		android:valueFrom="300"
 		android:valueTo="0"
 		android:valueType="floatType"/>
 
 	<objectAnimator
-		android:duration="1000"
+		android:duration="350"
+		android:interpolator="@android:interpolator/accelerate_decelerate"
 		android:propertyName="alpha"
 		android:valueFrom="0"
 		android:valueTo="1"

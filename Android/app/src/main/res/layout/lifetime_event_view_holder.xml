@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/lifetime_event_view_holder_lifetime_event_height">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/lifetime_event_view_holder_bg_constraint_layout_margin_bottom"
+		android:layout_marginTop="@dimen/lifetime_event_view_holder_bg_constraint_layout_margin_top"
+		android:background="@color/lifetime_event_view_holder_bg_constraint_layout_background_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="29dp"/>
+
+	<TextView
+		android:id="@+id/pluto_posted_anew_ltext_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/lifetime_event_view_holder_pluto_posted_anew_ltext_view_margin_top"
+		android:alpha="0.400000005960464"
+		android:fontFamily="@font/font_lato_light"
+		android:gravity="center"
+		android:lineSpacingMultiplier="1"
+		android:text="@string/lifetime_event_view_holder_pluto_posted_anew_ltext_view_text"
+		android:textColor="@color/lifetime_event_view_holder_pluto_posted_anew_ltext_view_text_color"
+		android:textSize="@dimen/lifetime_event_view_holder_pluto_posted_anew_ltext_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/avatar_astronaut_image_view"
+		tools:layout_editor_absoluteX="103dp"
+		tools:layout_editor_absoluteY="124dp"/>
+
+	<TextView
+		android:id="@+id/in_acomplicated_rel_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/lifetime_event_view_holder_in_acomplicated_rel_text_view_margin_top"
+		android:fontFamily="@font/font_lato_black"
+		android:gravity="center"
+		android:lineSpacingMultiplier="1"
+		android:text="@string/lifetime_event_view_holder_in_acomplicated_rel_text_view_text"
+		android:textColor="@color/lifetime_event_view_holder_in_acomplicated_rel_text_view_text_color"
+		android:textSize="@dimen/lifetime_event_view_holder_in_acomplicated_rel_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/pluto_posted_anew_ltext_view"
+		tools:layout_editor_absoluteX="70dp"
+		tools:layout_editor_absoluteY="143dp"/>
+
+	<ImageView
+		android:id="@+id/avatar_astronaut_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/lifetime_event_view_holder_avatar_astronaut_image_view_margin_top"
+		android:scaleType="fitXY"
+		android:src="@drawable/avatarastronaut"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="141dp"
+		tools:layout_editor_absoluteY="18dp"/>
+
+</android.support.constraint.ConstraintLayout>
