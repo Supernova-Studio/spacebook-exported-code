@@ -10,46 +10,39 @@
 		parent="Theme.AppCompat.NoActionBar"/>
 
 	<style
-		name="SplashActivityTheme"
-		parent="AppTheme">
-
-		<item name="android:windowBackground">@drawable/background_activity_splash</item>
-	</style>
-
-	<style
-		name="ActivityWelcomeVCActivityTheme"
+		name="ActivityWelcomeActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityLoginVCActivityTheme"
+		name="ActivityLoginActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivitySignupVCActivityTheme"
+		name="ActivitySignupActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityTimelineVCActivityTheme"
+		name="ActivityTimelineActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityProfileVCActivityTheme"
+		name="ActivityProfileActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityProfilePhotosVCActivityTheme"
+		name="ActivityProfilePhotosActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityProfileSettingsVCActivityTheme"
+		name="ActivityProfileSettingsActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityMessagesVCActivityTheme"
+		name="ActivityMessagesActivityTheme"
 		parent="AppTheme"/>
 
 	<style
-		name="ActivityEventDetailVCActivityTheme"
+		name="ActivityEventDetailActivityTheme"
 		parent="AppTheme"/>
 
 	<style
@@ -58,20 +51,20 @@
 
 
 
-	<!-- SignupVCActivity -->
+	<!-- SignupActivity -->
 
-	<style name="ActivitySignupVCActivitySwitchSwitchTheme">
+	<style name="SignupActivitySwitchSwitchTheme">
 
-		<item name="colorControlActivated">@color/activity_signup_vcactivity_switch_switch_active_color</item>
+		<item name="colorControlActivated">@color/signup_activity_switch_switch_active_color</item>
 	</style>
 
 
 
-	<!-- ProfileSettingsVCActivity -->
+	<!-- ProfileSettingsActivity -->
 
-	<style name="ActivityProfileSettingsVCActivitySlideSwitchTheme">
+	<style name="ProfileSettingsActivitySlideSwitchTheme">
 
-		<item name="colorControlActivated">@color/activity_profile_settings_vcactivity_slide_switch_active_color</item>
+		<item name="colorControlActivated">@color/profile_settings_activity_slide_switch_active_color</item>
 	</style>
 
 </resources>

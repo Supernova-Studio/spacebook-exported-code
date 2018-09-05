@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/event_view_holder_event_height">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/bg_white_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/event_view_holder_bg_white_constraint_layout_margin_top"
+		android:background="@color/event_view_holder_bg_white_constraint_layout_background_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="31dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/event_view_holder_view_constraint_layout_height"
+		android:background="@color/event_view_holder_view_constraint_layout_background_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="282dp">
+
+		<TextView
+			android:id="@+id/john_joe_and_jack_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/event_view_holder_john_joe_and_jack_text_view_margin_start"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/event_view_holder_john_joe_and_jack_text_view_text"
+			android:textColor="@color/event_view_holder_john_joe_and_jack_text_view_text_color"
+			android:textSize="@dimen/event_view_holder_john_joe_and_jack_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="19dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/header_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="@dimen/event_view_holder_header_constraint_layout_margin_bottom"
+		android:layout_marginTop="@dimen/event_view_holder_header_constraint_layout_margin_top"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="84dp">
+
+		<ImageView
+			android:id="@+id/bg_event_temp_image_view"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/bg_event_temp_2"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+		<TextView
+			android:id="@+id/text_view_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/event_view_holder_text_view_text_view_margin_bottom"
+			android:layout_marginLeft="@dimen/event_view_holder_text_view_text_view_margin_start"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/event_view_holder_text_view_text_view_text"
+			android:textColor="@color/event_view_holder_text_view_text_view_text_color"
+			android:textSize="@dimen/event_view_holder_text_view_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			tools:layout_editor_absoluteX="20dp"
+			tools:layout_editor_absoluteY="159dp"/>
+
+		<TextView
+			android:id="@+id/guess_who_sback_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/event_view_holder_guess_who_sback_text_view_margin_bottom"
+			android:layout_marginRight="@dimen/event_view_holder_guess_who_sback_text_view_margin_end"
+			android:fontFamily="@font/font_roboto_black"
+			android:gravity="right"
+			android:lineSpacingMultiplier="0.83"
+			android:text="@string/event_view_holder_guess_who_sback_text_view_text"
+			android:textColor="@color/event_view_holder_guess_who_sback_text_view_text_color"
+			android:textSize="@dimen/event_view_holder_guess_who_sback_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="152dp"
+			tools:layout_editor_absoluteY="149dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_two_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/event_view_holder_view_two_constraint_layout_height"
+		android:layout_marginLeft="@dimen/event_view_holder_view_two_constraint_layout_margin_start"
+		android:layout_marginRight="@dimen/event_view_holder_view_two_constraint_layout_margin_end"
+		android:layout_marginTop="@dimen/event_view_holder_view_two_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="9dp"
+		tools:layout_editor_absoluteY="15dp">
+
+		<TextView
+			android:id="@+id/laika_created_anew_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/event_view_holder_laika_created_anew_text_view_margin_start"
+			android:layout_marginTop="@dimen/event_view_holder_laika_created_anew_text_view_margin_top"
+			android:fontFamily="@font/font_lato_bold"
+			android:gravity="left"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/event_view_holder_laika_created_anew_text_view_text"
+			android:textColor="@color/event_view_holder_laika_created_anew_text_view_text_color"
+			android:textSize="@dimen/event_view_holder_laika_created_anew_text_view_text_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="90dp"
+			tools:layout_editor_absoluteY="25dp"/>
+
+		<TextView
+			android:id="@+id/back_from_the_space_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/event_view_holder_back_from_the_space_text_view_margin_start"
+			android:layout_marginTop="@dimen/event_view_holder_back_from_the_space_text_view_margin_top"
+			android:alpha="0.400000005960464"
+			android:fontFamily="@font/font_lato_regular"
+			android:gravity="left"
+			android:lineSpacingMultiplier="1"
+			android:text="@string/event_view_holder_back_from_the_space_text_view_text"
+			android:textColor="@color/event_view_holder_back_from_the_space_text_view_text_color"
+			android:textSize="@dimen/event_view_holder_back_from_the_space_text_view_text_size"
+			app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+			app:layout_constraintTop_toBottomOf="@+id/laika_created_anew_text_view"
+			tools:layout_editor_absoluteX="90dp"
+			tools:layout_editor_absoluteY="45dp"/>
+
+		<ImageView
+			android:id="@+id/avatar_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:scaleType="fitXY"
+			android:src="@drawable/avatar_2"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+
+	</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

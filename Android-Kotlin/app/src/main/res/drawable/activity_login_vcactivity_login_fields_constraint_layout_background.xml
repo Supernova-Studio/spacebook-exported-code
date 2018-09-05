@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-
-	<solid android:color="@color/activity_login_vcactivity_login_fields_constraint_layout_background_color"/>
-
-	<corners android:radius="@dimen/activity_login_vcactivity_login_fields_constraint_layout_radius"/>
-
-</shape>
