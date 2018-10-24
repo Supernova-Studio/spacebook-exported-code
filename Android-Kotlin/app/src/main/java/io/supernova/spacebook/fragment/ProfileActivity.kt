@@ -1,113 +1,83 @@
-/*
- * ProfileActivity
- * Spacebook
- *
+/**
  * Created by Supernova.
- * Copyright © 2018 Supernova. All rights reserved.
  */
 
 package io.supernova.spacebook.fragment
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import java.util.*
 import io.supernova.spacebook.R
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
 import io.supernova.spacebook.activity.*
+import java.util.*
 import android.support.v7.widget.GridLayoutManager
-import io.supernova.spacebook.adapter.ProfileActivityPhotosRecyclerViewAdapter
-import android.support.v7.widget.RecyclerView
-import android.widget.TextView
-import android.support.v7.widget.LinearLayoutManager
-import android.view.Menu
-import android.view.MenuInflater
+import android.view.View
+import android.view.LayoutInflater
+import android.text.Spannable
 import android.view.MenuItem
 import android.support.v7.widget.Toolbar
+import android.view.Menu
+import android.text.style.RelativeSizeSpan
+import android.databinding.DataBindingUtil
+import android.support.v7.app.AppCompatActivity
+import android.view.MenuInflater
+import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.support.v7.widget.LinearLayoutManager
+import io.supernova.spacebook.adapter.ProfileActivityPhotosRecyclerViewAdapter
+import io.supernova.spacebook.databinding.ProfileActivityBinding
 
 
-class ProfileActivity() : Fragment() {
+class ProfileActivity(): Fragment() {
 
-	companion object {
-
-		fun newInstance(): ProfileActivity {
-
-			// Create a Bundle instance, fill it with your Fragment initial data and pass it to Fragment's setArguements() method here.
-			return ProfileActivity()
-		}
-
-	}
-
-
-	private lateinit var drWhatTextView: TextView
-	private lateinit var travelerDreamerTextView: TextView
-	private lateinit var latestPhotosTextView: TextView
-	private lateinit var photosRecyclerView: RecyclerView
-
-	init {
-		setHasOptionsMenu(true)
-	}
-
-	override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-
-		return inflater.inflate(R.layout.profile_activity, container, false)
-	}
-
-
-	override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
-		super.onViewCreated(view, savedInstanceState)
-		init()
-	}
-
-
-	override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {
-
-		super.onCreateOptionsMenu(menu, menuInflater)
-		menuInflater.inflate(R.menu.menu_profile, menu)
-	}
-
-
-	override fun onOptionsItemSelected(menuItem: MenuItem): Boolean {
-
-		when (menuItem.getItemId()) {
-			R.id.left_item_menu_item -> {
-				onLeftItemPressed()
-				return true
-			}
-		}
-		return super.onOptionsItemSelected(menuItem)
-	}
-
-
-	private fun init() {
-
-		drWhatTextView = view!!.findViewById(R.id.dr_what_text_view)
-		
-		travelerDreamerTextView = view!!.findViewById(R.id.traveler_dreamer_text_view)
-		
-		latestPhotosTextView = view!!.findViewById(R.id.latest_photos_text_view)
-		
-		photosRecyclerView = view!!.findViewById(R.id.photos_recycler_view)
-		// Configure Photos component
-		photosRecyclerView.setLayoutManager(GridLayoutManager(context, 1, LinearLayoutManager.HORIZONTAL, false))
-		photosRecyclerView.setAdapter(ProfileActivityPhotosRecyclerViewAdapter())
-		
-		// Additional Fragment initialization code can go here.
-	}
-
-
-	protected fun onLeftItemPressed() {
-
-		this.startProfileSettingsActivity();
-	}
-
-
-	private fun startProfileSettingsActivity() {
-
-		context.startActivity(ProfileSettingsActivity.newIntent(context))
-	}
+    companion object {
+        fun newInstance(): ProfileActivity {
+        
+            val fragment = ProfileActivity()
+            val arguments = Bundle()
+            fragment.arguments = arguments
+            return fragment
+        }
+    }
+    
+    private lateinit var binding: ProfileActivityBinding
+    init {
+        setHasOptionsMenu(true)
+    }
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    
+        binding = DataBindingUtil.inflate(inflater, R.layout.profile_activity, container, false)
+        return binding.root
+    }
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+    
+        inflater.inflate(R.menu.profile_activity_menu, menu)
+    }
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    
+        super.onViewCreated(view, savedInstanceState)
+        init()
+    }
+    fun init() {
+    
+        // Configure Dr. What component
+        val drWhatTextViewText = SpannableString(context.getString(R.string.profile_activity_dr_what_text_view_text))
+        binding.drWhatTextView.text = drWhatTextViewText
+        
+        // Configure Traveler, dreamer component
+        val travelerDreamerTextViewText = SpannableString(context.getString(R.string.profile_activity_traveler_dreamer_text_view_text))
+        binding.travelerDreamerTextView.text = travelerDreamerTextViewText
+        
+        // Configure Latest Photos component
+        val latestPhotosTextViewText = SpannableString(context.getString(R.string.profile_activity_latest_photos_text_view_text))
+        binding.latestPhotosTextView.text = latestPhotosTextViewText
+        
+        // Configure Photos component
+        binding.photosRecyclerView.layoutManager = GridLayoutManager(context, 1, LinearLayoutManager.HORIZONTAL, false)
+        binding.photosRecyclerView.adapter = ProfileActivityPhotosRecyclerViewAdapter()
+    }
 }
+
+
+
 

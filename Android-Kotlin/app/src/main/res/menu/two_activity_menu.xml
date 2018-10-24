@@ -1,0 +1,22 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/timeline_activity_menu_item"
+        android:icon="@drawable/active_icon_7"
+        android:title="@string/timeline_activity_menu_item_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/messages_activity_menu_item"
+        android:icon="@drawable/active_icon_3"
+        android:title="@string/messages_activity_menu_item_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/profile_activity_menu_item"
+        android:icon="@drawable/active_icon_6"
+        android:title="@string/profile_activity_menu_item_title"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<android.support.constraint.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="@dimen/view_six_view_holder_view_width"
-	android:layout_height="@dimen/view_six_view_holder_view_height">
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-	<ImageView
-		android:id="@+id/bg_photo_image_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:scaleType="fitXY"
-		android:src="@drawable/bg_photo_5"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintLeft_toLeftOf="parent"
-		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="0dp"/>
+    <data/>
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/view"
+        android:layout_width="@dimen/view_six_view_holder_view_height"
+        android:layout_height="@dimen/view_six_view_holder_view_height">
+    
+        <ImageView
+            android:id="@+id/bg_photo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_photo_5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>
