@@ -1,0 +1,139 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <view id="DRG-JX-it6" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
+            <rect key="frame" x="0" y="0" width="375" height="667" />
+            <constraints>
+                <constraint firstItem="3x7-J8-Nbc" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="41W-uD-Nkc" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="3x7-J8-Nbc" secondAttribute="trailing" constant="0" id="CpM-vA-jwS" />
+                <constraint firstItem="3x7-J8-Nbc" firstAttribute="top" secondItem="DRG-JX-it6" secondAttribute="top" constant="0" id="13y-Oo-AR7" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="3x7-J8-Nbc" secondAttribute="bottom" constant="0" id="koR-pW-SuA" />
+                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerX" secondItem="DRG-JX-it6" secondAttribute="centerX" constant="0" id="APh-Gd-OI7" />
+                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerY" secondItem="DRG-JX-it6" secondAttribute="centerY" constant="0" id="fS8-K3-VHt" />
+                <constraint firstItem="Bb8-6a-gKI" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="ZvQ-qK-shl" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="Bb8-6a-gKI" secondAttribute="trailing" constant="0" id="maE-13-LuD" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="Bb8-6a-gKI" secondAttribute="bottom" constant="0" id="bND-bX-qIS" />
+            </constraints>
+            <subviews>
+                <mapView id="3x7-J8-Nbc" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" multipleTouchEnabled="YES" mapType="standard" clipsSubviews="YES" showsBuildings="YES" showsCompass="YES" showsScale="NO" showsTraffic="NO" showsPointsOfInterest="YES" showsUserLocation="NO" zoomEnabled="YES" scrollEnabled="YES" rotateEnabled="YES" pitchEnabled="YES">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="0" y="0" width="375" height="667" />
+                    <constraints />
+                    <connections>
+                        <outlet property="delegate" destination="CVt-Yd-qkp" id="GkinXRwJcp1oxeJKLZ8I" />
+                    </connections>
+                </mapView>
+                <imageView id="FcZ-tf-ca7" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="icon-event-area">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="95" y="241" width="185" height="185" />
+                    <constraints />
+                </imageView>
+                <view id="Bb8-6a-gKI" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="0" y="572" width="375" height="95" />
+                    <constraints>
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="height" constant="95" id="Bww-U4-tM8" />
+                        <constraint firstItem="AZh-aH-pYU" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="0" id="hCC-g9-FNM" />
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="AZh-aH-pYU" secondAttribute="trailing" constant="0" id="l5B-4m-vRu" />
+                        <constraint firstItem="AZh-aH-pYU" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="15" id="5GR-jZ-Eb3" />
+                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="9" id="hBe-Dl-OL0" />
+                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="-1" id="tsE-9J-wzr" />
+                        <constraint firstItem="3KO-0H-cKf" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="yuB-We-n0q" />
+                        <constraint firstItem="3KO-0H-cKf" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="24" id="h1J-7v-BgS" />
+                        <constraint firstItem="fZr-GL-4T2" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="ocw-BL-7c2" />
+                        <constraint firstItem="fZr-GL-4T2" firstAttribute="top" secondItem="3KO-0H-cKf" secondAttribute="bottom" constant="3" id="d6b-vG-G6L" />
+                        <constraint firstItem="DNP-8D-9rd" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="Ttm-Yr-sd5" />
+                        <constraint firstItem="DNP-8D-9rd" firstAttribute="top" secondItem="fZr-GL-4T2" secondAttribute="bottom" constant="7" id="Nao-jC-U1H" />
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="mh9-Sr-6Et" secondAttribute="trailing" constant="20" id="uBx-Mg-Xls" />
+                        <constraint firstItem="mh9-Sr-6Et" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="27" id="Rmd-DD-Fww" />
+                    </constraints>
+                    <subviews>
+                        <view id="AZh-aH-pYU" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            <rect key="frame" x="0" y="15" width="375" height="80" />
+                            <constraints>
+                                <constraint firstItem="AZh-aH-pYU" firstAttribute="height" constant="80" id="lrC-pE-a93" />
+                            </constraints>
+                            <subviews />
+                        </view>
+                        <imageView id="ccx-S3-Wk9" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="avatar-2">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="9" y="-1" width="82" height="82" />
+                            <constraints />
+                        </imageView>
+                        <label id="3KO-0H-cKf" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="99" y="24" width="115" height="17" />
+                            <constraints />
+                            <string key="text">Guess who’s back?</string>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14" />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.05882352963089943" green="0.05882352963089943" blue="0.05882352963089943" alpha="1.0" />
+                        </label>
+                        <label id="fZr-GL-4T2" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="99" y="44" width="121" height="12" />
+                            <constraints />
+                            <string key="text">Happening in 20h, Bajkonur</string>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="10" />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                        </label>
+                        <label id="DNP-8D-9rd" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="99" y="63" width="95" height="12" />
+                            <constraints />
+                            <string key="text">Event posted by Laika</string>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="10" />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                        </label>
+                        <view id="mh9-Sr-6Et" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="307" y="27" width="48" height="48" />
+                            <constraints>
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="width" constant="48" id="cdS-iE-LBi" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="height" constant="48" id="Bnj-pw-RUr" />
+                                <constraint firstItem="sgw-Py-VnU" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="9" id="1sv-Nr-9aK" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="sgw-Py-VnU" secondAttribute="trailing" constant="9" id="Ryx-GJ-bwv" />
+                                <constraint firstItem="sgw-Py-VnU" firstAttribute="top" secondItem="mh9-Sr-6Et" secondAttribute="top" constant="0" id="FK1-Jl-dS6" />
+                                <constraint firstItem="GUg-hK-F5i" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="0" id="y0E-P2-2IB" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="GUg-hK-F5i" secondAttribute="trailing" constant="0" id="HsQ-vo-OWM" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="bottom" secondItem="GUg-hK-F5i" secondAttribute="bottom" constant="0" id="J1y-0p-haq" />
+                            </constraints>
+                            <subviews>
+                                <imageView id="sgw-Py-VnU" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group">
+                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                    <rect key="frame" x="9" y="0" width="29" height="29" />
+                                    <constraints />
+                                </imageView>
+                                <label id="GUg-hK-F5i" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                    <rect key="frame" x="0" y="31" width="48" height="17" />
+                                    <constraints />
+                                    <string key="text">Coming</string>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14" />
+                                    <color key="textColor" colorSpace="calibratedRGB" red="0.5450981259346008" green="0.10588239878416061" blue="0.5490195751190186" alpha="1.0" />
+                                </label>
+                            </subviews>
+                        </view>
+                    </subviews>
+                </view>
+            </subviews>
+        </view>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="xbp-Ve-6Ng" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="EventDetailViewController">
+            <connections>
+                <outlet property="view" destination="DRG-JX-it6" id="r80-PU-FpN" />
+                <outlet property="bgMapTempMapView" destination="3x7-J8-Nbc" id="oVu-3W-nA7" />
+            </connections>
+        </placeholder>
+    </objects>
+    <resources>
+        <image name="icon-event-area" width="184" height="184" />
+        <image name="avatar-2" width="80" height="80" />
+        <image name="group" width="28" height="28" />
+    </resources>
+</document>

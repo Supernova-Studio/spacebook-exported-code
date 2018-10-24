@@ -1,0 +1,141 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <tableViewCell id="V8J-lK-9Fh" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="EventTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventTableViewCell" rowHeight="336">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <rect key="frame" x="0" y="1208" width="375" height="336" />
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V8J-lK-9Fh" id="z4a-5O-yel">
+                <rect key="frame" x="0" y="0" width="375" height="336" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <view id="u34-mq-qA5" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="31" width="375" height="305" />
+                        <constraints />
+                        <subviews />
+                    </view>
+                    <view id="EJX-aL-EcZ" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="84" width="375" height="200" />
+                        <constraints>
+                            <constraint firstItem="4Xp-35-Tzm" firstAttribute="leading" secondItem="EJX-aL-EcZ" secondAttribute="leading" constant="0" id="8L1-eB-dHH" />
+                            <constraint firstItem="EJX-aL-EcZ" firstAttribute="trailing" secondItem="4Xp-35-Tzm" secondAttribute="trailing" constant="0" id="VbB-YW-KM6" />
+                            <constraint firstItem="4Xp-35-Tzm" firstAttribute="top" secondItem="EJX-aL-EcZ" secondAttribute="top" constant="0" id="kwD-Qf-uw7" />
+                            <constraint firstItem="EJX-aL-EcZ" firstAttribute="bottom" secondItem="4Xp-35-Tzm" secondAttribute="bottom" constant="0" id="G8B-Do-Z7M" />
+                            <constraint firstItem="Vtg-hH-NLb" firstAttribute="leading" secondItem="EJX-aL-EcZ" secondAttribute="leading" constant="20" id="G50-qc-0Kz" />
+                            <constraint firstItem="EJX-aL-EcZ" firstAttribute="bottom" secondItem="Vtg-hH-NLb" secondAttribute="bottom" constant="24" id="jUU-14-wuB" />
+                            <constraint firstItem="EJX-aL-EcZ" firstAttribute="trailing" secondItem="JgQ-Wu-zdI" secondAttribute="trailing" constant="20" id="8OM-r5-JTU" />
+                            <constraint firstItem="EJX-aL-EcZ" firstAttribute="bottom" secondItem="JgQ-Wu-zdI" secondAttribute="bottom" constant="22" id="pLu-qN-nrh" />
+                        </constraints>
+                        <subviews>
+                            <imageView id="4Xp-35-Tzm" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="bg-event-temp-2">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="0" y="0" width="375" height="200" />
+                                <constraints />
+                            </imageView>
+                            <label id="Vtg-hH-NLb" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="20" y="159" width="68" height="17" />
+                                <constraints />
+                                <string key="text">3/13/2050</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            </label>
+                            <label id="JgQ-Wu-zdI" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" customClass="SupernovaLabel" textAlignment="right">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="152" y="149" width="203" height="29" />
+                                <constraints />
+                                <string key="text">Guess who’s back?</string>
+                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="24" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            </label>
+                        </subviews>
+                    </view>
+                    <view id="1Jf-Yb-ZoN" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="9" y="15" width="349" height="82" />
+                        <constraints>
+                            <constraint firstItem="1Jf-Yb-ZoN" firstAttribute="height" constant="82" id="Q4W-TI-RPH" />
+                            <constraint firstItem="CIu-db-NR1" firstAttribute="leading" secondItem="1Jf-Yb-ZoN" secondAttribute="leading" constant="0" id="8u8-WQ-tt3" />
+                            <constraint firstItem="CIu-db-NR1" firstAttribute="top" secondItem="1Jf-Yb-ZoN" secondAttribute="top" constant="0" id="rmU-k8-9dg" />
+                            <constraint firstItem="Nin-hX-WRn" firstAttribute="leading" secondItem="CIu-db-NR1" secondAttribute="trailing" constant="8" id="ZO8-BL-VnM" />
+                            <constraint firstItem="Nin-hX-WRn" firstAttribute="top" secondItem="1Jf-Yb-ZoN" secondAttribute="top" constant="25" id="K34-ms-VbV" />
+                            <constraint firstItem="4En-rJ-POb" firstAttribute="leading" secondItem="CIu-db-NR1" secondAttribute="trailing" constant="8" id="nSU-y5-O8i" />
+                            <constraint firstItem="4En-rJ-POb" firstAttribute="top" secondItem="Nin-hX-WRn" secondAttribute="bottom" constant="3" id="HFe-EJ-ElT" />
+                        </constraints>
+                        <subviews>
+                            <imageView id="CIu-db-NR1" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="avatar-2">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="0" y="0" width="82" height="82" />
+                                <constraints />
+                            </imageView>
+                            <label id="Nin-hX-WRn" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="90" y="25" width="219" height="17" />
+                                <constraints />
+                                <string key="text">Laika created a new event near you</string>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.05882352963089943" green="0.05882352963089943" blue="0.05882352963089943" alpha="1.0" />
+                            </label>
+                            <label id="4En-rJ-POb" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="90" y="45" width="182" height="12" />
+                                <constraints />
+                                <string key="text">Back from the space trip! Come everyone.</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="10" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            </label>
+                        </subviews>
+                    </view>
+                    <view id="glH-fT-aWH" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9803922176361084" green="0.9803922176361084" blue="0.9803922176361084" alpha="1.0" />
+                        <rect key="frame" x="0" y="282" width="375" height="53" />
+                        <constraints>
+                            <constraint firstItem="glH-fT-aWH" firstAttribute="height" constant="53" id="qFy-l6-kZc" />
+                            <constraint firstItem="znD-Ro-IRL" firstAttribute="leading" secondItem="glH-fT-aWH" secondAttribute="leading" constant="20" id="6JO-93-Qty" />
+                            <constraint firstItem="znD-Ro-IRL" firstAttribute="centerY" secondItem="glH-fT-aWH" secondAttribute="centerY" constant="0" id="t2f-7J-92k" />
+                        </constraints>
+                        <subviews>
+                            <label id="znD-Ro-IRL" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="20" y="19" width="190" height="15" />
+                                <constraints />
+                                <string key="text">John, Joe and Jack &amp; 18k are coming</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            </label>
+                        </subviews>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="u34-mq-qA5" firstAttribute="leading" secondItem="z4a-5O-yel" secondAttribute="leading" constant="0" id="o4M-ck-4e6" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="trailing" secondItem="u34-mq-qA5" secondAttribute="trailing" constant="0" id="kpR-aO-1VX" />
+                    <constraint firstItem="u34-mq-qA5" firstAttribute="top" secondItem="z4a-5O-yel" secondAttribute="top" constant="31" id="3TS-MN-Y0O" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="bottom" secondItem="u34-mq-qA5" secondAttribute="bottom" constant="0" id="qcG-lE-RVA" />
+                    <constraint firstItem="EJX-aL-EcZ" firstAttribute="leading" secondItem="z4a-5O-yel" secondAttribute="leading" constant="0" id="BOx-LU-5C7" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="trailing" secondItem="EJX-aL-EcZ" secondAttribute="trailing" constant="0" id="GT2-eF-AvT" />
+                    <constraint firstItem="EJX-aL-EcZ" firstAttribute="top" secondItem="z4a-5O-yel" secondAttribute="top" constant="84" id="Qdg-BL-sAl" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="bottom" secondItem="EJX-aL-EcZ" secondAttribute="bottom" constant="52" id="Z8K-aA-bce" />
+                    <constraint firstItem="1Jf-Yb-ZoN" firstAttribute="leading" secondItem="z4a-5O-yel" secondAttribute="leading" constant="9" id="AIa-Of-lmz" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="trailing" secondItem="1Jf-Yb-ZoN" secondAttribute="trailing" constant="16" id="G2Q-sa-Gat" />
+                    <constraint firstItem="1Jf-Yb-ZoN" firstAttribute="top" secondItem="z4a-5O-yel" secondAttribute="top" constant="15" id="d3p-An-jGj" />
+                    <constraint firstItem="glH-fT-aWH" firstAttribute="leading" secondItem="z4a-5O-yel" secondAttribute="leading" constant="0" id="trn-Hw-r9g" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="trailing" secondItem="glH-fT-aWH" secondAttribute="trailing" constant="0" id="7m8-GL-pdZ" />
+                    <constraint firstItem="z4a-5O-yel" firstAttribute="bottom" secondItem="glH-fT-aWH" secondAttribute="bottom" constant="0" id="nOC-2R-Na8" />
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="guessWhoSBackLabel" destination="JgQ-Wu-zdI" id="7TC-0O-tKL" />
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg-event-temp-2" width="375" height="200" />
+        <image name="avatar-2" width="80" height="80" />
+    </resources>
+</document>

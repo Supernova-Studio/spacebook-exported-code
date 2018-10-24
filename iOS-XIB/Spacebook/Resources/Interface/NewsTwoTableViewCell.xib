@@ -1,0 +1,138 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <tableViewCell id="nJA-VM-Dhh" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="NewsTwoTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTwoTableViewCell" rowHeight="470">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <rect key="frame" x="0" y="0" width="375" height="470" />
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nJA-VM-Dhh" id="EiT-jw-4mf">
+                <rect key="frame" x="0" y="0" width="375" height="470" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <view id="4x6-Rz-9Cw" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="30" width="375" height="439" />
+                        <constraints />
+                        <subviews />
+                    </view>
+                    <imageView id="vhG-cT-FgM" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="bg-news-temp">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="80" width="375" height="250" />
+                        <constraints />
+                    </imageView>
+                    <view id="IP2-mX-5Db" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="10" y="16" width="345" height="80" />
+                        <constraints>
+                            <constraint firstItem="IP2-mX-5Db" firstAttribute="height" constant="80" id="KhF-3z-UTn" />
+                            <constraint firstItem="j9D-rm-TeD" firstAttribute="leading" secondItem="IP2-mX-5Db" secondAttribute="leading" constant="0" id="3Wo-J1-9oK" />
+                            <constraint firstItem="j9D-rm-TeD" firstAttribute="top" secondItem="IP2-mX-5Db" secondAttribute="top" constant="0" id="C05-ez-cs3" />
+                            <constraint firstItem="xpo-yX-8YU" firstAttribute="leading" secondItem="j9D-rm-TeD" secondAttribute="trailing" constant="9" id="QTk-gS-sxX" />
+                            <constraint firstItem="xpo-yX-8YU" firstAttribute="top" secondItem="IP2-mX-5Db" secondAttribute="top" constant="23" id="0Dp-rI-iCO" />
+                            <constraint firstItem="eV1-my-PG2" firstAttribute="leading" secondItem="j9D-rm-TeD" secondAttribute="trailing" constant="9" id="RzW-eu-vAa" />
+                            <constraint firstItem="eV1-my-PG2" firstAttribute="top" secondItem="xpo-yX-8YU" secondAttribute="bottom" constant="3" id="dHK-mi-Z69" />
+                        </constraints>
+                        <subviews>
+                            <imageView id="j9D-rm-TeD" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="icon-avatar-2">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="0" y="0" width="80" height="80" />
+                                <constraints />
+                            </imageView>
+                            <label id="xpo-yX-8YU" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="89" y="23" width="127" height="17" />
+                                <constraints />
+                                <string key="text">The Good Old Times</string>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.05882352963089943" green="0.05882352963089943" blue="0.05882352963089943" alpha="1.0" />
+                            </label>
+                            <label id="eV1-my-PG2" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="89" y="43" width="67" height="12" />
+                                <constraints />
+                                <string key="text">Today, 1:45 PM</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="10" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            </label>
+                        </subviews>
+                    </view>
+                    <label id="be5-e7-gvt" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="20" y="348" width="335" height="40" />
+                        <constraints />
+                        <string key="text">Raiders from the Gemini Cluster are attacking colonial trader ships. When will the Federation step in?</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.027450980618596077" green="0.027450980618596077" blue="0.027450980618596077" alpha="1.0" />
+                    </label>
+                    <view id="dHn-4A-rpe" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9803922176361084" green="0.9803922176361084" blue="0.9803922176361084" alpha="1.0" />
+                        <rect key="frame" x="0" y="410" width="375" height="59" />
+                        <constraints>
+                            <constraint firstItem="dHn-4A-rpe" firstAttribute="height" constant="59" id="JmU-g8-HhS" />
+                            <constraint firstItem="wJj-lI-aBU" firstAttribute="leading" secondItem="dHn-4A-rpe" secondAttribute="leading" constant="20" id="AUr-SP-wTF" />
+                            <constraint firstItem="wJj-lI-aBU" firstAttribute="centerY" secondItem="dHn-4A-rpe" secondAttribute="centerY" constant="0" id="suS-A3-Q03" />
+                            <constraint firstItem="VQ5-QA-mIm" firstAttribute="leading" secondItem="wJj-lI-aBU" secondAttribute="trailing" constant="5" id="70G-NU-HDr" />
+                            <constraint firstItem="VQ5-QA-mIm" firstAttribute="centerY" secondItem="dHn-4A-rpe" secondAttribute="centerY" constant="0" id="aMg-8V-9EI" />
+                            <constraint firstItem="dHn-4A-rpe" firstAttribute="trailing" secondItem="Sga-lI-69W" secondAttribute="trailing" constant="20" id="t5b-it-Bpd" />
+                            <constraint firstItem="Sga-lI-69W" firstAttribute="centerY" secondItem="dHn-4A-rpe" secondAttribute="centerY" constant="0" id="rdQ-Ks-0yg" />
+                        </constraints>
+                        <subviews>
+                            <imageView id="wJj-lI-aBU" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="icon-like">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="20" y="20" width="19" height="19" />
+                                <constraints />
+                            </imageView>
+                            <label id="VQ5-QA-mIm" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="44" y="22" width="134" height="15" />
+                                <constraints />
+                                <string key="text">Varth Dader &amp; 3k like this</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            </label>
+                            <label id="Sga-lI-69W" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.2000000029802322" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="right">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="187" y="22" width="168" height="15" />
+                                <constraints />
+                                <string key="text">Comments disabled by the force</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            </label>
+                        </subviews>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4x6-Rz-9Cw" firstAttribute="leading" secondItem="EiT-jw-4mf" secondAttribute="leading" constant="0" id="epY-IL-mFF" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="trailing" secondItem="4x6-Rz-9Cw" secondAttribute="trailing" constant="0" id="hzJ-Ty-UjJ" />
+                    <constraint firstItem="4x6-Rz-9Cw" firstAttribute="top" secondItem="EiT-jw-4mf" secondAttribute="top" constant="30" id="R7c-tD-DTO" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="bottom" secondItem="4x6-Rz-9Cw" secondAttribute="bottom" constant="1" id="PL2-1O-Fa1" />
+                    <constraint firstItem="vhG-cT-FgM" firstAttribute="leading" secondItem="EiT-jw-4mf" secondAttribute="leading" constant="0" id="JsL-kg-8he" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="trailing" secondItem="vhG-cT-FgM" secondAttribute="trailing" constant="0" id="TBf-3t-pMK" />
+                    <constraint firstItem="vhG-cT-FgM" firstAttribute="top" secondItem="EiT-jw-4mf" secondAttribute="top" constant="80" id="4dZ-tK-6BG" />
+                    <constraint firstItem="IP2-mX-5Db" firstAttribute="leading" secondItem="EiT-jw-4mf" secondAttribute="leading" constant="10" id="z0j-Oo-HUT" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="trailing" secondItem="IP2-mX-5Db" secondAttribute="trailing" constant="20" id="nDj-Qk-RIR" />
+                    <constraint firstItem="IP2-mX-5Db" firstAttribute="top" secondItem="EiT-jw-4mf" secondAttribute="top" constant="16" id="Do3-tZ-hsR" />
+                    <constraint firstItem="be5-e7-gvt" firstAttribute="leading" secondItem="EiT-jw-4mf" secondAttribute="leading" constant="20" id="yaN-z4-NiM" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="trailing" secondItem="be5-e7-gvt" secondAttribute="trailing" constant="20" id="Hhc-pp-iUD" />
+                    <constraint firstItem="be5-e7-gvt" firstAttribute="top" secondItem="vhG-cT-FgM" secondAttribute="bottom" constant="18" id="gG9-vt-RM2" />
+                    <constraint firstItem="dHn-4A-rpe" firstAttribute="top" secondItem="be5-e7-gvt" secondAttribute="bottom" constant="22" id="lBA-tg-3GU" />
+                    <constraint firstItem="dHn-4A-rpe" firstAttribute="leading" secondItem="EiT-jw-4mf" secondAttribute="leading" constant="0" id="9JM-0o-fTP" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="trailing" secondItem="dHn-4A-rpe" secondAttribute="trailing" constant="0" id="od6-Xl-tWN" />
+                    <constraint firstItem="EiT-jw-4mf" firstAttribute="bottom" secondItem="dHn-4A-rpe" secondAttribute="bottom" constant="1" id="5SU-rF-2iu" />
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="raidersFromTheGemLabel" destination="be5-e7-gvt" id="35s-K0-K7Y" />
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg-news-temp" width="375" height="250" />
+        <image name="icon-avatar-2" width="80" height="80" />
+        <image name="icon-like" width="19" height="19" />
+    </resources>
+</document>

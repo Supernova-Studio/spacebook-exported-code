@@ -1,0 +1,131 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <view id="Bli-KY-rQH" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+            <rect key="frame" x="0" y="0" width="375" height="667" />
+            <constraints>
+                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="64i-Vi-G4K" />
+                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="top" secondItem="Bli-KY-rQH" secondAttribute="top" constant="114" id="iz0-GO-ETF" />
+                <constraint firstItem="wcQ-ch-KR8" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="SpM-k4-buq" />
+                <constraint firstItem="wcQ-ch-KR8" firstAttribute="top" secondItem="8oJ-rn-Y9O" secondAttribute="bottom" constant="20" id="ofW-ki-FEN" />
+                <constraint firstItem="b2r-f4-98c" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="cbo-JB-qFY" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="b2r-f4-98c" secondAttribute="trailing" constant="20" id="XA5-ro-PPs" />
+                <constraint firstItem="b2r-f4-98c" firstAttribute="top" secondItem="wcQ-ch-KR8" secondAttribute="bottom" constant="70" id="7yh-0C-Xp0" />
+                <constraint firstItem="xgr-0U-Y5t" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="Ms3-6e-L7c" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="xgr-0U-Y5t" secondAttribute="trailing" constant="20" id="hIA-JZ-coz" />
+                <constraint firstItem="gFA-Vq-841" firstAttribute="top" secondItem="xgr-0U-Y5t" secondAttribute="bottom" constant="11" id="ljZ-GS-IGG" />
+                <constraint firstItem="gFA-Vq-841" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="pZU-Uj-Hqd" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="bottom" secondItem="gFA-Vq-841" secondAttribute="bottom" constant="19" id="24F-6s-hoK" />
+            </constraints>
+            <subviews>
+                <label id="8oJ-rn-Y9O" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="136" y="114" width="104" height="50" />
+                    <constraints />
+                    <string key="text">Log in</string>
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="42" />
+                    <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                </label>
+                <label id="wcQ-ch-KR8" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="100" y="184" width="176" height="44" />
+                    <constraints />
+                    <string key="text">Welcome back.
+The galaxy awaits you.</string>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18" />
+                    <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                </label>
+                <view id="b2r-f4-98c" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                    <rect key="frame" x="20" y="298" width="335" height="101" />
+                    <constraints>
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="height" constant="101" id="VBa-cP-ALd" />
+                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="Sln-dq-bt3" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="oiz-Rm-4aG" secondAttribute="trailing" constant="14" id="9yF-fQ-9HJ" />
+                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="top" secondItem="b2r-f4-98c" secondAttribute="top" constant="14" id="Ry9-tw-cHv" />
+                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="0" id="4pR-X7-GFC" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="Eqn-QU-FMq" secondAttribute="trailing" constant="0" id="AVt-hX-5tr" />
+                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="top" secondItem="oiz-Rm-4aG" secondAttribute="bottom" constant="16" id="JS5-jk-Qjz" />
+                        <constraint firstItem="UD7-xl-u6L" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="6uH-rf-mfw" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="UD7-xl-u6L" secondAttribute="trailing" constant="14" id="4nb-av-B1a" />
+                        <constraint firstItem="UD7-xl-u6L" firstAttribute="top" secondItem="Eqn-QU-FMq" secondAttribute="bottom" constant="14" id="mEb-Sx-Q8I" />
+                    </constraints>
+                    <subviews>
+                        <textField id="oiz-Rm-4aG" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your nickname" text="" textAlignment="left">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="15" y="14" width="305" height="20" />
+                            <constraints />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15" />
+                            <textInputTraits key="textInputTraits" />
+                        </textField>
+                        <view id="Eqn-QU-FMq" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.1000000014901161" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            <rect key="frame" x="0" y="50" width="335" height="1" />
+                            <constraints>
+                                <constraint firstItem="Eqn-QU-FMq" firstAttribute="height" constant="1" id="RgQ-3U-Pcs" />
+                            </constraints>
+                            <subviews />
+                        </view>
+                        <textField id="UD7-xl-u6L" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" text="" textAlignment="left">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                            <rect key="frame" x="15" y="65" width="305" height="20" />
+                            <constraints />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15" />
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES" />
+                        </textField>
+                    </subviews>
+                </view>
+                <button id="xgr-0U-Y5t" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                    <rect key="frame" x="20" y="559" width="335" height="60" />
+                    <constraints>
+                        <constraint firstItem="xgr-0U-Y5t" firstAttribute="height" constant="60" id="3ED-d0-BHz" />
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
+                    <state image="icon-log-in" title="LOG IN" key="normal">
+                        <color key="titleColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
+                    </state>
+                    <connections>
+                        <action selector="onLoginPressed:" destination="wQY-kq-Mh1" eventType="touchUpInside" id="Zpk-qt-Fpg" />
+                    </connections>
+                </button>
+                <button id="gFA-Vq-841" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="113" y="630" width="150" height="18" />
+                    <constraints>
+                        <constraint firstItem="gFA-Vq-841" firstAttribute="width" constant="150" id="Mvx-jg-xjo" />
+                        <constraint firstItem="gFA-Vq-841" firstAttribute="height" constant="18" id="aSA-Jq-M4z" />
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15" />
+                    <state title="Forgot your password?" key="normal">
+                        <color key="titleColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                    </state>
+                    <connections>
+                        <action selector="onForgotYourPasswordPressed:" destination="wQY-kq-Mh1" eventType="touchUpInside" id="CMl-Lt-Zia" />
+                    </connections>
+                </button>
+            </subviews>
+        </view>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="wQY-kq-Mh1" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="Bli-KY-rQH" id="uBe-QX-R1n" />
+                <outlet property="loginView" destination="Bli-KY-rQH" id="GTd-2d-D1j" />
+                <outlet property="logInLabel" destination="8oJ-rn-Y9O" id="jX2-wg-Knn" />
+                <outlet property="loginFieldsView" destination="b2r-f4-98c" id="RJB-Im-gfO" />
+                <outlet property="loginButton" destination="xgr-0U-Y5t" id="hX1-zJ-cuI" />
+                <outlet property="forgotYourPasswordButton" destination="gFA-Vq-841" id="X80-Ub-aIs" />
+            </connections>
+        </placeholder>
+    </objects>
+    <resources>
+        <image name="icon-log-in" width="19" height="19" />
+    </resources>
+</document>

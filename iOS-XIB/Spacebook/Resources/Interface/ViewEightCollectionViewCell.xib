@@ -1,0 +1,40 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <collectionViewCell id="6Ez-iU-vnn" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="ViewEightCollectionViewCell" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ViewEightCollectionViewCell">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <rect key="frame" x="2" y="277" width="184" height="184" />
+            <constraints>
+                <constraint firstItem="XYn-ua-dM7" firstAttribute="leading" secondItem="6Ez-iU-vnn" secondAttribute="leading" constant="0" id="YIo-dq-3V5" />
+                <constraint firstItem="6Ez-iU-vnn" firstAttribute="trailing" secondItem="XYn-ua-dM7" secondAttribute="trailing" constant="0" id="sbF-kr-fOe" />
+                <constraint firstItem="XYn-ua-dM7" firstAttribute="top" secondItem="6Ez-iU-vnn" secondAttribute="top" constant="0" id="ynl-2o-XYU" />
+                <constraint firstItem="6Ez-iU-vnn" firstAttribute="bottom" secondItem="XYn-ua-dM7" secondAttribute="bottom" constant="0" id="Ty4-Oi-oiC" />
+            </constraints>
+            <rect key="frame" x="0" y="0" width="184" height="184" />
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+            <size width="184" height="184" key="customSize" />
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                <rect key="frame" x="0" y="0" width="184" height="184" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <imageView id="XYn-ua-dM7" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="photo-3">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="184" height="184" />
+                        <constraints />
+                    </imageView>
+                </subviews>
+            </view>
+            <connections />
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo-3" width="123" height="122" />
+    </resources>
+</document>

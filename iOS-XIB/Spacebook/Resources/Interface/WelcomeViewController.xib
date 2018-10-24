@@ -1,0 +1,117 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <view id="u8u-Bz-3jb" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+            <rect key="frame" x="0" y="0" width="375" height="667" />
+            <constraints>
+                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="9Yo-sJ-suq" />
+                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="top" secondItem="u8u-Bz-3jb" secondAttribute="top" constant="100" id="btC-8m-pqw" />
+                <constraint firstItem="shV-g4-LNE" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="bUA-kc-y84" />
+                <constraint firstItem="shV-g4-LNE" firstAttribute="top" secondItem="5Be-Vz-8Hl" secondAttribute="bottom" constant="60" id="B9x-9L-fVt" />
+                <constraint firstItem="0iR-Me-K6I" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="gim-zA-5Xw" />
+                <constraint firstItem="0iR-Me-K6I" firstAttribute="top" secondItem="shV-g4-LNE" secondAttribute="bottom" constant="20" id="0nd-5C-892" />
+                <constraint firstItem="zoy-Yo-cML" firstAttribute="leading" secondItem="u8u-Bz-3jb" secondAttribute="leading" constant="30" id="5EQ-Lx-1YO" />
+                <constraint firstItem="u8u-Bz-3jb" firstAttribute="trailing" secondItem="zoy-Yo-cML" secondAttribute="trailing" constant="30" id="pPg-dr-mbb" />
+                <constraint firstItem="51e-Ox-Y3C" firstAttribute="top" secondItem="zoy-Yo-cML" secondAttribute="bottom" constant="85" id="kk5-mR-9RO" />
+                <constraint firstItem="51e-Ox-Y3C" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="XgN-Gx-uRr" />
+                <constraint firstItem="u8u-Bz-3jb" firstAttribute="bottom" secondItem="51e-Ox-Y3C" secondAttribute="bottom" constant="20" id="Ag7-cN-iGc" />
+            </constraints>
+            <subviews>
+                <imageView id="5Be-Vz-8Hl" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="logo">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="128" y="100" width="120" height="120" />
+                    <constraints />
+                </imageView>
+                <label id="shV-g4-LNE" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="91" y="280" width="197" height="50" />
+                    <constraints />
+                    <string key="text">Spacebook</string>
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="42" />
+                    <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                </label>
+                <label id="0iR-Me-K6I" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="96" y="350" width="186" height="44" />
+                    <constraints />
+                    <string key="text">Conquer the stars
+from behind the screen.</string>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18" />
+                    <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                </label>
+                <view id="zoy-Yo-cML" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="30" y="484" width="315" height="60" />
+                    <constraints>
+                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="leading" secondItem="zoy-Yo-cML" secondAttribute="leading" constant="0" id="TxW-JI-lbh" />
+                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="width" secondItem="a4q-vw-Sp9" secondAttribute="width" constant="0" multiplier="1.0" id="t39-55-GpT" />
+                        <constraint firstItem="a4q-vw-Sp9" firstAttribute="leading" secondItem="kJJ-Hy-0aZ" secondAttribute="trailing" constant="19" id="nEi-tN-1xv" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="trailing" secondItem="a4q-vw-Sp9" secondAttribute="trailing" constant="0" id="Bsm-oN-dNh" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="height" constant="60" id="Tgq-zr-oJm" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="kJJ-Hy-0aZ" secondAttribute="bottom" constant="0" id="9UY-lM-nOC" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="a4q-vw-Sp9" secondAttribute="bottom" constant="0" id="Lt2-pO-6lk" />
+                    </constraints>
+                    <subviews>
+                        <button id="kJJ-Hy-0aZ" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            <rect key="frame" x="0" y="0" width="148" height="60" />
+                            <constraints>
+                                <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="height" constant="60" id="hiz-XG-ZSH" />
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
+                            <state image="icon-sign-up" title="SIGN UP" key="normal">
+                                <color key="titleColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
+                            </state>
+                            <connections>
+                                <action selector="onSignUpPressed:" destination="1vu-fv-Eyj" eventType="touchUpInside" id="uRq-py-us0" />
+                            </connections>
+                        </button>
+                        <button id="a4q-vw-Sp9" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                            <rect key="frame" x="167" y="0" width="148" height="60" />
+                            <constraints>
+                                <constraint firstItem="a4q-vw-Sp9" firstAttribute="height" constant="60" id="s5K-Pm-Pdy" />
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
+                            <state image="icon-log-in" title="LOG IN" key="normal">
+                                <color key="titleColor" colorSpace="calibratedRGB" red="0.8549020290374756" green="0.40784311294555664" blue="0.4274510145187378" alpha="1.0" />
+                            </state>
+                            <connections>
+                                <action selector="onLogInPressed:" destination="1vu-fv-Eyj" eventType="touchUpInside" id="Nmh-Sh-2ji" />
+                            </connections>
+                        </button>
+                    </subviews>
+                </view>
+                <label id="51e-Ox-Y3C" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                    <rect key="frame" x="103" y="629" width="170" height="18" />
+                    <constraints />
+                    <string key="text">© 2050 Supernova Studio</string>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15" />
+                    <color key="textColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                </label>
+            </subviews>
+        </view>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="1vu-fv-Eyj" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="WelcomeViewController">
+            <connections>
+                <outlet property="view" destination="u8u-Bz-3jb" id="e0V-Dn-0zg" />
+                <outlet property="welcomeView" destination="u8u-Bz-3jb" id="7LM-MT-FAz" />
+                <outlet property="logoImageView" destination="5Be-Vz-8Hl" id="mYJ-jv-hD6" />
+                <outlet property="spacebookLabel" destination="shV-g4-LNE" id="SVE-fg-SQH" />
+                <outlet property="signUpButton" destination="kJJ-Hy-0aZ" id="Etl-uN-nGS" />
+                <outlet property="logInButton" destination="a4q-vw-Sp9" id="sax-mL-kqQ" />
+            </connections>
+        </placeholder>
+    </objects>
+    <resources>
+        <image name="logo" width="120" height="120" />
+        <image name="icon-sign-up" width="19" height="19" />
+        <image name="icon-log-in" width="19" height="19" />
+    </resources>
+</document>

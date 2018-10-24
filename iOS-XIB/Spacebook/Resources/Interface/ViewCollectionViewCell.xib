@@ -1,0 +1,38 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <collectionViewCell id="PdM-Rz-UyY" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="ViewCollectionViewCell" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ViewCollectionViewCell">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <rect key="frame" x="248" y="0" width="123" height="122" />
+            <constraints>
+                <constraint firstItem="PdM-Rz-UyY" firstAttribute="trailing" secondItem="599-d5-dqv" secondAttribute="trailing" constant="0" id="TZc-C9-xRA" />
+                <constraint firstItem="599-d5-dqv" firstAttribute="centerY" secondItem="PdM-Rz-UyY" secondAttribute="centerY" constant="0" id="8Lp-xz-ffX" />
+            </constraints>
+            <rect key="frame" x="0" y="0" width="123" height="122" />
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES" />
+            <size width="123" height="122" key="customSize" />
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                <rect key="frame" x="0" y="0" width="123" height="122" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <imageView id="599-d5-dqv" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="photo-3">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="123" height="122" />
+                        <constraints />
+                    </imageView>
+                </subviews>
+            </view>
+            <connections />
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo-3" width="123" height="122" />
+    </resources>
+</document>

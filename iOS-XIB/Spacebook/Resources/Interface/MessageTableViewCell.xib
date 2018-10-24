@@ -1,0 +1,61 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <tableViewCell id="XGI-Zq-K48" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="MessageTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageTableViewCell" rowHeight="80">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+            <rect key="frame" x="0" y="400" width="375" height="80" />
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XGI-Zq-K48" id="6YC-Xb-vhT">
+                <rect key="frame" x="0" y="0" width="375" height="80" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <imageView id="K2G-qX-Nkx" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="avatar-temp-4">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="14" y="9" width="62" height="62" />
+                        <constraints />
+                    </imageView>
+                    <label id="qni-K8-UDr" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="85" y="23" width="48" height="19" />
+                        <constraints />
+                        <string key="text">Vulcan</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
+                    </label>
+                    <label id="zyA-ql-uTD" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="85" y="46" width="236" height="12" />
+                        <constraints />
+                        <string key="text">The needs of the few outweight the needs of the many.</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="10" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.5803921818733215" green="0.5803921818733215" blue="0.5803921818733215" alpha="1.0" />
+                    </label>
+                    <imageView id="8Kn-XF-9dh" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-2">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="348" y="33" width="7" height="13" />
+                        <constraints />
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="K2G-qX-Nkx" firstAttribute="leading" secondItem="6YC-Xb-vhT" secondAttribute="leading" constant="14" id="KsK-aL-alz" />
+                    <constraint firstItem="K2G-qX-Nkx" firstAttribute="centerY" secondItem="6YC-Xb-vhT" secondAttribute="centerY" constant="0" id="y2X-KE-1g4" />
+                    <constraint firstItem="qni-K8-UDr" firstAttribute="leading" secondItem="K2G-qX-Nkx" secondAttribute="trailing" constant="9" id="DdR-6y-jZc" />
+                    <constraint firstItem="qni-K8-UDr" firstAttribute="top" secondItem="6YC-Xb-vhT" secondAttribute="top" constant="23" id="eOW-Rj-XU5" />
+                    <constraint firstItem="zyA-ql-uTD" firstAttribute="leading" secondItem="K2G-qX-Nkx" secondAttribute="trailing" constant="9" id="1EC-Vb-lKv" />
+                    <constraint firstItem="zyA-ql-uTD" firstAttribute="top" secondItem="qni-K8-UDr" secondAttribute="bottom" constant="4" id="bbc-uv-4oa" />
+                    <constraint firstItem="6YC-Xb-vhT" firstAttribute="trailing" secondItem="8Kn-XF-9dh" secondAttribute="trailing" constant="19" id="TIs-SP-4Ua" />
+                    <constraint firstItem="8Kn-XF-9dh" firstAttribute="centerY" secondItem="6YC-Xb-vhT" secondAttribute="centerY" constant="0" id="GuP-0U-PVe" />
+                </constraints>
+            </tableViewCellContentView>
+            <connections />
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar-temp-4" width="60" height="60" />
+        <image name="path-2" width="6" height="12" />
+    </resources>
+</document>

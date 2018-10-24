@@ -1,0 +1,61 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <tableViewCell id="vyg-CK-Hpf" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="MessageSixTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageSixTableViewCell" rowHeight="80">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+            <rect key="frame" x="0" y="80" width="375" height="80" />
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vyg-CK-Hpf" id="ra9-k1-ISv">
+                <rect key="frame" x="0" y="0" width="375" height="80" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <imageView id="DtZ-DX-CE3" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="avatar-temp-2">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="14" y="9" width="62" height="62" />
+                        <constraints />
+                    </imageView>
+                    <label id="h0h-iA-ty7" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="85" y="23" width="72" height="19" />
+                        <constraints />
+                        <string key="text">Mrs. Doya</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
+                    </label>
+                    <label id="k2d-Jz-afE" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="85" y="46" width="189" height="12" />
+                        <constraints />
+                        <string key="text">We’ve been forced to add you a new friend</string>
+                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="10" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                    </label>
+                    <imageView id="MGz-yq-A4z" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="path-2">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="348" y="33" width="7" height="13" />
+                        <constraints />
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="leading" secondItem="ra9-k1-ISv" secondAttribute="leading" constant="14" id="4Vh-Sj-JSn" />
+                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="centerY" secondItem="ra9-k1-ISv" secondAttribute="centerY" constant="0" id="MIQ-R3-EtV" />
+                    <constraint firstItem="h0h-iA-ty7" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="h5s-VO-Z6z" />
+                    <constraint firstItem="h0h-iA-ty7" firstAttribute="top" secondItem="ra9-k1-ISv" secondAttribute="top" constant="23" id="4oe-N4-Lab" />
+                    <constraint firstItem="k2d-Jz-afE" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="yxy-dq-wCx" />
+                    <constraint firstItem="k2d-Jz-afE" firstAttribute="top" secondItem="h0h-iA-ty7" secondAttribute="bottom" constant="4" id="vHo-W4-464" />
+                    <constraint firstItem="ra9-k1-ISv" firstAttribute="trailing" secondItem="MGz-yq-A4z" secondAttribute="trailing" constant="19" id="AUi-DU-jWS" />
+                    <constraint firstItem="MGz-yq-A4z" firstAttribute="centerY" secondItem="ra9-k1-ISv" secondAttribute="centerY" constant="0" id="py1-Zu-YnW" />
+                </constraints>
+            </tableViewCellContentView>
+            <connections />
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar-temp-2" width="60" height="60" />
+        <image name="path-2" width="6" height="12" />
+    </resources>
+</document>

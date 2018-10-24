@@ -1,0 +1,76 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="14313.13.2" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <objects>
+        <tableViewCell id="XRT-Ln-Maf" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="AdvertisementTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdvertisementTableViewCell" rowHeight="123">
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+            <rect key="frame" x="0" y="470" width="375" height="123" />
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XRT-Ln-Maf" id="id3-mN-JXA">
+                <rect key="frame" x="0" y="0" width="375" height="123" />
+                <autoresizingMask key="autoresizingMask" />
+                <subviews>
+                    <view id="y2e-8j-ppv" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="30" width="375" height="93" />
+                        <constraints />
+                        <subviews />
+                    </view>
+                    <imageView id="q7c-6F-n8u" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="bg-event-temp">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="30" width="93" height="93" />
+                        <constraints />
+                    </imageView>
+                    <label id="fou-2i-NTu" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="108" y="43" width="93" height="20" />
+                        <constraints />
+                        <string key="text">Spray and Pray</string>
+                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
+                    </label>
+                    <label id="RQq-4S-jSH" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="108" y="68" width="225" height="15" />
+                        <constraints />
+                        <string key="text">Hull tattoos? A new trend to follow in 2050</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                    </label>
+                    <label id="QAm-DV-OBV" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="108" y="93" width="100" height="15" />
+                        <constraints />
+                        <string key="text">Sponsored content</string>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                        <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="y2e-8j-ppv" firstAttribute="leading" secondItem="id3-mN-JXA" secondAttribute="leading" constant="0" id="9I7-kx-FL3" />
+                    <constraint firstItem="id3-mN-JXA" firstAttribute="trailing" secondItem="y2e-8j-ppv" secondAttribute="trailing" constant="0" id="0jC-j7-ZwT" />
+                    <constraint firstItem="y2e-8j-ppv" firstAttribute="top" secondItem="id3-mN-JXA" secondAttribute="top" constant="30" id="fhI-68-dl2" />
+                    <constraint firstItem="id3-mN-JXA" firstAttribute="bottom" secondItem="y2e-8j-ppv" secondAttribute="bottom" constant="0" id="uu5-05-s3t" />
+                    <constraint firstItem="q7c-6F-n8u" firstAttribute="leading" secondItem="id3-mN-JXA" secondAttribute="leading" constant="0" id="OgN-ZR-ctZ" />
+                    <constraint firstItem="q7c-6F-n8u" firstAttribute="top" secondItem="id3-mN-JXA" secondAttribute="top" constant="30" id="EGt-Oo-K1f" />
+                    <constraint firstItem="fou-2i-NTu" firstAttribute="leading" secondItem="q7c-6F-n8u" secondAttribute="trailing" constant="15" id="xGw-pT-37t" />
+                    <constraint firstItem="fou-2i-NTu" firstAttribute="top" secondItem="id3-mN-JXA" secondAttribute="top" constant="43" id="M3G-Ll-Uhk" />
+                    <constraint firstItem="RQq-4S-jSH" firstAttribute="leading" secondItem="q7c-6F-n8u" secondAttribute="trailing" constant="15" id="mvU-Wl-HDW" />
+                    <constraint firstItem="id3-mN-JXA" firstAttribute="trailing" secondItem="RQq-4S-jSH" secondAttribute="trailing" constant="42" id="TAG-zw-zlE" />
+                    <constraint firstItem="RQq-4S-jSH" firstAttribute="top" secondItem="fou-2i-NTu" secondAttribute="bottom" constant="5" id="tpM-YL-cWE" />
+                    <constraint firstItem="QAm-DV-OBV" firstAttribute="leading" secondItem="q7c-6F-n8u" secondAttribute="trailing" constant="15" id="5Ln-zS-wJ4" />
+                    <constraint firstItem="QAm-DV-OBV" firstAttribute="top" secondItem="RQq-4S-jSH" secondAttribute="bottom" constant="10" id="KmF-FU-oED" />
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="sprayAndPrayLabel" destination="fou-2i-NTu" id="Z0Y-DU-lUb" />
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg-event-temp" width="93" height="93" />
+    </resources>
+</document>
