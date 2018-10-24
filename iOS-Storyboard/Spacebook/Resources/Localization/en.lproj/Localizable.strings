@@ -1,0 +1,65 @@
+
+
+/* Welcome */
+"Welcome.spacebookLabel" = "Spacebook";
+"Welcome.signUpButton" = "SIGN UP";
+"Welcome.logInButton" = "LOG IN";
+
+
+/* Login */
+"LoginViewController.navigationBarTitle" = "";
+"Login.groupBarButtonItem" = "";
+"Login.logInLabel" = "Log in";
+"Login.loginButton" = "LOG IN";
+"Login.forgotYourPasswordButton" = "Forgot your password?";
+
+
+/* Signup */
+"SignupViewController.navigationBarTitle" = "";
+"Signup.groupBarButtonItem" = "";
+"Signup.signUpLabel" = "Sign up";
+"Signup.signUpButton" = "SIGN UP";
+"Signup.logInButton" = "Log In!";
+
+
+/* Timeline */
+"TimelineViewController.navigationBarTitle" = "What's up?";
+"Timeline.tabBarTitle" = "News";
+"NewsTableViewCell.melonHuskLaunchesLabel" = "Melon Husk launches the first car that can travel a galaxy on a single tank of gas.";
+"NewsTwoTableViewCell.raidersFromTheGemLabel" = "Raiders from the Gemini Cluster are attacking colonial trader ships. When will the Federation step in?";
+"EventTableViewCell.guessWhoSBackLabel" = "Guess who’s back?";
+"AdvertisementTableViewCell.sprayAndPrayLabel" = "Spray and Pray";
+
+
+/* Profile */
+"ProfileViewController.navigationBarTitle" = "Dr. What Profile";
+"Profile.tabBarTitle" = "Profile";
+"Profile.leftItemBarButtonItem" = "Settings";
+"Profile.drWhatLabel" = "Dr. What";
+"Profile.travelerDreamerLabel" = "Traveler, dreamer, showman. Occasionally gets into fight, not always survives.";
+"Profile.latestPhotosLabel" = "LATEST PHOTOS";
+
+
+/* Profile Photos */
+"ProfilePhotosViewController.navigationBarTitle" = "Dr. When photos";
+"ProfilePhotos.groupBarButtonItem" = "";
+"TitleCollectionViewCell.todayLabel" = "TODAY";
+"TitleTwoCollectionViewCell.tomorrowLabel" = "TOMORROW";
+
+
+/* Profile Settings */
+"ProfileSettingsViewController.navigationBarTitle" = "Dr. Where settings";
+"ProfileSettings.groupBarButtonItem" = "";
+"ProfileSettings.detailsLabel" = "DETAILS";
+"ProfileSettings.informationLabel" = "INFORMATION";
+
+
+/* Messages */
+"MessagesViewController.navigationBarTitle" = "Messages";
+"Messages.tabBarTitle" = "Messages";
+
+
+/* Event detail */
+"EventDetailViewController.navigationBarTitle" = "Guess who's back?";
+"EventDetail.groupBarButtonItem" = "";
+"EventDetail.leftItemBarButtonItem" = "Events";
