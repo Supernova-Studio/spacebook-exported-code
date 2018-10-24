@@ -1,104 +1,86 @@
-/*
- * ProfileSettingsActivity
- * Spacebook
- *
- * Created by Supernova.
- * Copyright © 2018 Supernova. All rights reserved.
+/**
+ *  Created by Supernova.
  */
 
 package io.supernova.spacebook.activity;
 
-import android.graphics.Color;
-import android.graphics.PointF;
-import android.support.v7.app.AppCompatActivity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
 import io.supernova.spacebook.R;
-import io.supernova.uitoolkit.drawable.LinearGradientDrawable;
-
-import java.util.*;
-import android.widget.Switch;
-import android.widget.TextView;
-import android.view.Menu;
-import android.view.MenuInflater;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
+import android.graphics.PointF;
+import android.support.constraint.ConstraintLayout;
+import android.text.Spannable;
+import android.view.View;
 import android.view.MenuItem;
+import android.widget.Switch;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.content.Intent;
+import android.text.style.RelativeSizeSpan;
+import android.widget.ImageView;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuInflater;
+import android.os.Bundle;
+import android.content.Context;
+import io.supernova.uitoolkit.drawable.LinearGradientDrawable;
+import android.widget.TextView;
+import android.graphics.Color;
 
 
 public class ProfileSettingsActivity extends AppCompatActivity {
-
-	private TextView detailsTextView;
-	private TextView informationTextView;
-	private Switch slideSwitch;
-
-	public static Intent newIntent(Context context) {
-
-		// Fill the created intent with the data you want to be passed to this Activity when it's opened.
-		return new Intent(context, ProfileSettingsActivity.class);
-	}
-
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-
-		super.onCreate(savedInstanceState);
-		this.setContentView(R.layout.profile_settings_activity);
-		this.init();
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-
-		getMenuInflater().inflate(R.menu.menu_profile_settings, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem menuItem) {
-
-		switch (menuItem.getItemId()) {
-			case android.R.id.home:
-
-				finish();
-				return true;
-		}
-		return super.onOptionsItemSelected(menuItem);
-	}
-
-	private void setupToolbar() {
-
-		Toolbar toolbar = findViewById(R.id.profile_settings_activity_toolbar);
-		setSupportActionBar(toolbar);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-		toolbar.setBackground(new LinearGradientDrawable.Builder(this, new PointF(0f, 0.5f), new PointF(1f, 0.5f))
-				.addStop(0, Color.rgb(247, 133, 97))
-				.addStop(1, Color.rgb(140, 25, 140))
-				.build());
-		
-		// Additional Toolbar setup code can go here.
-	}
-
-	private void init() {
-
-		detailsTextView = this.findViewById(R.id.details_text_view);
-		
-		informationTextView = this.findViewById(R.id.information_text_view);
-		
-		slideSwitch = this.findViewById(R.id.slide_switch);
-		// Configure Slide component
-		slideSwitch.setOnClickListener(view -> {
-			onSlideValueChanged();
-		});
-		
-		setupToolbar();
-		
-		// Additional Activity initialization code can go here.
-	}
-
-	private void onSlideValueChanged() {
-
-
-	}
+    public static Intent newIntent(Context context) {
+    
+        // Fill the created intent with the data you want to be passed to this Activity when it's opened.
+        return new Intent(context, ProfileSettingsActivity.class);
+    }
+    
+    private TextView detailsTextView;
+    private TextView informationTextView;
+    private Switch slideSwitch;
+    private Toolbar toolbar;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    
+        super.onCreate(savedInstanceState);
+        this.setContentView(R.layout.profile_settings_activity);
+        this.init();
+    }
+    private void init() {
+    
+        // Configure Details component
+        detailsTextView = this.findViewById(R.id.details_text_view);
+        SpannableString detailsTextViewText = new SpannableString(this.getString(R.string.profile_settings_activity_details_text_view_text));
+        detailsTextView.setText(detailsTextViewText);
+        
+        // Configure Information component
+        informationTextView = this.findViewById(R.id.information_text_view);
+        SpannableString informationTextViewText = new SpannableString(this.getString(R.string.profile_settings_activity_information_text_view_text));
+        informationTextView.setText(informationTextViewText);
+        
+        // Configure Slide component
+        slideSwitch = this.findViewById(R.id.slide_switch);
+        slideSwitch.setOnClickListener((view) -> {
+    this.onSlideValueChanged();
+});
+        
+        // Configure Navigation Bar #2 component
+        toolbar = this.findViewById(R.id.toolbar);
+        toolbar.setBackground(new LinearGradientDrawable.Builder(this, new PointF(-0.01f, 0.51f), new PointF(1.01f, 0.49f)).addStop(0f, Color.argb(255, 247, 132, 97)).addStop(1f, Color.argb(255, 139, 27, 139)).build());
+        
+        setupToolbar();
+    }
+    public void setupToolbar() {
+    
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
+        // Additional Toolbar setup code can go here.
+    }
+    public void onSlideValueChanged() {
+    
+    }
 }
+
+
+
+

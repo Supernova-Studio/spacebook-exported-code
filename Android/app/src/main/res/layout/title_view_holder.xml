@@ -1,39 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <android.support.constraint.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="@dimen/title_view_holder_title_width"
-	android:layout_height="@dimen/title_view_holder_title_height">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title"
+    android:layout_width="@dimen/title_view_holder_title_height"
+    android:layout_height="@dimen/title_view_holder_title_height">
 
-	<TextView
-		android:id="@+id/today_text_view"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginLeft="@dimen/title_view_holder_today_text_view_margin_start"
-		android:alpha="0.400000005960464"
-		android:fontFamily="@font/font_lato_regular"
-		android:gravity="left"
-		android:letterSpacing="-0"
-		android:lineSpacingMultiplier="1"
-		android:text="@string/title_view_holder_today_text_view_text"
-		android:textColor="@color/title_view_holder_today_text_view_text_color"
-		android:textSize="@dimen/title_view_holder_today_text_view_text_size"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="20dp"
-		tools:layout_editor_absoluteY="11dp"/>
-
-	<android.support.constraint.ConstraintLayout
-		android:id="@+id/cell_bounds_constraint_layout"
-		android:layout_width="0dp"
-		android:layout_height="@dimen/title_view_holder_cell_bounds_constraint_layout_height"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="0dp"/>
-
+    <TextView
+        android:id="@+id/today_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/title_view_holder_today_text_view_margin_start"
+        android:alpha="0.4"
+        android:fontFamily="@font/font_lato_regular"
+        android:gravity="left"
+        android:letterSpacing="-0"
+        android:lineSpacingMultiplier="1"
+        android:text="TODAY"
+        android:textColor="@color/title_view_holder_today_text_view_text_color"
+        android:textSize="@dimen/title_view_holder_today_text_view_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="11dp"/>
 </android.support.constraint.ConstraintLayout>

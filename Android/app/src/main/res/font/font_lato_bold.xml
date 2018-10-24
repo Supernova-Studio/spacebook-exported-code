@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <font-family
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-	<font
-		android:font="@font/lato_bold"
-		android:fontStyle="normal"
-		app:font="@font/lato_bold"
-		app:fontStyle="normal"/>
-
+    <font
+        android:font="@font/lato_bold"
+        android:fontStyle="normal"
+        app:font="@font/lato_bold"
+        app:fontStyle="normal"/>
 </font-family>

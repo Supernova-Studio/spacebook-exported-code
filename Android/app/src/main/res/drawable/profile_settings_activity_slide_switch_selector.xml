@@ -1,0 +1,9 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/mask">
+    
+        <shape/>
+    </item>
+
+    <item android:drawable="@drawable/profile_settings_activity_slide_switch_background"/>
+</ripple>

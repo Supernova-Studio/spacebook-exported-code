@@ -1,193 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <android.support.constraint.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:id="@+id/profile_photos_constraint_layout"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:background="@color/profile_photos_activity_profile_photos_constraint_layout_background_color">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_photos_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_photos_activity_profile_photos_constraint_layout_background_color">
 
-	<android.support.v7.widget.RecyclerView
-		android:id="@+id/gallery_recycler_view"
-		android:layout_width="0dp"
-		android:layout_height="0dp"
-		android:layout_marginTop="@dimen/profile_photos_activity_gallery_recycler_view_margin_top"
-		app:layout_constraintBottom_toTopOf="@+id/tab_bar_constraint_layout"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="73dp"
-		tools:listitem="@layout/title_view_holder"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gallery_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/profile_photos_activity_gallery_recycler_view_margin_bottom"
+        android:layout_marginTop="@dimen/profile_photos_activity_gallery_recycler_view_margin_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp"/>
 
-	<android.support.constraint.ConstraintLayout
-		android:id="@+id/tab_bar_constraint_layout"
-		android:layout_width="0dp"
-		android:layout_height="@dimen/profile_photos_activity_tab_bar_constraint_layout_height"
-		android:layout_marginBottom="@dimen/profile_photos_activity_tab_bar_constraint_layout_margin_bottom"
-		android:background="@color/profile_photos_activity_tab_bar_constraint_layout_background_color"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="906dp">
-
-		<android.support.constraint.ConstraintLayout
-			android:id="@+id/line_constraint_layout"
-			android:layout_width="0dp"
-			android:layout_height="@dimen/profile_photos_activity_line_constraint_layout_height"
-			android:layout_marginLeft="@dimen/profile_photos_activity_line_constraint_layout_margin_start"
-			android:layout_marginRight="@dimen/profile_photos_activity_line_constraint_layout_margin_end"
-			android:layout_marginTop="@dimen/profile_photos_activity_line_constraint_layout_margin_top"
-			android:background="@color/profile_photos_activity_line_constraint_layout_background_color"
-			app:layout_constraintLeft_toLeftOf="parent"
-			app:layout_constraintRight_toRightOf="parent"
-			app:layout_constraintTop_toTopOf="parent"
-			tools:layout_editor_absoluteX="-1dp"
-			tools:layout_editor_absoluteY="1dp"/>
-
-		<android.support.constraint.ConstraintLayout
-			android:id="@+id/item1_constraint_layout"
-			android:layout_width="@dimen/profile_photos_activity_item1_constraint_layout_width"
-			android:layout_height="@dimen/profile_photos_activity_item1_constraint_layout_height"
-			android:layout_marginRight="@dimen/profile_photos_activity_item1_constraint_layout_margin_end"
-			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintRight_toRightOf="parent"
-			app:layout_constraintTop_toTopOf="parent"
-			tools:layout_editor_absoluteX="280dp"
-			tools:layout_editor_absoluteY="4dp">
-
-			<TextView
-				android:id="@+id/profile_text_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="@dimen/profile_photos_activity_profile_text_view_margin_start"
-				android:layout_marginRight="@dimen/profile_photos_activity_profile_text_view_margin_end"
-				android:fontFamily="@font/font_lato_regular"
-				android:gravity="center"
-				android:letterSpacing="0.01"
-				android:lineSpacingMultiplier="1"
-				android:text="@string/profile_photos_activity_profile_text_view_text"
-				android:textColor="@color/profile_photos_activity_profile_text_view_text_color"
-				android:textSize="@dimen/profile_photos_activity_profile_text_view_text_size"
-				app:layout_constraintBottom_toBottomOf="parent"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				tools:layout_editor_absoluteX="9dp"
-				tools:layout_editor_absoluteY="32dp"/>
-
-			<ImageView
-				android:id="@+id/active_icon_image_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:scaleType="fitXY"
-				android:src="@drawable/active_icon_2"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				app:layout_constraintTop_toTopOf="parent"
-				tools:layout_editor_absoluteX="0dp"
-				tools:layout_editor_absoluteY="0dp"/>
-
-		</android.support.constraint.ConstraintLayout>
-
-		<android.support.constraint.ConstraintLayout
-			android:id="@+id/item1_two_constraint_layout"
-			android:layout_width="@dimen/profile_photos_activity_item1_two_constraint_layout_width"
-			android:layout_height="@dimen/profile_photos_activity_item1_two_constraint_layout_height"
-			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintLeft_toLeftOf="parent"
-			app:layout_constraintRight_toRightOf="parent"
-			app:layout_constraintTop_toTopOf="parent"
-			tools:layout_editor_absoluteX="164dp"
-			tools:layout_editor_absoluteY="4dp">
-
-			<TextView
-				android:id="@+id/messages_text_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="@dimen/profile_photos_activity_messages_text_view_margin_start"
-				android:layout_marginRight="@dimen/profile_photos_activity_messages_text_view_margin_end"
-				android:fontFamily="@font/font_lato_regular"
-				android:gravity="center"
-				android:letterSpacing="0.01"
-				android:lineSpacingMultiplier="1"
-				android:text="@string/profile_photos_activity_messages_text_view_text"
-				android:textColor="@color/profile_photos_activity_messages_text_view_text_color"
-				android:textSize="@dimen/profile_photos_activity_messages_text_view_text_size"
-				app:layout_constraintBottom_toBottomOf="parent"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				tools:layout_editor_absoluteX="2dp"
-				tools:layout_editor_absoluteY="32dp"/>
-
-			<ImageView
-				android:id="@+id/active_icon_two_image_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:scaleType="fitXY"
-				android:src="@drawable/active_icon_5"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				app:layout_constraintTop_toTopOf="parent"
-				tools:layout_editor_absoluteX="0dp"
-				tools:layout_editor_absoluteY="0dp"/>
-
-		</android.support.constraint.ConstraintLayout>
-
-		<android.support.constraint.ConstraintLayout
-			android:id="@+id/item1_three_constraint_layout"
-			android:layout_width="@dimen/profile_photos_activity_item1_three_constraint_layout_width"
-			android:layout_height="@dimen/profile_photos_activity_item1_three_constraint_layout_height"
-			android:layout_marginLeft="@dimen/profile_photos_activity_item1_three_constraint_layout_margin_start"
-			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintLeft_toLeftOf="parent"
-			app:layout_constraintTop_toTopOf="parent"
-			tools:layout_editor_absoluteX="48dp"
-			tools:layout_editor_absoluteY="4dp">
-
-			<TextView
-				android:id="@+id/news_text_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:layout_marginLeft="@dimen/profile_photos_activity_news_text_view_margin_start"
-				android:layout_marginRight="@dimen/profile_photos_activity_news_text_view_margin_end"
-				android:fontFamily="@font/font_lato_regular"
-				android:gravity="center"
-				android:letterSpacing="0.01"
-				android:lineSpacingMultiplier="1"
-				android:text="@string/profile_photos_activity_news_text_view_text"
-				android:textColor="@color/profile_photos_activity_news_text_view_text_color"
-				android:textSize="@dimen/profile_photos_activity_news_text_view_text_size"
-				app:layout_constraintBottom_toBottomOf="parent"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				tools:layout_editor_absoluteX="11dp"
-				tools:layout_editor_absoluteY="32dp"/>
-
-			<ImageView
-				android:id="@+id/active_icon_three_image_view"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:scaleType="fitXY"
-				android:src="@drawable/active_icon_9"
-				app:layout_constraintLeft_toLeftOf="parent"
-				app:layout_constraintRight_toRightOf="parent"
-				app:layout_constraintTop_toTopOf="parent"
-				tools:layout_editor_absoluteX="0dp"
-				tools:layout_editor_absoluteY="0dp"/>
-
-		</android.support.constraint.ConstraintLayout>
-
-	</android.support.constraint.ConstraintLayout>
-
-	<android.support.v7.widget.Toolbar
-		android:id="@+id/profile_photos_activity_toolbar"
-		android:layout_width="0dp"
-		android:layout_height="?attr/actionBarSize"
-		android:background="@color/profile_photos_activity_toolbar_background_color"
-		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintRight_toRightOf="parent"
-		app:layout_constraintTop_toTopOf="parent"/>
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 </android.support.constraint.ConstraintLayout>
