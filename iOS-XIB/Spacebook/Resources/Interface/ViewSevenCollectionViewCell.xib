@@ -10,8 +10,8 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="0" y="463" width="184" height="184" />
             <constraints>
-                <constraint firstItem="PmN-iP-PR7" firstAttribute="leading" secondItem="zPX-Q0-mNB" secondAttribute="leading" constant="0" id="oXs-0P-oOR" />
-                <constraint firstItem="PmN-iP-PR7" firstAttribute="top" secondItem="zPX-Q0-mNB" secondAttribute="top" constant="0" id="Fcx-QC-Zjp" />
+                <constraint firstItem="PmN-iP-PR7" firstAttribute="leading" secondItem="zPX-Q0-mNB" secondAttribute="leading" constant="0" id="h5I-ly-pS9" />
+                <constraint firstItem="PmN-iP-PR7" firstAttribute="top" secondItem="zPX-Q0-mNB" secondAttribute="top" constant="0" id="HtA-9K-slT" />
             </constraints>
             <rect key="frame" x="0" y="0" width="184" height="184" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />

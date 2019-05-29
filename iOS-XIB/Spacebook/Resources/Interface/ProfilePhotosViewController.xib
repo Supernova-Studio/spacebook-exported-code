@@ -10,10 +10,10 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="wBa-YF-UPs" firstAttribute="leading" secondItem="XXS-mx-fnZ" secondAttribute="leading" constant="0" id="vsf-Fe-AQ1" />
-                <constraint firstItem="XXS-mx-fnZ" firstAttribute="trailing" secondItem="wBa-YF-UPs" secondAttribute="trailing" constant="0" id="x7p-bC-NXp" />
-                <constraint firstItem="wBa-YF-UPs" firstAttribute="top" secondItem="XXS-mx-fnZ" secondAttribute="top" constant="73" id="JPn-IJ-oY1" />
-                <constraint firstItem="XXS-mx-fnZ" firstAttribute="bottom" secondItem="wBa-YF-UPs" secondAttribute="bottom" constant="-1" id="t6G-lk-eUY" />
+                <constraint firstItem="wBa-YF-UPs" firstAttribute="leading" secondItem="XXS-mx-fnZ" secondAttribute="leading" constant="0" id="yA1-FY-y5T" />
+                <constraint firstItem="XXS-mx-fnZ" firstAttribute="trailing" secondItem="wBa-YF-UPs" secondAttribute="trailing" constant="0" id="ziA-7v-6sv" />
+                <constraint firstItem="wBa-YF-UPs" firstAttribute="top" secondItem="XXS-mx-fnZ" secondAttribute="top" constant="73" id="raO-ag-3Wx" />
+                <constraint firstItem="XXS-mx-fnZ" firstAttribute="bottom" secondItem="wBa-YF-UPs" secondAttribute="bottom" constant="-1" id="uYW-uW-iyr" />
             </constraints>
             <subviews>
                 <collectionView id="wBa-YF-UPs" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" clipsSubviews="YES" multipleTouchEnabled="YES" dataMode="prototypes">
@@ -21,10 +21,10 @@
                     <rect key="frame" x="0" y="73" width="375" height="595" />
                     <constraints />
                     <connections>
-                        <outlet property="delegate" destination="j1W-u0-h1d" id="l4L6YlnWYM22hFxY0QRP" />
-                        <outlet property="dataSource" destination="j1W-u0-h1d" id="3K9CZByPuwzJxFhkMSUb" />
+                        <outlet property="delegate" destination="mao-qf-lQE" id="aBJCG8CzxLZDd53NZq4p" />
+                        <outlet property="dataSource" destination="mao-qf-lQE" id="Rf4dxeOKrRSOXANeZ2uO" />
                     </connections>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="vertical" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uxL-ua-Frv">
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="vertical" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ymH-YZ-Qwy">
                         <size key="headerReferenceSize" width="0.0" height="0.0" />
                         <size key="footerReferenceSize" width="0.0" height="0.0" />
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0" />
@@ -33,10 +33,10 @@
                 </collectionView>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="j1W-u0-h1d" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="ProfilePhotosViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="mao-qf-lQE" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="ProfilePhotosViewController">
             <connections>
-                <outlet property="view" destination="XXS-mx-fnZ" id="XnD-cR-kjU" />
-                <outlet property="galleryCollectionView" destination="wBa-YF-UPs" id="Emv-jC-hXO" />
+                <outlet property="view" destination="XXS-mx-fnZ" id="qWr-uh-fRN" />
+                <outlet property="galleryCollectionView" destination="wBa-YF-UPs" id="D1c-WD-anl" />
             </connections>
         </placeholder>
     </objects>

@@ -3,10 +3,14 @@
     "preserves-vector-representation" : true,
     "template-rendering-intent" : "original"
   },
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
   "images" : [
     {
-      "idiom" : "universal",
       "filename" : "active-icon-3.pdf",
+      "idiom" : "universal",
       "scale" : "1x"
     },
     {
@@ -17,9 +21,5 @@
       "idiom" : "universal",
       "scale" : "3x"
     }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  }
+  ]
 }

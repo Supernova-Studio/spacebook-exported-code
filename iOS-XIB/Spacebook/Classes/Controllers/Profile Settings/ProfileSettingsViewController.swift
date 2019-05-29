@@ -62,7 +62,7 @@ class ProfileSettingsViewController: UIViewController {
         
         // Setup informationLabel
         let informationLabelAttrString = NSMutableAttributedString(string: "INFORMATION", attributes: [
-            .font : UIFont(name: "Lato-Regular", size: 12)!,
+            .font : UIFont.systemFont(ofSize: 12),
             .foregroundColor : UIColor(red: 0, green: 0, blue: 0, alpha: 1),
             .kern : -0.07,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .left, lineHeight: nil, paragraphSpacing: 0)
@@ -74,6 +74,8 @@ class ProfileSettingsViewController: UIViewController {
     private func setupUI()  {
         self.extendedLayoutIncludesOpaqueBars = true
         
+        // Hide the back button
+        self.navigationItem.hidesBackButton = true
         // Left navigation items
         self.groupBarButtonItem = UIBarButtonItem(image: UIImage(named: "group-2"), style: .plain, target: self, action: #selector(self.onGroupPressed(_:)))
         self.navigationItem.leftBarButtonItems = [ self.groupBarButtonItem ]

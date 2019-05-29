@@ -10,8 +10,8 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="0" y="0" width="375" height="37" />
             <constraints>
-                <constraint firstItem="vap-DF-bf2" firstAttribute="leading" secondItem="uSn-9M-qdd" secondAttribute="leading" constant="20" id="JCh-Hr-B43" />
-                <constraint firstItem="vap-DF-bf2" firstAttribute="centerY" secondItem="uSn-9M-qdd" secondAttribute="centerY" constant="0" id="Chm-JZ-IYE" />
+                <constraint firstItem="vap-DF-bf2" firstAttribute="leading" secondItem="uSn-9M-qdd" secondAttribute="leading" constant="20" id="4fr-bd-7Mt" />
+                <constraint firstItem="vap-DF-bf2" firstAttribute="centerY" secondItem="uSn-9M-qdd" secondAttribute="centerY" constant="0" id="Id3-1v-msA" />
             </constraints>
             <rect key="frame" x="0" y="0" width="375" height="37" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
@@ -33,7 +33,7 @@
                 </subviews>
             </view>
             <connections>
-                <outlet property="todayLabel" destination="vap-DF-bf2" id="KCn-YW-8Ow" />
+                <outlet property="todayLabel" destination="vap-DF-bf2" id="CDb-Lq-6IN" />
             </connections>
         </collectionViewCell>
     </objects>

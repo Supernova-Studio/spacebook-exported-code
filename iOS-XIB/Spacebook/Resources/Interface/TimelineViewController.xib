@@ -10,10 +10,10 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="Lus-wG-z2M" firstAttribute="leading" secondItem="xIW-Sh-FSr" secondAttribute="leading" constant="0" id="A2h-70-Zbf" />
-                <constraint firstItem="xIW-Sh-FSr" firstAttribute="trailing" secondItem="Lus-wG-z2M" secondAttribute="trailing" constant="0" id="3Bv-rO-TEW" />
-                <constraint firstItem="Lus-wG-z2M" firstAttribute="top" secondItem="xIW-Sh-FSr" secondAttribute="top" constant="64" id="5lV-3T-wYy" />
-                <constraint firstItem="xIW-Sh-FSr" firstAttribute="bottom" secondItem="Lus-wG-z2M" secondAttribute="bottom" constant="0" id="i0Z-sA-pEN" />
+                <constraint firstItem="Lus-wG-z2M" firstAttribute="leading" secondItem="xIW-Sh-FSr" secondAttribute="leading" constant="0" id="glR-SF-YPf" />
+                <constraint firstItem="xIW-Sh-FSr" firstAttribute="trailing" secondItem="Lus-wG-z2M" secondAttribute="trailing" constant="0" id="s1g-OY-n6j" />
+                <constraint firstItem="Lus-wG-z2M" firstAttribute="top" secondItem="xIW-Sh-FSr" secondAttribute="top" constant="64" id="E5C-ZJ-qJm" />
+                <constraint firstItem="xIW-Sh-FSr" firstAttribute="bottom" secondItem="Lus-wG-z2M" secondAttribute="bottom" constant="0" id="mfm-dR-nXF" />
             </constraints>
             <subviews>
                 <tableView id="Lus-wG-z2M" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" clipsSubviews="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="0" sectionFooterHeight="0">
@@ -21,17 +21,17 @@
                     <rect key="frame" x="0" y="64" width="375" height="603" />
                     <constraints />
                     <connections>
-                        <outlet property="delegate" destination="eoz-4R-c8T" id="cUgNd09SwrxTdb4qEkFo" />
-                        <outlet property="dataSource" destination="eoz-4R-c8T" id="6pSZcow5E89NYtCuG0cC" />
+                        <outlet property="delegate" destination="DpC-u7-jyV" id="RP8g9rZqKTzXdbOj5MIn" />
+                        <outlet property="dataSource" destination="DpC-u7-jyV" id="ajeXaXh59mwTcKsNmDYl" />
                     </connections>
                     <prototypes />
                 </tableView>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="eoz-4R-c8T" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="TimelineViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="DpC-u7-jyV" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="TimelineViewController">
             <connections>
-                <outlet property="view" destination="xIW-Sh-FSr" id="P3V-z6-5cN" />
-                <outlet property="timelineTableView" destination="Lus-wG-z2M" id="cci-2x-ovz" />
+                <outlet property="view" destination="xIW-Sh-FSr" id="8g5-jR-LnQ" />
+                <outlet property="timelineTableView" destination="Lus-wG-z2M" id="MuK-JP-aFM" />
             </connections>
         </placeholder>
     </objects>

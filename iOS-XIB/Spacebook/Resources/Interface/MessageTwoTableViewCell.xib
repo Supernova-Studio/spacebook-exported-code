@@ -9,7 +9,7 @@
         <tableViewCell id="MlX-1i-64o" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="MessageTwoTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageTwoTableViewCell" rowHeight="80">
             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
             <rect key="frame" x="0" y="320" width="375" height="80" />
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MlX-1i-64o" id="c6W-aW-p5s">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MlX-1i-64o" id="TnB-Lz-Mn2">
                 <rect key="frame" x="0" y="0" width="375" height="80" />
                 <autoresizingMask key="autoresizingMask" />
                 <subviews>
@@ -17,21 +17,21 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                         <rect key="frame" x="15" y="10" width="60" height="60" />
                         <constraints>
-                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="width" constant="60" id="Cen-Y8-lgO" />
-                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="height" constant="60" id="O9r-qc-3Tm" />
-                            <constraint firstItem="Lc9-lP-yrW" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="leading" constant="0" id="5zN-nP-lq0" />
-                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="trailing" secondItem="Lc9-lP-yrW" secondAttribute="trailing" constant="0" id="CCS-Eq-0EO" />
-                            <constraint firstItem="Lc9-lP-yrW" firstAttribute="centerY" secondItem="EbJ-O4-Cqf" secondAttribute="centerY" constant="0" id="NNK-zH-xym" />
+                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="width" constant="60" id="q8p-tr-3kI" />
+                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="height" constant="60" id="eVx-Dj-jlo" />
+                            <constraint firstItem="Lc9-lP-yrW" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="leading" constant="0" id="3ZZ-9k-08O" />
+                            <constraint firstItem="EbJ-O4-Cqf" firstAttribute="trailing" secondItem="Lc9-lP-yrW" secondAttribute="trailing" constant="0" id="mv7-zU-neu" />
+                            <constraint firstItem="Lc9-lP-yrW" firstAttribute="centerY" secondItem="EbJ-O4-Cqf" secondAttribute="centerY" constant="0" id="mae-gD-VIE" />
                         </constraints>
                         <subviews>
                             <view id="Lc9-lP-yrW" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                                 <rect key="frame" x="0" y="0" width="60" height="60" />
                                 <constraints>
-                                    <constraint firstItem="Lc9-lP-yrW" firstAttribute="height" constant="60" id="yMd-08-NTl" />
-                                    <constraint firstItem="NZz-Sd-n8e" firstAttribute="leading" secondItem="Lc9-lP-yrW" secondAttribute="leading" constant="-1" id="RVU-5r-2sh" />
-                                    <constraint firstItem="Lc9-lP-yrW" firstAttribute="trailing" secondItem="NZz-Sd-n8e" secondAttribute="trailing" constant="-1" id="Ony-ca-OM7" />
-                                    <constraint firstItem="NZz-Sd-n8e" firstAttribute="centerY" secondItem="Lc9-lP-yrW" secondAttribute="centerY" constant="0" id="Wez-zF-m3Z" />
+                                    <constraint firstItem="Lc9-lP-yrW" firstAttribute="height" constant="60" id="1C5-Ii-fdG" />
+                                    <constraint firstItem="NZz-Sd-n8e" firstAttribute="leading" secondItem="Lc9-lP-yrW" secondAttribute="leading" constant="-1" id="4kK-f9-kMM" />
+                                    <constraint firstItem="Lc9-lP-yrW" firstAttribute="trailing" secondItem="NZz-Sd-n8e" secondAttribute="trailing" constant="-1" id="reX-JV-rO2" />
+                                    <constraint firstItem="NZz-Sd-n8e" firstAttribute="centerY" secondItem="Lc9-lP-yrW" secondAttribute="centerY" constant="0" id="m7o-Qu-XcZ" />
                                 </constraints>
                                 <subviews>
                                     <imageView id="NZz-Sd-n8e" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="avatarastronaut-2">
@@ -66,21 +66,21 @@
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="EbJ-O4-Cqf" firstAttribute="leading" secondItem="c6W-aW-p5s" secondAttribute="leading" constant="15" id="QjP-lQ-TX0" />
-                    <constraint firstItem="EbJ-O4-Cqf" firstAttribute="centerY" secondItem="c6W-aW-p5s" secondAttribute="centerY" constant="0" id="4g6-SP-M8M" />
-                    <constraint firstItem="24A-sK-BgT" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="trailing" constant="10" id="6Mr-6p-UUg" />
-                    <constraint firstItem="24A-sK-BgT" firstAttribute="top" secondItem="c6W-aW-p5s" secondAttribute="top" constant="23" id="T7C-pm-p0m" />
-                    <constraint firstItem="6No-4L-OWi" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="trailing" constant="10" id="ycH-07-plA" />
-                    <constraint firstItem="6No-4L-OWi" firstAttribute="top" secondItem="24A-sK-BgT" secondAttribute="bottom" constant="4" id="aqI-ao-Pxh" />
-                    <constraint firstItem="c6W-aW-p5s" firstAttribute="trailing" secondItem="euj-7M-kRI" secondAttribute="trailing" constant="19" id="Ri6-DK-hdh" />
-                    <constraint firstItem="euj-7M-kRI" firstAttribute="centerY" secondItem="c6W-aW-p5s" secondAttribute="centerY" constant="0" id="9V6-HS-TQ0" />
+                    <constraint firstItem="EbJ-O4-Cqf" firstAttribute="leading" secondItem="TnB-Lz-Mn2" secondAttribute="leading" constant="15" id="HI0-ua-xqq" />
+                    <constraint firstItem="EbJ-O4-Cqf" firstAttribute="centerY" secondItem="TnB-Lz-Mn2" secondAttribute="centerY" constant="0" id="tvo-wZ-ix7" />
+                    <constraint firstItem="24A-sK-BgT" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="trailing" constant="10" id="ODV-D9-1bx" />
+                    <constraint firstItem="24A-sK-BgT" firstAttribute="top" secondItem="TnB-Lz-Mn2" secondAttribute="top" constant="23" id="FsO-AZ-moF" />
+                    <constraint firstItem="6No-4L-OWi" firstAttribute="leading" secondItem="EbJ-O4-Cqf" secondAttribute="trailing" constant="10" id="9kt-an-d7x" />
+                    <constraint firstItem="6No-4L-OWi" firstAttribute="top" secondItem="24A-sK-BgT" secondAttribute="bottom" constant="4" id="VwW-MG-Z2B" />
+                    <constraint firstItem="TnB-Lz-Mn2" firstAttribute="trailing" secondItem="euj-7M-kRI" secondAttribute="trailing" constant="19" id="m4N-XE-sKW" />
+                    <constraint firstItem="euj-7M-kRI" firstAttribute="centerY" secondItem="TnB-Lz-Mn2" secondAttribute="centerY" constant="0" id="yjU-On-9d0" />
                 </constraints>
             </tableViewCellContentView>
             <connections />
         </tableViewCell>
     </objects>
     <resources>
-        <image name="avatarastronaut-2" width="60" height="60" />
-        <image name="path-2" width="6" height="12" />
+        <image name="avatarastronaut-2" width="62" height="62" />
+        <image name="path-2" width="9" height="14" />
     </resources>
 </document>

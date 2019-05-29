@@ -63,8 +63,8 @@ class MessagesViewController: UIViewController {
         navigationGradient.frame = navigationBar.bounds
         navigationGradient.colors = [UIColor(red: 0.97, green: 0.52, blue: 0.38, alpha: 1).cgColor, UIColor(red: 0.55, green: 0.11, blue: 0.55, alpha: 1).cgColor]
         navigationGradient.locations = [0.000, 1.000]
-        navigationGradient.startPoint = CGPoint(x: -0.0141273757501576, y: 0.5149750451987369)
-        navigationGradient.endPoint = CGPoint(x: 1.014127375750157, y: 0.4850249548012593)
+        navigationGradient.startPoint = CGPoint(x: -0.014, y: 0.515)
+        navigationGradient.endPoint = CGPoint(x: 1.014, y: 0.485)
         navigationBar.setBackgroundImage(UIImage.image(fromLayer: navigationGradient).resizableImage(withCapInsets: UIEdgeInsets.zero, resizingMode: .stretch), for: .default)
         
         navigationBar.tintColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)

@@ -24,7 +24,6 @@ class ProfileSettingsViewController: UIViewController {
     var profileSettingsView: UIView!
     var avatarTempImageView: UIImageView!
     var informationView: UIView!
-    var group7View: UIView!
     var detailsLabel: UILabel!
     var group6View: UIView!
     var uiSettingsCellView: UIView!
@@ -36,7 +35,6 @@ class ProfileSettingsViewController: UIViewController {
     var labelTwoLabel: UILabel!
     var textTwoLabel: UILabel!
     var path2TwoImageView: UIImageView!
-    var group4View: UIView!
     var informationLabel: UILabel!
     var group3View: UIView!
     var labelThreeLabel: UILabel!
@@ -95,12 +93,6 @@ class ProfileSettingsViewController: UIViewController {
         self.view.addSubview(self.informationView)
         self.informationView.translatesAutoresizingMaskIntoConstraints = false
         
-        // Setup group7View
-        self.group7View = UIView(frame: .zero)
-        self.group7View.backgroundColor = UIColor.clear
-        self.informationView.addSubview(self.group7View)
-        self.group7View.translatesAutoresizingMaskIntoConstraints = false
-        
         // Setup detailsLabel
         self.detailsLabel = UILabel()
         self.detailsLabel.numberOfLines = 0
@@ -113,7 +105,7 @@ class ProfileSettingsViewController: UIViewController {
         self.detailsLabel.attributedText = detailsLabelAttrString
         self.detailsLabel.backgroundColor = UIColor.clear
         self.detailsLabel.alpha = 0.4
-        self.group7View.addSubview(self.detailsLabel)
+        self.informationView.addSubview(self.detailsLabel)
         self.detailsLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Setup group6View
@@ -204,17 +196,11 @@ class ProfileSettingsViewController: UIViewController {
         self.uiSettingsCellTwoView.addSubview(self.path2TwoImageView)
         self.path2TwoImageView.translatesAutoresizingMaskIntoConstraints = false
         
-        // Setup group4View
-        self.group4View = UIView(frame: .zero)
-        self.group4View.backgroundColor = UIColor.clear
-        self.informationView.addSubview(self.group4View)
-        self.group4View.translatesAutoresizingMaskIntoConstraints = false
-        
         // Setup informationLabel
         self.informationLabel = UILabel()
         self.informationLabel.numberOfLines = 0
         let informationLabelAttrString = NSMutableAttributedString(string: "INFORMATION", attributes: [
-            .font : UIFont(name: "Lato-Regular", size: 12)!,
+            .font : UIFont.systemFont(ofSize: 12),
             .foregroundColor : UIColor(red: 0, green: 0, blue: 0, alpha: 1),
             .kern : -0.07,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .left, lineHeight: nil, paragraphSpacing: 0)
@@ -222,7 +208,7 @@ class ProfileSettingsViewController: UIViewController {
         self.informationLabel.attributedText = informationLabelAttrString
         self.informationLabel.backgroundColor = UIColor.clear
         self.informationLabel.alpha = 0.4
-        self.group4View.addSubview(self.informationLabel)
+        self.informationView.addSubview(self.informationLabel)
         self.informationLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Setup group3View
@@ -330,6 +316,8 @@ class ProfileSettingsViewController: UIViewController {
     private func setupUI()  {
         self.extendedLayoutIncludesOpaqueBars = true
         
+        // Hide the back button
+        self.navigationItem.hidesBackButton = true
         // Left navigation items
         self.groupBarButtonItem = UIBarButtonItem(image: UIImage(named: "group-2"), style: .plain, target: self, action: #selector(self.onGroupPressed(_:)))
         self.navigationItem.leftBarButtonItems = [ self.groupBarButtonItem ]
@@ -363,21 +351,14 @@ class ProfileSettingsViewController: UIViewController {
         self.informationView.topAnchor.constraint(equalTo: self.avatarTempImageView.bottomAnchor, constant: 19).isActive = true
         self.informationView.heightAnchor.constraint(equalToConstant: 380).isActive = true
         
-        // Setup group7View
-        self.group7View.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 20).isActive = true
-        self.group7View.topAnchor.constraint(equalTo: self.informationView.topAnchor, constant: 0).isActive = true
-        self.group7View.widthAnchor.constraint(equalToConstant: 47).isActive = true
-        self.group7View.heightAnchor.constraint(equalToConstant: 15).isActive = true
-        
         // Setup detailsLabel
-        self.detailsLabel.leadingAnchor.constraint(equalTo: self.group7View.leadingAnchor, constant: 0).isActive = true
-        self.detailsLabel.trailingAnchor.constraint(equalTo: self.group7View.trailingAnchor, constant: 0).isActive = true
-        self.detailsLabel.centerYAnchor.constraint(equalTo: self.group7View.centerYAnchor, constant: 0).isActive = true
+        self.detailsLabel.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 20).isActive = true
+        self.detailsLabel.topAnchor.constraint(equalTo: self.informationView.topAnchor, constant: 0).isActive = true
         
         // Setup group6View
         self.group6View.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 0).isActive = true
         self.group6View.trailingAnchor.constraint(equalTo: self.informationView.trailingAnchor, constant: 0).isActive = true
-        self.group6View.topAnchor.constraint(equalTo: self.group7View.bottomAnchor, constant: 10).isActive = true
+        self.group6View.topAnchor.constraint(equalTo: self.detailsLabel.bottomAnchor, constant: 10).isActive = true
         self.group6View.heightAnchor.constraint(equalToConstant: 60).isActive = true
         
         // Setup uiSettingsCellView
@@ -422,21 +403,14 @@ class ProfileSettingsViewController: UIViewController {
         self.path2TwoImageView.trailingAnchor.constraint(equalTo: self.uiSettingsCellTwoView.trailingAnchor, constant: -19).isActive = true
         self.path2TwoImageView.centerYAnchor.constraint(equalTo: self.uiSettingsCellTwoView.centerYAnchor, constant: 0).isActive = true
         
-        // Setup group4View
-        self.group4View.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 20).isActive = true
-        self.group4View.topAnchor.constraint(equalTo: self.group5View.bottomAnchor, constant: 30).isActive = true
-        self.group4View.widthAnchor.constraint(equalToConstant: 84).isActive = true
-        self.group4View.heightAnchor.constraint(equalToConstant: 15).isActive = true
-        
         // Setup informationLabel
-        self.informationLabel.leadingAnchor.constraint(equalTo: self.group4View.leadingAnchor, constant: 0).isActive = true
-        self.informationLabel.trailingAnchor.constraint(equalTo: self.group4View.trailingAnchor, constant: 0).isActive = true
-        self.informationLabel.centerYAnchor.constraint(equalTo: self.group4View.centerYAnchor, constant: 0).isActive = true
+        self.informationLabel.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 20).isActive = true
+        self.informationLabel.topAnchor.constraint(equalTo: self.group5View.bottomAnchor, constant: 30).isActive = true
         
         // Setup group3View
         self.group3View.leadingAnchor.constraint(equalTo: self.informationView.leadingAnchor, constant: 0).isActive = true
         self.group3View.trailingAnchor.constraint(equalTo: self.informationView.trailingAnchor, constant: 0).isActive = true
-        self.group3View.topAnchor.constraint(equalTo: self.group4View.bottomAnchor, constant: 10).isActive = true
+        self.group3View.topAnchor.constraint(equalTo: self.informationLabel.bottomAnchor, constant: 10).isActive = true
         self.group3View.heightAnchor.constraint(equalToConstant: 60).isActive = true
         
         // Setup labelThreeLabel

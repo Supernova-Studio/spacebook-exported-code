@@ -10,8 +10,8 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="248" y="0" width="123" height="122" />
             <constraints>
-                <constraint firstItem="PdM-Rz-UyY" firstAttribute="trailing" secondItem="599-d5-dqv" secondAttribute="trailing" constant="0" id="TZc-C9-xRA" />
-                <constraint firstItem="599-d5-dqv" firstAttribute="centerY" secondItem="PdM-Rz-UyY" secondAttribute="centerY" constant="0" id="8Lp-xz-ffX" />
+                <constraint firstItem="PdM-Rz-UyY" firstAttribute="trailing" secondItem="599-d5-dqv" secondAttribute="trailing" constant="0" id="1gn-Sr-Nsq" />
+                <constraint firstItem="599-d5-dqv" firstAttribute="centerY" secondItem="PdM-Rz-UyY" secondAttribute="centerY" constant="0" id="5qa-k0-yKM" />
             </constraints>
             <rect key="frame" x="0" y="0" width="123" height="122" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />

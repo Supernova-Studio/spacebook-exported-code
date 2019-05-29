@@ -10,10 +10,10 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="2" y="277" width="184" height="184" />
             <constraints>
-                <constraint firstItem="XYn-ua-dM7" firstAttribute="leading" secondItem="6Ez-iU-vnn" secondAttribute="leading" constant="0" id="YIo-dq-3V5" />
-                <constraint firstItem="6Ez-iU-vnn" firstAttribute="trailing" secondItem="XYn-ua-dM7" secondAttribute="trailing" constant="0" id="sbF-kr-fOe" />
-                <constraint firstItem="XYn-ua-dM7" firstAttribute="top" secondItem="6Ez-iU-vnn" secondAttribute="top" constant="0" id="ynl-2o-XYU" />
-                <constraint firstItem="6Ez-iU-vnn" firstAttribute="bottom" secondItem="XYn-ua-dM7" secondAttribute="bottom" constant="0" id="Ty4-Oi-oiC" />
+                <constraint firstItem="XYn-ua-dM7" firstAttribute="leading" secondItem="6Ez-iU-vnn" secondAttribute="leading" constant="0" id="gR2-jf-LNa" />
+                <constraint firstItem="6Ez-iU-vnn" firstAttribute="trailing" secondItem="XYn-ua-dM7" secondAttribute="trailing" constant="0" id="aHk-Zq-gFW" />
+                <constraint firstItem="XYn-ua-dM7" firstAttribute="top" secondItem="6Ez-iU-vnn" secondAttribute="top" constant="0" id="ZTX-B7-8kE" />
+                <constraint firstItem="6Ez-iU-vnn" firstAttribute="bottom" secondItem="XYn-ua-dM7" secondAttribute="bottom" constant="0" id="GRf-Gt-Dfs" />
             </constraints>
             <rect key="frame" x="0" y="0" width="184" height="184" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />

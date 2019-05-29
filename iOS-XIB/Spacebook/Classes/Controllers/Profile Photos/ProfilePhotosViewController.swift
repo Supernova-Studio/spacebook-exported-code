@@ -57,6 +57,8 @@ class ProfilePhotosViewController: UIViewController {
     private func setupUI()  {
         self.extendedLayoutIncludesOpaqueBars = true
         
+        // Hide the back button
+        self.navigationItem.hidesBackButton = true
         // Left navigation items
         self.groupBarButtonItem = UIBarButtonItem(image: UIImage(named: "group-2"), style: .plain, target: self, action: #selector(self.onGroupPressed(_:)))
         self.navigationItem.leftBarButtonItems = [ self.groupBarButtonItem ]

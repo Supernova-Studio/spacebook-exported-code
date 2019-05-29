@@ -3,19 +3,19 @@
     "version" : 1,
     "author" : "xcode"
   },
-  "images" : [
-    {
-      "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "bg-news-temp-2@2x.png"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "bg-news-temp-2@3x.png"
-    }
-  ],
   "properties" : {
     "template-rendering-intent" : "original"
-  }
+  },
+  "images" : [
+    {
+      "filename" : "bg-news-temp-2@2x.png",
+      "scale" : "2x",
+      "idiom" : "universal"
+    },
+    {
+      "scale" : "3x",
+      "idiom" : "universal",
+      "filename" : "bg-news-temp-2@3x.png"
+    }
+  ]
 }

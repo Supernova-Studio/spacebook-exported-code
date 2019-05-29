@@ -10,8 +10,8 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="0" y="239" width="375" height="37" />
             <constraints>
-                <constraint firstItem="EHG-LX-CGL" firstAttribute="leading" secondItem="JUh-36-Sb1" secondAttribute="leading" constant="20" id="Y0b-8C-clQ" />
-                <constraint firstItem="EHG-LX-CGL" firstAttribute="centerY" secondItem="JUh-36-Sb1" secondAttribute="centerY" constant="0" id="Q9m-GN-Lnt" />
+                <constraint firstItem="EHG-LX-CGL" firstAttribute="leading" secondItem="JUh-36-Sb1" secondAttribute="leading" constant="20" id="HzZ-tQ-O79" />
+                <constraint firstItem="EHG-LX-CGL" firstAttribute="centerY" secondItem="JUh-36-Sb1" secondAttribute="centerY" constant="0" id="P2P-XJ-Wyb" />
             </constraints>
             <rect key="frame" x="0" y="0" width="375" height="37" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
@@ -24,7 +24,7 @@
                 <subviews>
                     <label id="EHG-LX-CGL" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
-                        <rect key="frame" x="20" y="12" width="80" height="16" />
+                        <rect key="frame" x="20" y="12" width="78" height="16" />
                         <constraints />
                         <string key="text">TOMORROW</string>
                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13" />
@@ -33,7 +33,7 @@
                 </subviews>
             </view>
             <connections>
-                <outlet property="tomorrowLabel" destination="EHG-LX-CGL" id="XQd-8G-7NU" />
+                <outlet property="tomorrowLabel" destination="EHG-LX-CGL" id="c0P-Wo-LEd" />
             </connections>
         </collectionViewCell>
     </objects>

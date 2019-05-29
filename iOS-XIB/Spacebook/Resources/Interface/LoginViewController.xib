@@ -10,18 +10,18 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="64i-Vi-G4K" />
-                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="top" secondItem="Bli-KY-rQH" secondAttribute="top" constant="114" id="iz0-GO-ETF" />
-                <constraint firstItem="wcQ-ch-KR8" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="SpM-k4-buq" />
-                <constraint firstItem="wcQ-ch-KR8" firstAttribute="top" secondItem="8oJ-rn-Y9O" secondAttribute="bottom" constant="20" id="ofW-ki-FEN" />
-                <constraint firstItem="b2r-f4-98c" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="cbo-JB-qFY" />
-                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="b2r-f4-98c" secondAttribute="trailing" constant="20" id="XA5-ro-PPs" />
-                <constraint firstItem="b2r-f4-98c" firstAttribute="top" secondItem="wcQ-ch-KR8" secondAttribute="bottom" constant="70" id="7yh-0C-Xp0" />
-                <constraint firstItem="xgr-0U-Y5t" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="Ms3-6e-L7c" />
-                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="xgr-0U-Y5t" secondAttribute="trailing" constant="20" id="hIA-JZ-coz" />
-                <constraint firstItem="gFA-Vq-841" firstAttribute="top" secondItem="xgr-0U-Y5t" secondAttribute="bottom" constant="11" id="ljZ-GS-IGG" />
-                <constraint firstItem="gFA-Vq-841" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="pZU-Uj-Hqd" />
-                <constraint firstItem="Bli-KY-rQH" firstAttribute="bottom" secondItem="gFA-Vq-841" secondAttribute="bottom" constant="19" id="24F-6s-hoK" />
+                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="9PI-gr-Hd7" />
+                <constraint firstItem="8oJ-rn-Y9O" firstAttribute="top" secondItem="Bli-KY-rQH" secondAttribute="top" constant="114" id="4Er-ZF-7EC" />
+                <constraint firstItem="wcQ-ch-KR8" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="xyj-nF-2PN" />
+                <constraint firstItem="wcQ-ch-KR8" firstAttribute="top" secondItem="8oJ-rn-Y9O" secondAttribute="bottom" constant="20" id="qLg-9g-3xf" />
+                <constraint firstItem="b2r-f4-98c" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="f3W-3v-3Hl" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="b2r-f4-98c" secondAttribute="trailing" constant="20" id="LLM-KL-kvC" />
+                <constraint firstItem="b2r-f4-98c" firstAttribute="top" secondItem="wcQ-ch-KR8" secondAttribute="bottom" constant="70" id="iBT-09-ZzP" />
+                <constraint firstItem="xgr-0U-Y5t" firstAttribute="leading" secondItem="Bli-KY-rQH" secondAttribute="leading" constant="20" id="Z4w-Bl-4aI" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="trailing" secondItem="xgr-0U-Y5t" secondAttribute="trailing" constant="20" id="dZ4-yT-1gd" />
+                <constraint firstItem="gFA-Vq-841" firstAttribute="top" secondItem="xgr-0U-Y5t" secondAttribute="bottom" constant="11" id="03V-2w-fSo" />
+                <constraint firstItem="gFA-Vq-841" firstAttribute="centerX" secondItem="Bli-KY-rQH" secondAttribute="centerX" constant="0" id="Wq6-8h-9jt" />
+                <constraint firstItem="Bli-KY-rQH" firstAttribute="bottom" secondItem="gFA-Vq-841" secondAttribute="bottom" constant="19" id="T7H-u0-dVZ" />
             </constraints>
             <subviews>
                 <label id="8oJ-rn-Y9O" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
@@ -45,16 +45,16 @@ The galaxy awaits you.</string>
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                     <rect key="frame" x="20" y="298" width="335" height="101" />
                     <constraints>
-                        <constraint firstItem="b2r-f4-98c" firstAttribute="height" constant="101" id="VBa-cP-ALd" />
-                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="Sln-dq-bt3" />
-                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="oiz-Rm-4aG" secondAttribute="trailing" constant="14" id="9yF-fQ-9HJ" />
-                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="top" secondItem="b2r-f4-98c" secondAttribute="top" constant="14" id="Ry9-tw-cHv" />
-                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="0" id="4pR-X7-GFC" />
-                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="Eqn-QU-FMq" secondAttribute="trailing" constant="0" id="AVt-hX-5tr" />
-                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="top" secondItem="oiz-Rm-4aG" secondAttribute="bottom" constant="16" id="JS5-jk-Qjz" />
-                        <constraint firstItem="UD7-xl-u6L" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="6uH-rf-mfw" />
-                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="UD7-xl-u6L" secondAttribute="trailing" constant="14" id="4nb-av-B1a" />
-                        <constraint firstItem="UD7-xl-u6L" firstAttribute="top" secondItem="Eqn-QU-FMq" secondAttribute="bottom" constant="14" id="mEb-Sx-Q8I" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="height" constant="101" id="yiu-bR-0aI" />
+                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="Qu3-an-Wst" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="oiz-Rm-4aG" secondAttribute="trailing" constant="14" id="h4j-sw-BXf" />
+                        <constraint firstItem="oiz-Rm-4aG" firstAttribute="top" secondItem="b2r-f4-98c" secondAttribute="top" constant="14" id="ZwV-t6-blZ" />
+                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="0" id="4z0-Iv-G9B" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="Eqn-QU-FMq" secondAttribute="trailing" constant="0" id="ZNq-2U-RY0" />
+                        <constraint firstItem="Eqn-QU-FMq" firstAttribute="top" secondItem="oiz-Rm-4aG" secondAttribute="bottom" constant="16" id="K06-79-DXI" />
+                        <constraint firstItem="UD7-xl-u6L" firstAttribute="leading" secondItem="b2r-f4-98c" secondAttribute="leading" constant="15" id="ZW9-P7-edR" />
+                        <constraint firstItem="b2r-f4-98c" firstAttribute="trailing" secondItem="UD7-xl-u6L" secondAttribute="trailing" constant="14" id="zIB-oY-K79" />
+                        <constraint firstItem="UD7-xl-u6L" firstAttribute="top" secondItem="Eqn-QU-FMq" secondAttribute="bottom" constant="14" id="ejn-4t-qgi" />
                     </constraints>
                     <subviews>
                         <textField id="oiz-Rm-4aG" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your nickname" text="" textAlignment="left">
@@ -69,7 +69,7 @@ The galaxy awaits you.</string>
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
                             <rect key="frame" x="0" y="50" width="335" height="1" />
                             <constraints>
-                                <constraint firstItem="Eqn-QU-FMq" firstAttribute="height" constant="1" id="RgQ-3U-Pcs" />
+                                <constraint firstItem="Eqn-QU-FMq" firstAttribute="height" constant="1" id="hgk-pe-hlA" />
                             </constraints>
                             <subviews />
                         </view>
@@ -87,41 +87,41 @@ The galaxy awaits you.</string>
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                     <rect key="frame" x="20" y="559" width="335" height="60" />
                     <constraints>
-                        <constraint firstItem="xgr-0U-Y5t" firstAttribute="height" constant="60" id="3ED-d0-BHz" />
+                        <constraint firstItem="xgr-0U-Y5t" firstAttribute="height" constant="60" id="Xvc-M9-jPB" />
                     </constraints>
                     <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
                     <state image="icon-log-in" title="LOG IN" key="normal">
                         <color key="titleColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
                     </state>
                     <connections>
-                        <action selector="onLoginPressed:" destination="wQY-kq-Mh1" eventType="touchUpInside" id="Zpk-qt-Fpg" />
+                        <action selector="onLoginPressed:" destination="m6j-sD-BTd" eventType="touchUpInside" id="GCp-ZO-J5Q" />
                     </connections>
                 </button>
                 <button id="gFA-Vq-841" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                     <rect key="frame" x="113" y="630" width="150" height="18" />
                     <constraints>
-                        <constraint firstItem="gFA-Vq-841" firstAttribute="width" constant="150" id="Mvx-jg-xjo" />
-                        <constraint firstItem="gFA-Vq-841" firstAttribute="height" constant="18" id="aSA-Jq-M4z" />
+                        <constraint firstItem="gFA-Vq-841" firstAttribute="width" constant="150" id="A5p-PS-gD1" />
+                        <constraint firstItem="gFA-Vq-841" firstAttribute="height" constant="18" id="e4t-6T-4yi" />
                     </constraints>
                     <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15" />
                     <state title="Forgot your password?" key="normal">
                         <color key="titleColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                     </state>
                     <connections>
-                        <action selector="onForgotYourPasswordPressed:" destination="wQY-kq-Mh1" eventType="touchUpInside" id="CMl-Lt-Zia" />
+                        <action selector="onForgotYourPasswordPressed:" destination="m6j-sD-BTd" eventType="touchUpInside" id="py1-vl-U0p" />
                     </connections>
                 </button>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="wQY-kq-Mh1" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="LoginViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="m6j-sD-BTd" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="LoginViewController">
             <connections>
-                <outlet property="view" destination="Bli-KY-rQH" id="uBe-QX-R1n" />
-                <outlet property="loginView" destination="Bli-KY-rQH" id="GTd-2d-D1j" />
-                <outlet property="logInLabel" destination="8oJ-rn-Y9O" id="jX2-wg-Knn" />
-                <outlet property="loginFieldsView" destination="b2r-f4-98c" id="RJB-Im-gfO" />
-                <outlet property="loginButton" destination="xgr-0U-Y5t" id="hX1-zJ-cuI" />
-                <outlet property="forgotYourPasswordButton" destination="gFA-Vq-841" id="X80-Ub-aIs" />
+                <outlet property="view" destination="Bli-KY-rQH" id="WSP-d0-l5u" />
+                <outlet property="loginView" destination="Bli-KY-rQH" id="Ju4-ma-sn0" />
+                <outlet property="logInLabel" destination="8oJ-rn-Y9O" id="y4S-C7-a9G" />
+                <outlet property="loginFieldsView" destination="b2r-f4-98c" id="RVw-Xe-G3l" />
+                <outlet property="loginButton" destination="xgr-0U-Y5t" id="l2J-gg-Gmu" />
+                <outlet property="forgotYourPasswordButton" destination="gFA-Vq-841" id="hWQ-8T-11n" />
             </connections>
         </placeholder>
     </objects>

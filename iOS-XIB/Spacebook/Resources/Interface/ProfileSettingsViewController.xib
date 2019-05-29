@@ -10,11 +10,11 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="6ea-1F-ry0" firstAttribute="centerX" secondItem="erb-bx-cQ2" secondAttribute="centerX" constant="0" id="8Pm-d1-HJl" />
-                <constraint firstItem="6ea-1F-ry0" firstAttribute="top" secondItem="erb-bx-cQ2" secondAttribute="top" constant="88" id="M4Y-xf-KeJ" />
-                <constraint firstItem="eMU-W0-cDI" firstAttribute="leading" secondItem="erb-bx-cQ2" secondAttribute="leading" constant="0" id="hd1-2X-skF" />
-                <constraint firstItem="erb-bx-cQ2" firstAttribute="trailing" secondItem="eMU-W0-cDI" secondAttribute="trailing" constant="0" id="ae6-aN-ckL" />
-                <constraint firstItem="eMU-W0-cDI" firstAttribute="top" secondItem="6ea-1F-ry0" secondAttribute="bottom" constant="19" id="yJu-1p-fxK" />
+                <constraint firstItem="6ea-1F-ry0" firstAttribute="centerX" secondItem="erb-bx-cQ2" secondAttribute="centerX" constant="0" id="2YX-wg-mbm" />
+                <constraint firstItem="6ea-1F-ry0" firstAttribute="top" secondItem="erb-bx-cQ2" secondAttribute="top" constant="88" id="hs2-cR-t92" />
+                <constraint firstItem="eMU-W0-cDI" firstAttribute="leading" secondItem="erb-bx-cQ2" secondAttribute="leading" constant="0" id="Lie-4s-pTr" />
+                <constraint firstItem="erb-bx-cQ2" firstAttribute="trailing" secondItem="eMU-W0-cDI" secondAttribute="trailing" constant="0" id="FRD-x3-Ci9" />
+                <constraint firstItem="eMU-W0-cDI" firstAttribute="top" secondItem="6ea-1F-ry0" secondAttribute="bottom" constant="19" id="Ej2-xj-QU8" />
             </constraints>
             <subviews>
                 <imageView id="6ea-1F-ry0" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="avatar-temp">
@@ -26,70 +26,57 @@
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                     <rect key="frame" x="0" y="199" width="375" height="380" />
                     <constraints>
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="height" constant="380" id="TtA-yy-Cz4" />
-                        <constraint firstItem="owz-7k-zc2" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="20" id="TRj-Zy-9L8" />
-                        <constraint firstItem="owz-7k-zc2" firstAttribute="top" secondItem="eMU-W0-cDI" secondAttribute="top" constant="0" id="74j-8o-Jg1" />
-                        <constraint firstItem="3kO-i7-DfO" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="2xW-qr-A7F" />
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="3kO-i7-DfO" secondAttribute="trailing" constant="0" id="PRs-qz-p0T" />
-                        <constraint firstItem="3kO-i7-DfO" firstAttribute="top" secondItem="owz-7k-zc2" secondAttribute="bottom" constant="10" id="D2z-RY-ifX" />
-                        <constraint firstItem="AVi-bG-ro7" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="CwQ-MX-yJw" />
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="AVi-bG-ro7" secondAttribute="trailing" constant="0" id="lai-KV-a7J" />
-                        <constraint firstItem="AVi-bG-ro7" firstAttribute="top" secondItem="3kO-i7-DfO" secondAttribute="bottom" constant="0" id="zOk-bx-1gg" />
-                        <constraint firstItem="HPJ-0P-kJu" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="20" id="Fc4-u9-tEs" />
-                        <constraint firstItem="HPJ-0P-kJu" firstAttribute="top" secondItem="AVi-bG-ro7" secondAttribute="bottom" constant="30" id="eUp-Zb-2W9" />
-                        <constraint firstItem="Mjp-nB-XRS" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="6ns-s3-mXt" />
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="Mjp-nB-XRS" secondAttribute="trailing" constant="0" id="e3e-Ow-whT" />
-                        <constraint firstItem="Mjp-nB-XRS" firstAttribute="top" secondItem="HPJ-0P-kJu" secondAttribute="bottom" constant="10" id="0Kk-U5-WU5" />
-                        <constraint firstItem="4gD-vi-HBQ" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="v6A-w1-PJn" />
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="4gD-vi-HBQ" secondAttribute="trailing" constant="0" id="bLj-3H-Shj" />
-                        <constraint firstItem="4gD-vi-HBQ" firstAttribute="top" secondItem="UVI-JA-A8H" secondAttribute="bottom" constant="0" id="oIX-0X-iBU" />
-                        <constraint firstItem="UVI-JA-A8H" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="ET4-At-Odk" />
-                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="UVI-JA-A8H" secondAttribute="trailing" constant="0" id="ZPZ-7a-lrB" />
-                        <constraint firstItem="UVI-JA-A8H" firstAttribute="top" secondItem="Mjp-nB-XRS" secondAttribute="bottom" constant="0" id="MFh-Ez-69H" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="height" constant="380" id="IMd-53-NVa" />
+                        <constraint firstItem="fm8-i1-d14" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="20" id="ExF-SU-AoL" />
+                        <constraint firstItem="fm8-i1-d14" firstAttribute="top" secondItem="eMU-W0-cDI" secondAttribute="top" constant="0" id="PkV-5g-fGU" />
+                        <constraint firstItem="3kO-i7-DfO" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="Oo1-s8-2x0" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="3kO-i7-DfO" secondAttribute="trailing" constant="0" id="skf-Wq-Nt7" />
+                        <constraint firstItem="3kO-i7-DfO" firstAttribute="top" secondItem="fm8-i1-d14" secondAttribute="bottom" constant="10" id="N6F-mW-G3u" />
+                        <constraint firstItem="AVi-bG-ro7" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="EAm-aE-5iT" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="AVi-bG-ro7" secondAttribute="trailing" constant="0" id="d8k-z3-nyC" />
+                        <constraint firstItem="AVi-bG-ro7" firstAttribute="top" secondItem="3kO-i7-DfO" secondAttribute="bottom" constant="0" id="L8n-IL-w4E" />
+                        <constraint firstItem="NY7-Ki-F43" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="20" id="en8-Jb-vhA" />
+                        <constraint firstItem="NY7-Ki-F43" firstAttribute="top" secondItem="AVi-bG-ro7" secondAttribute="bottom" constant="30" id="2md-Mq-iQI" />
+                        <constraint firstItem="Mjp-nB-XRS" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="C3l-lf-CUZ" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="Mjp-nB-XRS" secondAttribute="trailing" constant="0" id="N1O-7e-bas" />
+                        <constraint firstItem="Mjp-nB-XRS" firstAttribute="top" secondItem="NY7-Ki-F43" secondAttribute="bottom" constant="10" id="dFh-HV-LzN" />
+                        <constraint firstItem="4gD-vi-HBQ" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="73h-EX-7H7" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="4gD-vi-HBQ" secondAttribute="trailing" constant="0" id="4ZI-4Y-LfW" />
+                        <constraint firstItem="4gD-vi-HBQ" firstAttribute="top" secondItem="UVI-JA-A8H" secondAttribute="bottom" constant="0" id="UIp-Z1-0UW" />
+                        <constraint firstItem="UVI-JA-A8H" firstAttribute="leading" secondItem="eMU-W0-cDI" secondAttribute="leading" constant="0" id="fM4-X6-X16" />
+                        <constraint firstItem="eMU-W0-cDI" firstAttribute="trailing" secondItem="UVI-JA-A8H" secondAttribute="trailing" constant="0" id="ZNT-8A-O8e" />
+                        <constraint firstItem="UVI-JA-A8H" firstAttribute="top" secondItem="Mjp-nB-XRS" secondAttribute="bottom" constant="0" id="Yua-MQ-ekE" />
                     </constraints>
                     <subviews>
-                        <view id="owz-7k-zc2" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <label id="fm8-i1-d14" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                             <rect key="frame" x="20" y="0" width="47" height="15" />
-                            <constraints>
-                                <constraint firstItem="owz-7k-zc2" firstAttribute="width" constant="47" id="ir6-tI-Ncd" />
-                                <constraint firstItem="owz-7k-zc2" firstAttribute="height" constant="15" id="eBk-4z-Iiw" />
-                                <constraint firstItem="fm8-i1-d14" firstAttribute="leading" secondItem="owz-7k-zc2" secondAttribute="leading" constant="0" id="Xh2-CD-u0g" />
-                                <constraint firstItem="owz-7k-zc2" firstAttribute="trailing" secondItem="fm8-i1-d14" secondAttribute="trailing" constant="0" id="co0-K7-rPH" />
-                                <constraint firstItem="fm8-i1-d14" firstAttribute="centerY" secondItem="owz-7k-zc2" secondAttribute="centerY" constant="0" id="3ys-vK-RPC" />
-                            </constraints>
-                            <subviews>
-                                <label id="fm8-i1-d14" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
-                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
-                                    <rect key="frame" x="0" y="0" width="47" height="15" />
-                                    <constraints />
-                                    <string key="text">DETAILS</string>
-                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
-                                    <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
-                                </label>
-                            </subviews>
-                        </view>
+                            <constraints />
+                            <string key="text">DETAILS</string>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                        </label>
                         <view id="3kO-i7-DfO" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                             <rect key="frame" x="0" y="25" width="375" height="60" />
                             <constraints>
-                                <constraint firstItem="3kO-i7-DfO" firstAttribute="height" constant="60" id="Oah-FU-rbH" />
-                                <constraint firstItem="ziC-GW-iAe" firstAttribute="leading" secondItem="3kO-i7-DfO" secondAttribute="leading" constant="0" id="HA9-dS-sQY" />
-                                <constraint firstItem="3kO-i7-DfO" firstAttribute="trailing" secondItem="ziC-GW-iAe" secondAttribute="trailing" constant="0" id="5US-Nl-U4v" />
-                                <constraint firstItem="ziC-GW-iAe" firstAttribute="centerY" secondItem="3kO-i7-DfO" secondAttribute="centerY" constant="0" id="pyz-5r-lUj" />
+                                <constraint firstItem="3kO-i7-DfO" firstAttribute="height" constant="60" id="Huh-eo-BsQ" />
+                                <constraint firstItem="ziC-GW-iAe" firstAttribute="leading" secondItem="3kO-i7-DfO" secondAttribute="leading" constant="0" id="CEz-NE-T1c" />
+                                <constraint firstItem="3kO-i7-DfO" firstAttribute="trailing" secondItem="ziC-GW-iAe" secondAttribute="trailing" constant="0" id="XjE-Sy-Ybi" />
+                                <constraint firstItem="ziC-GW-iAe" firstAttribute="centerY" secondItem="3kO-i7-DfO" secondAttribute="centerY" constant="0" id="LsY-DD-AFy" />
                             </constraints>
                             <subviews>
                                 <view id="ziC-GW-iAe" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                                     <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                                     <rect key="frame" x="0" y="0" width="375" height="60" />
                                     <constraints>
-                                        <constraint firstItem="ziC-GW-iAe" firstAttribute="height" constant="60" id="nfF-YA-Z2Y" />
-                                        <constraint firstItem="web-Qt-1wl" firstAttribute="leading" secondItem="ziC-GW-iAe" secondAttribute="leading" constant="20" id="TEQ-aO-GAp" />
-                                        <constraint firstItem="web-Qt-1wl" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="8Qj-yj-Z60" />
-                                        <constraint firstItem="CSf-5C-5TQ" firstAttribute="leading" secondItem="knc-Pe-CjO" secondAttribute="trailing" constant="14" id="L36-1E-wT2" />
-                                        <constraint firstItem="knc-Pe-CjO" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="M68-9j-OK1" />
-                                        <constraint firstItem="ziC-GW-iAe" firstAttribute="trailing" secondItem="CSf-5C-5TQ" secondAttribute="trailing" constant="19" id="Xlv-w8-9Bt" />
-                                        <constraint firstItem="CSf-5C-5TQ" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="RbP-6y-XL8" />
+                                        <constraint firstItem="ziC-GW-iAe" firstAttribute="height" constant="60" id="oyt-aF-6H5" />
+                                        <constraint firstItem="web-Qt-1wl" firstAttribute="leading" secondItem="ziC-GW-iAe" secondAttribute="leading" constant="20" id="ern-AX-B9I" />
+                                        <constraint firstItem="web-Qt-1wl" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="tsU-Gh-ERs" />
+                                        <constraint firstItem="CSf-5C-5TQ" firstAttribute="leading" secondItem="knc-Pe-CjO" secondAttribute="trailing" constant="14" id="zvu-6B-55C" />
+                                        <constraint firstItem="knc-Pe-CjO" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="C8y-eR-fNu" />
+                                        <constraint firstItem="ziC-GW-iAe" firstAttribute="trailing" secondItem="CSf-5C-5TQ" secondAttribute="trailing" constant="19" id="GXH-Lr-FGp" />
+                                        <constraint firstItem="CSf-5C-5TQ" firstAttribute="centerY" secondItem="ziC-GW-iAe" secondAttribute="centerY" constant="0" id="9tf-g4-qBS" />
                                     </constraints>
                                     <subviews>
                                         <label id="web-Qt-1wl" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
@@ -121,23 +108,23 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                             <rect key="frame" x="0" y="85" width="375" height="60" />
                             <constraints>
-                                <constraint firstItem="AVi-bG-ro7" firstAttribute="height" constant="60" id="WPw-lT-3W7" />
-                                <constraint firstItem="Xvg-m1-MOq" firstAttribute="leading" secondItem="AVi-bG-ro7" secondAttribute="leading" constant="0" id="tiM-5w-XmZ" />
-                                <constraint firstItem="AVi-bG-ro7" firstAttribute="trailing" secondItem="Xvg-m1-MOq" secondAttribute="trailing" constant="0" id="axv-65-kDd" />
-                                <constraint firstItem="Xvg-m1-MOq" firstAttribute="centerY" secondItem="AVi-bG-ro7" secondAttribute="centerY" constant="0" id="01t-1r-22y" />
+                                <constraint firstItem="AVi-bG-ro7" firstAttribute="height" constant="60" id="6UN-UU-9Vv" />
+                                <constraint firstItem="Xvg-m1-MOq" firstAttribute="leading" secondItem="AVi-bG-ro7" secondAttribute="leading" constant="0" id="qAu-GK-GTZ" />
+                                <constraint firstItem="AVi-bG-ro7" firstAttribute="trailing" secondItem="Xvg-m1-MOq" secondAttribute="trailing" constant="0" id="lpo-OW-Tbh" />
+                                <constraint firstItem="Xvg-m1-MOq" firstAttribute="centerY" secondItem="AVi-bG-ro7" secondAttribute="centerY" constant="0" id="p5E-Bu-rRk" />
                             </constraints>
                             <subviews>
                                 <view id="Xvg-m1-MOq" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                                     <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                                     <rect key="frame" x="0" y="0" width="375" height="60" />
                                     <constraints>
-                                        <constraint firstItem="Xvg-m1-MOq" firstAttribute="height" constant="60" id="74k-Np-YQE" />
-                                        <constraint firstItem="0Bq-xa-Ym0" firstAttribute="leading" secondItem="Xvg-m1-MOq" secondAttribute="leading" constant="20" id="hw7-Cd-9iY" />
-                                        <constraint firstItem="0Bq-xa-Ym0" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="wy1-S9-QVA" />
-                                        <constraint firstItem="kyz-uW-QUz" firstAttribute="leading" secondItem="Sie-sG-3yt" secondAttribute="trailing" constant="14" id="pJw-VS-RCe" />
-                                        <constraint firstItem="Sie-sG-3yt" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="CJu-ip-anF" />
-                                        <constraint firstItem="Xvg-m1-MOq" firstAttribute="trailing" secondItem="kyz-uW-QUz" secondAttribute="trailing" constant="19" id="F0D-CD-uaX" />
-                                        <constraint firstItem="kyz-uW-QUz" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="KnB-3J-7wv" />
+                                        <constraint firstItem="Xvg-m1-MOq" firstAttribute="height" constant="60" id="bX3-ft-wUH" />
+                                        <constraint firstItem="0Bq-xa-Ym0" firstAttribute="leading" secondItem="Xvg-m1-MOq" secondAttribute="leading" constant="20" id="8V2-Xr-LYv" />
+                                        <constraint firstItem="0Bq-xa-Ym0" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="rmf-yc-agY" />
+                                        <constraint firstItem="kyz-uW-QUz" firstAttribute="leading" secondItem="Sie-sG-3yt" secondAttribute="trailing" constant="14" id="F0R-fm-Q7F" />
+                                        <constraint firstItem="Sie-sG-3yt" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="92O-AR-OV6" />
+                                        <constraint firstItem="Xvg-m1-MOq" firstAttribute="trailing" secondItem="kyz-uW-QUz" secondAttribute="trailing" constant="19" id="UpP-wG-aCD" />
+                                        <constraint firstItem="kyz-uW-QUz" firstAttribute="centerY" secondItem="Xvg-m1-MOq" secondAttribute="centerY" constant="0" id="BzA-M2-rVg" />
                                     </constraints>
                                     <subviews>
                                         <label id="0Bq-xa-Ym0" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
@@ -165,36 +152,23 @@
                                 </view>
                             </subviews>
                         </view>
-                        <view id="HPJ-0P-kJu" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                        <label id="NY7-Ki-F43" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
-                            <rect key="frame" x="20" y="175" width="84" height="15" />
-                            <constraints>
-                                <constraint firstItem="HPJ-0P-kJu" firstAttribute="width" constant="84" id="9qR-Fl-dM9" />
-                                <constraint firstItem="HPJ-0P-kJu" firstAttribute="height" constant="15" id="7H6-AU-ynp" />
-                                <constraint firstItem="NY7-Ki-F43" firstAttribute="leading" secondItem="HPJ-0P-kJu" secondAttribute="leading" constant="0" id="unZ-51-h2U" />
-                                <constraint firstItem="HPJ-0P-kJu" firstAttribute="trailing" secondItem="NY7-Ki-F43" secondAttribute="trailing" constant="0" id="CPR-Dv-lQt" />
-                                <constraint firstItem="NY7-Ki-F43" firstAttribute="centerY" secondItem="HPJ-0P-kJu" secondAttribute="centerY" constant="0" id="tFl-aF-x0h" />
-                            </constraints>
-                            <subviews>
-                                <label id="NY7-Ki-F43" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
-                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
-                                    <rect key="frame" x="0" y="0" width="84" height="15" />
-                                    <constraints />
-                                    <string key="text">INFORMATION</string>
-                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
-                                    <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
-                                </label>
-                            </subviews>
-                        </view>
+                            <rect key="frame" x="20" y="175" width="82" height="15" />
+                            <constraints />
+                            <string key="text">INFORMATION</string>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12" />
+                            <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                        </label>
                         <view id="Mjp-nB-XRS" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="0" y="200" width="375" height="60" />
                             <constraints>
-                                <constraint firstItem="Mjp-nB-XRS" firstAttribute="height" constant="60" id="FQ3-wx-xBw" />
-                                <constraint firstItem="vkb-Az-i6n" firstAttribute="leading" secondItem="Mjp-nB-XRS" secondAttribute="leading" constant="20" id="pYm-wq-SJG" />
-                                <constraint firstItem="vkb-Az-i6n" firstAttribute="centerY" secondItem="Mjp-nB-XRS" secondAttribute="centerY" constant="0" id="Qj9-VJ-5Y8" />
-                                <constraint firstItem="Mjp-nB-XRS" firstAttribute="trailing" secondItem="1Xm-bW-Xf0" secondAttribute="trailing" constant="20" id="Y3Y-Tr-rIV" />
-                                <constraint firstItem="1Xm-bW-Xf0" firstAttribute="centerY" secondItem="Mjp-nB-XRS" secondAttribute="centerY" constant="0" id="1Zm-7B-xxJ" />
+                                <constraint firstItem="Mjp-nB-XRS" firstAttribute="height" constant="60" id="Yrn-4t-2fl" />
+                                <constraint firstItem="vkb-Az-i6n" firstAttribute="leading" secondItem="Mjp-nB-XRS" secondAttribute="leading" constant="20" id="0se-xU-4yS" />
+                                <constraint firstItem="vkb-Az-i6n" firstAttribute="centerY" secondItem="Mjp-nB-XRS" secondAttribute="centerY" constant="0" id="BOP-Kz-utT" />
+                                <constraint firstItem="Mjp-nB-XRS" firstAttribute="trailing" secondItem="1Xm-bW-Xf0" secondAttribute="trailing" constant="20" id="CVM-LE-36X" />
+                                <constraint firstItem="1Xm-bW-Xf0" firstAttribute="centerY" secondItem="Mjp-nB-XRS" secondAttribute="centerY" constant="0" id="J5M-Jg-wsc" />
                             </constraints>
                             <subviews>
                                 <label id="vkb-Az-i6n" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
@@ -219,13 +193,13 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="0" y="320" width="375" height="60" />
                             <constraints>
-                                <constraint firstItem="4gD-vi-HBQ" firstAttribute="height" constant="60" id="LAN-zQ-HV7" />
-                                <constraint firstItem="h5T-eU-JFZ" firstAttribute="leading" secondItem="4gD-vi-HBQ" secondAttribute="leading" constant="20" id="lzf-ok-2ZT" />
-                                <constraint firstItem="h5T-eU-JFZ" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="ZRG-90-Pip" />
-                                <constraint firstItem="Osu-3v-iTt" firstAttribute="leading" secondItem="h5T-eU-JFZ" secondAttribute="trailing" constant="10" id="3mi-yW-f2i" />
-                                <constraint firstItem="Osu-3v-iTt" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="80W-BE-YOU" />
-                                <constraint firstItem="4gD-vi-HBQ" firstAttribute="trailing" secondItem="qz2-2G-2W0" secondAttribute="trailing" constant="20" id="VgH-Qs-ipH" />
-                                <constraint firstItem="qz2-2G-2W0" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="v7u-q1-xPA" />
+                                <constraint firstItem="4gD-vi-HBQ" firstAttribute="height" constant="60" id="swz-3A-E7U" />
+                                <constraint firstItem="h5T-eU-JFZ" firstAttribute="leading" secondItem="4gD-vi-HBQ" secondAttribute="leading" constant="20" id="Fgi-yH-vCz" />
+                                <constraint firstItem="h5T-eU-JFZ" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="Tcp-gM-BlL" />
+                                <constraint firstItem="Osu-3v-iTt" firstAttribute="leading" secondItem="h5T-eU-JFZ" secondAttribute="trailing" constant="10" id="4vl-hy-TXF" />
+                                <constraint firstItem="Osu-3v-iTt" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="yAl-uc-FQ3" />
+                                <constraint firstItem="4gD-vi-HBQ" firstAttribute="trailing" secondItem="qz2-2G-2W0" secondAttribute="trailing" constant="20" id="luO-V5-As8" />
+                                <constraint firstItem="qz2-2G-2W0" firstAttribute="centerY" secondItem="4gD-vi-HBQ" secondAttribute="centerY" constant="0" id="rKr-kX-kwU" />
                             </constraints>
                             <subviews>
                                 <label id="h5T-eU-JFZ" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.4000000059604645" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
@@ -258,11 +232,11 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="0" y="260" width="375" height="60" />
                             <constraints>
-                                <constraint firstItem="UVI-JA-A8H" firstAttribute="height" constant="60" id="P5l-vc-ZaF" />
-                                <constraint firstItem="6Ko-yg-XI9" firstAttribute="leading" secondItem="UVI-JA-A8H" secondAttribute="leading" constant="20" id="1tV-Dd-G1X" />
-                                <constraint firstItem="6Ko-yg-XI9" firstAttribute="centerY" secondItem="UVI-JA-A8H" secondAttribute="centerY" constant="0" id="RWF-HB-jkc" />
-                                <constraint firstItem="UVI-JA-A8H" firstAttribute="trailing" secondItem="eng-qq-Hrd" secondAttribute="trailing" constant="20" id="TfZ-0C-36s" />
-                                <constraint firstItem="eng-qq-Hrd" firstAttribute="centerY" secondItem="UVI-JA-A8H" secondAttribute="centerY" constant="0" id="VJG-lZ-rZj" />
+                                <constraint firstItem="UVI-JA-A8H" firstAttribute="height" constant="60" id="5hF-3T-WAq" />
+                                <constraint firstItem="6Ko-yg-XI9" firstAttribute="leading" secondItem="UVI-JA-A8H" secondAttribute="leading" constant="20" id="GzK-JJ-NSv" />
+                                <constraint firstItem="6Ko-yg-XI9" firstAttribute="centerY" secondItem="UVI-JA-A8H" secondAttribute="centerY" constant="0" id="uG0-n9-1dr" />
+                                <constraint firstItem="UVI-JA-A8H" firstAttribute="trailing" secondItem="eng-qq-Hrd" secondAttribute="trailing" constant="20" id="fQS-32-yyl" />
+                                <constraint firstItem="eng-qq-Hrd" firstAttribute="centerY" secondItem="UVI-JA-A8H" secondAttribute="centerY" constant="0" id="xfV-Q5-3B5" />
                             </constraints>
                             <subviews>
                                 <label id="6Ko-yg-XI9" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="left">
@@ -281,7 +255,7 @@
                                     <color key="onTintColor" colorSpace="calibratedRGB" red="0.5450981259346008" green="0.10588239878416061" blue="0.5490195751190186" alpha="1.0" />
                                     <color key="thumbTintColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                                     <connections>
-                                        <action selector="onSlideValueChanged:" destination="Tby-qm-U31" eventType="touchUpInside" id="rWa-RM-iRG" />
+                                        <action selector="onSlideValueChanged:" destination="xL2-Pg-POK" eventType="touchUpInside" id="YSo-gg-zJp" />
                                     </connections>
                                 </switch>
                             </subviews>
@@ -290,16 +264,16 @@
                 </view>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="Tby-qm-U31" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="ProfileSettingsViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="xL2-Pg-POK" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="ProfileSettingsViewController">
             <connections>
-                <outlet property="view" destination="erb-bx-cQ2" id="fm0-tn-0ea" />
-                <outlet property="detailsLabel" destination="fm8-i1-d14" id="JDe-57-49z" />
-                <outlet property="informationLabel" destination="NY7-Ki-F43" id="Y4n-4k-9yc" />
+                <outlet property="view" destination="erb-bx-cQ2" id="LPq-nU-7Wz" />
+                <outlet property="detailsLabel" destination="fm8-i1-d14" id="uQt-St-kUO" />
+                <outlet property="informationLabel" destination="NY7-Ki-F43" id="Czo-gX-t4E" />
             </connections>
         </placeholder>
     </objects>
     <resources>
         <image name="avatar-temp" width="124" height="124" />
-        <image name="path-2" width="6" height="12" />
+        <image name="path-2" width="9" height="14" />
     </resources>
 </document>

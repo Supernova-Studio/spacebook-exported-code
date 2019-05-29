@@ -1,17 +1,13 @@
 {
-  "properties" : {
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "original"
-  },
   "images" : [
     {
+      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "icon-log-in.pdf",
-      "scale" : "1x"
+      "filename" : "icon-log-in.pdf"
     },
     {
-      "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",
@@ -21,5 +17,9 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
   }
 }

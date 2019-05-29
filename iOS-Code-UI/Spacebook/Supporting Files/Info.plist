@@ -24,11 +24,10 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SFNSDisplay.ttf</string>
-		<string>Lato-Light.ttf</string>
 		<string>Lato-Bold.ttf</string>
-		<string>Lato-Regular.ttf</string>
 		<string>Lato-Black.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Light.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

@@ -63,6 +63,7 @@ class SignupViewController: UIViewController {
         viewGradient.endPoint = CGPoint(x: 0.689, y: -0.098)
         viewGradient.frame = self.view.bounds
         self.view.layer.insertSublayer(viewGradient, at: 0)
+        self.allGradientLayers.append(viewGradient)
         
         
         // Setup signUpLabel
@@ -101,6 +102,8 @@ class SignupViewController: UIViewController {
     private func setupUI()  {
         self.extendedLayoutIncludesOpaqueBars = true
         
+        // Hide the back button
+        self.navigationItem.hidesBackButton = true
         // Left navigation items
         self.groupBarButtonItem = UIBarButtonItem(image: UIImage(named: "group-2"), style: .plain, target: self, action: #selector(self.onGroupPressed(_:)))
         self.navigationItem.leftBarButtonItems = [ self.groupBarButtonItem ]
@@ -122,7 +125,7 @@ class SignupViewController: UIViewController {
     override public func viewDidLayoutSubviews()  {
         super.viewDidLayoutSubviews()
         for layer in self.allGradientLayers {
-          layer.frame = layer.superlayer?.frame ?? CGRect.zero
+            layer.frame = layer.superlayer?.frame ?? CGRect.zero
         }
     }
 

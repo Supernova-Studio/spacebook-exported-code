@@ -10,12 +10,12 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="0" y="0" width="60" height="75" />
             <constraints>
-                <constraint firstItem="qmJ-2c-fmp" firstAttribute="leading" secondItem="qmX-a7-wtF" secondAttribute="leading" constant="3" id="JKI-L9-QuB" />
-                <constraint firstItem="qmX-a7-wtF" firstAttribute="trailing" secondItem="qmJ-2c-fmp" secondAttribute="trailing" constant="2" id="dsi-8X-MJd" />
-                <constraint firstItem="qmX-a7-wtF" firstAttribute="bottom" secondItem="qmJ-2c-fmp" secondAttribute="bottom" constant="0" id="TOk-Go-ZU2" />
-                <constraint firstItem="wxC-S9-79l" firstAttribute="leading" secondItem="qmX-a7-wtF" secondAttribute="leading" constant="-1" id="xtd-Xy-gKh" />
-                <constraint firstItem="qmX-a7-wtF" firstAttribute="trailing" secondItem="wxC-S9-79l" secondAttribute="trailing" constant="-1" id="SX9-kM-XUJ" />
-                <constraint firstItem="wxC-S9-79l" firstAttribute="top" secondItem="qmX-a7-wtF" secondAttribute="top" constant="-1" id="d3s-ur-j7R" />
+                <constraint firstItem="qmJ-2c-fmp" firstAttribute="leading" secondItem="qmX-a7-wtF" secondAttribute="leading" constant="3" id="pih-ys-fqo" />
+                <constraint firstItem="qmX-a7-wtF" firstAttribute="trailing" secondItem="qmJ-2c-fmp" secondAttribute="trailing" constant="2" id="FNk-Go-OIu" />
+                <constraint firstItem="qmX-a7-wtF" firstAttribute="bottom" secondItem="qmJ-2c-fmp" secondAttribute="bottom" constant="0" id="s1a-S0-Jkd" />
+                <constraint firstItem="wxC-S9-79l" firstAttribute="leading" secondItem="qmX-a7-wtF" secondAttribute="leading" constant="-1" id="eYA-4K-Swk" />
+                <constraint firstItem="qmX-a7-wtF" firstAttribute="trailing" secondItem="wxC-S9-79l" secondAttribute="trailing" constant="-1" id="JJ3-ts-WLm" />
+                <constraint firstItem="wxC-S9-79l" firstAttribute="top" secondItem="qmX-a7-wtF" secondAttribute="top" constant="-1" id="RK0-65-3kI" />
             </constraints>
             <rect key="frame" x="0" y="0" width="60" height="75" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
@@ -45,6 +45,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="avatar-temp-2" width="60" height="60" />
+        <image name="avatar-temp-2" width="62" height="62" />
     </resources>
 </document>

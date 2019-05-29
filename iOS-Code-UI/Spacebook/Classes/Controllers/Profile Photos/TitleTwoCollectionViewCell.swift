@@ -46,7 +46,7 @@ class TitleTwoCollectionViewCell: UICollectionViewCell {
         self.tomorrowLabel = UILabel()
         self.tomorrowLabel.numberOfLines = 0
         let tomorrowLabelAttrString = NSMutableAttributedString(string: "TOMORROW", attributes: [
-            .font : UIFont(name: "Lato-Regular", size: 13)!,
+            .font : UIFont.systemFont(ofSize: 13),
             .foregroundColor : UIColor(red: 0, green: 0, blue: 0, alpha: 1),
             .kern : -0.08,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .left, lineHeight: nil, paragraphSpacing: 0)

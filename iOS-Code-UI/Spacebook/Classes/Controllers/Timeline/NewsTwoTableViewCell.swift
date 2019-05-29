@@ -206,9 +206,10 @@ class NewsTwoTableViewCell: UITableViewCell {
         
         // Setup raidersFromTheGemLabel
         self.raidersFromTheGemLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 20).isActive = true
-        self.raidersFromTheGemLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -20).isActive = true
+        self.raidersFromTheGemLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -14).isActive = true
         self.raidersFromTheGemLabel.topAnchor.constraint(equalTo: self.bgNewsTempImageView.bottomAnchor, constant: 18).isActive = true
-        self.raidersFromTheGemLabel.bottomAnchor.constraint(equalTo: self.viewTwoView.topAnchor, constant: -22).isActive = true
+        self.raidersFromTheGemLabel.widthAnchor.constraint(equalToConstant: 341).isActive = true
+        self.raidersFromTheGemLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         // Setup viewTwoView
         self.viewTwoView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 0).isActive = true

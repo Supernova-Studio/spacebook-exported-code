@@ -4,18 +4,18 @@
   },
   "images" : [
     {
-      "idiom" : "universal",
+      "scale" : "2x",
       "filename" : "ui-avatar-small-copy-2@2x.png",
-      "scale" : "2x"
+      "idiom" : "universal"
     },
     {
-      "idiom" : "universal",
       "filename" : "ui-avatar-small-copy-2@3x.png",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

@@ -1,21 +1,21 @@
 {
+  "properties" : {
+    "template-rendering-intent" : "original"
+  },
   "info" : {
     "version" : 1,
     "author" : "xcode"
   },
   "images" : [
     {
-      "idiom" : "universal",
+      "filename" : "bg-photo-5@2x.png",
       "scale" : "2x",
-      "filename" : "bg-photo-5@2x.png"
+      "idiom" : "universal"
     },
     {
-      "idiom" : "universal",
       "scale" : "3x",
+      "idiom" : "universal",
       "filename" : "bg-photo-5@3x.png"
     }
-  ],
-  "properties" : {
-    "template-rendering-intent" : "original"
-  }
+  ]
 }

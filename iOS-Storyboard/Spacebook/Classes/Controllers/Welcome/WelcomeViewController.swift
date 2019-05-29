@@ -64,6 +64,7 @@ class WelcomeViewController: UIViewController {
         viewGradient.endPoint = CGPoint(x: 0.689, y: -0.098)
         viewGradient.frame = self.view.bounds
         self.view.layer.insertSublayer(viewGradient, at: 0)
+        self.allGradientLayers.append(viewGradient)
         
         
         // Setup logoImageView
@@ -105,6 +106,15 @@ class WelcomeViewController: UIViewController {
     }
 
     private func setupUI()  {
+        let navigationBar = self.navigationController!.navigationBar
+        
+        navigationBar.barTintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
+        navigationBar.tintColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        navigationBar.titleTextAttributes = [
+            NSAttributedString.Key.font : UIFont.systemFont(ofSize: 12),
+            NSAttributedString.Key.foregroundColor : UIColor(red: 0, green: 0, blue: 0, alpha: 1),
+        ]
+        
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -125,7 +135,7 @@ class WelcomeViewController: UIViewController {
     override public func viewDidLayoutSubviews()  {
         super.viewDidLayoutSubviews()
         for layer in self.allGradientLayers {
-          layer.frame = layer.superlayer?.frame ?? CGRect.zero
+            layer.frame = layer.superlayer?.frame ?? CGRect.zero
         }
     }
 
@@ -200,7 +210,7 @@ class WelcomeViewController: UIViewController {
         animationThree.timingFunction = CAMediaTimingFunction(controlPoints: 0.42, 0, 0.58, 1)
         animationThree.keyPath = "transform.rotation"
         animationThree.keyTimes = [ 0.0, 0.7, 1.0 ]
-        animationThree.values = [ -45.0 / 180 * Double.pi, -45.0 / 180 * Double.pi, 1.0 / 180 * Double.pi ]
+        animationThree.values = [ -45.0 / 180 * Double.pi, -45.0 / 180 * Double.pi, 0.0 / 180 * Double.pi ]
         groupOne.animations?.append(animationThree)
         
         self.logoImageView.layer.add(groupOne, forKey: nil)

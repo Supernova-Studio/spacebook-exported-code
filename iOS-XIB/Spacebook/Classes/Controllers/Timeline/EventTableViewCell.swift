@@ -41,7 +41,7 @@ class EventTableViewCell: UITableViewCell {
         
         // Setup guessWhoSBackLabel
         let guessWhoSBackLabelAttrString = NSMutableAttributedString(string: "Guess who’s back?", attributes: [
-            .font : UIFont(name: ".SFNSDisplay", size: 24)!,
+            .font : UIFont(name: "Lato-Black", size: 24)!,
             .foregroundColor : UIColor(red: 1, green: 1, blue: 1, alpha: 1),
             .kern : 0,
             .paragraphStyle : NSMutableParagraphStyle(alignment: .right, lineHeight: 24, paragraphSpacing: 0)

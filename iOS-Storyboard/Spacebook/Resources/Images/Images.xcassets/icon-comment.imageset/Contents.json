@@ -1,13 +1,13 @@
 {
   "properties" : {
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "original"
+    "template-rendering-intent" : "original",
+    "preserves-vector-representation" : true
   },
   "images" : [
     {
+      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "icon-comment.pdf",
-      "scale" : "1x"
+      "filename" : "icon-comment.pdf"
     },
     {
       "idiom" : "universal",

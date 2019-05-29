@@ -6,8 +6,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "active-icon-3.pdf",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "active-icon-3.pdf"
     },
     {
       "idiom" : "universal",

@@ -10,17 +10,17 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="9Yo-sJ-suq" />
-                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="top" secondItem="u8u-Bz-3jb" secondAttribute="top" constant="100" id="btC-8m-pqw" />
-                <constraint firstItem="shV-g4-LNE" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="bUA-kc-y84" />
-                <constraint firstItem="shV-g4-LNE" firstAttribute="top" secondItem="5Be-Vz-8Hl" secondAttribute="bottom" constant="60" id="B9x-9L-fVt" />
-                <constraint firstItem="0iR-Me-K6I" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="gim-zA-5Xw" />
-                <constraint firstItem="0iR-Me-K6I" firstAttribute="top" secondItem="shV-g4-LNE" secondAttribute="bottom" constant="20" id="0nd-5C-892" />
-                <constraint firstItem="zoy-Yo-cML" firstAttribute="leading" secondItem="u8u-Bz-3jb" secondAttribute="leading" constant="30" id="5EQ-Lx-1YO" />
-                <constraint firstItem="u8u-Bz-3jb" firstAttribute="trailing" secondItem="zoy-Yo-cML" secondAttribute="trailing" constant="30" id="pPg-dr-mbb" />
-                <constraint firstItem="51e-Ox-Y3C" firstAttribute="top" secondItem="zoy-Yo-cML" secondAttribute="bottom" constant="85" id="kk5-mR-9RO" />
-                <constraint firstItem="51e-Ox-Y3C" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="XgN-Gx-uRr" />
-                <constraint firstItem="u8u-Bz-3jb" firstAttribute="bottom" secondItem="51e-Ox-Y3C" secondAttribute="bottom" constant="20" id="Ag7-cN-iGc" />
+                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="1nI-Bm-IVi" />
+                <constraint firstItem="5Be-Vz-8Hl" firstAttribute="top" secondItem="u8u-Bz-3jb" secondAttribute="top" constant="100" id="s1H-ok-xFb" />
+                <constraint firstItem="shV-g4-LNE" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="Kqz-VQ-Qwp" />
+                <constraint firstItem="shV-g4-LNE" firstAttribute="top" secondItem="5Be-Vz-8Hl" secondAttribute="bottom" constant="60" id="Ixu-R3-gJB" />
+                <constraint firstItem="0iR-Me-K6I" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="c8x-xw-Q6T" />
+                <constraint firstItem="0iR-Me-K6I" firstAttribute="top" secondItem="shV-g4-LNE" secondAttribute="bottom" constant="20" id="ynd-gJ-p1h" />
+                <constraint firstItem="zoy-Yo-cML" firstAttribute="leading" secondItem="u8u-Bz-3jb" secondAttribute="leading" constant="30" id="t25-2u-DF1" />
+                <constraint firstItem="u8u-Bz-3jb" firstAttribute="trailing" secondItem="zoy-Yo-cML" secondAttribute="trailing" constant="30" id="XQf-Vg-hv1" />
+                <constraint firstItem="51e-Ox-Y3C" firstAttribute="top" secondItem="zoy-Yo-cML" secondAttribute="bottom" constant="85" id="bOd-Cq-sCm" />
+                <constraint firstItem="51e-Ox-Y3C" firstAttribute="centerX" secondItem="u8u-Bz-3jb" secondAttribute="centerX" constant="0" id="yma-UA-56I" />
+                <constraint firstItem="u8u-Bz-3jb" firstAttribute="bottom" secondItem="51e-Ox-Y3C" secondAttribute="bottom" constant="20" id="A1I-aE-JcY" />
             </constraints>
             <subviews>
                 <imageView id="5Be-Vz-8Hl" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="logo">
@@ -49,41 +49,41 @@ from behind the screen.</string>
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                     <rect key="frame" x="30" y="484" width="315" height="60" />
                     <constraints>
-                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="leading" secondItem="zoy-Yo-cML" secondAttribute="leading" constant="0" id="TxW-JI-lbh" />
-                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="width" secondItem="a4q-vw-Sp9" secondAttribute="width" constant="0" multiplier="1.0" id="t39-55-GpT" />
-                        <constraint firstItem="a4q-vw-Sp9" firstAttribute="leading" secondItem="kJJ-Hy-0aZ" secondAttribute="trailing" constant="19" id="nEi-tN-1xv" />
-                        <constraint firstItem="zoy-Yo-cML" firstAttribute="trailing" secondItem="a4q-vw-Sp9" secondAttribute="trailing" constant="0" id="Bsm-oN-dNh" />
-                        <constraint firstItem="zoy-Yo-cML" firstAttribute="height" constant="60" id="Tgq-zr-oJm" />
-                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="kJJ-Hy-0aZ" secondAttribute="bottom" constant="0" id="9UY-lM-nOC" />
-                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="a4q-vw-Sp9" secondAttribute="bottom" constant="0" id="Lt2-pO-6lk" />
+                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="leading" secondItem="zoy-Yo-cML" secondAttribute="leading" constant="0" id="UGP-Bt-5NB" />
+                        <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="width" secondItem="a4q-vw-Sp9" secondAttribute="width" constant="0" multiplier="1.0" id="wWZ-DX-J9R" />
+                        <constraint firstItem="a4q-vw-Sp9" firstAttribute="leading" secondItem="kJJ-Hy-0aZ" secondAttribute="trailing" constant="19" id="Btd-7x-DVD" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="trailing" secondItem="a4q-vw-Sp9" secondAttribute="trailing" constant="0" id="CKA-Kr-2bN" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="height" constant="60" id="dGJ-ft-kKN" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="kJJ-Hy-0aZ" secondAttribute="bottom" constant="0" id="NHt-fB-9Bn" />
+                        <constraint firstItem="zoy-Yo-cML" firstAttribute="bottom" secondItem="a4q-vw-Sp9" secondAttribute="bottom" constant="0" id="lwI-TV-RFH" />
                     </constraints>
                     <subviews>
                         <button id="kJJ-Hy-0aZ" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="0" y="0" width="148" height="60" />
                             <constraints>
-                                <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="height" constant="60" id="hiz-XG-ZSH" />
+                                <constraint firstItem="kJJ-Hy-0aZ" firstAttribute="height" constant="60" id="fP9-g4-u9X" />
                             </constraints>
                             <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
                             <state image="icon-sign-up" title="SIGN UP" key="normal">
                                 <color key="titleColor" colorSpace="calibratedRGB" red="0.8509804010391235" green="0.40392160415649414" blue="0.43137261271476746" alpha="1.0" />
                             </state>
                             <connections>
-                                <action selector="onSignUpPressed:" destination="1vu-fv-Eyj" eventType="touchUpInside" id="uRq-py-us0" />
+                                <action selector="onSignUpPressed:" destination="CHj-yI-Pjt" eventType="touchUpInside" id="BZ4-yS-jJi" />
                             </connections>
                         </button>
                         <button id="a4q-vw-Sp9" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="167" y="0" width="148" height="60" />
                             <constraints>
-                                <constraint firstItem="a4q-vw-Sp9" firstAttribute="height" constant="60" id="s5K-Pm-Pdy" />
+                                <constraint firstItem="a4q-vw-Sp9" firstAttribute="height" constant="60" id="bUy-QI-Tj9" />
                             </constraints>
                             <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15" />
                             <state image="icon-log-in" title="LOG IN" key="normal">
                                 <color key="titleColor" colorSpace="calibratedRGB" red="0.8549020290374756" green="0.40784311294555664" blue="0.4274510145187378" alpha="1.0" />
                             </state>
                             <connections>
-                                <action selector="onLogInPressed:" destination="1vu-fv-Eyj" eventType="touchUpInside" id="Nmh-Sh-2ji" />
+                                <action selector="onLogInPressed:" destination="CHj-yI-Pjt" eventType="touchUpInside" id="eEQ-0k-f5g" />
                             </connections>
                         </button>
                     </subviews>
@@ -98,14 +98,14 @@ from behind the screen.</string>
                 </label>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="1vu-fv-Eyj" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="WelcomeViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="CHj-yI-Pjt" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="WelcomeViewController">
             <connections>
-                <outlet property="view" destination="u8u-Bz-3jb" id="e0V-Dn-0zg" />
-                <outlet property="welcomeView" destination="u8u-Bz-3jb" id="7LM-MT-FAz" />
-                <outlet property="logoImageView" destination="5Be-Vz-8Hl" id="mYJ-jv-hD6" />
-                <outlet property="spacebookLabel" destination="shV-g4-LNE" id="SVE-fg-SQH" />
-                <outlet property="signUpButton" destination="kJJ-Hy-0aZ" id="Etl-uN-nGS" />
-                <outlet property="logInButton" destination="a4q-vw-Sp9" id="sax-mL-kqQ" />
+                <outlet property="view" destination="u8u-Bz-3jb" id="RMU-pA-AJg" />
+                <outlet property="welcomeView" destination="u8u-Bz-3jb" id="4q2-TN-X7d" />
+                <outlet property="logoImageView" destination="5Be-Vz-8Hl" id="5Us-iZ-VaP" />
+                <outlet property="spacebookLabel" destination="shV-g4-LNE" id="qb1-lK-7oJ" />
+                <outlet property="signUpButton" destination="kJJ-Hy-0aZ" id="e2t-wp-FWu" />
+                <outlet property="logInButton" destination="a4q-vw-Sp9" id="1wM-oZ-rfc" />
             </connections>
         </placeholder>
     </objects>

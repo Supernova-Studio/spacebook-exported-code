@@ -9,7 +9,7 @@
         <tableViewCell id="4RO-C2-LIk" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="LifetimeEventTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LifetimeEventTableViewCell" rowHeight="196">
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="0" y="593" width="375" height="196" />
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4RO-C2-LIk" id="noI-hJ-4PO">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4RO-C2-LIk" id="Zff-K8-Zoz">
                 <rect key="frame" x="0" y="0" width="375" height="196" />
                 <autoresizingMask key="autoresizingMask" />
                 <subviews>
@@ -29,7 +29,7 @@
                         <rect key="frame" x="103" y="124" width="170" height="17" />
                         <constraints />
                         <string key="text">Pluto posted a new life event</string>
-                        <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="14" />
+                        <fontDescription key="fontDescription" name="Lato-Light" family="Lato Light" pointSize="14" />
                         <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
                     </label>
                     <label id="jsp-7H-Ky0" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
@@ -37,21 +37,21 @@
                         <rect key="frame" x="70" y="143" width="237" height="22" />
                         <constraints />
                         <string key="text">In a complicated relationship</string>
-                        <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="18" />
+                        <fontDescription key="fontDescription" name="Lato-Black" family="Lato Black" pointSize="18" />
                         <color key="textColor" colorSpace="calibratedRGB" red="0.18431369960308075" green="0.18431369960308075" blue="0.18431369960308075" alpha="1.0" />
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Xra-6n-TXl" firstAttribute="leading" secondItem="noI-hJ-4PO" secondAttribute="leading" constant="0" id="w4k-kz-uBi" />
-                    <constraint firstItem="noI-hJ-4PO" firstAttribute="trailing" secondItem="Xra-6n-TXl" secondAttribute="trailing" constant="0" id="HQ8-Id-EVv" />
-                    <constraint firstItem="Xra-6n-TXl" firstAttribute="top" secondItem="noI-hJ-4PO" secondAttribute="top" constant="29" id="D4P-gS-hnL" />
-                    <constraint firstItem="noI-hJ-4PO" firstAttribute="bottom" secondItem="Xra-6n-TXl" secondAttribute="bottom" constant="1" id="6pI-tU-BKg" />
-                    <constraint firstItem="fhq-94-MgK" firstAttribute="centerX" secondItem="noI-hJ-4PO" secondAttribute="centerX" constant="0" id="oGt-pw-87E" />
-                    <constraint firstItem="fhq-94-MgK" firstAttribute="top" secondItem="noI-hJ-4PO" secondAttribute="top" constant="18" id="YPl-uy-6QK" />
-                    <constraint firstItem="zqB-wD-NIP" firstAttribute="centerX" secondItem="noI-hJ-4PO" secondAttribute="centerX" constant="0" id="ARO-zZ-Rxw" />
-                    <constraint firstItem="zqB-wD-NIP" firstAttribute="top" secondItem="fhq-94-MgK" secondAttribute="bottom" constant="12" id="Np9-2Q-7PH" />
-                    <constraint firstItem="jsp-7H-Ky0" firstAttribute="centerX" secondItem="noI-hJ-4PO" secondAttribute="centerX" constant="0" id="4qJ-TZ-6hN" />
-                    <constraint firstItem="jsp-7H-Ky0" firstAttribute="top" secondItem="zqB-wD-NIP" secondAttribute="bottom" constant="2" id="O9t-zz-0Ey" />
+                    <constraint firstItem="Xra-6n-TXl" firstAttribute="leading" secondItem="Zff-K8-Zoz" secondAttribute="leading" constant="0" id="STf-y1-VtV" />
+                    <constraint firstItem="Zff-K8-Zoz" firstAttribute="trailing" secondItem="Xra-6n-TXl" secondAttribute="trailing" constant="0" id="ttG-Zn-IWK" />
+                    <constraint firstItem="Xra-6n-TXl" firstAttribute="top" secondItem="Zff-K8-Zoz" secondAttribute="top" constant="29" id="LsV-qu-nOV" />
+                    <constraint firstItem="Zff-K8-Zoz" firstAttribute="bottom" secondItem="Xra-6n-TXl" secondAttribute="bottom" constant="1" id="F5g-RB-O2k" />
+                    <constraint firstItem="fhq-94-MgK" firstAttribute="centerX" secondItem="Zff-K8-Zoz" secondAttribute="centerX" constant="0" id="wjy-kp-rCy" />
+                    <constraint firstItem="fhq-94-MgK" firstAttribute="top" secondItem="Zff-K8-Zoz" secondAttribute="top" constant="18" id="Asd-UM-PY6" />
+                    <constraint firstItem="zqB-wD-NIP" firstAttribute="centerX" secondItem="Zff-K8-Zoz" secondAttribute="centerX" constant="0" id="tpZ-93-Kof" />
+                    <constraint firstItem="zqB-wD-NIP" firstAttribute="top" secondItem="fhq-94-MgK" secondAttribute="bottom" constant="12" id="3GM-fI-W4D" />
+                    <constraint firstItem="jsp-7H-Ky0" firstAttribute="centerX" secondItem="Zff-K8-Zoz" secondAttribute="centerX" constant="0" id="raz-vO-z0Z" />
+                    <constraint firstItem="jsp-7H-Ky0" firstAttribute="top" secondItem="zqB-wD-NIP" secondAttribute="bottom" constant="2" id="Dg2-rT-wuu" />
                 </constraints>
             </tableViewCellContentView>
             <connections />

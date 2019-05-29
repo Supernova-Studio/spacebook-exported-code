@@ -4,8 +4,8 @@
   },
   "images" : [
     {
-      "idiom" : "universal",
       "filename" : "bg-photo-7@2x.png",
+      "idiom" : "universal",
       "scale" : "2x"
     },
     {

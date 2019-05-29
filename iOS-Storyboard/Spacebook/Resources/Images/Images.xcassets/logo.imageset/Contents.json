@@ -1,7 +1,11 @@
 {
   "properties" : {
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "original"
+    "template-rendering-intent" : "original",
+    "preserves-vector-representation" : true
+  },
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
   },
   "images" : [
     {
@@ -14,12 +18,8 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "idiom" : "universal"
     }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  }
+  ]
 }

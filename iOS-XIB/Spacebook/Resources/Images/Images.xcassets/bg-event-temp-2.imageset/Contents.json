@@ -5,8 +5,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "bg-event-temp-2@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "bg-event-temp-2@2x.png"
     },
     {
       "idiom" : "universal",

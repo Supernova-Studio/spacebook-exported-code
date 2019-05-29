@@ -217,9 +217,9 @@ class NewsTableViewCell: UITableViewCell {
         self.melonHuskLaunchesLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 20).isActive = true
         self.melonHuskLaunchesLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -20).isActive = true
         self.melonHuskLaunchesLabel.topAnchor.constraint(equalTo: self.bgNewsTempImageView.bottomAnchor, constant: 18).isActive = true
-        self.melonHuskLaunchesLabel.bottomAnchor.constraint(equalTo: self.viewTwoView.topAnchor, constant: -10).isActive = true
+        self.melonHuskLaunchesLabel.bottomAnchor.constraint(equalTo: self.viewTwoView.topAnchor, constant: -22).isActive = true
         self.melonHuskLaunchesLabel.widthAnchor.constraint(equalToConstant: 335).isActive = true
-        self.melonHuskLaunchesLabel.heightAnchor.constraint(equalToConstant: 51).isActive = true
+        self.melonHuskLaunchesLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         // Setup viewTwoView
         self.viewTwoView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 0).isActive = true

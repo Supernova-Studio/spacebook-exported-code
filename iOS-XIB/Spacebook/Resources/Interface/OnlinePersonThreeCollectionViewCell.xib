@@ -10,12 +10,12 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
             <rect key="frame" x="210" y="0" width="60" height="75" />
             <constraints>
-                <constraint firstItem="4my-43-0Pv" firstAttribute="leading" secondItem="lAc-DP-ORD" secondAttribute="leading" constant="11" id="1i2-ru-VvF" />
-                <constraint firstItem="lAc-DP-ORD" firstAttribute="trailing" secondItem="4my-43-0Pv" secondAttribute="trailing" constant="10" id="YOx-ix-nW3" />
-                <constraint firstItem="lAc-DP-ORD" firstAttribute="bottom" secondItem="4my-43-0Pv" secondAttribute="bottom" constant="0" id="kec-kW-Sxa" />
-                <constraint firstItem="PYJ-Ie-dso" firstAttribute="leading" secondItem="lAc-DP-ORD" secondAttribute="leading" constant="-1" id="1EC-kP-FmD" />
-                <constraint firstItem="lAc-DP-ORD" firstAttribute="trailing" secondItem="PYJ-Ie-dso" secondAttribute="trailing" constant="-1" id="Do0-RY-fjK" />
-                <constraint firstItem="PYJ-Ie-dso" firstAttribute="top" secondItem="lAc-DP-ORD" secondAttribute="top" constant="-1" id="4AA-FQ-1DP" />
+                <constraint firstItem="4my-43-0Pv" firstAttribute="leading" secondItem="lAc-DP-ORD" secondAttribute="leading" constant="11" id="6gK-W4-0CR" />
+                <constraint firstItem="lAc-DP-ORD" firstAttribute="trailing" secondItem="4my-43-0Pv" secondAttribute="trailing" constant="10" id="kRe-RZ-eEy" />
+                <constraint firstItem="lAc-DP-ORD" firstAttribute="bottom" secondItem="4my-43-0Pv" secondAttribute="bottom" constant="0" id="WXi-pA-Lco" />
+                <constraint firstItem="PYJ-Ie-dso" firstAttribute="leading" secondItem="lAc-DP-ORD" secondAttribute="leading" constant="-1" id="DCU-NN-GuW" />
+                <constraint firstItem="lAc-DP-ORD" firstAttribute="trailing" secondItem="PYJ-Ie-dso" secondAttribute="trailing" constant="-1" id="SgX-yU-ULH" />
+                <constraint firstItem="PYJ-Ie-dso" firstAttribute="top" secondItem="lAc-DP-ORD" secondAttribute="top" constant="-1" id="W1Q-Pw-YT7" />
             </constraints>
             <rect key="frame" x="0" y="0" width="60" height="75" />
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
@@ -45,6 +45,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="ui-avatar-small-copy-2" width="60" height="60" />
+        <image name="ui-avatar-small-copy-2" width="62" height="62" />
     </resources>
 </document>

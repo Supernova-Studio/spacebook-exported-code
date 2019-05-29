@@ -9,7 +9,7 @@
         <tableViewCell id="vyg-CK-Hpf" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="MessageSixTableViewCell" clipsSubviews="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageSixTableViewCell" rowHeight="80">
             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
             <rect key="frame" x="0" y="80" width="375" height="80" />
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vyg-CK-Hpf" id="ra9-k1-ISv">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vyg-CK-Hpf" id="XUB-Eb-pzG">
                 <rect key="frame" x="0" y="0" width="375" height="80" />
                 <autoresizingMask key="autoresizingMask" />
                 <subviews>
@@ -41,21 +41,21 @@
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="leading" secondItem="ra9-k1-ISv" secondAttribute="leading" constant="14" id="4Vh-Sj-JSn" />
-                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="centerY" secondItem="ra9-k1-ISv" secondAttribute="centerY" constant="0" id="MIQ-R3-EtV" />
-                    <constraint firstItem="h0h-iA-ty7" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="h5s-VO-Z6z" />
-                    <constraint firstItem="h0h-iA-ty7" firstAttribute="top" secondItem="ra9-k1-ISv" secondAttribute="top" constant="23" id="4oe-N4-Lab" />
-                    <constraint firstItem="k2d-Jz-afE" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="yxy-dq-wCx" />
-                    <constraint firstItem="k2d-Jz-afE" firstAttribute="top" secondItem="h0h-iA-ty7" secondAttribute="bottom" constant="4" id="vHo-W4-464" />
-                    <constraint firstItem="ra9-k1-ISv" firstAttribute="trailing" secondItem="MGz-yq-A4z" secondAttribute="trailing" constant="19" id="AUi-DU-jWS" />
-                    <constraint firstItem="MGz-yq-A4z" firstAttribute="centerY" secondItem="ra9-k1-ISv" secondAttribute="centerY" constant="0" id="py1-Zu-YnW" />
+                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="leading" secondItem="XUB-Eb-pzG" secondAttribute="leading" constant="14" id="VRI-cl-G4W" />
+                    <constraint firstItem="DtZ-DX-CE3" firstAttribute="centerY" secondItem="XUB-Eb-pzG" secondAttribute="centerY" constant="0" id="9Ll-c8-yiF" />
+                    <constraint firstItem="h0h-iA-ty7" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="To3-iS-1Mo" />
+                    <constraint firstItem="h0h-iA-ty7" firstAttribute="top" secondItem="XUB-Eb-pzG" secondAttribute="top" constant="23" id="InX-wC-UJQ" />
+                    <constraint firstItem="k2d-Jz-afE" firstAttribute="leading" secondItem="DtZ-DX-CE3" secondAttribute="trailing" constant="9" id="efI-H3-5QU" />
+                    <constraint firstItem="k2d-Jz-afE" firstAttribute="top" secondItem="h0h-iA-ty7" secondAttribute="bottom" constant="4" id="D1L-Xx-qUU" />
+                    <constraint firstItem="XUB-Eb-pzG" firstAttribute="trailing" secondItem="MGz-yq-A4z" secondAttribute="trailing" constant="19" id="x6b-xt-sbA" />
+                    <constraint firstItem="MGz-yq-A4z" firstAttribute="centerY" secondItem="XUB-Eb-pzG" secondAttribute="centerY" constant="0" id="xvQ-GQ-yWc" />
                 </constraints>
             </tableViewCellContentView>
             <connections />
         </tableViewCell>
     </objects>
     <resources>
-        <image name="avatar-temp-2" width="60" height="60" />
-        <image name="path-2" width="6" height="12" />
+        <image name="avatar-temp-2" width="62" height="62" />
+        <image name="path-2" width="9" height="14" />
     </resources>
 </document>

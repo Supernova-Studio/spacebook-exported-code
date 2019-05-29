@@ -10,15 +10,15 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="3x7-J8-Nbc" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="41W-uD-Nkc" />
-                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="3x7-J8-Nbc" secondAttribute="trailing" constant="0" id="CpM-vA-jwS" />
-                <constraint firstItem="3x7-J8-Nbc" firstAttribute="top" secondItem="DRG-JX-it6" secondAttribute="top" constant="0" id="13y-Oo-AR7" />
-                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="3x7-J8-Nbc" secondAttribute="bottom" constant="0" id="koR-pW-SuA" />
-                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerX" secondItem="DRG-JX-it6" secondAttribute="centerX" constant="0" id="APh-Gd-OI7" />
-                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerY" secondItem="DRG-JX-it6" secondAttribute="centerY" constant="0" id="fS8-K3-VHt" />
-                <constraint firstItem="Bb8-6a-gKI" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="ZvQ-qK-shl" />
-                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="Bb8-6a-gKI" secondAttribute="trailing" constant="0" id="maE-13-LuD" />
-                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="Bb8-6a-gKI" secondAttribute="bottom" constant="0" id="bND-bX-qIS" />
+                <constraint firstItem="3x7-J8-Nbc" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="hsj-DR-Cjn" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="3x7-J8-Nbc" secondAttribute="trailing" constant="0" id="029-BB-oq0" />
+                <constraint firstItem="3x7-J8-Nbc" firstAttribute="top" secondItem="DRG-JX-it6" secondAttribute="top" constant="0" id="zfX-Qq-y99" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="3x7-J8-Nbc" secondAttribute="bottom" constant="0" id="xJd-5M-LIw" />
+                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerX" secondItem="DRG-JX-it6" secondAttribute="centerX" constant="0" id="ymy-P2-ykW" />
+                <constraint firstItem="FcZ-tf-ca7" firstAttribute="centerY" secondItem="DRG-JX-it6" secondAttribute="centerY" constant="0" id="Vwi-am-vzr" />
+                <constraint firstItem="Bb8-6a-gKI" firstAttribute="leading" secondItem="DRG-JX-it6" secondAttribute="leading" constant="0" id="N0u-p5-hSR" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="trailing" secondItem="Bb8-6a-gKI" secondAttribute="trailing" constant="0" id="2m8-Bp-piW" />
+                <constraint firstItem="DRG-JX-it6" firstAttribute="bottom" secondItem="Bb8-6a-gKI" secondAttribute="bottom" constant="0" id="fYT-Wl-YkV" />
             </constraints>
             <subviews>
                 <mapView id="3x7-J8-Nbc" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" multipleTouchEnabled="YES" mapType="standard" clipsSubviews="YES" showsBuildings="YES" showsCompass="YES" showsScale="NO" showsTraffic="NO" showsPointsOfInterest="YES" showsUserLocation="NO" zoomEnabled="YES" scrollEnabled="YES" rotateEnabled="YES" pitchEnabled="YES">
@@ -26,7 +26,7 @@
                     <rect key="frame" x="0" y="0" width="375" height="667" />
                     <constraints />
                     <connections>
-                        <outlet property="delegate" destination="CVt-Yd-qkp" id="GkinXRwJcp1oxeJKLZ8I" />
+                        <outlet property="delegate" destination="CVt-Yd-qkp" id="SbyThsMnC77FdqYglNnB" />
                     </connections>
                 </mapView>
                 <imageView id="FcZ-tf-ca7" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="scaleToFill" image="icon-event-area">
@@ -38,27 +38,27 @@
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                     <rect key="frame" x="0" y="572" width="375" height="95" />
                     <constraints>
-                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="height" constant="95" id="Bww-U4-tM8" />
-                        <constraint firstItem="AZh-aH-pYU" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="0" id="hCC-g9-FNM" />
-                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="AZh-aH-pYU" secondAttribute="trailing" constant="0" id="l5B-4m-vRu" />
-                        <constraint firstItem="AZh-aH-pYU" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="15" id="5GR-jZ-Eb3" />
-                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="9" id="hBe-Dl-OL0" />
-                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="-1" id="tsE-9J-wzr" />
-                        <constraint firstItem="3KO-0H-cKf" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="yuB-We-n0q" />
-                        <constraint firstItem="3KO-0H-cKf" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="24" id="h1J-7v-BgS" />
-                        <constraint firstItem="fZr-GL-4T2" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="ocw-BL-7c2" />
-                        <constraint firstItem="fZr-GL-4T2" firstAttribute="top" secondItem="3KO-0H-cKf" secondAttribute="bottom" constant="3" id="d6b-vG-G6L" />
-                        <constraint firstItem="DNP-8D-9rd" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="Ttm-Yr-sd5" />
-                        <constraint firstItem="DNP-8D-9rd" firstAttribute="top" secondItem="fZr-GL-4T2" secondAttribute="bottom" constant="7" id="Nao-jC-U1H" />
-                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="mh9-Sr-6Et" secondAttribute="trailing" constant="20" id="uBx-Mg-Xls" />
-                        <constraint firstItem="mh9-Sr-6Et" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="27" id="Rmd-DD-Fww" />
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="height" constant="95" id="4cV-HZ-hcr" />
+                        <constraint firstItem="AZh-aH-pYU" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="0" id="zyw-g3-k1d" />
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="AZh-aH-pYU" secondAttribute="trailing" constant="0" id="vMn-cD-kaU" />
+                        <constraint firstItem="AZh-aH-pYU" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="15" id="jTF-Ew-3Cd" />
+                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="leading" secondItem="Bb8-6a-gKI" secondAttribute="leading" constant="9" id="7eL-7r-yGu" />
+                        <constraint firstItem="ccx-S3-Wk9" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="-1" id="37O-mg-cIr" />
+                        <constraint firstItem="3KO-0H-cKf" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="njK-GN-3RT" />
+                        <constraint firstItem="3KO-0H-cKf" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="24" id="TiM-CF-F75" />
+                        <constraint firstItem="fZr-GL-4T2" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="At7-X4-NDu" />
+                        <constraint firstItem="fZr-GL-4T2" firstAttribute="top" secondItem="3KO-0H-cKf" secondAttribute="bottom" constant="3" id="Z8f-QJ-xZf" />
+                        <constraint firstItem="DNP-8D-9rd" firstAttribute="leading" secondItem="ccx-S3-Wk9" secondAttribute="trailing" constant="8" id="S4S-PK-dNi" />
+                        <constraint firstItem="DNP-8D-9rd" firstAttribute="top" secondItem="fZr-GL-4T2" secondAttribute="bottom" constant="7" id="3iB-XH-p3P" />
+                        <constraint firstItem="Bb8-6a-gKI" firstAttribute="trailing" secondItem="mh9-Sr-6Et" secondAttribute="trailing" constant="20" id="vLB-JG-5kE" />
+                        <constraint firstItem="mh9-Sr-6Et" firstAttribute="top" secondItem="Bb8-6a-gKI" secondAttribute="top" constant="27" id="mye-xX-Y07" />
                     </constraints>
                     <subviews>
                         <view id="AZh-aH-pYU" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
                             <rect key="frame" x="0" y="15" width="375" height="80" />
                             <constraints>
-                                <constraint firstItem="AZh-aH-pYU" firstAttribute="height" constant="80" id="lrC-pE-a93" />
+                                <constraint firstItem="AZh-aH-pYU" firstAttribute="height" constant="80" id="JeS-hm-lqq" />
                             </constraints>
                             <subviews />
                         </view>
@@ -95,14 +95,14 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                             <rect key="frame" x="307" y="27" width="48" height="48" />
                             <constraints>
-                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="width" constant="48" id="cdS-iE-LBi" />
-                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="height" constant="48" id="Bnj-pw-RUr" />
-                                <constraint firstItem="sgw-Py-VnU" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="9" id="1sv-Nr-9aK" />
-                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="sgw-Py-VnU" secondAttribute="trailing" constant="9" id="Ryx-GJ-bwv" />
-                                <constraint firstItem="sgw-Py-VnU" firstAttribute="top" secondItem="mh9-Sr-6Et" secondAttribute="top" constant="0" id="FK1-Jl-dS6" />
-                                <constraint firstItem="GUg-hK-F5i" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="0" id="y0E-P2-2IB" />
-                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="GUg-hK-F5i" secondAttribute="trailing" constant="0" id="HsQ-vo-OWM" />
-                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="bottom" secondItem="GUg-hK-F5i" secondAttribute="bottom" constant="0" id="J1y-0p-haq" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="width" constant="48" id="Iuh-ST-r7f" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="height" constant="48" id="sIP-NC-3Zc" />
+                                <constraint firstItem="sgw-Py-VnU" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="9" id="M83-n1-Cvd" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="sgw-Py-VnU" secondAttribute="trailing" constant="9" id="40f-HS-yAh" />
+                                <constraint firstItem="sgw-Py-VnU" firstAttribute="top" secondItem="mh9-Sr-6Et" secondAttribute="top" constant="0" id="Ras-KD-6DI" />
+                                <constraint firstItem="GUg-hK-F5i" firstAttribute="leading" secondItem="mh9-Sr-6Et" secondAttribute="leading" constant="0" id="XVy-pZ-VeF" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="trailing" secondItem="GUg-hK-F5i" secondAttribute="trailing" constant="0" id="8XX-Ei-bnN" />
+                                <constraint firstItem="mh9-Sr-6Et" firstAttribute="bottom" secondItem="GUg-hK-F5i" secondAttribute="bottom" constant="0" id="pIf-Wv-VZX" />
                             </constraints>
                             <subviews>
                                 <imageView id="sgw-Py-VnU" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="group">
@@ -124,16 +124,16 @@
                 </view>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="xbp-Ve-6Ng" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="EventDetailViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Gv8-1q-KHA" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="EventDetailViewController">
             <connections>
-                <outlet property="view" destination="DRG-JX-it6" id="r80-PU-FpN" />
-                <outlet property="bgMapTempMapView" destination="3x7-J8-Nbc" id="oVu-3W-nA7" />
+                <outlet property="view" destination="DRG-JX-it6" id="g7H-2F-u6u" />
+                <outlet property="bgMapTempMapView" destination="3x7-J8-Nbc" id="seW-X2-ksC" />
             </connections>
         </placeholder>
     </objects>
     <resources>
-        <image name="icon-event-area" width="184" height="184" />
-        <image name="avatar-2" width="80" height="80" />
-        <image name="group" width="28" height="28" />
+        <image name="icon-event-area" width="185" height="185" />
+        <image name="avatar-2" width="82" height="82" />
+        <image name="group" width="29" height="29" />
     </resources>
 </document>

@@ -10,26 +10,26 @@
             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9568626880645752" green="0.9490196108818054" blue="0.9568626880645752" alpha="1.0" />
             <rect key="frame" x="0" y="0" width="375" height="667" />
             <constraints>
-                <constraint firstItem="lXV-Za-6Fi" firstAttribute="leading" secondItem="3TI-0x-cUq" secondAttribute="leading" constant="15" id="tok-4g-f5k" />
-                <constraint firstItem="3TI-0x-cUq" firstAttribute="trailing" secondItem="lXV-Za-6Fi" secondAttribute="trailing" constant="20" id="xc1-Bw-FIe" />
-                <constraint firstItem="lXV-Za-6Fi" firstAttribute="top" secondItem="3TI-0x-cUq" secondAttribute="top" constant="74" id="w63-Fd-Grg" />
-                <constraint firstItem="pgM-U9-zuT" firstAttribute="leading" secondItem="3TI-0x-cUq" secondAttribute="leading" constant="0" id="nFw-IQ-ekI" />
-                <constraint firstItem="3TI-0x-cUq" firstAttribute="trailing" secondItem="pgM-U9-zuT" secondAttribute="trailing" constant="0" id="Lre-kD-OQG" />
-                <constraint firstItem="pgM-U9-zuT" firstAttribute="top" secondItem="lXV-Za-6Fi" secondAttribute="bottom" constant="12" id="Eri-fs-t5l" />
-                <constraint firstItem="3TI-0x-cUq" firstAttribute="bottom" secondItem="pgM-U9-zuT" secondAttribute="bottom" constant="0" id="FTs-m5-oEs" />
+                <constraint firstItem="lXV-Za-6Fi" firstAttribute="leading" secondItem="3TI-0x-cUq" secondAttribute="leading" constant="15" id="dfo-k4-AYB" />
+                <constraint firstItem="3TI-0x-cUq" firstAttribute="trailing" secondItem="lXV-Za-6Fi" secondAttribute="trailing" constant="20" id="EJZ-2r-e98" />
+                <constraint firstItem="lXV-Za-6Fi" firstAttribute="top" secondItem="3TI-0x-cUq" secondAttribute="top" constant="74" id="f9B-zN-VHh" />
+                <constraint firstItem="pgM-U9-zuT" firstAttribute="leading" secondItem="3TI-0x-cUq" secondAttribute="leading" constant="0" id="LlD-aj-5YF" />
+                <constraint firstItem="3TI-0x-cUq" firstAttribute="trailing" secondItem="pgM-U9-zuT" secondAttribute="trailing" constant="0" id="ekX-g0-Bn5" />
+                <constraint firstItem="pgM-U9-zuT" firstAttribute="top" secondItem="lXV-Za-6Fi" secondAttribute="bottom" constant="12" id="Jos-Kf-vLi" />
+                <constraint firstItem="3TI-0x-cUq" firstAttribute="bottom" secondItem="pgM-U9-zuT" secondAttribute="bottom" constant="0" id="bjl-e4-5SM" />
             </constraints>
             <subviews>
                 <collectionView id="lXV-Za-6Fi" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" clipsSubviews="YES" multipleTouchEnabled="YES" dataMode="prototypes">
                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
                     <rect key="frame" x="15" y="74" width="340" height="75" />
                     <constraints>
-                        <constraint firstItem="lXV-Za-6Fi" firstAttribute="height" constant="75" id="sJ1-H6-SGT" />
+                        <constraint firstItem="lXV-Za-6Fi" firstAttribute="height" constant="75" id="ASe-KC-xSE" />
                     </constraints>
                     <connections>
-                        <outlet property="delegate" destination="eaK-JZ-Qps" id="3kMwdcs0mAtgA9JLQIOl" />
-                        <outlet property="dataSource" destination="eaK-JZ-Qps" id="DhPLHRTWo4jKmhw6TZBF" />
+                        <outlet property="delegate" destination="qxw-Xy-DpU" id="bQPaTnJCoCGMyI4vyXqO" />
+                        <outlet property="dataSource" destination="qxw-Xy-DpU" id="jW9mdQ5XrwiSVzTnSpiY" />
                     </connections>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aRF-ZP-LIa">
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1sd-AR-qou">
                         <size key="headerReferenceSize" width="0.0" height="0.0" />
                         <size key="footerReferenceSize" width="0.0" height="0.0" />
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0" />
@@ -41,18 +41,18 @@
                     <rect key="frame" x="0" y="161" width="375" height="506" />
                     <constraints />
                     <connections>
-                        <outlet property="delegate" destination="eaK-JZ-Qps" id="T4s4FZX7wGR4E8M3LEd8" />
-                        <outlet property="dataSource" destination="eaK-JZ-Qps" id="ijskkRKacD5QVBuTKszU" />
+                        <outlet property="delegate" destination="qxw-Xy-DpU" id="qQFkoYvrmEwq2tylmiND" />
+                        <outlet property="dataSource" destination="qxw-Xy-DpU" id="0hpbyhC7ubpUwXELkwuf" />
                     </connections>
                     <prototypes />
                 </tableView>
             </subviews>
         </view>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="eaK-JZ-Qps" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="MessagesViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="qxw-Xy-DpU" userLabel="File&apos;s Owner" customModule="iOS_Development" customModuleProvider="target" customClass="MessagesViewController">
             <connections>
-                <outlet property="view" destination="3TI-0x-cUq" id="u9V-LO-dip" />
-                <outlet property="onlineCollectionView" destination="lXV-Za-6Fi" id="Uia-YK-MUI" />
-                <outlet property="messagesTableView" destination="pgM-U9-zuT" id="Q4B-Wd-RBk" />
+                <outlet property="view" destination="3TI-0x-cUq" id="KAg-jT-OaF" />
+                <outlet property="onlineCollectionView" destination="lXV-Za-6Fi" id="N48-1F-vAg" />
+                <outlet property="messagesTableView" destination="pgM-U9-zuT" id="zPq-tF-JZc" />
             </connections>
         </placeholder>
     </objects>

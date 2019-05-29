@@ -5,8 +5,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "bg-news-temp@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "bg-news-temp@2x.png"
     },
     {
       "idiom" : "universal",
