@@ -1,0 +1,110 @@
+{
+  "images" : [
+    {
+      "scale" : "2x",
+      "size" : "60x60",
+      "filename" : "Icon-60@2x.png",
+      "idiom" : "iphone"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "Icon-60@3x.png",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "scale" : "1x",
+      "filename" : "Icon-76.png",
+      "size" : "76x76",
+      "idiom" : "ipad"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "ipad",
+      "size" : "76x76",
+      "filename" : "Icon-76@2x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "Icon-83.5@2x.png",
+      "size" : "83.5x83.5"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "40x40",
+      "filename" : "Icon-Small-40.png"
+    },
+    {
+      "filename" : "Icon-Small-40@2x.png",
+      "scale" : "2x",
+      "idiom" : "ipad",
+      "size" : "40x40"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40",
+      "filename" : "Icon-Small-40@2x.png"
+    },
+    {
+      "filename" : "Icon-Small-40@3x.png",
+      "idiom" : "iphone",
+      "size" : "40x40",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "Icon-Small.png",
+      "scale" : "1x",
+      "size" : "29x29"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "Icon-Small@2x.png",
+      "size" : "29x29",
+      "idiom" : "ipad"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "filename" : "Icon-Small@2x.png"
+    },
+    {
+      "filename" : "Icon-Small@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "Icon-Notification.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "20x20",
+      "filename" : "Icon-Notification@2x.png",
+      "scale" : "2x",
+      "idiom" : "ipad"
+    },
+    {
+      "filename" : "Icon-Notification@2x.png",
+      "scale" : "2x",
+      "idiom" : "iphone",
+      "size" : "20x20"
+    },
+    {
+      "size" : "20x20",
+      "scale" : "3x",
+      "idiom" : "iphone",
+      "filename" : "Icon-Notification@3x.png"
+    }
+  ],
+  "info" : {
+    "author" : "supernova",
+    "version" : 1
+  }
+}
