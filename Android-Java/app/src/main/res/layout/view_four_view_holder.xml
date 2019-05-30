@@ -1,18 +1,24 @@
-<android.support.constraint.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/view"
-    android:layout_width="@dimen/view_four_view_holder_view_height"
-    android:layout_height="@dimen/view_four_view_holder_view_height">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:id="@+id/bg_photo_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bg_photo_7"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"/>
-</android.support.constraint.ConstraintLayout>
+    <data/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/view"
+        android:layout_width="@dimen/view_four_view_holder_view_height"
+        android:layout_height="@dimen/view_four_view_holder_view_height">
+    
+        <ImageView
+            android:id="@+id/bg_photo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_photo_7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,27 +1,31 @@
-<android.support.constraint.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/title"
-    android:layout_width="@dimen/title_view_holder_title_height"
-    android:layout_height="@dimen/title_view_holder_title_height">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
-        android:id="@+id/today_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/title_view_holder_today_text_view_margin_start"
-        android:alpha="0.4"
-        android:fontFamily="@font/font_lato_regular"
-        android:gravity="left"
-        android:letterSpacing="-0"
-        android:lineSpacingMultiplier="1"
-        android:text="TODAY"
-        android:textColor="@color/title_view_holder_today_text_view_text_color"
-        android:textSize="@dimen/title_view_holder_today_text_view_text_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="11dp"/>
-</android.support.constraint.ConstraintLayout>
+    <data/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/title"
+        android:layout_width="@dimen/title_view_holder_title_height"
+        android:layout_height="@dimen/title_view_holder_title_height">
+    
+        <TextView
+            android:id="@+id/today_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/title_view_holder_today_text_view_margin_start"
+            android:alpha="0.4"
+            android:fontFamily="@font/font_applesystemuifont"
+            android:gravity="start"
+            android:letterSpacing="-0"
+            android:text="@string/title_view_holder_today_text_view_text"
+            android:textColor="@color/title_view_holder_today_text_view_text_color"
+            android:textSize="@dimen/title_view_holder_today_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="11dp"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

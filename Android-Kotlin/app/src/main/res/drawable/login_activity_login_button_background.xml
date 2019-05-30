@@ -1,6 +1,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <corners android:radius="@dimen/login_activity_login_button_radius"/>
+	<corners android:radius="@dimen/login_activity_login_button_radius"/>
 
-    <solid android:color="@color/login_activity_login_button_background_color"/>
+	<solid android:color="@color/login_activity_login_button_background_color"/>
 </shape>

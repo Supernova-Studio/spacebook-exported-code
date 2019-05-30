@@ -1,6 +1,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <corners android:radius="@dimen/login_activity_login_fields_constraint_layout_radius"/>
+	<corners android:radius="@dimen/login_activity_login_fields_constraint_layout_radius"/>
 
-    <solid android:color="@color/login_activity_login_fields_constraint_layout_background_color"/>
+	<solid android:color="@color/login_activity_login_fields_constraint_layout_background_color"/>
 </shape>

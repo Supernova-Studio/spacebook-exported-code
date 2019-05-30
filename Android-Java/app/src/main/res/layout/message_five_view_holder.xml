@@ -1,67 +1,72 @@
-<android.support.constraint.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/message"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/message_five_view_holder_message_height"
-    android:background="@color/message_five_view_holder_message_background_color">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:id="@+id/avatar_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/message_five_view_holder_avatar_image_view_margin_start"
-        android:src="@drawable/avatar_temp_3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="9dp"/>
+    <data/>
 
-    <TextView
-        android:id="@+id/name_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/message_five_view_holder_name_text_view_margin_start"
-        android:layout_marginTop="@dimen/message_five_view_holder_name_text_view_margin_top"
-        android:fontFamily="@font/font_lato_regular"
-        android:gravity="left"
-        android:lineSpacingMultiplier="1"
-        android:text="Jack O’ Kneel"
-        android:textColor="@color/message_five_view_holder_name_text_view_text_color"
-        android:textSize="@dimen/message_five_view_holder_name_text_view_text_size"
-        app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="23dp"/>
-
-    <TextView
-        android:id="@+id/finally_having_adat_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/message_five_view_holder_finally_having_adat_text_view_margin_start"
-        android:layout_marginTop="@dimen/message_five_view_holder_finally_having_adat_text_view_margin_top"
-        android:fontFamily="@font/font_lato_regular"
-        android:gravity="left"
-        android:lineSpacingMultiplier="1"
-        android:text="Finally having a date with Pam, took like 10 years."
-        android:textColor="@color/message_five_view_holder_finally_having_adat_text_view_text_color"
-        android:textSize="@dimen/message_five_view_holder_finally_having_adat_text_view_text_size"
-        app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
-        app:layout_constraintTop_toBottomOf="@+id/name_text_view"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="46dp"/>
-
-    <ImageView
-        android:id="@+id/path2_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="@dimen/message_five_view_holder_path2_image_view_margin_end"
-        android:src="@drawable/path_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="348dp"
-        tools:layout_editor_absoluteY="33dp"/>
-</android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/message_five_view_holder_message_height"
+        android:background="@color/message_five_view_holder_message_background_color">
+    
+        <ImageView
+            android:id="@+id/avatar_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_five_view_holder_avatar_image_view_margin_start"
+            android:scaleType="center"
+            android:src="@drawable/avatar_temp_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="9dp"/>
+    
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_five_view_holder_name_text_view_margin_start"
+            android:layout_marginTop="@dimen/message_five_view_holder_name_text_view_margin_top"
+            android:fontFamily="@font/font_lato_regular"
+            android:gravity="start"
+            android:text="@string/message_five_view_holder_name_text_view_text"
+            android:textColor="@color/message_five_view_holder_name_text_view_text_color"
+            android:textSize="@dimen/message_five_view_holder_name_text_view_text_size"
+            app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="23dp"/>
+    
+        <TextView
+            android:id="@+id/finally_having_adat_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_five_view_holder_finally_having_adat_text_view_margin_start"
+            android:layout_marginTop="@dimen/message_five_view_holder_finally_having_adat_text_view_margin_top"
+            android:fontFamily="@font/font_lato_regular"
+            android:gravity="start"
+            android:text="@string/message_five_view_holder_finally_having_adat_text_view_text"
+            android:textColor="@color/message_five_view_holder_finally_having_adat_text_view_text_color"
+            android:textSize="@dimen/message_five_view_holder_finally_having_adat_text_view_text_size"
+            app:layout_constraintLeft_toRightOf="@+id/avatar_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="46dp"/>
+    
+        <ImageView
+            android:id="@+id/path2_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/message_five_view_holder_path2_image_view_margin_end"
+            android:scaleType="center"
+            android:src="@drawable/path_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="348dp"
+            tools:layout_editor_absoluteY="33dp"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

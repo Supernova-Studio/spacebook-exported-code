@@ -1,45 +1,45 @@
 <resources>
-    
-    <!-- Project level resources -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryDark">@color/color_primary_dark</item>
-        <item name="colorAccent">@color/color_accent</item>
-    </style>
-    
-    <!-- WelcomeActivity -->
-    <style name="WelcomeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- LoginActivity -->
-    <style name="LoginActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- SignupActivity -->
-    <style name="SignupActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    <style name="SignupActivitySwitchSwitchTheme">
-        <item name="colorControlActivated">@color/signup_activity_switch_switch_active_color</item>
-    </style>
-    
-    <!-- TimelineActivity -->
-    <style name="TimelineActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- ProfileActivity -->
-    <style name="ProfileActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- ProfilePhotosActivity -->
-    <style name="ProfilePhotosActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- ProfileSettingsActivity -->
-    <style name="ProfileSettingsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    <style name="ProfileSettingsActivitySlideSwitchTheme">
-        <item name="colorControlActivated">@color/profile_settings_activity_slide_switch_active_color</item>
-    </style>
-    
-    <!-- MessagesActivity -->
-    <style name="MessagesActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- EventDetailActivity -->
-    <style name="EventDetailActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
-    
-    <!-- TwoActivity -->
-    <style name="TwoActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- WelcomeActivity -->
+	<style name="WelcomeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LoginActivity -->
+	<style name="LoginActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SignupActivity -->
+	<style name="SignupActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	<style name="SignupActivitySwitchSwitchTheme">
+		<item name="colorControlActivated">@color/signup_activity_switch_switch_active_color</item>
+	</style>
+	
+	<!-- TimelineActivity -->
+	<style name="TimelineActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ProfileActivity -->
+	<style name="ProfileActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ProfilePhotosActivity -->
+	<style name="ProfilePhotosActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ProfileSettingsActivity -->
+	<style name="ProfileSettingsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	<style name="ProfileSettingsActivitySlideSwitchTheme">
+		<item name="colorControlActivated">@color/profile_settings_activity_slide_switch_active_color</item>
+	</style>
+	
+	<!-- MessagesActivity -->
+	<style name="MessagesActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- EventDetailActivity -->
+	<style name="EventDetailActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- TwoActivity -->
+	<style name="TwoActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
 </resources>

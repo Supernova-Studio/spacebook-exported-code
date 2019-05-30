@@ -14,6 +14,7 @@
             android:id="@+id/photo2_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:scaleType="center"
             android:src="@drawable/photo_2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"

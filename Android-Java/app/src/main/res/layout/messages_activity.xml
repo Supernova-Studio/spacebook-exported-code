@@ -1,42 +1,52 @@
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/messages_constraint_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/messages_activity_messages_constraint_layout_background_color">
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/online_recycler_view"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/messages_activity_online_recycler_view_height"
-        android:layout_marginLeft="@dimen/messages_activity_online_recycler_view_margin_start"
-        android:layout_marginRight="@dimen/messages_activity_online_recycler_view_margin_end"
-        android:layout_marginTop="@dimen/messages_activity_online_recycler_view_margin_top"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="74dp"/>
+	<data/>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/messages_recycler_view"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="@dimen/messages_activity_messages_recycler_view_margin_top"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/online_recycler_view"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="161dp"/>
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-</android.support.constraint.ConstraintLayout>
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/messages_constraint_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/messages_activity_messages_constraint_layout_background_color">
+	
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/online_recycler_view"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/messages_activity_online_recycler_view_height"
+			android:layout_marginEnd="@dimen/messages_activity_online_recycler_view_margin_end"
+			android:layout_marginStart="@dimen/messages_activity_online_recycler_view_margin_start"
+			android:layout_marginTop="@dimen/messages_activity_online_recycler_view_margin_top"
+			app:layout_constraintHorizontal_weight="0.91"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="15dp"
+			tools:layout_editor_absoluteY="74dp"
+			tools:listitem="@layout/online_person_view_holder"/>
+	
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/messages_recycler_view"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_marginTop="@dimen/messages_activity_messages_recycler_view_margin_top"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintHorizontal_weight="1"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/online_recycler_view"
+			app:layout_constraintVertical_weight="0.76"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="161dp"
+			tools:listitem="@layout/message_view_holder"/>
+	
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	</android.support.constraint.ConstraintLayout>
+</layout>

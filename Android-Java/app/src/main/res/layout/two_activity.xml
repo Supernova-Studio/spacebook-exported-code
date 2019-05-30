@@ -1,36 +1,41 @@
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation_bar"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+	<data/>
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bottom_navigation_bar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/two_activity_bottom_navigation_bar_background_color"
-        app:itemIconTint="@color/two_activity_bottom_navigation_bar_tint"
-        app:itemTextColor="@color/two_activity_bottom_navigation_bar_text_color"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/two_activity_menu"/>
-</android.support.constraint.ConstraintLayout>
+	<android.support.constraint.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	
+		<android.support.v4.view.ViewPager
+			android:id="@+id/view_pager"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation_bar"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"/>
+	
+		<android.support.design.widget.BottomNavigationView
+			android:id="@+id/bottom_navigation_bar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@color/two_activity_bottom_navigation_bar_background_color"
+			app:itemIconTint="@color/two_activity_bottom_navigation_bar_tint"
+			app:itemTextColor="@color/two_activity_bottom_navigation_bar_text_color"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:menu="@menu/two_activity_menu"/>
+	</android.support.constraint.ConstraintLayout>
+</layout>

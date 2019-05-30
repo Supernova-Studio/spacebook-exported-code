@@ -12,21 +12,19 @@ import java.util.*
 
 class TwoActivityPagerAdapter(fragmentManager: FragmentManager, fragments: List<Fragment>): FragmentPagerAdapter(fragmentManager) {
 
-    val fragments: List<Fragment>
-    
-    init {
-        this.fragments = fragments
-    }
-    override fun getItem(position: Int): Fragment {
-    
-        return fragments.get(position)
-    }
-    override fun getCount(): Int {
-    
-        return fragments.size
-    }
+	val fragments: List<Fragment>
+	
+	init {
+		this.fragments = fragments
+	}
+	
+	override fun getItem(position: Int): Fragment {
+	
+		return fragments.get(position)
+	}
+	
+	override fun getCount(): Int {
+	
+		return fragments.size
+	}
 }
-
-
-
-
