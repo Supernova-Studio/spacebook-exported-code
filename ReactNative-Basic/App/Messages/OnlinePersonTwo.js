@@ -1,69 +1,72 @@
 //
-//  OnlinePersonTwo.js
+//  OnlinePersonTwo
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
-import { Image, Text, View, StyleSheet } from "react-native"
+import { Image, TouchableWithoutFeedback, StyleSheet, View, Text } from "react-native"
 import React from "react"
+
 
 export default class OnlinePersonTwo extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.onlinePerson}>
-        <Image
-          source={require("./../../assets/images/avatar-temp-3.png")}
-          style={styles.avatarTempImage}/>
-        <View
-          pointerEvents="box-none"
-          style={{
-            flex: 1,
-            flexDirection: "column",
-            justifyContent: "flex-end",
-          }}>
-          <Text
-            style={styles.jackText}>Jack</Text>
-        </View>
-      </View>
-  }
+	onOnlinePersonTwoPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onOnlinePersonTwoPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.onlinePerson}>
+					<Text
+						style={styles.jackText}>Jack</Text>
+					<Image
+						source={require("./../../assets/images/avatar-temp-3.png")}
+						style={styles.avatarTempImage}/>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  onlinePerson: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 75,
-    width: 60,
-  },
-  avatarTempImage: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 62,
-    height: 62,
-    marginLeft: -1,
-    marginTop: -1,
-    marginRight: -1,
-  },
-  jackText: {
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 12,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "center",
-    letterSpacing: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginLeft: 18,
-    marginRight: 18,
-  },
+	onlinePerson: {
+		backgroundColor: "transparent",
+		width: 60,
+		height: 75,
+	},
+	jackText: {
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 12,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "center",
+		backgroundColor: "transparent",
+		position: "absolute",
+		left: 18,
+		right: 18,
+		bottom: 0,
+	},
+	avatarTempImage: {
+		backgroundColor: "transparent",
+		resizeMode: "center",
+		position: "absolute",
+		left: 0,
+		right: 0,
+		top: 0,
+		height: 62,
+	},
 })

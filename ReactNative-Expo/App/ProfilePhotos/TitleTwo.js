@@ -1,50 +1,60 @@
 //
-//  TitleTwo.js
+//  TitleTwo
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
+import { View, TouchableWithoutFeedback, StyleSheet, Text } from "react-native"
 import React from "react"
-import { View, Text, StyleSheet } from "react-native"
+
 
 export default class TitleTwo extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.title}>
-        <Text
-          style={styles.tomorrowText}>TOMORROW</Text>
-      </View>
-  }
+	onTitleTwoPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onTitleTwoPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.title}>
+					<Text
+						style={styles.tomorrowText}>TOMORROW</Text>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  title: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 37,
-    width: 375,
-    justifyContent: "center",
-  },
-  tomorrowText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    opacity: 0.4,
-    marginLeft: 20,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 13,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "left",
-    letterSpacing: -0.08,
-  },
+	title: {
+		backgroundColor: "transparent",
+		width: 375,
+		height: 37,
+		justifyContent: "center",
+		alignItems: "flex-start",
+	},
+	tomorrowText: {
+		backgroundColor: "transparent",
+		opacity: 0.4,
+		color: "black",
+		fontFamily: ".AppleSystemUIFont",
+		fontSize: 13,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "left",
+		marginLeft: 20,
+	},
 })

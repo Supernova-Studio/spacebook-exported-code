@@ -1,69 +1,72 @@
 //
-//  OnlinePerson.js
+//  OnlinePerson
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
+import { StyleSheet, Text, Image, View, TouchableWithoutFeedback } from "react-native"
 import React from "react"
-import { Image, View, Text, StyleSheet } from "react-native"
+
 
 export default class OnlinePerson extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.onlinePerson}>
-        <Image
-          source={require("./../../assets/images/avatar-temp-2.png")}
-          style={styles.avatarTempImage}/>
-        <View
-          pointerEvents="box-none"
-          style={{
-            flex: 1,
-            flexDirection: "column",
-            justifyContent: "flex-end",
-          }}>
-          <Text
-            style={styles.mrsDoyaText}>Mrs. Doya</Text>
-        </View>
-      </View>
-  }
+	onOnlinePersonPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onOnlinePersonPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.onlinePerson}>
+					<Text
+						style={styles.mrsDoyaText}>Mrs. Doya</Text>
+					<Image
+						source={require("./../../assets/images/avatar-temp-2.png")}
+						style={styles.avatarTempImage}/>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  onlinePerson: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 75,
-    width: 60,
-  },
-  avatarTempImage: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 62,
-    height: 62,
-    marginLeft: -1,
-    marginTop: -1,
-    marginRight: -1,
-  },
-  mrsDoyaText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginLeft: 3,
-    marginRight: 2,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 12,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "center",
-    letterSpacing: 0,
-  },
+	onlinePerson: {
+		backgroundColor: "transparent",
+		width: 60,
+		height: 75,
+	},
+	mrsDoyaText: {
+		backgroundColor: "transparent",
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 12,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "center",
+		position: "absolute",
+		left: 3,
+		right: 2,
+		bottom: 0,
+	},
+	avatarTempImage: {
+		backgroundColor: "transparent",
+		resizeMode: "center",
+		position: "absolute",
+		left: 0,
+		right: 0,
+		top: 0,
+		height: 62,
+	},
 })

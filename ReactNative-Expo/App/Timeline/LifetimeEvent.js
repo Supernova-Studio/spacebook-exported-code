@@ -1,96 +1,100 @@
 //
-//  LifetimeEvent.js
+//  LifetimeEvent
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
+import { View, Text, StyleSheet, TouchableWithoutFeedback, Image } from "react-native"
 import React from "react"
-import { Image, View, Text, StyleSheet } from "react-native"
+
 
 export default class LifetimeEvent extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.lifetimeEvent}>
-        <View
-          pointerEvents="box-none"
-          style={styles.bgView}>
-          <View
-            pointerEvents="box-none"
-            style={{
-              flex: 1,
-              flexDirection: "column",
-              justifyContent: "flex-end",
-            }}/>
-        </View>
-        <View
-          pointerEvents="box-none"
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "100%",
-          }}>
-          <Image
-            source={require("./../../assets/images/avatarastronaut.png")}
-            style={styles.avatarAstronautImage}/>
-          <Text
-            style={styles.plutoPostedANewLText}>Pluto posted a new life event</Text>
-          <Text
-            style={styles.inAComplicatedRelText}>In a complicated relationship</Text>
-        </View>
-      </View>
-  }
+	onLifetimeEventPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onLifetimeEventPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.lifetimeEvent}>
+					<View
+						style={styles.bgView}/>
+					<View
+						pointerEvents="box-none"
+						style={{
+							position: "absolute",
+							alignSelf: "center",
+							width: 237,
+							top: 18,
+							height: 147,
+							alignItems: "center",
+						}}>
+						<Image
+							source={require("./../../assets/images/avatarastronaut.png")}
+							style={styles.avatarAstronautImage}/>
+						<Text
+							style={styles.plutoPostedANewLText}>Pluto posted a new life event</Text>
+						<Text
+							style={styles.inAComplicatedRelText}>In a complicated relationship</Text>
+					</View>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  lifetimeEvent: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 196,
-  },
-  bgView: {
-    backgroundColor: 'rgb(255, 255, 255)',
-    marginTop: 29,
-    marginBottom: 1,
-    flex: 1,
-  },
-  avatarAstronautImage: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 94,
-    height: 94,
-    marginTop: 18,
-  },
-  plutoPostedANewLText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    opacity: 0.4,
-    marginTop: 12,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Light",
-    fontSize: 14,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "center",
-    letterSpacing: 0,
-  },
-  inAComplicatedRelText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginTop: 2,
-    color: 'rgb(46, 46, 46)',
-    fontFamily: "Lato-Black",
-    fontSize: 18,
-    fontStyle: "normal",
-    fontWeight: "bold",
-    textAlign: "center",
-    letterSpacing: 0,
-  },
+	lifetimeEvent: {
+		backgroundColor: "transparent",
+		width: "100%",
+		height: 196,
+	},
+	bgView: {
+		backgroundColor: "white",
+		position: "absolute",
+		left: 0,
+		right: 0,
+		top: 29,
+		bottom: 1,
+	},
+	avatarAstronautImage: {
+		resizeMode: "center",
+		backgroundColor: "transparent",
+		width: 94,
+		height: 94,
+	},
+	plutoPostedANewLText: {
+		color: "black",
+		fontFamily: "Lato-Light",
+		fontSize: 14,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "center",
+		backgroundColor: "transparent",
+		opacity: 0.4,
+		marginTop: 12,
+	},
+	inAComplicatedRelText: {
+		backgroundColor: "transparent",
+		color: "rgb(47, 47, 47)",
+		fontFamily: "Lato-Black",
+		fontSize: 18,
+		fontStyle: "normal",
+		fontWeight: "bold",
+		textAlign: "center",
+		marginTop: 2,
+	},
 })

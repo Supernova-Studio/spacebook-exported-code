@@ -1,30 +1,34 @@
 {
-  "version": "0.0.1",
-  "name": "Spacebook",
-  "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.3",
-    "react-native-linear-gradient": "^2.4.2",
-    "react-native-maps": "^0.22.0",
-    "react-navigation": "^2.18.1"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
-  "private": 1,
-  "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.1",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
-  },
-  "rnpm": {
-    "assets": [
-      "./Assets/fonts/"
-    ]
-  }
+	"name": "Spacebook",
+	"dependencies": {
+		"react": "16.8.3",
+		"react-native": "0.59.8",
+		"react-native-gesture-handler": "^1.2.2",
+		"react-native-linear-gradient": "^2.5.4",
+		"react-native-maps": "^0.24.2",
+		"react-native-super-grid": "3.0.3",
+		"react-navigation": "3.0.9"
+	},
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"version": "0.0.1",
+	"private": 1,
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/runtime": "^7.4.5",
+		"babel-jest": "^24.8.0",
+		"jest": "^24.8.0",
+		"metro-react-native-babel-preset": "^0.54.1",
+		"react-test-renderer": "16.8.3"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"rnpm": {
+		"assets": [
+			"./assets/fonts"
+		]
+	}
 }

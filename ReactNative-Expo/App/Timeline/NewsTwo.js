@@ -1,220 +1,199 @@
 //
-//  NewsTwo.js
+//  NewsTwo
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
+import { Text, View, StyleSheet, TouchableWithoutFeedback, Image } from "react-native"
 import React from "react"
-import { Image, View, Text, StyleSheet } from "react-native"
+
 
 export default class NewsTwo extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.news}>
-        <View
-          pointerEvents="box-none"
-          style={styles.bgWhiteView}>
-          <View
-            pointerEvents="box-none"
-            style={{
-              flex: 1,
-              flexDirection: "column",
-              justifyContent: "flex-end",
-            }}/>
-        </View>
-        <View
-          pointerEvents="box-none"
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "100%",
-          }}>
-          <Image
-            source={require("./../../assets/images/bg-news-temp.png")}
-            style={styles.bgNewsTempImage}/>
-          <Text
-            style={styles.raidersFromTheGemText}>Raiders from the Gemini Cluster are attacking colonial trader ships. When will the Federation step in?</Text>
-          <View
-            pointerEvents="box-none"
-            style={styles.viewTwoView}>
-            <View
-              pointerEvents="box-none"
-              style={{
-                flexDirection: "row",
-                alignSelf: "stretch",
-                alignItems: "center",
-              }}>
-              <Image
-                source={require("./../../assets/images/icon-like.png")}
-                style={styles.iconLikeImage}/>
-              <Text
-                style={styles.varthDader3kLikText}>Varth Dader & 3k like this</Text>
-              <View
-                pointerEvents="box-none"
-                style={{
-                  flexDirection: "row",
-                  flex: 1,
-                  justifyContent: "flex-end",
-                  alignItems: "center",
-                }}>
-                <Text
-                  style={styles.commentsDisabledByText}>Comments disabled by the force</Text>
-              </View>
-            </View>
-          </View>
-        </View>
-        <View
-          pointerEvents="box-none"
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "100%",
-          }}>
-          <View
-            pointerEvents="box-none"
-            style={styles.viewView}>
-            <View
-              pointerEvents="box-none"
-              style={{
-                flexDirection: "row",
-                alignSelf: "stretch",
-              }}>
-              <Image
-                source={require("./../../assets/images/icon-avatar-2.png")}
-                style={styles.iconAvatarImage}/>
-              <View
-                pointerEvents="box-none">
-                <Text
-                  style={styles.theGoodOldTimesText}>The Good Old Times</Text>
-                <Text
-                  style={styles.today145PmText}>Today, 1:45 PM</Text>
-              </View>
-            </View>
-          </View>
-        </View>
-      </View>
-  }
+	onNewsTwoPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onNewsTwoPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.news}>
+					<View
+						style={styles.bgWhiteView}/>
+					<View
+						pointerEvents="box-none"
+						style={{
+							position: "absolute",
+							left: 0,
+							right: 0,
+							top: 80,
+							bottom: 1,
+						}}>
+						<Image
+							source={require("./../../assets/images/bg-news-temp.png")}
+							style={styles.bgNewsTempImage}/>
+						<Text
+							style={styles.raidersFromTheGemText}>Raiders from the Gemini Cluster are attacking colonial trader ships. When will the Federation step in?</Text>
+						<View
+							style={{
+								flex: 1,
+							}}/>
+						<View
+							style={styles.viewTwoView}>
+							<Image
+								source={require("./../../assets/images/icon-like.png")}
+								style={styles.iconLikeImage}/>
+							<Text
+								style={styles.varthDader3kLikText}>Varth Dader & 3k like this</Text>
+							<View
+								style={{
+									flex: 1,
+								}}/>
+							<Text
+								style={styles.commentsDisabledByText}>Comments disabled by the force</Text>
+						</View>
+					</View>
+					<View
+						style={styles.viewView}>
+						<Image
+							source={require("./../../assets/images/icon-avatar-2.png")}
+							style={styles.iconAvatarImage}/>
+						<View
+							pointerEvents="box-none"
+							style={{
+								width: 127,
+								height: 32,
+								marginLeft: 9,
+								marginTop: 23,
+								alignItems: "flex-start",
+							}}>
+							<Text
+								style={styles.theGoodOldTimesText}>The Good Old Times</Text>
+							<Text
+								style={styles.today145PmText}>Today, 1:45 PM</Text>
+						</View>
+					</View>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  news: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 470,
-  },
-  bgWhiteView: {
-    backgroundColor: 'rgb(255, 255, 255)',
-    marginTop: 30,
-    marginBottom: 1,
-    flex: 1,
-  },
-  bgNewsTempImage: {
-    resizeMode: "stretch",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 375,
-    height: 250,
-    marginTop: 80,
-    flex: 1,
-  },
-  raidersFromTheGemText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginLeft: 20,
-    marginTop: 18,
-    marginRight: 20,
-    flex: 1,
-    color: 'rgb(7, 7, 7)',
-    fontFamily: "Lato-Regular",
-    fontSize: 14,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "left",
-    lineHeight: 20,
-    letterSpacing: 0,
-  },
-  viewTwoView: {
-    backgroundColor: 'rgb(250, 250, 250)',
-    height: 59,
-    marginTop: 22,
-    marginBottom: 1,
-    justifyContent: "center",
-  },
-  viewView: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 80,
-    marginLeft: 10,
-    marginTop: 16,
-    marginRight: 20,
-  },
-  iconAvatarImage: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 80,
-    height: 80,
-  },
-  theGoodOldTimesText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginLeft: 9,
-    marginTop: 23,
-    color: 'rgb(15, 15, 15)',
-    fontFamily: "Lato-Bold",
-    fontSize: 14,
-    fontStyle: "normal",
-    fontWeight: "bold",
-    textAlign: "left",
-    letterSpacing: 0,
-  },
-  today145PmText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    opacity: 0.4,
-    marginLeft: 9,
-    marginTop: 3,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 10,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "left",
-    letterSpacing: 0,
-  },
-  iconLikeImage: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 19,
-    height: 19,
-    marginLeft: 20,
-  },
-  varthDader3kLikText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    opacity: 0.4,
-    marginLeft: 5,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 12,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "left",
-    letterSpacing: 0,
-  },
-  commentsDisabledByText: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    opacity: 0.2,
-    marginRight: 20,
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 12,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "right",
-    letterSpacing: 0,
-  },
+	news: {
+		backgroundColor: "transparent",
+		width: "100%",
+		height: 470,
+	},
+	bgWhiteView: {
+		backgroundColor: "white",
+		position: "absolute",
+		left: 0,
+		right: 0,
+		top: 30,
+		bottom: 1,
+	},
+	bgNewsTempImage: {
+		backgroundColor: "transparent",
+		resizeMode: "stretch",
+		width: null,
+		height: 250,
+	},
+	raidersFromTheGemText: {
+		backgroundColor: "transparent",
+		color: "rgb(7, 7, 7)",
+		fontFamily: "Lato-Regular",
+		fontSize: 14,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "left",
+		lineHeight: 20,
+		height: 40,
+		marginLeft: 20,
+		marginRight: 14,
+		marginTop: 18,
+	},
+	viewTwoView: {
+		backgroundColor: "rgb(250, 250, 250)",
+		height: 59,
+		flexDirection: "row",
+		alignItems: "center",
+	},
+	iconLikeImage: {
+		resizeMode: "center",
+		backgroundColor: "transparent",
+		width: 19,
+		height: 19,
+		marginLeft: 20,
+	},
+	varthDader3kLikText: {
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 12,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "left",
+		backgroundColor: "transparent",
+		opacity: 0.4,
+		marginLeft: 5,
+	},
+	commentsDisabledByText: {
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 12,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "right",
+		backgroundColor: "transparent",
+		opacity: 0.2,
+		marginRight: 20,
+	},
+	viewView: {
+		backgroundColor: "transparent",
+		position: "absolute",
+		left: 10,
+		right: 20,
+		top: 16,
+		height: 80,
+		flexDirection: "row",
+		alignItems: "flex-start",
+	},
+	iconAvatarImage: {
+		resizeMode: "center",
+		backgroundColor: "transparent",
+		width: 80,
+		height: 80,
+	},
+	theGoodOldTimesText: {
+		color: "rgb(15, 15, 15)",
+		fontFamily: "Lato-Bold",
+		fontSize: 14,
+		fontStyle: "normal",
+		fontWeight: "bold",
+		textAlign: "left",
+		backgroundColor: "transparent",
+	},
+	today145PmText: {
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 10,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "left",
+		backgroundColor: "transparent",
+		opacity: 0.4,
+		marginTop: 3,
+	},
 })

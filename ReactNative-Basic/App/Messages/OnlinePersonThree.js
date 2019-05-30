@@ -1,69 +1,72 @@
 //
-//  OnlinePersonThree.js
+//  OnlinePersonThree
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
-import { Image, Text, View, StyleSheet } from "react-native"
+import { StyleSheet, TouchableWithoutFeedback, Text, Image, View } from "react-native"
 import React from "react"
+
 
 export default class OnlinePersonThree extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.onlinePerson}>
-        <Image
-          source={require("./../../assets/images/ui-avatar-small-copy-2.png")}
-          style={styles.uiAvatarSmallCopy2Image}/>
-        <View
-          pointerEvents="box-none"
-          style={{
-            flex: 1,
-            flexDirection: "column",
-            justifyContent: "flex-end",
-          }}>
-          <Text
-            style={styles.gideonText}>Gideon</Text>
-        </View>
-      </View>
-  }
+	onOnlinePersonThreePress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onOnlinePersonThreePress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.onlinePerson}>
+					<Text
+						style={styles.gideonText}>Gideon</Text>
+					<Image
+						source={require("./../../assets/images/ui-avatar-small-copy-2.png")}
+						style={styles.uiAvatarSmallCopy2Image}/>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  onlinePerson: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 75,
-    width: 60,
-  },
-  uiAvatarSmallCopy2Image: {
-    resizeMode: "center",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 62,
-    height: 62,
-    marginLeft: -1,
-    marginTop: -1,
-    marginRight: -1,
-  },
-  gideonText: {
-    color: 'rgb(0, 0, 0)',
-    fontFamily: "Lato-Regular",
-    fontSize: 12,
-    fontStyle: "normal",
-    fontWeight: "normal",
-    textAlign: "center",
-    letterSpacing: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    marginLeft: 11,
-    marginRight: 10,
-  },
+	onlinePerson: {
+		backgroundColor: "transparent",
+		width: 60,
+		height: 75,
+	},
+	gideonText: {
+		color: "black",
+		fontFamily: "Lato-Regular",
+		fontSize: 12,
+		fontStyle: "normal",
+		fontWeight: "normal",
+		textAlign: "center",
+		backgroundColor: "transparent",
+		position: "absolute",
+		left: 11,
+		right: 10,
+		bottom: 0,
+	},
+	uiAvatarSmallCopy2Image: {
+		resizeMode: "center",
+		backgroundColor: "transparent",
+		position: "absolute",
+		left: 0,
+		right: 0,
+		top: 0,
+		height: 62,
+	},
 })

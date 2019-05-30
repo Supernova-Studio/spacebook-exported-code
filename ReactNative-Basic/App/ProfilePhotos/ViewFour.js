@@ -1,44 +1,55 @@
 //
-//  ViewFour.js
+//  ViewFour
 //  Spacebook
 //
 //  Created by Supernova.
 //  Copyright © 2018 Supernova. All rights reserved.
 //
 
-import { Image, View, StyleSheet } from "react-native"
+import { Image, StyleSheet, TouchableWithoutFeedback, View } from "react-native"
 import React from "react"
+
 
 export default class ViewFour extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-  }
+	componentDidMount() {
+	
+	}
 
-  render() {
-    return <View
-        pointerEvents="box-none"
-        style={styles.view}>
-        <Image
-          source={require("./../../assets/images/bg-photo-7.png")}
-          style={styles.bgPhotoImage}/>
-      </View>
-  }
+	onViewFourPress = () => {
+	
+	}
+
+	render() {
+	
+		return <TouchableWithoutFeedback
+				onPress={this.onViewFourPress}>
+				<View
+					navigation={this.props.navigation}
+					style={styles.view}>
+					<Image
+						source={require("./../../assets/images/bg-photo-7.png")}
+						style={styles.bgPhotoImage}/>
+				</View>
+			</TouchableWithoutFeedback>
+	}
 }
 
 const styles = StyleSheet.create({
-  view: {
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    height: 184,
-    width: 185,
-  },
-  bgPhotoImage: {
-    resizeMode: "stretch",
-    backgroundColor: 'rgba(0, 0, 0, 0.0)',
-    width: 185,
-    height: 184,
-  },
+	view: {
+		backgroundColor: "transparent",
+		width: 185,
+		height: 184,
+		alignItems: "flex-end",
+	},
+	bgPhotoImage: {
+		resizeMode: "stretch",
+		backgroundColor: "transparent",
+		width: 185,
+		height: 184,
+	},
 })
