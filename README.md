@@ -7,6 +7,8 @@ If you want to check the Android Project, please navigate to the */Android* dire
 
 If you want to check the React Native Project, please navigate to the */React Native* directory (requires brew installed and then an editor of your choice - Atom, VS Code etc.).
 
+If you want to check the Flutter Project, please navigate to the */Flutter* directory (requires Flutter toolchain installed. Use Flutter doctor to ensure a smooth installation)
+
 Finally, the most convenient way how to download all the data at once (which we recommend) is to click "clone or download" at the top -> Download Zip. This will download you all platforms at once.
 
 ## About Supernova Studio
